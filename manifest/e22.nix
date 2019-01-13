@@ -1161,6 +1161,22 @@
       "type" = "local";
       "md5" = "f463bc377de7ceddd7c40e0c3ddb14ca";
     };
+    "electricraft" = {
+      "title" = "ElectriCraft";
+      "name" = "electricraft";
+      "id" = 235594;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "ElectriCraft 1.7.10 V22a.jar";
+      "maturity" = "release";
+      "encoded" = "ElectriCraft%201.7.10%20V22a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/electricraft/files/2649942";
+      "src" = "https://minecraft.curseforge.com/projects/electricraft/files/2649942/download";
+      "type" = "remote";
+      "md5" = "3c500fa90542ecbf7909c5675efce9d5";
+    };
     "ender-io" = {
       "title" = "Ender IO";
       "name" = "ender-io";
@@ -1347,6 +1363,16 @@
       "type" = "remote";
       "md5" = "e66dc4b8d6164e75615dfabf1f8dc5a4";
     };
+    "fabric" = {
+      "title" = "Fabric";
+      "name" = "fabric";
+      "id" = 306612;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
     "fancygrass" = {
       "title" = "FancyGrass";
       "name" = "fancygrass";
@@ -1502,7 +1528,7 @@
       "md5" = "d7611c7ea40480c17a6a5fd164dd21a8";
     };
     "ftblib" = {
-      "title" = "FTBLib";
+      "title" = "FTB Library";
       "name" = "ftblib";
       "id" = 237167;
       "side" = "both";
@@ -1732,7 +1758,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = ["fabric"];
       "type" = "missing";
     };
     "ibench" = {
@@ -3802,7 +3828,7 @@
       "name" = "trashslot";
       "id" = 235577;
       "side" = "both";
-      "required" = false;
+      "required" = true;
       "default" = true;
       "deps" = [];
       "filename" = "trashslot-mc1.7.10-1.0.31.jar";
