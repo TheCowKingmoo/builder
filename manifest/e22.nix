@@ -1175,7 +1175,23 @@
       "encoded" = "ElectricalAge-dev.jar";
       "src" = ../third_party/1.7.10/ElectricalAge-dev.jar;
       "type" = "local";
-      "md5" = "f463bc377de7ceddd7c40e0c3ddb14ca";
+      "md5" = "7aa415c1264c5cc0e6b150954c095650";
+    };
+    "electricraft" = {
+      "title" = "ElectriCraft";
+      "name" = "electricraft";
+      "id" = 235594;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "ElectriCraft 1.7.10 V22a.jar";
+      "maturity" = "release";
+      "encoded" = "ElectriCraft%201.7.10%20V22a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/electricraft/files/2649942";
+      "src" = "https://minecraft.curseforge.com/projects/electricraft/files/2649942/download";
+      "type" = "remote";
+      "md5" = "3c500fa90542ecbf7909c5675efce9d5";
     };
     "electricraft" = {
       "title" = "ElectriCraft";
@@ -1380,7 +1396,7 @@
       "md5" = "e66dc4b8d6164e75615dfabf1f8dc5a4";
     };
     "fabric" = {
-      "title" = "Fabric (API)";
+      "title" = "Fabric";
       "name" = "fabric";
       "id" = 306612;
       "side" = "both";
@@ -2894,14 +2910,17 @@
       "md5" = "127a9ba52a5ed7a9e9e782872159f855";
     };
     "prometheus-integration" = {
-      "title" = "Prometheus Integration";
+      "title" = "prometheus-integration";
       "name" = "prometheus-integration";
-      "id" = 254573;
       "side" = "server";
       "required" = true;
       "default" = true;
-      "deps" = ["shadowfacts-forgelin"];
-      "type" = "missing";
+      "deps" = [];
+      "filename" = "prometheus-integration-1.2.0.jar";
+      "encoded" = "prometheus-integration-1.2.0.jar";
+      "src" = ../third_party/1.7.10/prometheus-integration-1.2.0.jar;
+      "type" = "local";
+      "md5" = "e13c9f8fe7c93e2f400239b038a552cf";
     };
     "ptrlib" = {
       "title" = "PTRLib";
