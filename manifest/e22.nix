@@ -1193,22 +1193,6 @@
       "type" = "remote";
       "md5" = "3c500fa90542ecbf7909c5675efce9d5";
     };
-    "electricraft" = {
-      "title" = "ElectriCraft";
-      "name" = "electricraft";
-      "id" = 235594;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "ElectriCraft 1.7.10 V22a.jar";
-      "maturity" = "release";
-      "encoded" = "ElectriCraft%201.7.10%20V22a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/electricraft/files/2649942";
-      "src" = "https://minecraft.curseforge.com/projects/electricraft/files/2649942/download";
-      "type" = "remote";
-      "md5" = "3c500fa90542ecbf7909c5675efce9d5";
-    };
     "ender-io" = {
       "title" = "Ender IO";
       "name" = "ender-io";
