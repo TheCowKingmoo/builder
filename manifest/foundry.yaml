@@ -4,7 +4,7 @@ mods:
 - name: abnormals-core
 - name: ai-improvements
 - name: ambientsounds
-- name: apotheosis
+# - name: apotheosis # Breaks launching the pack for some reason?  Seems to crash forge loader when it tries to load it.
 - name: appleskin
 - name: atmospheric
 - name: attributefix
@@ -59,7 +59,7 @@ mods:
 - name: grindstone-sharper-tools
 - name: gui-clock
 - name: gui-compass
-- name: horizontal-glass-panes
+# - name: horizontal-glass-panes # Currently tries to load a fabric mod because the author keeps both in the same repo...
 - name: in-control
 - name: incubation
 - name: jei
@@ -111,7 +111,7 @@ mods:
 - name: tipthescales
 - name: trample-stopper
 - name: trashslot
-- name: traverse
+- name: traverse-legacy-continued # Traverse proper seems to have moved to fabric... this is the forge one
 - name: upgrade-aquatic
 - name: villager-names
 - name: waddles

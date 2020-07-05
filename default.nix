@@ -26,40 +26,35 @@ in
 rec {
 
   packs = {
-    e25 = buildPack e25;
+    e26 = buildPack e26;
   };
 
-
-  e25 = {
+  e26 = {
     name = "TheDawnofCow";
-    tmuxName = "e25";
-    description = "E25: Artocarpus integrifolia Et monumentum";
+    tmuxName = "e26";
+    description = "e26: NoName";
     ram = "12000m";
     port = 25565;
     prometheusPort = 1223;
     forge = {
-      major = "1.12.2";
-      minor = "14.23.5.2847";
+      major = "1.15.2";
+      minor = "31.2.0";
     };
     extraDirs = [
-      ./base/e24
       ./base/erisia
     ];
     extraServerDirs = [
       ./base/server
-      ./base/e24-server
     ];
     extraClientDirs = [
-      resources_12
       ./base/client
     ];
     manifests = [
-      ./manifest/e24.nix
+      ./manifest/e26.nix
     ];
     blacklist = [
     ];
   };
-
 
   ServerPack = buildServerPack rec {
     inherit packs;

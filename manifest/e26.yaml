@@ -1,0 +1,4 @@
+version: '1.15.2'
+imports:
+  - 'foundry.yaml'
+mods: []
