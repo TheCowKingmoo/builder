@@ -38,10 +38,11 @@ rec {
     prometheusPort = 1223;
     forge = {
       major = "1.15.2";
-      minor = "31.2.0";
+      minor = "31.2.31";
     };
     extraDirs = [
       ./base/erisia
+      ./base/e26
     ];
     extraServerDirs = [
       ./base/server

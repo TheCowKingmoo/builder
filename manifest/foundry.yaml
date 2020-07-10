@@ -4,7 +4,7 @@ mods:
 - name: abnormals-core
 - name: ai-improvements
 - name: ambientsounds
-# - name: apotheosis # Breaks launching the pack for some reason?  Seems to crash forge loader when it tries to load it.
+- name: apotheosis
 - name: appleskin
 - name: atmospheric
 - name: attributefix
@@ -111,7 +111,7 @@ mods:
 - name: tipthescales
 - name: trample-stopper
 - name: trashslot
-- name: traverse-legacy-continued # Traverse proper seems to have moved to fabric... this is the forge one
+- name: traverse-legacy-continued
 - name: upgrade-aquatic
 - name: villager-names
 - name: waddles
