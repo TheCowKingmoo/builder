@@ -11,3 +11,4 @@ mods:
     required: false
     default: false
     side: client
+  - name: travellers-boots
