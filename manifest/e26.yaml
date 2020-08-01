@@ -1,4 +1,13 @@
 version: '1.15.2'
 imports:
   - 'foundry.yaml'
-mods: []
+mods:
+  - name: 'pregenforge'
+  - name: 'worldedit'
+  - name: 'crash-utilities'
+  - name: 'dcintegration'
+    side: server
+  - name: 'immersive-portals-for-forge'
+    required: false
+    default: false
+    side: client

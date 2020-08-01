@@ -1,0 +1,13 @@
+
+[common]
+	#Blocks that can be used to construct a teleporter and increase its range.
+	"Teleporter Blocks" = ["minecraft:purpur_block", "minecraft:purpur_pillar", "quark:duskbound_block", "quark:duskbound_lantern"]
+	#Entities that can not be teleported using a teleporter. By default used for block-like entities and entities from the End.
+	"Teleportable Entities Blacklist" = ["minecraft:armor_stand", "minecraft:enderman", "minecraft:wither", "minecraft:shulker", "minecraft:endermite", "endergetic:poise_cluster", "endergetic:boof_block", "endergetic:puff_bug"]
+	#The maximum distance (in blocks) that can be traveled using a teleporter.
+	"Max Teleporter Range" = 3000
+	#The minimum amount of purpur blocks required to activate a teleporter.
+	"Min Teleporter Blocks" = 9
+	#The amount of range added per purpur block.
+	"Range Per Block" = 40
+
