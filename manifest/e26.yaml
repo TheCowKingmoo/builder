@@ -12,3 +12,4 @@ mods:
     default: false
     side: client
   - name: travellers-boots
+  - name: dynmapforge
