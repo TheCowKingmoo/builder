@@ -43,6 +43,7 @@ rec {
     extraDirs = [
       ./base/erisia
       ./base/e26
+      ./base/foundry
     ];
     extraServerDirs = [
       ./base/server
