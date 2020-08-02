@@ -13,3 +13,4 @@ mods:
     side: client
   - name: travellers-boots
   - name: dynmapforge
+    side: server
