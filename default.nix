@@ -33,7 +33,7 @@ rec {
     name = "MakersComplex";
     tmuxName = "e26";
     description = "e26: Maker's Complex";
-    ram = "12000m";
+    ram = "22000m";
     port = 25565;
     prometheusPort = 1223;
     forge = {
