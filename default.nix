@@ -26,14 +26,14 @@ in
 rec {
 
   packs = {
-    e27 = buildPack e27;
+    e29 = buildPack e29;
   };
 
 
-  e27 = {
-    name = "MCEternal";
-    tmuxName = "e27";
-    description = "E27: Perfodio Fabrico Aeternum";
+  e29 = {
+    name = "RusticWaters";
+    tmuxName = "e29";
+    description = "E29: Occulai Abyssi";
     ram = "12000m";
     port = 25566;
     prometheusPort = 1223;
@@ -42,8 +42,8 @@ rec {
       minor = "14.23.5.2855";
     };
     extraDirs = [
-      ./base/mc-eternal
       ./base/erisia
+      ./base/e29
     ];
     extraServerDirs = [
       ./base/server
@@ -53,7 +53,7 @@ rec {
       ./base/client
     ];
     manifests = [
-      ./manifest/e27.nix
+      ./manifest/e29.nix
     ];
     blacklist = [
     ];
