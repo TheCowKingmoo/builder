@@ -35,7 +35,7 @@ rec {
     tmuxName = "e29";
     description = "E29: Occulai Abyssi";
     ram = "12000m";
-    port = 25566;
+    port = 25565;
     prometheusPort = 1223;
     forge = {
       major = "1.12.2";
