@@ -2645,14 +2645,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "Scannable-MC1.12.2-1.6.3.24.jar";
-        "encoded" = "Scannable-MC1.12.2-1.6.3.24.jar";
+        "filename" = "Scannable-MC1.12.2-1.6.3.26.jar";
+        "encoded" = "Scannable-MC1.12.2-1.6.3.26.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/scannable";
-        "src" = "https://media.forgecdn.net/files/2662/364/Scannable-MC1.12.2-1.6.3.24.jar";
+        "src" = "https://media.forgecdn.net/files/3146/549/Scannable-MC1.12.2-1.6.3.26.jar";
         "type" = "remote";
-        "md5" = "3873d7e7061835bdf06fc83e58de64f0";
-        "sha256" = "ccddfeb17ccaf53acacedf6b0f323d2a24561825a47e247f1dba06bc00874e8e";
-        "size" = 252687;
+        "md5" = "47f919498bd29961f62b6655b8d76f2e";
+        "sha256" = "e728e72960137660a0e201f404fa27087d3719594ddb6c9064f7380412555f2d";
+        "size" = 252718;
     };
     "shadowfacts-forgelin" = {
         "title" = "Shadowfacts' Forgelin";

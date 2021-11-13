@@ -10,7 +10,7 @@ RecipeBuilder.get("chemist")
   .create();
 
   RecipeBuilder.get("chemist")
-  .setShapeless([<minecraft:gunpowder>, <ftrsquids:turbotube>])
+  .setShapeless([<minecraft:gunpowder>, <rocketsquidsft:turbotube>])
   .addOutput(<cyclicmagic:ender_tnt_2>)
   .addTool(<ore:artisansBeaker>, 4)
   .addTool(<ore:artisansBurner>, 4)

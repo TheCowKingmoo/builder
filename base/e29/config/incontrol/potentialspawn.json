@@ -46,27 +46,27 @@
     "mobs": [
       {
         "mob": "minecraft:cow",
-        "weight": 5,
+        "weight": 7,
         "groupcountmin": 1,
         "groupcountmax": 2
       },      {
         "mob": "minecraft:sheep",
-        "weight": 5,
+        "weight": 7,
         "groupcountmin": 1,
         "groupcountmax": 2
       },      {
         "mob": "minecraft:pig",
-        "weight": 5,
+        "weight": 7,
         "groupcountmin": 1,
         "groupcountmax": 2
       },      {
         "mob": "minecraft:chicken",
-        "weight": 5,
+        "weight": 7,
         "groupcountmin": 1,
         "groupcountmax": 2
       },      {
         "mob": "zawa:bottlenosedolphin",
-        "weight": 5,
+        "weight": 7,
         "groupcountmin": 1,
         "groupcountmax": 1
       },      {

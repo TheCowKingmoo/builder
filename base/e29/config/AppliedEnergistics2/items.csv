@@ -1548,8 +1548,6 @@ openblocks:glyph:119, 'w' Glyph
 openblocks:glyph:120, 'x' Glyph
 openblocks:glyph:121, 'y' Glyph
 openblocks:glyph:122, 'z' Glyph
-ftrsquids:nitroinksac, Nitro Ink Sac
-ftrsquids:turbotube, Turbo Tube
 thermaldynamics:duct_0:0, Leadstone Fluxduct
 thermaldynamics:duct_0:1, Hardened Fluxduct
 thermaldynamics:duct_0:2, Redstone Energy Fluxduct
@@ -7093,6 +7091,7 @@ appliedenergistics2:facade:0, Cable Facade - Ratlantean Automaton Core
 appliedenergistics2:facade:0, Cable Facade - Block of Ratglove
 appliedenergistics2:facade:0, Cable Facade - Brain Block
 appliedenergistics2:facade:0, Cable Facade - Jack O' Ratern
+appliedenergistics2:facade:0, Cable Facade - Squid Statue
 appliedenergistics2:facade:0, Cable Facade - Wishing Well Stone
 appliedenergistics2:facade:0, Cable Facade - Desert Wishing Well Stone
 appliedenergistics2:facade:0, Cable Facade - Fog
@@ -7428,12 +7427,12 @@ appliedenergistics2:facade:0, Cable Facade - Access Terminal
 appliedenergistics2:facade:0, Cable Facade - Limestone
 appliedenergistics2:facade:0, Cable Facade - Burnt Limestone
 appliedenergistics2:facade:0, Cable Facade - Limestone Tiles
-appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
-appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
-appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Machine Block
 appliedenergistics2:facade:0, Cable Facade - Support Column (Y axis)
 appliedenergistics2:facade:0, Cable Facade - Pumpjack Pipe
+appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
+appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
+appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Treasure Chest
 appliedenergistics2:facade:0, Cable Facade - Omega Dragon Egg
 appliedenergistics2:facade:0, Cable Facade - Infinity Ore
@@ -8916,11 +8915,6 @@ artisanworktables:artisans_solderer_steel, Artisan's %s Solderer
 artisanworktables:artisans_solderer_tin, Artisan's %s Solderer
 artisanworktables:toolbox, Toolbox
 artisanworktables:mechanical_toolbox, Mechanical Toolbox
-better_diving:limestone_outcrop, Limestone Outcrop
-better_diving:sandstone_outcrop, Sandstone Outcrop
-better_diving:creepvine, Creepvine Sample
-better_diving:seagrass, Seagrass
-better_diving:acid_mushroom, Acid Mushroom
 better_diving:titanium, Titanium
 better_diving:copper_ore, Copper Ore
 better_diving:silver_ore, Silver Ore
@@ -8962,6 +8956,11 @@ better_diving:holefish_cured, Cured Holefish
 better_diving:boomerang, Boomerang
 better_diving:boomerang_cooked, Cooked Boomerang
 better_diving:boomerang_cured, Cured Boomerang
+better_diving:limestone_outcrop, Limestone Outcrop
+better_diving:sandstone_outcrop, Sandstone Outcrop
+better_diving:creepvine, Creepvine Sample
+better_diving:seagrass, Seagrass
+better_diving:acid_mushroom, Acid Mushroom
 betterquesting:placeholder, Item Placeholder
 betterquesting:extra_life:0, Extra Life
 betterquesting:extra_life:1, Half Heart
@@ -8999,32 +8998,32 @@ capsule:capsule:0, §rEmpty Capsule
 capsule:capsule:0, §rEmpty Capsule
 capsule:capsule:3, §rUnlabeled Blueprint
 capsule:capsule:3, §r«§oTraveller's Base§r» Blueprint
-capsule:capsule:3, §r«§oIe-alloysmelter§r» Blueprint
-capsule:capsule:3, §r«§oDarkcobble Corner§r» Blueprint
-capsule:capsule:3, §r«§oIe-mixer§r» Blueprint
+capsule:capsule:3, §r«§oIp-pumpjack§r» Blueprint
+capsule:capsule:3, §r«§oIe-assembler§r» Blueprint
+capsule:capsule:3, §r«§oIe-lightningrod§r» Blueprint
+capsule:capsule:3, §r«§oIe-bottlingmachine§r» Blueprint
+capsule:capsule:3, §r«§oChicken Cooker§r» Blueprint
 capsule:capsule:3, §r«§oIe-blastfurnaceadvanced§r» Blueprint
 capsule:capsule:3, §r«§oIe-blastfurnace§r» Blueprint
-capsule:capsule:3, §r«§oIe-cokeoven§r» Blueprint
-capsule:capsule:3, §r«§oIe-arcfurnace§r» Blueprint
-capsule:capsule:3, §r«§oIe-bottlingmachine§r» Blueprint
-capsule:capsule:3, §r«§oDarkcobble Corner Tower Top§r» Blueprint
-capsule:capsule:3, §r«§oIe-silo§r» Blueprint
-capsule:capsule:3, §r«§oIe-assembler§r» Blueprint
-capsule:capsule:3, §r«§oDarkcobble Corner Tower§r» Blueprint
-capsule:capsule:3, §r«§oIe-autoworkbench§r» Blueprint
-capsule:capsule:3, §r«§oDarkcobble Wall§r» Blueprint
-capsule:capsule:3, §r«§oDarkcobble Gate§r» Blueprint
-capsule:capsule:3, §r«§oIe-lightningrod§r» Blueprint
-capsule:capsule:3, §r«§oIe-sheetmetaltank§r» Blueprint
-capsule:capsule:3, §r«§oIe-crusher§r» Blueprint
-capsule:capsule:3, §r«§oIe-excavatordemo§r» Blueprint
 capsule:capsule:3, §r«§oIe-dieselgenerator§r» Blueprint
+capsule:capsule:3, §r«§oIe-crusher§r» Blueprint
+capsule:capsule:3, §r«§oIe-cokeoven§r» Blueprint
 capsule:capsule:3, §r«§oIe-squeezer§r» Blueprint
+capsule:capsule:3, §r«§oIe-alloysmelter§r» Blueprint
+capsule:capsule:3, §r«§oDarkcobble Corner Tower Top§r» Blueprint
+capsule:capsule:3, §r«§oDarkcobble Corner Tower§r» Blueprint
+capsule:capsule:3, §r«§oDarkcobble Wall§r» Blueprint
+capsule:capsule:3, §r«§oIe-silo§r» Blueprint
+capsule:capsule:3, §r«§oIe-excavatordemo§r» Blueprint
 capsule:capsule:3, §r«§oIe-fermenter§r» Blueprint
 capsule:capsule:3, §r«§oIe-refinery§r» Blueprint
-capsule:capsule:3, §r«§oChicken Cooker§r» Blueprint
+capsule:capsule:3, §r«§oDarkcobble Corner§r» Blueprint
+capsule:capsule:3, §r«§oDarkcobble Gate§r» Blueprint
+capsule:capsule:3, §r«§oIe-autoworkbench§r» Blueprint
+capsule:capsule:3, §r«§oIe-sheetmetaltank§r» Blueprint
+capsule:capsule:3, §r«§oIe-mixer§r» Blueprint
+capsule:capsule:3, §r«§oIe-arcfurnace§r» Blueprint
 capsule:capsule:3, §r«§oIe-metalpress§r» Blueprint
-capsule:capsule:3, §r«§oIp-pumpjack§r» Blueprint
 capsule:capsule:2, §rUnlabeled Capsule
 capsule:capsule:5, §rOne Use Empty Capsule
 chisel:auto_chisel, Auto Chisel
@@ -9032,27 +9031,6 @@ chisel:chisel_iron, Chisel
 chisel:chisel_diamond, Crystal Chisel
 chisel:chisel_hitech, iChisel
 chisel:offsettool, Ender Offset Wand
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -9102,6 +9080,27 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 compactdrawers:compact_drawer_2by1, Compacting Drawers 1x2
 compactdrawers:compact_drawer_2by1_half, Compacting Drawers 1x2 Half
 compactdrawers:compact_drawer_half, Compacting Drawers Half
@@ -10393,60 +10392,6 @@ overloaded:compressed_gravel:13, 14x Compressed Air
 overloaded:compressed_gravel:14, 15x Compressed Air
 overloaded:compressed_gravel:15, 16x Compressed Air
 questbook:itemquestbook, Quest Book
-rats:block_of_cheese, Block of Cheese
-rats:cauldron_milk, Cauldron of Milk
-rats:cauldron_cheese, Cauldron of Cheese
-rats:rat_hole, Rat Hole
-rats:rattrap, Rat Trap
-rats:rat_cage, Rat Cage
-rats:rat_cage_decorated, Rat Cage
-rats:rat_cage_breeding_lantern, tile.rats.rat_cage_breeding_lantern.name
-rats:fish_barrel, Barrel of Fish
-rats:rat_crafting_table, Rat Crafting Table
-rats:auto_curdler, Curdling Station
-rats:rat_tube_white, White Rat Tube
-rats:rat_tube_orange, Orange Rat Tube
-rats:rat_tube_magenta, Magenta Rat Tube
-rats:rat_tube_light_blue, Light Blue Rat Tube
-rats:rat_tube_yellow, Yellow Rat Tube
-rats:rat_tube_lime, Lime Rat Tube
-rats:rat_tube_pink, Pink Rat Tube
-rats:rat_tube_gray, Gray Rat Tube
-rats:rat_tube_silver, Light Gray Rat Tube
-rats:rat_tube_cyan, Cyan Rat Tube
-rats:rat_tube_purple, Purple Rat Tube
-rats:rat_tube_blue, Blue Rat Tube
-rats:rat_tube_brown, Brown Rat Tube
-rats:rat_tube_green, Green Rat Tube
-rats:rat_tube_red, Red Rat Tube
-rats:rat_tube_black, Black Rat Tube
-rats:garbage_pile, Garbage Pile
-rats:ratglove_flower, Ratglove Flower
-rats:marbled_cheese_raw, Raw Marbled Cheese
-rats:marbled_cheese, Marbled Cheese
-rats:marbled_cheese_slab:0, Marbled Cheese Slab
-rats:marbled_cheese_slab_double:0, Marbled Cheese Slab
-rats:marbled_cheese_stairs, Marbled Cheese Stairs
-rats:marbled_cheese_tile, Marbled Cheese Tile
-rats:marbled_cheese_chiseled, Chiseled Marbled Cheese
-rats:marbled_cheese_pillar, Marbled Cheese Pillar
-rats:marbled_cheese_brick, Marbled Cheese Brick
-rats:marbled_cheese_brick_slab:0, Marbled Cheese Brick Slab
-rats:marbled_cheese_brick_slab_double:0, Marbled Cheese Brick Slab
-rats:marbled_cheese_brick_stairs, Marbled Cheese Brick Stairs
-rats:marbled_cheese_brick_chiseled, Chiseled Marbled Cheese Brick
-rats:marbled_cheese_brick_cracked, Cracked Marbled Cheese Brick
-rats:marbled_cheese_brick_mossy, Mossy Marbled Cheese Brick
-rats:marbled_cheese_dirt, Marbled Cheese Dirt
-rats:marbled_cheese_grass, Marbled Cheese Grass
-rats:marbled_cheese_rat_head, Ratlantean Automaton Head
-rats:marbled_cheese_golem_core, Ratlantean Automaton Core
-rats:ratlantis_portal, Ratlantis Portal
-rats:compressed_rat, Block of Ratglove
-rats:brain_block, Brain Block
-rats:jack_o_ratern, Jack O' Ratern
-rats:upgrade_combiner, Rat Upgrade Combiner
-rats:upgrade_separator, Rat Upgrade Separator
 rats:cheese, Cheese
 rats:raw_rat, Raw Rat
 rats:cooked_rat, Cooked Rat
@@ -10602,6 +10547,68 @@ rats:rat_upgrade_combined, Rat Upgrade: Combined
 rats:rat_upgrade_combined_creative, Rat Upgrade: Combined(Creative)
 rats:rat_nugget, Rat §o"Nugget"
 rats:rat_nugget_ore, %s§o"Nugget"
+rats:block_of_cheese, Block of Cheese
+rats:cauldron_milk, Cauldron of Milk
+rats:cauldron_cheese, Cauldron of Cheese
+rats:rat_hole, Rat Hole
+rats:rattrap, Rat Trap
+rats:rat_cage, Rat Cage
+rats:rat_cage_decorated, Rat Cage
+rats:rat_cage_breeding_lantern, tile.rats.rat_cage_breeding_lantern.name
+rats:fish_barrel, Barrel of Fish
+rats:rat_crafting_table, Rat Crafting Table
+rats:auto_curdler, Curdling Station
+rats:rat_tube_white, White Rat Tube
+rats:rat_tube_orange, Orange Rat Tube
+rats:rat_tube_magenta, Magenta Rat Tube
+rats:rat_tube_light_blue, Light Blue Rat Tube
+rats:rat_tube_yellow, Yellow Rat Tube
+rats:rat_tube_lime, Lime Rat Tube
+rats:rat_tube_pink, Pink Rat Tube
+rats:rat_tube_gray, Gray Rat Tube
+rats:rat_tube_silver, Light Gray Rat Tube
+rats:rat_tube_cyan, Cyan Rat Tube
+rats:rat_tube_purple, Purple Rat Tube
+rats:rat_tube_blue, Blue Rat Tube
+rats:rat_tube_brown, Brown Rat Tube
+rats:rat_tube_green, Green Rat Tube
+rats:rat_tube_red, Red Rat Tube
+rats:rat_tube_black, Black Rat Tube
+rats:garbage_pile, Garbage Pile
+rats:ratglove_flower, Ratglove Flower
+rats:marbled_cheese_raw, Raw Marbled Cheese
+rats:marbled_cheese, Marbled Cheese
+rats:marbled_cheese_slab:0, Marbled Cheese Slab
+rats:marbled_cheese_slab_double:0, Marbled Cheese Slab
+rats:marbled_cheese_stairs, Marbled Cheese Stairs
+rats:marbled_cheese_tile, Marbled Cheese Tile
+rats:marbled_cheese_chiseled, Chiseled Marbled Cheese
+rats:marbled_cheese_pillar, Marbled Cheese Pillar
+rats:marbled_cheese_brick, Marbled Cheese Brick
+rats:marbled_cheese_brick_slab:0, Marbled Cheese Brick Slab
+rats:marbled_cheese_brick_slab_double:0, Marbled Cheese Brick Slab
+rats:marbled_cheese_brick_stairs, Marbled Cheese Brick Stairs
+rats:marbled_cheese_brick_chiseled, Chiseled Marbled Cheese Brick
+rats:marbled_cheese_brick_cracked, Cracked Marbled Cheese Brick
+rats:marbled_cheese_brick_mossy, Mossy Marbled Cheese Brick
+rats:marbled_cheese_dirt, Marbled Cheese Dirt
+rats:marbled_cheese_grass, Marbled Cheese Grass
+rats:marbled_cheese_rat_head, Ratlantean Automaton Head
+rats:marbled_cheese_golem_core, Ratlantean Automaton Core
+rats:ratlantis_portal, Ratlantis Portal
+rats:compressed_rat, Block of Ratglove
+rats:brain_block, Brain Block
+rats:jack_o_ratern, Jack O' Ratern
+rats:upgrade_combiner, Rat Upgrade Combiner
+rats:upgrade_separator, Rat Upgrade Separator
+rocketsquidsft:conch, Whistling Conch
+rocketsquidsft:conchtwo, Noteworthy Conch
+rocketsquidsft:conchthree, §6[[Conchzilla, Blessed Conch of the Squidseeker]]
+rocketsquidsft:nitroinksac, Nitro Ink Sac
+rocketsquidsft:turbotube, Turbo Tube
+rocketsquidsft:statue, Squid Statue
+rocketsquidsft:squavigator, Squavigator
+rocketsquidsft:squeleporter, Squeleporter
 woodenshears:wshears, Wooden Shears
 scannable:scanner, Scanner
 scannable:module_blank, Blank Scanner Module
@@ -10631,6 +10638,53 @@ tinymobfarm:diamond_farm, Diamond Mob Farm
 tinymobfarm:emerald_farm, Emerald Mob Farm
 tinymobfarm:inferno_farm, Inferno Mob Farm
 tinymobfarm:ultimate_farm, Ultimate Mob Farm
+treasure2:treasure_tab, item.treasure2:treasure_tab.name
+treasure2:silver_coin, Silver Coin
+treasure2:gold_coin, Gold Coin
+treasure2:white_pearl, White Pearl
+treasure2:black_pearl, Black Pearl
+treasure2:wood_lock, Wood Lock
+treasure2:stone_lock, Stone Lock
+treasure2:iron_lock, Iron Lock
+treasure2:gold_lock, Gold Lock
+treasure2:diamond_lock, Diamond Lock
+treasure2:emerald_lock, Emerald Lock
+treasure2:ruby_lock, Ruby Lock
+treasure2:sapphire_lock, Sapphire Lock
+treasure2:spider_lock, Spider Lock
+treasure2:wither_lock, Wither Lock
+treasure2:wood_key, Wood Key
+treasure2:stone_key, Stone Key
+treasure2:iron_key, Iron Key
+treasure2:gold_key, Gold Key
+treasure2:diamond_key, Diamond Key
+treasure2:emerald_key, Emerald Key
+treasure2:ruby_key, Ruby Key
+treasure2:sapphire_key, Sapphire Key
+treasure2:jewelled_key, Jewelled Key
+treasure2:metallurgists_key, Metallurgist's Key
+treasure2:skeleton_key, Skeleton Key
+treasure2:spider_key, Spider Key
+treasure2:wither_key, Wither Key
+treasure2:pilferers_lock_pick, Pilferer's Lock Pick
+treasure2:thiefs_lock_pick, Thief's Lock Pick
+treasure2:key_ring, Key Ring
+treasure2:skull_sword, Skull Sword
+treasure2:eye_patch, Eye Patch
+treasure2:wither_stick_item, Wither Branch
+treasure2:wither_root_item, Wither Root
+treasure2:spanish_moss, Spanish Moss
+treasure2:treasure_tool, Treasure Tool
+treasure2:painting_blocks_bricks, Bricks by o2xygeno
+treasure2:painting_blocks_cobblestone, Cobblestone by o2xygeno
+treasure2:painting_blocks_dirt, Dirt by o2xygeno
+treasure2:painting_blocks_lava, Lava by o2xygeno
+treasure2:painting_blocks_sand, Sand by o2xygeno
+treasure2:painting_blocks_water, Water by o2xygeno
+treasure2:painting_blocks_wood, Wood by o2xygeno
+treasure2:sapphire, Sapphire
+treasure2:ruby, Ruby
+treasure2:skeleton, item.treasure2:skeleton.name
 treasure2:wood_chest, Wood Chest
 treasure2:crate_chest, Crate
 treasure2:crate_chest_moldy, Moldy Crate
@@ -10689,53 +10743,6 @@ treasure2:wither_planks, Wither Planks
 treasure2:sapphire_ore, Sapphire Ore
 treasure2:ruby_ore, Ruby Ore
 treasure2:proximity_spawner, tile.treasure2:proximity_spawner.name
-treasure2:treasure_tab, item.treasure2:treasure_tab.name
-treasure2:silver_coin, Silver Coin
-treasure2:gold_coin, Gold Coin
-treasure2:white_pearl, White Pearl
-treasure2:black_pearl, Black Pearl
-treasure2:wood_lock, Wood Lock
-treasure2:stone_lock, Stone Lock
-treasure2:iron_lock, Iron Lock
-treasure2:gold_lock, Gold Lock
-treasure2:diamond_lock, Diamond Lock
-treasure2:emerald_lock, Emerald Lock
-treasure2:ruby_lock, Ruby Lock
-treasure2:sapphire_lock, Sapphire Lock
-treasure2:spider_lock, Spider Lock
-treasure2:wither_lock, Wither Lock
-treasure2:wood_key, Wood Key
-treasure2:stone_key, Stone Key
-treasure2:iron_key, Iron Key
-treasure2:gold_key, Gold Key
-treasure2:diamond_key, Diamond Key
-treasure2:emerald_key, Emerald Key
-treasure2:ruby_key, Ruby Key
-treasure2:sapphire_key, Sapphire Key
-treasure2:jewelled_key, Jewelled Key
-treasure2:metallurgists_key, Metallurgist's Key
-treasure2:skeleton_key, Skeleton Key
-treasure2:spider_key, Spider Key
-treasure2:wither_key, Wither Key
-treasure2:pilferers_lock_pick, Pilferer's Lock Pick
-treasure2:thiefs_lock_pick, Thief's Lock Pick
-treasure2:key_ring, Key Ring
-treasure2:skull_sword, Skull Sword
-treasure2:eye_patch, Eye Patch
-treasure2:wither_stick_item, Wither Branch
-treasure2:wither_root_item, Wither Root
-treasure2:spanish_moss, Spanish Moss
-treasure2:treasure_tool, Treasure Tool
-treasure2:painting_blocks_bricks, Bricks by o2xygeno
-treasure2:painting_blocks_cobblestone, Cobblestone by o2xygeno
-treasure2:painting_blocks_dirt, Dirt by o2xygeno
-treasure2:painting_blocks_lava, Lava by o2xygeno
-treasure2:painting_blocks_sand, Sand by o2xygeno
-treasure2:painting_blocks_water, Water by o2xygeno
-treasure2:painting_blocks_wood, Wood by o2xygeno
-treasure2:sapphire, Sapphire
-treasure2:ruby, Ruby
-treasure2:skeleton, item.treasure2:skeleton.name
 underwaterrails:basic_underwater_rail, Underwater Rail (Basic)
 underwaterrails:advanced_underwater_rail, Underwater Rail (Advanced)
 uppers:upper, Upper
@@ -11230,18 +11237,18 @@ armorunder:flipflop_goo, Flip Flop Goo
 armorunder:flipflop_liner_material, Ozzy Liner Material
 armorunder:auto_chestplate_liner, Ozzy Chestplate Liner
 armorunder:auto_leggings_liner, Ozzy Leggings Liner
-assistedprogression:block_player_plate, Player Sensitive Pressure Plate
+assistedprogression:block_grinder, Grinder
 assistedprogression:block_crafter, Dual Crafter
+assistedprogression:block_player_plate, Player Sensitive Pressure Plate
 assistedprogression:block_redstone_clock, Redstone Clock
 assistedprogression:block_kinetic_generator, Kinetic Generator
-assistedprogression:block_grinder, Grinder
 assistedprogression:item_pipette, Pipette
-assistedprogression:item_exchanger, Block Exchanger
 assistedprogression:item_spawner_relocator, Spawner Relocator
-assistedprogression:item_cheap_magnet, Cheap Magnet
-assistedprogression:item_hefty_bag, Hefty Bag
 assistedprogression:item_trash_bag, Trash Bag
 assistedprogression:item_electro_magnet, Electomagnet
+assistedprogression:item_hefty_bag, Hefty Bag
+assistedprogression:item_exchanger, Block Exchanger
+assistedprogression:item_cheap_magnet, Cheap Magnet
 base:wrench, Wrench
 contenttweaker:infinity_gem, Infinity Gem
 contenttweaker:omega_gem, Omega Gem
@@ -13479,15 +13486,15 @@ magneticraft:steel_gear, item.magneticraft.steel_gear.name
 magneticraft:tungsten_gear, item.magneticraft.tungsten_gear.name
 magneticraft:inserter_upgrade:0, Inserter Upgrade: Speed
 magneticraft:inserter_upgrade:1, Inserter Upgrade: Stack
-magneticraft:conveyor_belt:0, Conveyor Belt
-magneticraft:inserter:0, Inserter
-magneticraft:water_generator:0, Water Generator
-magneticraft:feeding_trough:0, Wooden Feeding Trough
-magneticraft:pneumatic_tube:0, Pneumatic Tube
-magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
-magneticraft:relay:0, Relay
-magneticraft:filter:0, Filter
-magneticraft:transposer:0, Transposer
+magneticraft:limestone:0, Limestone
+magneticraft:limestone:1, Limestone Brick
+magneticraft:limestone:2, Limestone Cobble
+magneticraft:burnt_limestone:0, Burnt Limestone
+magneticraft:burnt_limestone:1, Burnt Limestone Brick
+magneticraft:burnt_limestone:2, Burnt Limestone Cobble
+magneticraft:tile_limestone:0, Limestone Tiles
+magneticraft:tile_limestone:1, Inverted Limestone Tiles
+magneticraft:tube_light:0, Tube Light
 magneticraft:solar_panel:0, Solar Panel
 magneticraft:shelving_unit:0, Shelving Unit
 magneticraft:steam_engine:0, Small Steam Engine
@@ -13504,15 +13511,6 @@ magneticraft:big_combustion_chamber:0, Bigger Combustion Chamber
 magneticraft:big_steam_boiler:0, Bigger Steam Boiler
 magneticraft:steam_turbine:0, Steam Turbine
 magneticraft:big_electric_furnace:0, Bigger Electric Furnace
-magneticraft:limestone:0, Limestone
-magneticraft:limestone:1, Limestone Brick
-magneticraft:limestone:2, Limestone Cobble
-magneticraft:burnt_limestone:0, Burnt Limestone
-magneticraft:burnt_limestone:1, Burnt Limestone Brick
-magneticraft:burnt_limestone:2, Burnt Limestone Cobble
-magneticraft:tile_limestone:0, Limestone Tiles
-magneticraft:tile_limestone:1, Inverted Limestone Tiles
-magneticraft:tube_light:0, Tube Light
 magneticraft:computer:0, Computer
 magneticraft:mining_robot:0, Mining Robot
 magneticraft:connector:0, Electric Connector
@@ -13521,8 +13519,20 @@ magneticraft:electric_cable:0, Electric cable
 magneticraft:tesla_tower:0, Tesla Tower
 magneticraft:energy_receiver:0, Energy Receiver
 magneticraft:electric_pole_transformer:0, Electric Pole Transformer
+magneticraft:box:0, Treated Wood Machine Frame
+magneticraft:crushing_table:0, Crushing Table
+magneticraft:sluice_box:0, Sluice Box
+magneticraft:fabricator:0, Fabricator
 magneticraft:small_tank:0, Small tank
 magneticraft:iron_pipe:0, Iron Pipe
+magneticraft:multiblock_parts:0, Machine Block
+magneticraft:multiblock_parts:1, Electrical Machine Block
+magneticraft:multiblock_parts:2, Iron Grate Machine Block
+magneticraft:multiblock_parts:3, Striped Machine Block
+magneticraft:multiblock_parts:4, Copper Coil Machine Block
+magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
+magneticraft:multiblock_column:0, Support Column (Y axis)
+magneticraft:pumpjack_drill:0, Pumpjack Pipe
 magneticraft:battery:0, Battery Block
 magneticraft:electric_furnace:0, Electric furnace
 magneticraft:infinite_energy:0, Infinite Energy
@@ -13534,6 +13544,22 @@ magneticraft:electric_heater:0, Electric Heater
 magneticraft:rf_heater:0, RF Heater
 magneticraft:rf_transformer:0, RF transformer
 magneticraft:electric_engine:0, Electric Engine
+magneticraft:combustion_chamber:0, Combustion Chamber
+magneticraft:steam_boiler:0, Boiler
+magneticraft:heat_pipe:0, Heat Pipe
+magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
+magneticraft:heat_sink:0, Heat sink
+magneticraft:gasification_unit:0, Gasification Unit
+magneticraft:brick_furnace:0, Brick furnace
+magneticraft:conveyor_belt:0, Conveyor Belt
+magneticraft:inserter:0, Inserter
+magneticraft:water_generator:0, Water Generator
+magneticraft:feeding_trough:0, Wooden Feeding Trough
+magneticraft:pneumatic_tube:0, Pneumatic Tube
+magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
+magneticraft:relay:0, Relay
+magneticraft:filter:0, Filter
+magneticraft:transposer:0, Transposer
 magneticraft:ores:0, Chalcopyrite Ore (Copper)
 magneticraft:ores:1, Galena Ore (Lead)
 magneticraft:ores:2, Cobaltite Ore (Cobalt)
@@ -13546,25 +13572,6 @@ magneticraft:storage_blocks:1, Lead Block
 magneticraft:storage_blocks:2, Cobalt Block
 magneticraft:storage_blocks:3, Tungsten Block
 magneticraft:storage_blocks:4, Sulfur Block
-magneticraft:multiblock_parts:0, Machine Block
-magneticraft:multiblock_parts:1, Electrical Machine Block
-magneticraft:multiblock_parts:2, Iron Grate Machine Block
-magneticraft:multiblock_parts:3, Striped Machine Block
-magneticraft:multiblock_parts:4, Copper Coil Machine Block
-magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
-magneticraft:multiblock_column:0, Support Column (Y axis)
-magneticraft:pumpjack_drill:0, Pumpjack Pipe
-magneticraft:combustion_chamber:0, Combustion Chamber
-magneticraft:steam_boiler:0, Boiler
-magneticraft:heat_pipe:0, Heat Pipe
-magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
-magneticraft:heat_sink:0, Heat sink
-magneticraft:gasification_unit:0, Gasification Unit
-magneticraft:brick_furnace:0, Brick furnace
-magneticraft:box:0, Treated Wood Machine Frame
-magneticraft:crushing_table:0, Crushing Table
-magneticraft:sluice_box:0, Sluice Box
-magneticraft:fabricator:0, Fabricator
 minicoal:minicoal, Mini Coal
 minicoal:minicharcoal, Mini Charcoal
 modularmachinery:blockcontroller, Machine Controller

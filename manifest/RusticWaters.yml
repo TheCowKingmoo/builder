@@ -148,6 +148,8 @@ mods:
       - id: 2779848
   - name: cofh-core
     id: 69162
+    files:
+      - id: 2920433
   - name: cofh-world
     id: 271384
     files:
@@ -283,7 +285,7 @@ mods:
   - name: foamfix-optimization-mod
     id: 278494
     files:
-      - id: 2845668
+      - id: 3327893
   - name: fx-control
     id: 313477
     files:
@@ -518,6 +520,8 @@ mods:
       - id: 2835136
   - name: reborncore
     id: 237903
+    files:
+      - id: 3330308
   - name: redstone-flux
     id: 270789
     files:
@@ -541,7 +545,7 @@ mods:
   - name: scannable
     id: 266784
     files:
-      - id: 2662364
+      - id: 3146549
   - name: shadowfacts-forgelin
     id: 248453
     files:
@@ -592,10 +596,16 @@ mods:
       - id: 2708729
   - name: thermal-dynamics
     id: 227443
+    files:
+      - id: 2920505
   - name: thermal-expansion
     id: 69163
+    files:
+      - id: 2926431
   - name: thermal-foundation
     id: 222880
+    files:
+      - id: 2926428
   - name: thermal-innovation
     id: 291737
     files:

@@ -3,6 +3,7 @@
         "dimension": 0,
         "mob": "tfa:tfa_shark",  
     "mincount": 4,
+    "onjoin": true,
     "result": "deny"
   },
   {

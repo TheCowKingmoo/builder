@@ -42,10 +42,6 @@ enderio:falling_machine
 enderio:owl_egg
 enderio:primed_charge
 enderiomachines:weather_rocket
-ftrsquids:babyrocketsquid
-ftrsquids:nitroinksac
-ftrsquids:rocketsquid
-ftrsquids:turbotube
 glacidus:artifact
 glacidus:drop_spider
 glacidus:frigispitor
@@ -193,6 +189,10 @@ rats:ratlantean_flame
 rats:ratlantean_spirit
 rats:thrown_block
 rats:vial_of_sentience
+rocketsquidsft:babyrocketsquid
+rocketsquidsft:nitroinksac
+rocketsquidsft:rocketsquid
+rocketsquidsft:turbotube
 tfa:tfa_crocodile
 tfa:tfa_crocodile_dead
 tfa:tfa_crocodile_swimming

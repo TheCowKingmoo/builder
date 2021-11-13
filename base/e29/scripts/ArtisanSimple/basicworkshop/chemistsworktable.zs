@@ -8,7 +8,7 @@ RecipeBuilder.get("basic")
       .create();
 
   RecipeBuilder.get("basic")
-  .setShapeless([<minecraft:gunpowder>, <ftrsquids:turbotube>])
+  .setShapeless([<minecraft:gunpowder>, <rocketsquidsft:turbotube>])
   .addOutput(<cyclicmagic:ender_tnt_2>)
       .create();
 

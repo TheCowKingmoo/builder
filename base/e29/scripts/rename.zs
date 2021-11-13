@@ -138,7 +138,7 @@ oreShears.add(<minecraft:shears>);
 <natura:nether_planks:1>.addTooltip(format.yellow("From Bloodwood trees in The Nether"));
 <natura:nether_logs2>.addTooltip(format.yellow("From Bloodwood trees in The Nether"));
 <glacidus:glacidus_booster>.addTooltip(format.yellow("Definately do not stand in this"));
-<ftrsquids:turbotube>.addTooltip(format.yellow("Drops from Rocket Squid"));
+<rocketsquidsft:turbotube>.addTooltip(format.yellow("Drops from Rocket Squid"));
 
 <extratan:filled_tempered_flask>.addTooltip(format.yellow("USE a tempered flask on water"));
 <assistedprogression:item_cheap_magnet>.addTooltip(format.yellow("Creepers will be magnetized towards you!"));

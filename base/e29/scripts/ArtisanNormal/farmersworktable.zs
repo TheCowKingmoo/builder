@@ -376,9 +376,9 @@ RecipeBuilder.get("farmer")
 
                        RecipeBuilder.get("farmer")
   .setShaped([
-  [<redstone_lock:compressedleaves2>, <ftrsquids:turbotube>, <redstone_lock:compressedleaves2>], 
-  [<ftrsquids:turbotube>, <ore:itemEmptyBottle>, <ftrsquids:turbotube>], 
-  [<redstone_lock:compressedleaves2>, <ftrsquids:turbotube>, <redstone_lock:compressedleaves2>]])
+  [<redstone_lock:compressedleaves2>, <rocketsquidsft:turbotube>, <redstone_lock:compressedleaves2>], 
+  [<rocketsquidsft:turbotube>, <ore:itemEmptyBottle>, <rocketsquidsft:turbotube>], 
+  [<redstone_lock:compressedleaves2>, <rocketsquidsft:turbotube>, <redstone_lock:compressedleaves2>]])
   .setFluid(<liquid:purified_water> * 1000)
     .addOutput(<minecraft:potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 6000, Id: 3, Amplifier: 1}, {ShowParticles: 0 as byte, Duration: 6000, Id: 13}, {ShowParticles: 0 as byte, Duration: 6000, Id: 16}], CustomPotionColor: 1937797, display: {Name: "Booly's Brew"}}))
   .addTool(<ore:artisansKnife>, 28)
