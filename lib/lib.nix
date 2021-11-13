@@ -188,6 +188,7 @@ rec {
       serverAddress = hostname + ":" + toString pack.port;
       minecraftVersion = pack.forge.major;
       forgeVersion = "${pack.forge.major}-${pack.forge.minor}";
+	  forgeMinor = pack.forge.minor;
       configs = lib.mapAttrs (name: config: {
         configId = "config-" + name;
         url = packUrlBase + "configs/" + urlencode name + ".zip";

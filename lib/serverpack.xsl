@@ -22,7 +22,7 @@
               <xsl:attribute name='revision'>
                 <xsl:value-of select="attr[@name='revision']/string/@value" />
               </xsl:attribute>
-			  <xsl:variable name="importPath" select="concat('https://files.mcupdater.com/example/forge.php?mc=', attr[@name='minecraftVersion']/string/@value, '&amp;forge=', attr[@name='forgeVersion']/string/@value)" />
+			  <xsl:variable name="importPath" select="concat('https://files.mcupdater.com/example/forge.php?mc=', attr[@name='minecraftVersion']/string/@value, '&amp;forge=', attr[@name='forgeMinor']/string/@value)" />
               <Import url="{$importPath}"></Import>
               <xsl:for-each select="attr[@name='mods']/attrs/attr">
                 <Module>
