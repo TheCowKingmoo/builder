@@ -70,6 +70,12 @@ mods:
   side: 'client'
   required: false
   id: 238891
+- name: 'orelib'
+  side: 'client'
+  required: true
+  id: 307806
+  files:
+    - id: 2820815
 - name: 'nofov'
   side: 'client'
   required: false

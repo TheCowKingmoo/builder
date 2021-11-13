@@ -2314,6 +2314,23 @@
         "sha256" = "47a2428297213cb3f6b3b75fe1604b002e1f5e4412a2ce77c362bf598e15a877";
         "size" = 2639587;
     };
+    "orelib" = {
+        "title" = "OreLib";
+        "name" = "orelib";
+        "id" = 307806;
+        "side" = "client";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "OreLib-1.12.2-3.6.0.1.jar";
+        "encoded" = "OreLib-1.12.2-3.6.0.1.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/orelib";
+        "src" = "https://media.forgecdn.net/files/2820/815/OreLib-1.12.2-3.6.0.1.jar";
+        "type" = "remote";
+        "md5" = "00cce3b240365458adcad3e77782358a";
+        "sha256" = "4483d8cc2b0334b82b7d0f5bb6354a2020a0e00ce63a48379e8ba5eb7d79eef9";
+        "size" = 341728;
+    };
     "overloaded" = {
         "title" = "Overloaded";
         "name" = "overloaded";
