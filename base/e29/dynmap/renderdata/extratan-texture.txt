@@ -1,0 +1,4 @@
+modname:extratan
+
+texture:id=txt0001,filename=assets/extratan/textures/blocks/tempered_glass_block.png,xcount=1,ycount=1
+block:id=%tempered_glass_block,data=0,patch0=0:txt0001,patch1=0:txt0001,patch2=0:txt0001,patch3=0:txt0001,patch4=0:txt0001,patch5=0:txt0001,stdrot=true
