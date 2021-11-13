@@ -22,11 +22,8 @@
               <xsl:attribute name='revision'>
                 <xsl:value-of select="attr[@name='revision']/string/@value" />
               </xsl:attribute>
-              <Loader type='Forge' loadOrder='0'>
-                <xsl:attribute name='version'>
-                  <xsl:value-of select="attr[@name='forgeVersion']/string/@value" />
-                </xsl:attribute>
-              </Loader>
+			  <xsl:variable name="importPath" select="concat('https://files.mcupdater.com/example/forge.php?mc=', attr[@name='minecraftVersion']/string/@value, '&amp;forge=', attr[@name='forgeVersion']/string/@value)" />
+              <Import url="{$importPath}"></Import>
               <xsl:for-each select="attr[@name='mods']/attrs/attr">
                 <Module>
                   <xsl:attribute name='id'>
