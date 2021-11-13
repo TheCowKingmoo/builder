@@ -44,6 +44,7 @@ rec {
     extraDirs = [
       ./base/erisia
       ./base/e29
+	  ./third-party/1.12.2
     ];
     extraServerDirs = [
       ./base/server
