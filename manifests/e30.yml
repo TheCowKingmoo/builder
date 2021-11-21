@@ -41,3 +41,47 @@ mods:
     id: 509575
     files:
       - id: 3413402
+  - name: abnormals-delight
+    id: 442719
+  - name: atmospheric
+    id: 362393
+  - name: autoreglib
+    id: 250363
+  - name: autumnity
+    id: 365045
+  - bamboo-blocks
+    id: 348215
+  - betterend-forge-port
+    id: 428877
+  - name: buzzier-bees
+    id: 355458
+  - lod-level-of-detail
+    id: 508933
+  - name: dynamictrees
+    id: 252818
+  - name: dtbop
+    id: 289529
+  - name: dynamic-trees-forbidden-arcanus
+    id: 416698
+  - name: dynamic-trees-neapolitan
+    id: 508225
+  - name: dynamictreesplus
+    id: 478155
+  - name: dynamic-trees-quark
+    id: 386753
+  - name: dynamic-trees-terraforged
+    id: 488347
+  - name: environmental
+    id: 388992
+  - name: extra-boats
+    id: 337396
+  - name: neapolitan
+    id: 382016
+  - name: personality
+    id: 415974
+  - name: quark
+    id: 243121
+  - name: savage-and-ravage
+    id: 381736
+  - name: terraforged
+    id: 363820
