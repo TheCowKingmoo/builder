@@ -49,13 +49,13 @@ mods:
     id: 250363
   - name: autumnity
     id: 365045
-  - bamboo-blocks
+  - name: bamboo-blocks
     id: 348215
-  - betterend-forge-port
+  - name: betterend-forge-port
     id: 428877
   - name: buzzier-bees
     id: 355458
-  - lod-level-of-detail
+  - name: lod-level-of-detail
     id: 508933
   - name: dynamictrees
     id: 252818
