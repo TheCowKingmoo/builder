@@ -1,8 +1,10 @@
 ---
 version: 1.16.5
 imports:
-  - 'cab.yml'
+  - 'createabovebeyond.yml'
 mods:
+  - name: kotlin-for-forge
+    id: 351264
   - name: ai-improvements
     id: 233019
   - name: scannable

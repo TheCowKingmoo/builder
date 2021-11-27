@@ -1617,6 +1617,23 @@
         "sha256" = "6e767bd645cccdf293e3597b12e32939fe1e7cf24e574ccd832a67070efd7191";
         "size" = 814398;
     };
+    "kotlin-for-forge" = {
+        "title" = "Kotlin for Forge";
+        "name" = "kotlin-for-forge";
+        "id" = 351264;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "kotlinforforge-1.16.0-obf.jar";
+        "encoded" = "kotlinforforge-1.16.0-obf.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge";
+        "src" = "https://media.forgecdn.net/files/3527/736/kotlinforforge-1.16.0-obf.jar";
+        "type" = "remote";
+        "md5" = "9f6de598468dcec64d2f115e40705f20";
+        "sha256" = "99a7ab60c6316f59dc5096be1b16708a619ec20250c470c4b12002bbad0d61d3";
+        "size" = 6741873;
+    };
     "kubejs-create" = {
         "title" = "KubeJS Create";
         "name" = "kubejs-create";
@@ -2186,14 +2203,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "Quark-r2.4-319.jar";
-        "encoded" = "Quark-r2.4-319.jar";
+        "filename" = "Quark-r2.4-321.jar";
+        "encoded" = "Quark-r2.4-321.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/quark";
-        "src" = "https://media.forgecdn.net/files/3490/981/Quark-r2.4-319.jar";
+        "src" = "https://media.forgecdn.net/files/3538/744/Quark-r2.4-321.jar";
         "type" = "remote";
-        "md5" = "3e1dff69d6f1e2ce85c782404c56f5ae";
-        "sha256" = "ec6f2ebf9590630c94c1e342201468007bf22da57e9af5f13da81fd722941043";
-        "size" = 8768876;
+        "md5" = "59b95a00d70bc62add9296d867739765";
+        "sha256" = "9156013decbc4dcca9bc58793a8b80d3e1f6059d554af436c8982495fb9daa57";
+        "size" = 8797129;
     };
     "randomium-ore" = {
         "title" = "Randomium Ore";
