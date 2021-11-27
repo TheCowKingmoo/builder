@@ -26,9 +26,37 @@ in
 rec {
 
   packs = {
+    e30 = buildPack e30;
     e29 = buildPack e29;
   };
 
+  e30 = {
+    name = "Create";
+    tmuxName = "e30";
+    description = "E30: Modus Burpium";
+    ram = "12000m";
+    port = 25565;
+    prometheusPort = 1223;
+    forge = {
+      major = "1.16.5";
+      minor = "36.2.19";
+    };
+    extraDirs = [
+      ./base/erisia
+      ./base/e30
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/e30.nix
+    ];
+    blacklist = [
+    ];
+  };
 
   e29 = {
     name = "RusticWaters";
