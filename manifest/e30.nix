@@ -359,6 +359,23 @@
         "sha256" = "81837680e01bcf1deddb062eeea84b4f2ae67d9a69f79f48993d589d64eef2f0";
         "size" = 975289;
     };
+    "borderless" = {
+        "title" = "Borderless Window";
+        "name" = "borderless";
+        "id" = 378979;
+        "side" = "both";
+        "required" = false;
+        "default" = true;
+        "deps" = [];
+        "filename" = "BorderlessWindow-1.16.5-1.2.1.jar";
+        "encoded" = "BorderlessWindow-1.16.5-1.2.1.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/borderless";
+        "src" = "https://media.forgecdn.net/files/3483/843/BorderlessWindow-1.16.5-1.2.1.jar";
+        "type" = "remote";
+        "md5" = "9cc6ee315de1ca4dbc6a3b2a0e329b12";
+        "sha256" = "d69f8e808eb259d6f1bbfcdef88f4e9650bb78181f686d8482991abc7f3662a4";
+        "size" = 48086;
+    };
     "buddycards" = {
         "title" = "Buddycards";
         "name" = "buddycards";

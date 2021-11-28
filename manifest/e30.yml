@@ -3,6 +3,9 @@ version: 1.16.5
 imports:
   - 'createabovebeyond.yml'
 mods:
+  - name: borderless
+    id: 378979
+    required: false
   - name: nofog
     id: 296468
     files:
