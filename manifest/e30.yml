@@ -91,3 +91,5 @@ mods:
     id: 381736
   - name: terraforged
     id: 363820
+  - name: light-overlay
+    id: 325492

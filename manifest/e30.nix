@@ -1702,6 +1702,23 @@
         "sha256" = "a03ccc11a8ec66a54424fe481fdd3cf943eeda57b39372b8ed6751757e96a0fd";
         "size" = 640633;
     };
+    "light-overlay" = {
+        "title" = "Light Overlay (Rift/Forge/Fabric)";
+        "name" = "light-overlay";
+        "id" = 325492;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "light-overlay-5.8.1.jar";
+        "encoded" = "light-overlay-5.8.1.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/light-overlay";
+        "src" = "https://media.forgecdn.net/files/3356/809/light-overlay-5.8.1.jar";
+        "type" = "remote";
+        "md5" = "cf284c53c06db1f534aa7d305e5eddc2";
+        "sha256" = "ee1e955bf4d1010534e3e4e01639978299c33c1a1ec80b1b0443e9674d04d808";
+        "size" = 92354;
+    };
     "lod-level-of-detail" = {
         "title" = "Distant Horizons: A Level of Detail mod";
         "name" = "lod-level-of-detail";
