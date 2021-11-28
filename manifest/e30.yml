@@ -3,6 +3,10 @@ version: 1.16.5
 imports:
   - 'createabovebeyond.yml'
 mods:
+  - name: nofog
+    id: 296468
+    files:
+      - id: 3031210
   - name: kotlin-for-forge
     id: 351264
   - name: ai-improvements
