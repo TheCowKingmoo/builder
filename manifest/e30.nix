@@ -1889,6 +1889,23 @@
         "sha256" = "adb0c2dd81495f7b772af1b791da65d8d0240e6a6c2334af7247bc20926317a5";
         "size" = 5712;
     };
+    "nofog" = {
+        "title" = "NoFog";
+        "name" = "nofog";
+        "id" = 296468;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "NoFog-1.16.2b1-Fabric.jar";
+        "encoded" = "NoFog-1.16.2b1-Fabric.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/nofog";
+        "src" = "https://media.forgecdn.net/files/3035/93/NoFog-1.16.2b1-Fabric.jar";
+        "type" = "remote";
+        "md5" = "9f3282c818c3ef60aa39673220361419";
+        "sha256" = "08ef9b5a02467d7263885116625ef3bdcf706af301b03a1627728c70f32d0d24";
+        "size" = 33354;
+    };
     "observable" = {
         "title" = "Observable";
         "name" = "observable";
