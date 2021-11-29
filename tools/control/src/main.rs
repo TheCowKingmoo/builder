@@ -47,19 +47,27 @@ impl Server {
     }
 
     async fn get(&self, metric: &str) -> Result<f64> {
-        let body: String = reqwest::get(&format!(
+        let request = reqwest::get(&format!(
             "http://localhost:{}/metrics",
             self.prometheus_port
         ))
-        .await?
-        .text()
-        .await?;
-
-        for line in body.split_terminator('\n') {
-            let segment: Vec<&str> = line.split(' ').collect();
-            if segment[0].starts_with(metric) {
-                return Ok(segment[1].parse()?);
+        .await;
+        if let Ok(request) = request {
+            let body = request.text().await;
+            if let Ok(body) = body {
+                for line in body.split_terminator('\n') {
+                    let segment: Vec<&str> = line.split(' ').collect();
+                    if segment[0].starts_with(metric) {
+                        return Ok(segment[1].parse()?);
+                    }
+                }
+            } else {
+                println!("Could not get playerdata: {:?}", body);
+                return Ok(1.0);
             }
+        } else {
+            println!("Could not get playerdata: {:?}", request);
+            return Ok(1.0);
         }
         Ok(0.0)
     }
@@ -170,7 +178,7 @@ impl Server {
                 break;
             }
             delay_for(second).await;
-            if stopping.elapsed() >= second * 20 {
+            if stopping.elapsed() >= second * 60 {
                 println!("Server did not stop. Attempting to kill.");
                 println!("Please manually confirm the state if this fails.");
                 process::Command::new("kill").args(&[format!("{}", self.pid)]).output()?;
