@@ -1758,17 +1758,17 @@
         "name" = "lod-level-of-detail";
         "id" = 508933;
         "side" = "both";
-        "required" = true;
-        "default" = true;
+        "required" = false;
+        "default" = false;
         "deps" = [];
-        "filename" = "Distant-Horizons_1.16.5-a1.5.1.jar";
-        "encoded" = "Distant-Horizons_1.16.5-a1.5.1.jar";
+        "filename" = "Distant-Horizons_1.16.5-a1.5.4.jar";
+        "encoded" = "Distant-Horizons_1.16.5-a1.5.4.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/lod-level-of-detail";
-        "src" = "https://media.forgecdn.net/files/3501/544/Distant-Horizons_1.16.5-a1.5.1.jar";
+        "src" = "https://media.forgecdn.net/files/3544/754/Distant-Horizons_1.16.5-a1.5.4.jar";
         "type" = "remote";
-        "md5" = "7f8082e9db7ddb127ef0f7f89c3f1cd8";
-        "sha256" = "16ad078397ce42821fb318908b2bc82b7e43e1d61f2020b1d6831e5a2da2716b";
-        "size" = 1463531;
+        "md5" = "757fe05337caaadd3bf80a106bb93f43";
+        "sha256" = "e88e8e7679b0afa3393072036c8ea85249014edf46c610b1c7524bef2ade39ca";
+        "size" = 1609396;
     };
     "lootr" = {
         "title" = "Lootr";

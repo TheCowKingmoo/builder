@@ -66,6 +66,8 @@ mods:
     id: 355458
   - name: lod-level-of-detail
     id: 508933
+    required: false
+    default: false
   - name: dynamictrees
     id: 252818
   - name: dtbop
