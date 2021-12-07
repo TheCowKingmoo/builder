@@ -1757,7 +1757,7 @@
         "title" = "Distant Horizons: A Level of Detail mod";
         "name" = "lod-level-of-detail";
         "id" = 508933;
-        "side" = "both";
+        "side" = "client";
         "required" = false;
         "default" = false;
         "deps" = [];
