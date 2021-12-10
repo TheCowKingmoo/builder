@@ -144,6 +144,7 @@ numactl -m 0 -N 0 \
 java -d64 -server -Xms@ram@ -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
+  -Dlog4j2.formatMsgNoLookups=true \
   -Dfml.readTimeout=1800 \
   -Dfml.loginTimeout=36000 \
   -Dfml.doNotBackup=true \
