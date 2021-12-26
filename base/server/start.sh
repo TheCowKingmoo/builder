@@ -144,7 +144,7 @@ echo $$ > server.pid
 if [[ -e forge/run.sh ]]; then
 	# This is an 1.18+ server.
 	# Use the provided run script. This implicitly invokes user_jvm_args, and works with newer Java.
-	nix-shell -p jre --run "forge/run.sh"
+	nix shell 'nixpkgs#jre' --command forge/run.sh &
 else
 	# 1.17 or below; invoke jar directly.
 	java \
