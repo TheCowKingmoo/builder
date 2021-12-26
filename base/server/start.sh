@@ -53,8 +53,9 @@ for f in $BASE/*; do
             continue
             ;;
         forge | resources)
-            # Don't copy at all.
+	    # Overwrite the libraries dir, and symlink
             ln -sf "$f" .
+	    rsync -a "$f"/libraries .
             ;;
         *.properties | *.json)
             ## Copy, but only if nonexistent.
@@ -140,29 +141,23 @@ fi
 
 echo $$ > server.pid
 
-numactl -m 0 -N 0 \
-java -d64 -server -Xms@ram@ -Xmx@ram@ \
-  "$@" \
-  -Djava.net.preferIPv4Stack=true \
-  -Dlog4j2.formatMsgNoLookups=true \
-  -Dfml.readTimeout=1800 \
-  -Dfml.loginTimeout=36000 \
-  -Dfml.doNotBackup=true \
-  -XX:+AggressiveOpts \
-  -XX:+UseTransparentHugePages \
-  -XX:+AlwaysPreTouch \
-  -XX:+UseG1GC \
-  -XX:+UnlockExperimentalVMOptions \
-  -XX:G1HeapRegionSize=32M \
-  -XX:G1NewSizePercent=20 \
-  -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=500 \
-  -XX:+UseAdaptiveGCBoundary \
-  -XX:+StartAttachListener \
-  -XX:+PrintGC -XX:+PrintGCTimeStamps -Xloggc:gc.log \
-  -XX:SymbolTableSize=1M \
-  -XX:StringTableSize=1M \
-  -XX:+PrintStringTableStatistics \
-  -jar $JAR nogui &
+if [[ -e forge/run.sh ]]; then
+	# This is an 1.18+ server.
+	# Use the provided run script. This implicitly invokes user_jvm_args, and works with newer Java.
+	nix-shell -p jre --run "forge/run.sh"
+else
+	# 1.17 or below; invoke jar directly.
+	java \
+	  "$@" \
+	  -XX:+UnlockExperimentalVMOptions \
+	  -XX:+AggressiveOpts \
+	  -XX:+UseG1GC \
+	  -XX:G1HeapRegionSize=32M \
+	  -XX:G1NewSizePercent=20 \
+	  -XX:+UseAdaptiveGCBoundary \
+	  $(cat user_jvm_args.txt) \
+	  -jar $JAR nogui &
+fi
 
 echo $! > server-jvm.pid
 fg

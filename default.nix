@@ -28,13 +28,41 @@ rec {
   packs = {
     e30 = buildPack e30;
     e29 = buildPack e29;
+    v18 = buildPack v18;
+  };
+
+  v18 = {
+    name ="Vanilla 1.18";
+    tmuxName = "v18";
+    description = "V18: Errata Worldheightitus";
+    ram = "4G";
+    port = 25566;
+    prometheusPort = 1224;
+    forge = {
+      major = "1.18.1";
+      minor = "39.0.8";
+    };
+    extraDirs = [
+      ./base/erisia
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/v18.nix
+    ];
+    blacklist = [
+    ];
   };
 
   e30 = {
     name = "Create";
     tmuxName = "e30";
     description = "E30: Modus Burpium";
-    ram = "12000m";
+    ram = "12G";
     port = 25565;
     prometheusPort = 1223;
     forge = {
@@ -62,7 +90,7 @@ rec {
     name = "RusticWaters";
     tmuxName = "e29";
     description = "E29: Occulai Abyssi";
-    ram = "12000m";
+    ram = "12G";
     port = 25565;
     prometheusPort = 1223;
     forge = {

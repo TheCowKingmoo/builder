@@ -102,7 +102,7 @@ rec {
 
       postBuild = ''
         cd $out
-        for i in *.sh *.service config/prometheus-integration.cfg; do
+        for i in *.sh *.service config/prometheus-integration.cfg *.txt; do
           substituteAll "$i" "$i".tmp
 	  mv "$i".tmp "$i"
           chmod +x "$i"
@@ -116,10 +116,7 @@ rec {
 
     url = {
       "1.7.10" = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}-${major}/forge-${major}-${minor}-${major}-installer.jar";
-      "1.10.2" = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar";
-      "1.12.2" = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar";
-      "1.16.5" = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar";
-    }.${major};
+    }.${major} or "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar";
 
     # The installer needs web access. Since it does, let's download it w/o a
     # hash. We're using HTTPS anyway.
