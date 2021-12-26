@@ -121,5 +121,22 @@
         "sha256" = "6812f0cce022e489513e8e56771fbaf4e2108d6733bbac0cd7ec6ab46391e892";
         "size" = 2138294;
     };
+    "placebo" = {
+        "title" = "Placebo";
+        "name" = "placebo";
+        "id" = 283644;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "Placebo-1.18.1-6.0.2.jar";
+        "encoded" = "Placebo-1.18.1-6.0.2.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/placebo";
+        "src" = "https://media.forgecdn.net/files/3568/836/Placebo-1.18.1-6.0.2.jar";
+        "type" = "remote";
+        "md5" = "6cd041cd67c603d3b729b86c659fcadc";
+        "sha256" = "78949fe51ebbbee828a7c1ebe5abd960a00d1821e2e94c01aa0cb5570b8880a9";
+        "size" = 151986;
+    };
     };
 }

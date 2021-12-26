@@ -14,3 +14,5 @@ mods:
     id: 55438
   - name: fastworkbench
     id: 288885
+  - name: placebo
+    id: 283644
