@@ -1,5 +1,5 @@
 { stdenv, symlinkJoin, runCommand, linkFarm, fetchurl, callPackage, writeText
-, xorg, cacert, jre, wget, zip, rsync, saxonb, python
+, xorg, cacert, jre, wget, zip, rsync, saxonb, python, lib
 }:
 with stdenv;
 
