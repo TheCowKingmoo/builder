@@ -27,9 +27,9 @@ rec {
 
   packs = {
     e31 = buildPack e31;
-    e30 = buildPack e30;
-    e29 = buildPack e29;
-    v18 = buildPack v18;
+    # e30 = buildPack e30;
+    # e29 = buildPack e29;
+    # v18 = buildPack v18;
   };
 
   e31 = {
@@ -45,6 +45,7 @@ rec {
     };
     extraDirs = [
       ./base/erisia
+      ./base/tppi2
     ];
     extraServerDirs = [
       ./base/server
