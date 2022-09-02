@@ -319,7 +319,7 @@
             "filename" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
             "encoded" = "HardcoreEnderExpansion%20%20MC-1.7.10%20%20v1.8.6.jar";
             "page" = "http://www.curseforge.com/minecraft/mc-mods/hardcore-ender-expansion";
-            "src" = "https://edge.forgecdn.net/files/2316/923/HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
+            "src" = "https://edge.forgecdn.net/files/2316/923/HardcoreEnderExpansion%20%20MC-1.7.10%20%20v1.8.6.jar";
             "type" = "remote";
             "md5" = "513bbcc2ccf47d4ac35e8a6d4389ea5e";
             "sha256" = "2884bb70ba5edaa133981bbf6dae087c47bcef655f93567252f18421138a9693";
@@ -376,22 +376,39 @@
             "sha256" = "9446e5a89235ff77801f57c3259c8486017567f57d7f53177816f68d6100dcb7";
             "size" = 5447894;
         };
-        "notenoughitems" = {
-            "title" = "NotEnoughItems";
-            "name" = "notenoughitems";
-            "id" = 222211;
+        # "notenoughitems" = {
+        #     "title" = "NotEnoughItems";
+        #     "name" = "notenoughitems";
+        #     "id" = 222211;
+        #     "side" = "both";
+        #     "required" = true;
+        #     "default" = true;
+        #     "deps" = [];
+        #     "filename" = "NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
+        #     "encoded" = "NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
+        #     "page" = "http://www.curseforge.com/minecraft/mc-mods/notenoughitems";
+        #     "src" = "https://edge.forgecdn.net/files/2302/312/NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
+        #     "type" = "remote";
+        #     "md5" = "742e865a9a80071e80976ffedc05700e";
+        #     "sha256" = "3ebbc2f82b61812aa158375005a47da4d450bec870860fcbf015a64de74cde1c";
+        #     "size" = 513136;
+        # };
+        "codechickencore" = {
+            "title" = "CodeChickenCore";
+            "name" = "codechickencore";
+            "id" = 222213;
             "side" = "both";
             "required" = true;
             "default" = true;
             "deps" = [];
-            "filename" = "NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
-            "encoded" = "NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
-            "page" = "http://www.curseforge.com/minecraft/mc-mods/notenoughitems";
-            "src" = "https://edge.forgecdn.net/files/2302/312/NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
+            "filename" = "CodeChickenCore-1.7.10-1.0.7.48-universal.jar";
+            "encoded" = "CodeChickenCore-1.7.10-1.0.7.48-universal.jar";
+            "page" = "https://www.curseforge.com/minecraft/mc-mods/codechickencore";
+            "src" = "https://edge.forgecdn.net/files/3293/859/CodeChickenCore-1.7.10-1.0.7.48-universal.jar";
             "type" = "remote";
-            "md5" = "742e865a9a80071e80976ffedc05700e";
-            "sha256" = "3ebbc2f82b61812aa158375005a47da4d450bec870860fcbf015a64de74cde1c";
-            "size" = 513136;
+            "md5" = "9624db3d835155a1be4baef23b7cee31";
+            "sha256" = "98b33b39c05e83fe76d7bfedda76db686acccd53c0e996c11da75838b15a1399";
+            "size" = 143985;
         };
         "notenoughresources" = {
             "title" = "NotEnoughResources";
@@ -795,7 +812,7 @@
             "filename" = "Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar";
             "encoded" = "Carpenter%27s%20Blocks%20v3.3.8.1%20-%20MC%201.7.10.jar";
             "page" = "http://www.curseforge.com/minecraft/mc-mods/carpenters-blocks";
-            "src" = "https://edge.forgecdn.net/files/2333/195/Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar";
+            "src" = "https://edge.forgecdn.net/files/2333/195/Carpenter's%20Blocks%20v3.3.8.1%20-%20MC%201.7.10.jar";
             "type" = "remote";
             "md5" = "796185b3d2cfd50f74955346ba92614c";
             "sha256" = "ac3d42a5fa4af8abab3482678e93c6f4a36a371e12baa9c4aad4e983b0257698";
@@ -863,7 +880,7 @@
             "filename" = "Forbidden Magic-1.7.10-0.575.jar";
             "encoded" = "Forbidden%20Magic-1.7.10-0.575.jar";
             "page" = "http://www.curseforge.com/minecraft/mc-mods/forbidden-magic";
-            "src" = "https://edge.forgecdn.net/files/2303/822/Forbidden Magic-1.7.10-0.575.jar";
+            "src" = "https://edge.forgecdn.net/files/2303/822/Forbidden%20Magic-1.7.10-0.575.jar";
             "type" = "remote";
             "md5" = "8572280652bb3c84da2915570021f42d";
             "sha256" = "d6b239a05a630cfb3b6de01fe14a8674ec14ef8fb34ea75d1ad45b79565d8636";
@@ -982,7 +999,7 @@
             "filename" = "Botania r1.8-249.jar";
             "encoded" = "Botania%20r1.8-249.jar";
             "page" = "https://www.curseforge.com/minecraft/mc-mods/botania";
-            "src" = "https://edge.forgecdn.net/files/2283/837/Botania r1.8-249.jar";
+            "src" = "https://edge.forgecdn.net/files/2283/837/Botania%20r1.8-249.jar";
             "type" = "remote";
             "md5" = "757cfb6db285068b617c382fc7a1e9ed";
             "sha256" = "056aef1c2971c783d7553b1b33ba411467dd2a263476b76c1325038e7ed5d079";
@@ -1033,7 +1050,7 @@
             "filename" = "Binnie Patcher 1.8.jar";
             "encoded" = "Binnie%20Patcher%201.8.jar";
             "page" = "http://www.curseforge.com/minecraft/mc-mods/binniepatcher";
-            "src" = "https://edge.forgecdn.net/files/2300/907/Binnie Patcher 1.8.jar";
+            "src" = "https://edge.forgecdn.net/files/2300/907/Binnie%20Patcher%201.8.jar";
             "type" = "remote";
             "md5" = "8dcf3217db4bab325e0f0cfb4a67d620";
             "sha256" = "ba135ddde2a34b07b623e4bb5465107ec886b2607590858facb3583c3608c04c";
