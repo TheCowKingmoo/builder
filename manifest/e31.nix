@@ -1,6 +1,6 @@
 {
   "version" = "1.7.10";
-  "imports" = ["TPPI2.yaml" "Reika.yaml" "pinned.yaml" "tools.yaml"];
+  "imports" = [ ];
   "mods" = {
     "akashic-tome" = {
       "title" = "Akashic Tome";
@@ -9,7 +9,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["autoreglib"];
+      "deps" = [ "autoreglib" ];
       "type" = "missing";
     };
     "another-one-bites-the-dust" = {
@@ -19,14 +19,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "AOBD-2.9.2.jar";
       "maturity" = "release";
       "encoded" = "AOBD-2.9.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/another-one-bites-the-dust/files/2305237";
-      "src" = "https://minecraft.curseforge.com/projects/another-one-bites-the-dust/files/2305237/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/another-one-bites-the-dust";
+      "src" = "https://media.forgecdn.net/files/2305/237/AOBD-2.9.2.jar";
       "type" = "remote";
       "md5" = "0864caf4280229154ca7f158502d4bee";
+      "sha256" =
+        "814be9fcddf80d6b35f13b96bbdacc366ca71656300b26968b190215bde62e0c";
+      "size" = 211318;
     };
     "antique-atlas" = {
       "title" = "Antique Atlas";
@@ -35,14 +39,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "antiqueatlas-1.7.10-4.4.4.jar";
       "maturity" = "release";
       "encoded" = "antiqueatlas-1.7.10-4.4.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2454232";
-      "src" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2454232/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/antique-atlas";
+      "src" =
+        "https://media.forgecdn.net/files/2454/232/antiqueatlas-1.7.10-4.4.4.jar";
       "type" = "remote";
       "md5" = "4b0ab763b63275d7f4abefb772961773";
+      "sha256" =
+        "b5f254eca8a77b11a0f62acde7a5f883baf750b626c785df835f03de2a2d4220";
+      "size" = 1135508;
     };
     "applecore" = {
       "title" = "AppleCore";
@@ -51,14 +59,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "AppleCore-mc1.7.10-1.3.9.jar";
       "maturity" = "release";
       "encoded" = "AppleCore-mc1.7.10-1.3.9.jar";
-      "page" = "https://minecraft.curseforge.com/projects/applecore/files/2391966";
-      "src" = "https://minecraft.curseforge.com/projects/applecore/files/2391966/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/applecore";
+      "src" =
+        "https://media.forgecdn.net/files/2391/966/AppleCore-mc1.7.10-1.3.9.jar";
       "type" = "remote";
       "md5" = "e5e07243e7784ab865332d09c3a9f694";
+      "sha256" =
+        "7fa7e5a3a07d2df98cc9a84e3d3a503749ada234fd054b0e6eeb0115c9c91432";
+      "size" = 111220;
     };
     "applied-energistics-2" = {
       "title" = "Applied Energistics 2";
@@ -66,7 +78,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "appliedenergistics2-rv2-stable-10.jar";
       "encoded" = "appliedenergistics2-rv2-stable-10.jar";
       "src" = ../bundled/appliedenergistics2-rv2-stable-10.jar;
@@ -80,14 +92,18 @@
       "side" = "client";
       "required" = false;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "AquaTweaks-1.7.10-1.0.jar";
       "maturity" = "release";
       "encoded" = "AquaTweaks-1.7.10-1.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/aquatweaks/files/2243845";
-      "src" = "https://minecraft.curseforge.com/projects/aquatweaks/files/2243845/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/aquatweaks";
+      "src" =
+        "https://media.forgecdn.net/files/2243/845/AquaTweaks-1.7.10-1.0.jar";
       "type" = "remote";
       "md5" = "fb5c63447ce906f344c909a22c4a3f64";
+      "sha256" =
+        "b48d0732da890d958d0ca36cb82d7bffbd8a96fd8ab1bde91edc8980036bf864";
+      "size" = 26100;
     };
     "armorstatushud" = {
       "title" = "ArmorStatusHUD";
@@ -96,14 +112,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["bspkrscore"];
+      "deps" = [ "bspkrscore" ];
       "filename" = "[1.7.10]ArmorStatusHUD-client-1.28.jar";
       "maturity" = "release";
-      "encoded" = "%5B1.7.10%5DArmorStatusHUD-client-1.28.jar";
-      "page" = "https://minecraft.curseforge.com/projects/armorstatushud/files/2218859";
-      "src" = "https://minecraft.curseforge.com/projects/armorstatushud/files/2218859/download";
+      "encoded" = "[1.7.10]ArmorStatusHUD-client-1.28.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/armorstatushud";
+      "src" =
+        "https://media.forgecdn.net/files/2218/859/%5B1.7.10%5DArmorStatusHUD-client-1.28.jar";
       "type" = "remote";
       "md5" = "f0da1af3ea5b7797d2742b7a2b874e92";
+      "sha256" =
+        "9d22a1b958cdf8f09fb8eeb0654c085abb7deea4c1a2405177bd50bb9a3e4820";
+      "size" = 27281;
     };
     "atomicstrykers-infernal-mobs" = {
       "title" = "AtomicStryker's Infernal Mobs";
@@ -112,14 +132,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "InfernalMobs-1.7.10.jar";
       "maturity" = "release";
       "encoded" = "InfernalMobs-1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/atomicstrykers-infernal-mobs/files/2227584";
-      "src" = "https://minecraft.curseforge.com/projects/atomicstrykers-infernal-mobs/files/2227584/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/atomicstrykers-infernal-mobs";
+      "src" =
+        "https://media.forgecdn.net/files/2227/584/InfernalMobs-1.7.10.jar";
       "type" = "remote";
       "md5" = "b8354e3a363a262dfdc0fc59c9f3fbf7";
+      "sha256" =
+        "990e8dc5cb679dfd4d77e850941db3b0b62a783bf0c07b397c59452bb1814255";
+      "size" = 163963;
     };
     "automagy" = {
       "title" = "Automagy";
@@ -128,14 +153,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Automagy-1.7.10-0.28.2.jar";
       "maturity" = "beta";
       "encoded" = "Automagy-1.7.10-0.28.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/automagy/files/2285272";
-      "src" = "https://minecraft.curseforge.com/projects/automagy/files/2285272/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/automagy";
+      "src" =
+        "https://media.forgecdn.net/files/2285/272/Automagy-1.7.10-0.28.2.jar";
       "type" = "remote";
       "md5" = "0d1b46683a9c69a59368406b7db4671f";
+      "sha256" =
+        "4c1d78e0adee1754675d93ffbadc8c9fe205710cb77538b953e57810f9528efc";
+      "size" = 6567165;
     };
     "autoreglib" = {
       "title" = "AutoRegLib";
@@ -144,7 +173,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "type" = "missing";
     };
     "baubles" = {
@@ -154,14 +183,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Baubles-1.7.10-1.0.1.10.jar";
       "maturity" = "release";
       "encoded" = "Baubles-1.7.10-1.0.1.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/baubles/files/2224857";
-      "src" = "https://minecraft.curseforge.com/projects/baubles/files/2224857/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/baubles";
+      "src" =
+        "https://media.forgecdn.net/files/2224/857/Baubles-1.7.10-1.0.1.10.jar";
       "type" = "remote";
       "md5" = "0e711d6535970f62d4964edaa26f4623";
+      "sha256" =
+        "05ae8f11b8f9012ebebbf179227b010829739c6284e30da5dd3db220ee682f8a";
+      "size" = 95415;
     };
     "bibliocraft" = {
       "title" = "BiblioCraft";
@@ -170,14 +203,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "BiblioCraft[v1.11.7][MC1.7.10].jar";
       "maturity" = "release";
-      "encoded" = "BiblioCraft%5Bv1.11.7%5D%5BMC1.7.10%5D.jar";
-      "page" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2423369";
-      "src" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2423369/download";
+      "encoded" = "BiblioCraft[v1.11.7][MC1.7.10].jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/bibliocraft";
+      "src" =
+        "https://media.forgecdn.net/files/2423/369/BiblioCraft%5Bv1.11.7%5D%5BMC1.7.10%5D.jar";
       "type" = "remote";
       "md5" = "ff5aca99f8e04a8bb6077df853a9c72e";
+      "sha256" =
+        "6c6cdba3b5fc7ceedb4441063d41482b0ee0736dd7354931dc599ec1de1f33ef";
+      "size" = 5452316;
     };
     "big-reactors" = {
       "title" = "Big Reactors";
@@ -186,14 +223,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["cofhcore"];
+      "deps" = [ "cofhcore" ];
       "filename" = "BigReactors-0.4.3A.jar";
       "maturity" = "release";
       "encoded" = "BigReactors-0.4.3A.jar";
-      "page" = "https://minecraft.curseforge.com/projects/big-reactors/files/2282591";
-      "src" = "https://minecraft.curseforge.com/projects/big-reactors/files/2282591/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/big-reactors";
+      "src" =
+        "https://media.forgecdn.net/files/2282/591/BigReactors-0.4.3A.jar";
       "type" = "remote";
       "md5" = "b1c71b6a64a84f154af2d83bdc0d33bf";
+      "sha256" =
+        "771df443516a2356c15c8131a15530298d56fe758a549b0d5ba043230b97c27b";
+      "size" = 771107;
     };
     "binnies-mods" = {
       "title" = "Binnie's Mods";
@@ -202,14 +243,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["forestry"];
+      "deps" = [ "forestry" ];
       "filename" = "binnie-mods-1.7.10-2.0.22.7.jar";
       "maturity" = "release";
       "encoded" = "binnie-mods-1.7.10-2.0.22.7.jar";
-      "page" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2467142";
-      "src" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2467142/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/binnies-mods";
+      "src" =
+        "https://media.forgecdn.net/files/2467/142/binnie-mods-1.7.10-2.0.22.7.jar";
       "type" = "remote";
       "md5" = "d0e8ad1db21d4d9fa134d1f3e203f3da";
+      "sha256" =
+        "1ee45247df83ee9118a2cb874ea82ff8fa4250210d9793bf9180e7bb9cfdd247";
+      "size" = 4562769;
     };
     "biomes-o-plenty" = {
       "title" = "Biomes O' Plenty";
@@ -218,14 +263,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar";
       "maturity" = "beta";
       "encoded" = "BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2308122";
-      "src" = "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2308122/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty";
+      "src" =
+        "https://media.forgecdn.net/files/2308/122/BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar";
       "type" = "remote";
       "md5" = "a4783a2057d7eb0714d1fe4fdf77fe70";
+      "sha256" =
+        "33a6fda0043d7f19bb72902b22001a0fcd950f39279683945b8c1135717f55fa";
+      "size" = 5755129;
     };
     "blood-magic" = {
       "title" = "Blood Magic";
@@ -234,14 +283,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "BloodMagic-1.7.10-1.3.3-17.jar";
       "maturity" = "release";
       "encoded" = "BloodMagic-1.7.10-1.3.3-17.jar";
-      "page" = "https://minecraft.curseforge.com/projects/blood-magic/files/2264826";
-      "src" = "https://minecraft.curseforge.com/projects/blood-magic/files/2264826/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/blood-magic";
+      "src" =
+        "https://media.forgecdn.net/files/2264/826/BloodMagic-1.7.10-1.3.3-17.jar";
       "type" = "remote";
       "md5" = "c4ced843754969a693afd574886a58bd";
+      "sha256" =
+        "6b6f8693ad4fb4ce4de8de9a2bc9f8d5433f80b3e3bbdd227a1909c8c31ee938";
+      "size" = 9198412;
     };
     "botania" = {
       "title" = "Botania";
@@ -250,14 +303,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["baubles"];
+      "deps" = [ "baubles" ];
       "filename" = "Botania r1.8-249.jar";
       "maturity" = "release";
-      "encoded" = "Botania%20r1.8-249.jar";
-      "page" = "https://minecraft.curseforge.com/projects/botania/files/2283837";
-      "src" = "https://minecraft.curseforge.com/projects/botania/files/2283837/download";
+      "encoded" = "Botania r1.8-249.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/botania";
+      "src" =
+        "https://media.forgecdn.net/files/2283/837/Botania%20r1.8-249.jar";
       "type" = "remote";
       "md5" = "757cfb6db285068b617c382fc7a1e9ed";
+      "sha256" =
+        "056aef1c2971c783d7553b1b33ba411467dd2a263476b76c1325038e7ed5d079";
+      "size" = 15977344;
     };
     "bspkrscore" = {
       "title" = "bspkrsCore";
@@ -266,14 +323,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "[1.7.10]bspkrsCore-universal-6.16.jar";
       "maturity" = "release";
-      "encoded" = "%5B1.7.10%5DbspkrsCore-universal-6.16.jar";
-      "page" = "https://minecraft.curseforge.com/projects/bspkrscore/files/2227503";
-      "src" = "https://minecraft.curseforge.com/projects/bspkrscore/files/2227503/download";
+      "encoded" = "[1.7.10]bspkrsCore-universal-6.16.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/bspkrscore";
+      "src" =
+        "https://media.forgecdn.net/files/2227/503/%5B1.7.10%5DbspkrsCore-universal-6.16.jar";
       "type" = "remote";
       "md5" = "e77344bda12bd0b91e01dfbb00a653f0";
+      "sha256" =
+        "c023c00cd531887b45c8d2650559159510a192fc0f016f769b1cc492d8c47810";
+      "size" = 198525;
     };
     "buildcraft" = {
       "title" = "Buildcraft";
@@ -282,14 +343,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "buildcraft-7.1.22.jar";
       "maturity" = "release";
       "encoded" = "buildcraft-7.1.22.jar";
-      "page" = "https://minecraft.curseforge.com/projects/buildcraft/files/2457485";
-      "src" = "https://minecraft.curseforge.com/projects/buildcraft/files/2457485/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/buildcraft";
+      "src" = "https://media.forgecdn.net/files/2457/485/buildcraft-7.1.22.jar";
       "type" = "remote";
       "md5" = "dbc7fabc62817f99c3a64f49e1524cdd";
+      "sha256" =
+        "c7fa1c14a08f32cdeef31e3973cc56476de9b8fbc6e2b6b736f857b407aede43";
+      "size" = 2701180;
     };
     "buildcraft-compat" = {
       "title" = "Buildcraft Compat";
@@ -298,14 +362,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["buildcraft"];
+      "deps" = [ "buildcraft" ];
       "filename" = "buildcraft-compat-7.1.5.jar";
       "maturity" = "release";
       "encoded" = "buildcraft-compat-7.1.5.jar";
-      "page" = "https://minecraft.curseforge.com/projects/buildcraft-compat/files/2297230";
-      "src" = "https://minecraft.curseforge.com/projects/buildcraft-compat/files/2297230/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/buildcraft-compat";
+      "src" =
+        "https://media.forgecdn.net/files/2297/230/buildcraft-compat-7.1.5.jar";
       "type" = "remote";
       "md5" = "84e2152be9f7e5656b5d9d7513c4f7a4";
+      "sha256" =
+        "0ace9823b7ea35adbcce57b5d674dff238650f77639eaaaee67851eee775730b";
+      "size" = 257255;
     };
     "carpenters-blocks" = {
       "title" = "Carpenter's Blocks";
@@ -314,14 +382,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
-      "filename" = "Carpenter_s Blocks v3.3.8.1 - MC 1.7.10.jar";
+      "deps" = [ ];
       "maturity" = "release";
-      "encoded" = "Carpenter_s%20Blocks%20v3.3.8.1%20-%20MC%201.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2333195";
-      "src" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2333195/download";
+      "filename" = "Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar";
+      "encoded" = "Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks";
+      "src" =
+        "https://media.forgecdn.net/files/2333/195/Carpenter%27s%20Blocks%20v3.3.8.1%20-%20MC%201.7.10.jar";
       "type" = "remote";
       "md5" = "796185b3d2cfd50f74955346ba92614c";
+      "sha256" =
+        "ac3d42a5fa4af8abab3482678e93c6f4a36a371e12baa9c4aad4e983b0257698";
+      "size" = 510164;
     };
     "catwalks-2" = {
       "title" = "Catwalks 2";
@@ -330,14 +402,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "catwalks-2.0.4.jar";
       "maturity" = "release";
       "encoded" = "catwalks-2.0.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/catwalks-2/files/2296725";
-      "src" = "https://minecraft.curseforge.com/projects/catwalks-2/files/2296725/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/catwalks-2";
+      "src" = "https://media.forgecdn.net/files/2296/725/catwalks-2.0.4.jar";
       "type" = "remote";
       "md5" = "8e7200371982d2731e78cff035c46312";
+      "sha256" =
+        "1a448662296b1e005009cea21dc7bfb19da9209a9dd9764255e513b718d48b21";
+      "size" = 522519;
     };
     "chameleon" = {
       "title" = "Chameleon";
@@ -346,7 +421,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "type" = "missing";
     };
     "chisel" = {
@@ -356,14 +431,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Chisel-2.9.5.11.jar";
       "maturity" = "release";
       "encoded" = "Chisel-2.9.5.11.jar";
-      "page" = "https://minecraft.curseforge.com/projects/chisel/files/2287442";
-      "src" = "https://minecraft.curseforge.com/projects/chisel/files/2287442/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/chisel";
+      "src" = "https://media.forgecdn.net/files/2287/442/Chisel-2.9.5.11.jar";
       "type" = "remote";
       "md5" = "c76378129307ab7b371bb9b3b8631fce";
+      "sha256" =
+        "68c8a4f4c7785f939d8fa2e7df56c76afa37dfd2574f738a07d3dfd80d6257a6";
+      "size" = 6378920;
     };
     "chiseltones" = {
       "title" = "ChiselTones";
@@ -372,14 +450,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["chisel" "ztones"];
+      "deps" = [ "chisel" "ztones" ];
       "filename" = "ChiselTones-1.7.10-1.0-3.jar";
       "maturity" = "release";
       "encoded" = "ChiselTones-1.7.10-1.0-3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/chiseltones/files/2254543";
-      "src" = "https://minecraft.curseforge.com/projects/chiseltones/files/2254543/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/chiseltones";
+      "src" =
+        "https://media.forgecdn.net/files/2254/543/ChiselTones-1.7.10-1.0-3.jar";
       "type" = "remote";
       "md5" = "6a1ac643ebf1a694222a8cd56cf1dbf0";
+      "sha256" =
+        "c6aad8099d00b5fbd0e646b2f1e5ae29a93d4033889f37a0bd11fcd6021b45a1";
+      "size" = 5386;
     };
     "chromaticraft" = {
       "title" = "ChromatiCraft";
@@ -388,14 +470,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ChromatiCraft 1.7.10 V18b.jar";
       "maturity" = "release";
-      "encoded" = "ChromatiCraft%201.7.10%20V18b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2464015";
-      "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2464015/download";
+      "encoded" = "ChromatiCraft 1.7.10 V18b.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/chromaticraft";
+      "src" =
+        "https://media.forgecdn.net/files/2464/15/ChromatiCraft%201.7.10%20V18b.jar";
       "type" = "remote";
       "md5" = "707107e785052dbc31e26b03142d7318";
+      "sha256" =
+        "569aefc84730188827018394d507daacc35d4ca796c1ccd3020ef593f6c8d709";
+      "size" = 118006874;
     };
     "chunk-animator" = {
       "title" = "Chunk Animator";
@@ -404,14 +490,18 @@
       "side" = "client";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ChunkAnimator-MC1.7.10-1.0.1.jar";
       "maturity" = "beta";
       "encoded" = "ChunkAnimator-MC1.7.10-1.0.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/chunk-animator/files/2260030";
-      "src" = "https://minecraft.curseforge.com/projects/chunk-animator/files/2260030/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/chunk-animator";
+      "src" =
+        "https://media.forgecdn.net/files/2260/30/ChunkAnimator-MC1.7.10-1.0.1.jar";
       "type" = "remote";
       "md5" = "504d4a81f0d793ebcc21e23a86831b7f";
+      "sha256" =
+        "83f4086ad87f94e948fec38f6526c944ab2cc6db52720ee2e7b1c3cbc816bf4a";
+      "size" = 16286;
     };
     "climate-control-geographicraft" = {
       "title" = "Climate Control/Geographicraft";
@@ -420,14 +510,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ClimateControl-0.8.2.jar";
       "maturity" = "release";
       "encoded" = "ClimateControl-0.8.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/climate-control-geographicraft/files/2359685";
-      "src" = "https://minecraft.curseforge.com/projects/climate-control-geographicraft/files/2359685/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/climate-control-geographicraft";
+      "src" =
+        "https://media.forgecdn.net/files/2359/685/ClimateControl-0.8.2.jar";
       "type" = "remote";
       "md5" = "d0886b4d772556aa55903205a484b79b";
+      "sha256" =
+        "fabf27155900716ec8bea8d836f6bab7a49eb40b29de8673095425e223650b3b";
+      "size" = 389974;
     };
     "codechicken-lib-1-8" = {
       "title" = "CodeChicken Lib 1.8.+";
@@ -436,7 +531,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "type" = "missing";
     };
     "codechickencore" = {
@@ -446,14 +541,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "CodeChickenCore-1.7.10-1.0.7.47-universal.jar";
       "maturity" = "release";
       "encoded" = "CodeChickenCore-1.7.10-1.0.7.47-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/codechickencore/files/2262089";
-      "src" = "https://minecraft.curseforge.com/projects/codechickencore/files/2262089/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/codechickencore";
+      "src" =
+        "https://media.forgecdn.net/files/2262/89/CodeChickenCore-1.7.10-1.0.7.47-universal.jar";
       "type" = "remote";
       "md5" = "07690caf86ecf79739852154f5e44750";
+      "sha256" =
+        "3d1527c54e84dc8ae2f7d1109e646420e82bd3b09a811641f1f9a810c46c5f93";
+      "size" = 145782;
     };
     "cofh-world" = {
       "title" = "CoFH World";
@@ -462,7 +561,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "type" = "missing";
     };
     "cofhcore" = {
@@ -472,14 +571,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["redstone-flux"];
+      "deps" = [ "redstone-flux" ];
       "filename" = "CoFHCore-[1.7.10]3.1.4-329.jar";
       "maturity" = "release";
-      "encoded" = "CoFHCore-%5B1.7.10%5D3.1.4-329.jar";
-      "page" = "https://minecraft.curseforge.com/projects/cofhcore/files/2388750";
-      "src" = "https://minecraft.curseforge.com/projects/cofhcore/files/2388750/download";
+      "encoded" = "CoFHCore-[1.7.10]3.1.4-329.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/cofh-core";
+      "src" =
+        "https://media.forgecdn.net/files/2388/750/CoFHCore-%5B1.7.10%5D3.1.4-329.jar";
       "type" = "remote";
       "md5" = "de527c101a1f2c62203f99515f3d0957";
+      "sha256" =
+        "acefa71392eff745dcfd6d6d5e49b6586e2e4e103d1260f4674f622152ef6f60";
+      "size" = 1230511;
     };
     "compact-machines" = {
       "title" = "Compact Machines";
@@ -488,14 +591,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "compactmachines-1.7.10-1.21.jar";
       "maturity" = "release";
       "encoded" = "compactmachines-1.7.10-1.21.jar";
-      "page" = "https://minecraft.curseforge.com/projects/compact-machines/files/2268575";
-      "src" = "https://minecraft.curseforge.com/projects/compact-machines/files/2268575/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/compact-machines";
+      "src" =
+        "https://media.forgecdn.net/files/2268/575/compactmachines-1.7.10-1.21.jar";
       "type" = "remote";
       "md5" = "02a553145402059c0b350d82e4d47a14";
+      "sha256" =
+        "b1dca751d54932c5ff4dea203a13114107a21c137eb9ea7c18a15b61c3b8b056";
+      "size" = 325985;
     };
     "cookiecore" = {
       "title" = "CookieCore";
@@ -504,14 +611,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "CookieCore-1.7.10-1.4.0-11.jar";
       "maturity" = "release";
       "encoded" = "CookieCore-1.7.10-1.4.0-11.jar";
-      "page" = "https://minecraft.curseforge.com/projects/cookiecore/files/2248699";
-      "src" = "https://minecraft.curseforge.com/projects/cookiecore/files/2248699/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/cookiecore";
+      "src" =
+        "https://media.forgecdn.net/files/2248/699/CookieCore-1.7.10-1.4.0-11.jar";
       "type" = "remote";
       "md5" = "806265eb864245b8cdf32911f2995f4e";
+      "sha256" =
+        "d7dbb3a50d079eac7a3d3fe1de332673564f24e9ec256cead5783a97a1cff8d6";
+      "size" = 60890;
     };
     "cooking-for-blockheads" = {
       "title" = "Cooking for Blockheads";
@@ -520,14 +631,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "cookingbook-mc1.7.10-1.0.140.jar";
       "maturity" = "release";
       "encoded" = "cookingbook-mc1.7.10-1.0.140.jar";
-      "page" = "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2299135";
-      "src" = "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2299135/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads";
+      "src" =
+        "https://media.forgecdn.net/files/2299/135/cookingbook-mc1.7.10-1.0.140.jar";
       "type" = "remote";
       "md5" = "38f41daf5b96bcca2520887ecb7bd446";
+      "sha256" =
+        "5330bb9a3bc813d22d4e72100e558dafec79ac2e75e70b768208a6a770ed372a";
+      "size" = 250664;
     };
     "crafttweaker" = {
       "title" = "CraftTweaker";
@@ -536,14 +652,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "CraftTweaker-1.7.10-3.0.13.jar";
       "maturity" = "release";
       "encoded" = "CraftTweaker-1.7.10-3.0.13.jar";
-      "page" = "https://minecraft.curseforge.com/projects/crafttweaker/files/2338487";
-      "src" = "https://minecraft.curseforge.com/projects/crafttweaker/files/2338487/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/crafttweaker";
+      "src" =
+        "https://media.forgecdn.net/files/2338/487/CraftTweaker-1.7.10-3.0.13.jar";
       "type" = "remote";
       "md5" = "a925408e3bf0adb9f1a8ce3f1412836e";
+      "sha256" =
+        "169497a3e4be18c53e2a7c7ad1d282e1e4db82d021ea3c3e4332c7015e2041bd";
+      "size" = 911030;
     };
     "customthings" = {
       "title" = "CustomThings";
@@ -552,14 +672,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["endercore"];
+      "deps" = [ "endercore" ];
       "filename" = "CustomThings-MC1.7.10-0.0.3-55.jar";
       "maturity" = "beta";
       "encoded" = "CustomThings-MC1.7.10-0.0.3-55.jar";
-      "page" = "https://minecraft.curseforge.com/projects/customthings/files/2330592";
-      "src" = "https://minecraft.curseforge.com/projects/customthings/files/2330592/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/customthings";
+      "src" =
+        "https://media.forgecdn.net/files/2330/592/CustomThings-MC1.7.10-0.0.3-55.jar";
       "type" = "remote";
       "md5" = "87fe5ade98944a8deec9fee5f964b5d4";
+      "sha256" =
+        "a0b7f151329dfee032eb937ca5382778bef41068734d27f6e01eac65c79ef5a3";
+      "size" = 112314;
     };
     "decocraft2" = {
       "title" = "DecoCraft2";
@@ -568,12 +692,14 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Decocraft-2.4.2_1.7.10.jar";
       "maturity" = "release";
       "encoded" = "Decocraft-2.4.2_1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/decocraft2/files/2414535";
-      "src" = "https://minecraft.curseforge.com/projects/decocraft2/files/2414535/download";
+      "page" =
+        "https://minecraft.curseforge.com/projects/decocraft2/files/2414535";
+      "src" =
+        "https://minecraft.curseforge.com/projects/decocraft2/files/2414535/download";
       "type" = "remote";
       "md5" = "9db261cb326ccdb827ebc36e37706d51";
     };
@@ -584,14 +710,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "denseores-1.6.2.jar";
       "maturity" = "release";
       "encoded" = "denseores-1.6.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dense-ores/files/2234692";
-      "src" = "https://minecraft.curseforge.com/projects/dense-ores/files/2234692/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/dense-ores";
+      "src" = "https://media.forgecdn.net/files/2234/692/denseores-1.6.2.jar";
       "type" = "remote";
       "md5" = "aab8a8aad4385de5367987d64317562c";
+      "sha256" =
+        "e1ed114a61c4581b050f8db9932aa14bac4ac322994be51015ebc8e4cad66287";
+      "size" = 60626;
     };
     "dimensional-doors" = {
       "title" = "dimensional-doors";
@@ -599,7 +728,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "DimensionalDoors-2.2.5-test9.jar";
       "encoded" = "DimensionalDoors-2.2.5-test9.jar";
       "src" = ../bundled/DimensionalDoors-2.2.5-test9.jar;
@@ -613,14 +742,17 @@
       "side" = "client";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Ding-MC1.7.10v2.jar";
       "maturity" = "release";
       "encoded" = "Ding-MC1.7.10v2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ding/files/2283572";
-      "src" = "https://minecraft.curseforge.com/projects/ding/files/2283572/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/ding";
+      "src" = "https://media.forgecdn.net/files/2283/572/Ding-MC1.7.10v2.jar";
       "type" = "remote";
       "md5" = "1a02aec95248abbe9f795a27c6763d3e";
+      "sha256" =
+        "1790a2267ee028fe2a2e802f2636bd26efb4f847051a8149a686a28b8381edda";
+      "size" = 4764;
     };
     "dragonapi" = {
       "title" = "DragonAPI";
@@ -629,14 +761,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "DragonAPI 1.7.10 V18b.jar";
       "maturity" = "release";
-      "encoded" = "DragonAPI%201.7.10%20V18b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dragonapi/files/2463385";
-      "src" = "https://minecraft.curseforge.com/projects/dragonapi/files/2463385/download";
+      "encoded" = "DragonAPI 1.7.10 V18b.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/dragonapi";
+      "src" =
+        "https://media.forgecdn.net/files/2463/385/DragonAPI%201.7.10%20V18b.jar";
       "type" = "remote";
       "md5" = "f519de9d93d2217711bebc207e6453c6";
+      "sha256" =
+        "dc94d3fbaca7a78ad948e3120f54b654808801160aaa73fccdc4aa07519f5ec4";
+      "size" = 3125950;
     };
     "dynamic-surroundings" = {
       "title" = "Dynamic Surroundings";
@@ -645,30 +781,39 @@
       "side" = "client";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "DynamicSurroundings-1.7.10-1.0.5.12.jar";
       "maturity" = "release";
       "encoded" = "DynamicSurroundings-1.7.10-1.0.5.12.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2434592";
-      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2434592/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings";
+      "src" =
+        "https://media.forgecdn.net/files/2434/592/DynamicSurroundings-1.7.10-1.0.5.12.jar";
       "type" = "remote";
       "md5" = "72b58bdc0ffdd420d11fe7fe6baaecbc";
+      "sha256" =
+        "874ca34b5bae38dbbfe9572b5154b12ef166d6d8b89b33450d059fb2c6c69268";
+      "size" = 9784337;
     };
     "dynmapforge" = {
-      "title" = "DynmapForge";
+      "title" = "Dynmap-Forge/Fabric";
       "name" = "dynmapforge";
       "id" = 59433;
       "side" = "server";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Dynmap-2.4-forge-1.7.10.jar";
       "maturity" = "release";
       "encoded" = "Dynmap-2.4-forge-1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2380586";
-      "src" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2380586/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/dynmapforge";
+      "src" =
+        "https://media.forgecdn.net/files/2380/586/Dynmap-2.4-forge-1.7.10.jar";
       "type" = "remote";
       "md5" = "bd785844820b192c0d87625a68b7ac46";
+      "sha256" =
+        "c30d7e03057c4787613d08d3295227fbf83dd38f86637a2cf5c8c92ec3d0e858";
+      "size" = 4324892;
     };
     "eirairc" = {
       "title" = "EiraIRC (Discontinued)";
@@ -677,14 +822,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "eirairc-mc1.7.10-2.9.402.jar";
       "maturity" = "release";
       "encoded" = "eirairc-mc1.7.10-2.9.402.jar";
-      "page" = "https://minecraft.curseforge.com/projects/eirairc/files/2281173";
-      "src" = "https://minecraft.curseforge.com/projects/eirairc/files/2281173/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/eirairc";
+      "src" =
+        "https://media.forgecdn.net/files/2281/173/eirairc-mc1.7.10-2.9.402.jar";
       "type" = "remote";
       "md5" = "03fdd71777fd346d4b8bae1ce8b68963";
+      "sha256" =
+        "e60f53fb0542900dc92df278840867d659ff5a2060cda62cc64f247c22ae4b58";
+      "size" = 531061;
     };
     "electrical-age" = {
       "title" = "Electrical Age";
@@ -693,14 +842,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ElectricalAge-1.14.2.jar";
       "maturity" = "release";
       "encoded" = "ElectricalAge-1.14.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/electrical-age/files/2385734";
-      "src" = "https://minecraft.curseforge.com/projects/electrical-age/files/2385734/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/electrical-age";
+      "src" =
+        "https://media.forgecdn.net/files/2385/734/ElectricalAge-1.14.2.jar";
       "type" = "remote";
       "md5" = "f82dfa796f53d8e372a8a48553f0e99e";
+      "sha256" =
+        "032a31b5dadf0f360d1ecd6973babf84239663c2e76e2bbed25d1a03f6822e28";
+      "size" = 7473397;
     };
     "electricraft" = {
       "title" = "ElectriCraft";
@@ -709,14 +862,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ElectriCraft 1.7.10 V18b.jar";
       "maturity" = "release";
-      "encoded" = "ElectriCraft%201.7.10%20V18b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/electricraft/files/2464017";
-      "src" = "https://minecraft.curseforge.com/projects/electricraft/files/2464017/download";
+      "encoded" = "ElectriCraft 1.7.10 V18b.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/electricraft";
+      "src" =
+        "https://media.forgecdn.net/files/2464/17/ElectriCraft%201.7.10%20V18b.jar";
       "type" = "remote";
       "md5" = "ce75a1a54875e30064cb54a4e7fd1337";
+      "sha256" =
+        "6242b8917cdc310e6d850c2e911a98525261efa6710012cde2f0276e16d69c63";
+      "size" = 455476;
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -725,14 +882,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["endercore"];
+      "deps" = [ "endercore" ];
       "filename" = "EnderIO-1.7.10-2.3.0.429_beta.jar";
       "maturity" = "beta";
       "encoded" = "EnderIO-1.7.10-2.3.0.429_beta.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ender-io/files/2322348";
-      "src" = "https://minecraft.curseforge.com/projects/ender-io/files/2322348/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/ender-io";
+      "src" =
+        "https://media.forgecdn.net/files/2322/348/EnderIO-1.7.10-2.3.0.429_beta.jar";
       "type" = "remote";
       "md5" = "37089c0fd0769f27298fbc14665bafad";
+      "sha256" =
+        "8e968943cce623f6af5402595bb8731ecf6c32c394f44d602f13396ad10e49c0";
+      "size" = 4756103;
     };
     "ender-storage" = {
       "title" = "Ender Storage";
@@ -741,14 +902,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechickencore"];
+      "deps" = [ "codechickencore" ];
       "filename" = "EnderStorage-1.7.10-1.4.7.37-universal.jar";
       "maturity" = "release";
       "encoded" = "EnderStorage-1.7.10-1.4.7.37-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ender-storage/files/2262092";
-      "src" = "https://minecraft.curseforge.com/projects/ender-storage/files/2262092/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/ender-storage";
+      "src" =
+        "https://media.forgecdn.net/files/2262/92/EnderStorage-1.7.10-1.4.7.37-universal.jar";
       "type" = "remote";
       "md5" = "0d3dcb31d90eb2eb748d5e0a901c20a6";
+      "sha256" =
+        "a8b1209284c584a539f657bafc00c2bbb6cffb3bf06630f6f01fff977ea0b846";
+      "size" = 145063;
     };
     "endercore" = {
       "title" = "EnderCore";
@@ -757,14 +922,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "EnderCore-1.7.10-0.2.0.39_beta.jar";
       "maturity" = "beta";
       "encoded" = "EnderCore-1.7.10-0.2.0.39_beta.jar";
-      "page" = "https://minecraft.curseforge.com/projects/endercore/files/2331048";
-      "src" = "https://minecraft.curseforge.com/projects/endercore/files/2331048/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/endercore";
+      "src" =
+        "https://media.forgecdn.net/files/2331/48/EnderCore-1.7.10-0.2.0.39_beta.jar";
       "type" = "remote";
       "md5" = "e6c8b5dc1ae0f01e34673ba608f8ffd9";
+      "sha256" =
+        "0fbe5d31f7c3a2b95e9fb94c2f79931259c4c482a1125c8e11ee2f841fc64586";
+      "size" = 467824;
     };
     "extra-utilities" = {
       "title" = "Extra Utilities";
@@ -773,14 +942,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "extrautilities-1.2.12.jar";
       "maturity" = "release";
       "encoded" = "extrautilities-1.2.12.jar";
-      "page" = "https://minecraft.curseforge.com/projects/extra-utilities/files/2264383";
-      "src" = "https://minecraft.curseforge.com/projects/extra-utilities/files/2264383/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/extra-utilities";
+      "src" =
+        "https://media.forgecdn.net/files/2264/383/extrautilities-1.2.12.jar";
       "type" = "remote";
       "md5" = "0b1848ece3f6e1370e6caa8124c1480d";
+      "sha256" =
+        "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b";
+      "size" = 2149827;
     };
     "extracells2" = {
       "title" = "ExtraCells2";
@@ -789,14 +962,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["applied-energistics-2"];
+      "deps" = [ "applied-energistics-2" ];
       "filename" = "ExtraCells-1.7.10-2.3.14b197.jar";
       "maturity" = "release";
       "encoded" = "ExtraCells-1.7.10-2.3.14b197.jar";
-      "page" = "https://minecraft.curseforge.com/projects/extracells2/files/2308206";
-      "src" = "https://minecraft.curseforge.com/projects/extracells2/files/2308206/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/extracells2";
+      "src" =
+        "https://media.forgecdn.net/files/2308/206/ExtraCells-1.7.10-2.3.14b197.jar";
       "type" = "remote";
       "md5" = "3e54980cc468ea91567f806a9c0d53d4";
+      "sha256" =
+        "48735b82e240bcadea62baa3a5ab601d091045579e1ecd1945866393394f4ce1";
+      "size" = 1479759;
     };
     "extratic" = {
       "title" = "ExtraTiC";
@@ -805,14 +982,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["tinkers-construct"];
+      "deps" = [ "tinkers-construct" ];
       "filename" = "ExtraTiC-1.7.10-1.4.6.jar";
       "maturity" = "beta";
       "encoded" = "ExtraTiC-1.7.10-1.4.6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/extratic/files/2299292";
-      "src" = "https://minecraft.curseforge.com/projects/extratic/files/2299292/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/extratic";
+      "src" =
+        "https://media.forgecdn.net/files/2299/292/ExtraTiC-1.7.10-1.4.6.jar";
       "type" = "remote";
       "md5" = "e66dc4b8d6164e75615dfabf1f8dc5a4";
+      "sha256" =
+        "59788ba4dc3dcaef029a41b4edff9c65a1161841121a61a7c4e5f8d36ac9c5e5";
+      "size" = 11557124;
     };
     "farseek" = {
       "title" = "Farseek";
@@ -821,14 +1002,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Farseek-1.7.10-2.0.1.jar";
       "maturity" = "release";
       "encoded" = "Farseek-1.7.10-2.0.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/farseek/files/2457658";
-      "src" = "https://minecraft.curseforge.com/projects/farseek/files/2457658/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/farseek";
+      "src" =
+        "https://media.forgecdn.net/files/2457/658/Farseek-1.7.10-2.0.1.jar";
       "type" = "remote";
       "md5" = "58d6f0c966b37bf82cd2e711632ee7bc";
+      "sha256" =
+        "f3ee2634dfc807976786f2d6746d894b74aa0c98423ea1237021d03eca2efa27";
+      "size" = 360837;
     };
     "fastcraft" = {
       "title" = "FastCraft";
@@ -837,14 +1022,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "fastcraft-1.23.jar";
       "maturity" = "release";
       "encoded" = "fastcraft-1.23.jar";
-      "page" = "https://minecraft.curseforge.com/projects/fastcraft/files/2292386";
-      "src" = "https://minecraft.curseforge.com/projects/fastcraft/files/2292386/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/fastcraft";
+      "src" = "https://media.forgecdn.net/files/2292/386/fastcraft-1.23.jar";
       "type" = "remote";
       "md5" = "1253dfe58b85393a04b005d28ba83369";
+      "sha256" =
+        "a71c6396aa3152773c1db3444eb0667e22c440ee76552306a617cacd11277840";
+      "size" = 182657;
     };
     "flatsigns" = {
       "title" = "FlatSigns";
@@ -853,14 +1041,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "FlatSigns-1.7.10-universal-2.1.0.19.jar";
       "maturity" = "release";
       "encoded" = "FlatSigns-1.7.10-universal-2.1.0.19.jar";
-      "page" = "https://minecraft.curseforge.com/projects/flatsigns/files/2217447";
-      "src" = "https://minecraft.curseforge.com/projects/flatsigns/files/2217447/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/flatsigns";
+      "src" =
+        "https://media.forgecdn.net/files/2217/447/FlatSigns-1.7.10-universal-2.1.0.19.jar";
       "type" = "remote";
       "md5" = "836efa16b25141b15b5db3dd157e155b";
+      "sha256" =
+        "b73960e3311152477a3b8fc5589631f86e8ae8a45d98a655bd7d4e662f6119f8";
+      "size" = 37953;
     };
     "flaxbeards-steam-power" = {
       "title" = "Flaxbeard's Steam Power";
@@ -869,14 +1061,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "FSP-1.7.10-0.29.3.jar";
       "maturity" = "beta";
       "encoded" = "FSP-1.7.10-0.29.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/flaxbeards-steam-power/files/2301651";
-      "src" = "https://minecraft.curseforge.com/projects/flaxbeards-steam-power/files/2301651/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/flaxbeards-steam-power";
+      "src" = "https://media.forgecdn.net/files/2301/651/FSP-1.7.10-0.29.3.jar";
       "type" = "remote";
       "md5" = "8b77f703dafdc9788f2ac822855bf3d7";
+      "sha256" =
+        "a0728aabc959ef1a19b778e45ec1ad03f1284fa3eed69b0a26177deaf5e7b120";
+      "size" = 6229361;
     };
     "forbidden-magic" = {
       "title" = "Forbidden Magic";
@@ -885,14 +1081,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["thaumcraft"];
+      "deps" = [ "thaumcraft" ];
       "filename" = "Forbidden Magic-1.7.10-0.575.jar";
       "maturity" = "release";
-      "encoded" = "Forbidden%20Magic-1.7.10-0.575.jar";
-      "page" = "https://minecraft.curseforge.com/projects/forbidden-magic/files/2303822";
-      "src" = "https://minecraft.curseforge.com/projects/forbidden-magic/files/2303822/download";
+      "encoded" = "Forbidden Magic-1.7.10-0.575.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/forbidden-magic";
+      "src" =
+        "https://media.forgecdn.net/files/2303/822/Forbidden%20Magic-1.7.10-0.575.jar";
       "type" = "remote";
       "md5" = "8572280652bb3c84da2915570021f42d";
+      "sha256" =
+        "d6b239a05a630cfb3b6de01fe14a8674ec14ef8fb34ea75d1ad45b79565d8636";
+      "size" = 647020;
     };
     "forestry" = {
       "title" = "Forestry";
@@ -901,14 +1101,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "forestry_1.7.10-4.2.16.64.jar";
       "maturity" = "release";
       "encoded" = "forestry_1.7.10-4.2.16.64.jar";
-      "page" = "https://minecraft.curseforge.com/projects/forestry/files/2333823";
-      "src" = "https://minecraft.curseforge.com/projects/forestry/files/2333823/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/forestry";
+      "src" =
+        "https://media.forgecdn.net/files/2333/823/forestry_1.7.10-4.2.16.64.jar";
       "type" = "remote";
       "md5" = "8213f5ef9944b9ed3261febc0bd21064";
+      "sha256" =
+        "bdebf1569584106c11e8ab137ddaf2ab10c2b3c1c8f1be0020b5c7dbb2ca2135";
+      "size" = 3322286;
     };
     "forge-multi-part" = {
       "title" = "Forge Multi Part";
@@ -917,14 +1121,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechickencore"];
+      "deps" = [ "codechickencore" ];
       "filename" = "ForgeMultipart-1.7.10-1.2.0.345-universal.jar";
       "maturity" = "release";
       "encoded" = "ForgeMultipart-1.7.10-1.2.0.345-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/forge-multi-part/files/2242993";
-      "src" = "https://minecraft.curseforge.com/projects/forge-multi-part/files/2242993/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/forge-multi-part";
+      "src" =
+        "https://media.forgecdn.net/files/2242/993/ForgeMultipart-1.7.10-1.2.0.345-universal.jar";
       "type" = "remote";
       "md5" = "3bc13e5ff47b84960f24343e209345c8";
+      "sha256" =
+        "6ff759efc10f9ea0deabb4aed7c1f61408d9bb9bce278949544c0a613f7ae4c8";
+      "size" = 943474;
     };
     "forgeservertools" = {
       "title" = "ServerTools-CORE";
@@ -933,14 +1141,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ServerTools-CORE-1.7.10-2.2.0.79.jar";
       "maturity" = "release";
       "encoded" = "ServerTools-CORE-1.7.10-2.2.0.79.jar";
-      "page" = "https://minecraft.curseforge.com/projects/forgeservertools/files/2225866";
-      "src" = "https://minecraft.curseforge.com/projects/forgeservertools/files/2225866/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/forgeservertools";
+      "src" =
+        "https://media.forgecdn.net/files/2225/866/ServerTools-CORE-1.7.10-2.2.0.79.jar";
       "type" = "remote";
       "md5" = "d2f8dd0ad580dddfe2881ee2d84dab37";
+      "sha256" =
+        "e47f0f134398707f9719f0eb6709ef91c56a19e6aa6f4f008218a86f6ca825bb";
+      "size" = 84366;
     };
     "foxlib" = {
       "title" = "FoxLib";
@@ -949,14 +1161,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "FoxLib-1.7.10-0.7.0.jar";
       "maturity" = "release";
       "encoded" = "FoxLib-1.7.10-0.7.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/foxlib/files/2227736";
-      "src" = "https://minecraft.curseforge.com/projects/foxlib/files/2227736/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/foxlib";
+      "src" =
+        "https://media.forgecdn.net/files/2227/736/FoxLib-1.7.10-0.7.0.jar";
       "type" = "remote";
       "md5" = "0f1ed65b7d247e2ef6ae11054c2f2559";
+      "sha256" =
+        "26a3cedb0567fc14835bc1fc4a151b0f11c76c1783a39b96168d5a6ea180fea5";
+      "size" = 82516;
     };
     "fullscreen-windowed-borderless-for-minecraft" = {
       "title" = "Fullscreen Windowed (Borderless) for Minecraft";
@@ -965,14 +1181,19 @@
       "side" = "client";
       "required" = false;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "FullscreenWindowed-1.7.10-1.3.0b.jar";
       "maturity" = "release";
       "encoded" = "FullscreenWindowed-1.7.10-1.3.0b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2317743";
-      "src" = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2317743/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/fullscreen-windowed-borderless-for-minecraft";
+      "src" =
+        "https://media.forgecdn.net/files/2317/743/FullscreenWindowed-1.7.10-1.3.0b.jar";
       "type" = "remote";
       "md5" = "8797d422aa9768c3b570a0f90fa15d5a";
+      "sha256" =
+        "5f62ec8b2288f0e2f297aae1b0124d1595897ac4d06e5e7b5035d4d99d2fa2a5";
+      "size" = 18188;
     };
     "garden-stuff" = {
       "title" = "Garden Stuff";
@@ -981,14 +1202,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "GardenStuff-1.7.10-1.7.0.jar";
       "maturity" = "release";
       "encoded" = "GardenStuff-1.7.10-1.7.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/garden-stuff/files/2269692";
-      "src" = "https://minecraft.curseforge.com/projects/garden-stuff/files/2269692/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/garden-stuff";
+      "src" =
+        "https://media.forgecdn.net/files/2269/692/GardenStuff-1.7.10-1.7.0.jar";
       "type" = "remote";
       "md5" = "5abcd31ea6aa0c174a67d5f459fe5fe3";
+      "sha256" =
+        "a1cfba20d02ea5ba5f5a646a85caca9e23aca777f4ed47707657bc0f83a45831";
+      "size" = 776742;
     };
     "guide-api" = {
       "title" = "Guide-API";
@@ -997,14 +1222,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Guide-API-1.7.10-1.0.1-29.jar";
       "maturity" = "beta";
       "encoded" = "Guide-API-1.7.10-1.0.1-29.jar";
-      "page" = "https://minecraft.curseforge.com/projects/guide-api/files/2287184";
-      "src" = "https://minecraft.curseforge.com/projects/guide-api/files/2287184/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/guide-api";
+      "src" =
+        "https://media.forgecdn.net/files/2287/184/Guide-API-1.7.10-1.0.1-29.jar";
       "type" = "remote";
       "md5" = "85b1112cffe2f2316f174aa480e6bfb4";
+      "sha256" =
+        "634966e3908a1ef712905701ca4301e0f7c4062d132f899eb847ea5b25e61b58";
+      "size" = 200078;
     };
     "hardcore-ender-expansion" = {
       "title" = "Hardcore Ender Expansion";
@@ -1013,14 +1242,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
-      "filename" = "HardcoreEnderExpansion MC-1.7.10 v1.8.6.jar";
+      "deps" = [ ];
       "maturity" = "release";
-      "encoded" = "HardcoreEnderExpansion%20MC-1.7.10%20v1.8.6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/hardcore-ender-expansion/files/2316923";
-      "src" = "https://minecraft.curseforge.com/projects/hardcore-ender-expansion/files/2316923/download";
+      "filename" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
+      "encoded" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/hardcore-ender-expansion";
+      "src" =
+        "https://media.forgecdn.net/files/2316/923/HardcoreEnderExpansion%20%20MC-1.7.10%20%20v1.8.6.jar";
       "type" = "remote";
       "md5" = "513bbcc2ccf47d4ac35e8a6d4389ea5e";
+      "sha256" =
+        "2884bb70ba5edaa133981bbf6dae087c47bcef655f93567252f18421138a9693";
+      "size" = 4338973;
     };
     "hats" = {
       "title" = "Hats";
@@ -1029,14 +1263,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["ichunutil"];
+      "deps" = [ "ichunutil" ];
       "filename" = "Hats-4.0.1.jar";
       "maturity" = "release";
       "encoded" = "Hats-4.0.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/hats/files/2232170";
-      "src" = "https://minecraft.curseforge.com/projects/hats/files/2232170/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/hats";
+      "src" = "https://media.forgecdn.net/files/2232/170/Hats-4.0.1.jar";
       "type" = "remote";
       "md5" = "029d5d60ff3c3c1873a4770f9b702a89";
+      "sha256" =
+        "d66784c42bd94867fbc990e212d5c334ae2439d6b7e9a856196b348b6591cee2";
+      "size" = 283132;
     };
     "helpfixer" = {
       "title" = "HelpFixer";
@@ -1045,14 +1282,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "HelpFixer-1.0.7.jar";
       "maturity" = "release";
       "encoded" = "HelpFixer-1.0.7.jar";
-      "page" = "https://minecraft.curseforge.com/projects/helpfixer/files/2223813";
-      "src" = "https://minecraft.curseforge.com/projects/helpfixer/files/2223813/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/helpfixer";
+      "src" = "https://media.forgecdn.net/files/2223/813/HelpFixer-1.0.7.jar";
       "type" = "remote";
       "md5" = "0d6ce4776f981f97a13ab02029b5fb4d";
+      "sha256" =
+        "8d9dac6b95915285b2a1a7e433d1a28a1933266e89d99248eb363d30c49e4c0b";
+      "size" = 6552;
     };
     "hwyla" = {
       "title" = "Hwyla";
@@ -1061,7 +1301,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "type" = "missing";
     };
     "ichunutil" = {
@@ -1071,14 +1311,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "iChunUtil-4.2.3.jar";
       "maturity" = "release";
       "encoded" = "iChunUtil-4.2.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ichunutil/files/2338148";
-      "src" = "https://minecraft.curseforge.com/projects/ichunutil/files/2338148/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/ichunutil";
+      "src" = "https://media.forgecdn.net/files/2338/148/iChunUtil-4.2.3.jar";
       "type" = "remote";
       "md5" = "9f90848755f2c3002996b86b57dee2f1";
+      "sha256" =
+        "18236a63620280880ccac38f216c126573784bdd101f41e929f0bc92da057a6b";
+      "size" = 213084;
     };
     "illuminated-bows" = {
       "title" = "Illuminated Bows";
@@ -1087,14 +1330,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "IlluminatedBows-1.7.10-1.7.1f.jar";
       "maturity" = "release";
       "encoded" = "IlluminatedBows-1.7.10-1.7.1f.jar";
-      "page" = "https://minecraft.curseforge.com/projects/illuminated-bows/files/2233467";
-      "src" = "https://minecraft.curseforge.com/projects/illuminated-bows/files/2233467/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/illuminated-bows";
+      "src" =
+        "https://media.forgecdn.net/files/2233/467/IlluminatedBows-1.7.10-1.7.1f.jar";
       "type" = "remote";
       "md5" = "212828211e1ee4c1af3cbd9404a90907";
+      "sha256" =
+        "93628b4d1114393f4e6f137cb09b9fba20e6e1ebe13538231da55d88e064bda2";
+      "size" = 223794;
     };
     "immersive-engineering" = {
       "title" = "Immersive Engineering";
@@ -1103,14 +1350,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ImmersiveEngineering-0.7.7.jar";
       "maturity" = "release";
       "encoded" = "ImmersiveEngineering-0.7.7.jar";
-      "page" = "https://minecraft.curseforge.com/projects/immersive-engineering/files/2299019";
-      "src" = "https://minecraft.curseforge.com/projects/immersive-engineering/files/2299019/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/immersive-engineering";
+      "src" =
+        "https://media.forgecdn.net/files/2299/19/ImmersiveEngineering-0.7.7.jar";
       "type" = "remote";
       "md5" = "24f8212228caf05e2031b1e9221146b5";
+      "sha256" =
+        "f2bc83bccc64e0a8be8ebcb7f14704491a701e42958cc3389c704cf8ff411f33";
+      "size" = 3610468;
     };
     "immersive-floofs" = {
       "title" = "Immersive Floofs";
@@ -1119,7 +1371,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["immersive-engineering" "tails"];
+      "deps" = [ "immersive-engineering" "tails" ];
       "type" = "missing";
     };
     "immersive-integration" = {
@@ -1129,14 +1381,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["immersive-engineering"];
+      "deps" = [ "immersive-engineering" ];
       "filename" = "immersiveintegration-0.6.8.jar";
       "maturity" = "release";
       "encoded" = "immersiveintegration-0.6.8.jar";
-      "page" = "https://minecraft.curseforge.com/projects/immersive-integration/files/2289306";
-      "src" = "https://minecraft.curseforge.com/projects/immersive-integration/files/2289306/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/immersive-integration";
+      "src" =
+        "https://media.forgecdn.net/files/2289/306/immersiveintegration-0.6.8.jar";
       "type" = "remote";
       "md5" = "57ee0a14a8cb09a759bc23787f1de40f";
+      "sha256" =
+        "b6ca939d86fd24c28e3552a748939ee18763838b0a02d68f60e281ece2232be0";
+      "size" = 302059;
     };
     "industrial-craft" = {
       "title" = "Industrial Craft";
@@ -1145,14 +1402,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "industrialcraft-2-2.2.827-experimental.jar";
       "maturity" = "release";
       "encoded" = "industrialcraft-2-2.2.827-experimental.jar";
-      "page" = "https://minecraft.curseforge.com/projects/industrial-craft/files/2353971";
-      "src" = "https://minecraft.curseforge.com/projects/industrial-craft/files/2353971/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/industrial-craft";
+      "src" =
+        "https://media.forgecdn.net/files/2353/971/industrialcraft-2-2.2.827-experimental.jar";
       "type" = "remote";
       "md5" = "6fd8c3b8b87532c4c8884614fc2eb21d";
+      "sha256" =
+        "2c7a4d5ea98f286c84b591c0f4efad564b1dd74a7779d043475794884a3d1ca8";
+      "size" = 5633941;
     };
     "inpurecore" = {
       "title" = "INpureCore";
@@ -1161,30 +1422,38 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "INpureCore-[1.7.10]1.0.0B9-62.jar";
       "maturity" = "release";
-      "encoded" = "INpureCore-%5B1.7.10%5D1.0.0B9-62.jar";
-      "page" = "https://minecraft.curseforge.com/projects/inpurecore/files/2238507";
-      "src" = "https://minecraft.curseforge.com/projects/inpurecore/files/2238507/download";
+      "encoded" = "INpureCore-[1.7.10]1.0.0B9-62.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/inpurecore";
+      "src" =
+        "https://media.forgecdn.net/files/2238/507/INpureCore-%5B1.7.10%5D1.0.0B9-62.jar";
       "type" = "remote";
       "md5" = "89c7b3835cd2bdba7d8d054d75c7460c";
+      "sha256" =
+        "231a8fbffba0980af44471dd8801190375462e2d5a4331a071ba7b823810147d";
+      "size" = 126448;
     };
     "inventory-tweaks" = {
-      "title" = "Inventory Tweaks";
+      "title" = "Inventory Tweaks [1.12 only] ";
       "name" = "inventory-tweaks";
       "id" = 223094;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "InventoryTweaks-1.59-dev-152.jar";
       "maturity" = "release";
       "encoded" = "InventoryTweaks-1.59-dev-152.jar";
-      "page" = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2210792";
-      "src" = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2210792/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks";
+      "src" =
+        "https://media.forgecdn.net/files/2210/792/InventoryTweaks-1.59-dev-152.jar";
       "type" = "remote";
       "md5" = "83f7ddcd5f5fd8d640aa15dc62acc6bf";
+      "sha256" =
+        "03aa8f9a012c2a34748648b8556c4391ca985bce744c4a589001c222f978ba04";
+      "size" = 224461;
     };
     "iron-chests" = {
       "title" = "Iron Chests";
@@ -1193,14 +1462,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ironchest-1.7.10-6.0.62.742-universal.jar";
       "maturity" = "release";
       "encoded" = "ironchest-1.7.10-6.0.62.742-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/iron-chests/files/2230908";
-      "src" = "https://minecraft.curseforge.com/projects/iron-chests/files/2230908/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/iron-chests";
+      "src" =
+        "https://media.forgecdn.net/files/2230/908/ironchest-1.7.10-6.0.62.742-universal.jar";
       "type" = "remote";
       "md5" = "48d942594459c437ce8e8648ca42a7b9";
+      "sha256" =
+        "a300fcf2c43ab26eb1eb380a13efdcc6c1c46f0a502da219a4b58337df52ef7b";
+      "size" = 158104;
     };
     "ivtoolkit" = {
       "title" = "IvToolkit";
@@ -1209,14 +1482,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "IvToolkit-1.2.1.jar";
       "maturity" = "release";
       "encoded" = "IvToolkit-1.2.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ivtoolkit/files/2294442";
-      "src" = "https://minecraft.curseforge.com/projects/ivtoolkit/files/2294442/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/ivtoolkit";
+      "src" = "https://media.forgecdn.net/files/2294/442/IvToolkit-1.2.1.jar";
       "type" = "remote";
       "md5" = "dd91e34daaa9be33bfa522d7a058c549";
+      "sha256" =
+        "546a8c0d88c00f1e66062db73a47de1aa5f54099f18292e488ae8de54b18ad92";
+      "size" = 373500;
     };
     "jabba" = {
       "title" = "Jabba";
@@ -1225,14 +1501,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Jabba-1.2.2_1.7.10.jar";
       "maturity" = "release";
       "encoded" = "Jabba-1.2.2_1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/jabba/files/2302354";
-      "src" = "https://minecraft.curseforge.com/projects/jabba/files/2302354/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/jabba";
+      "src" =
+        "https://media.forgecdn.net/files/2302/354/Jabba-1.2.2_1.7.10.jar";
       "type" = "remote";
       "md5" = "9d35698387f75007c1c4dd0dcfec13e5";
+      "sha256" =
+        "3ab1fa00f3d3169d27830db42305eda8aaea0c5705af47ce169c5a50b8b76ee4";
+      "size" = 445166;
     };
     "just-enough-calculation" = {
       "title" = "Just Enough Calculation";
@@ -1241,14 +1521,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["just-enough-items-jei"];
+      "deps" = [ "just-enough-items-jei" ];
       "filename" = "JustEnoughCalculation-1.7.10-0.3.4.jar";
       "maturity" = "release";
       "encoded" = "JustEnoughCalculation-1.7.10-0.3.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2303711";
-      "src" = "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2303711/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/just-enough-calculation";
+      "src" =
+        "https://media.forgecdn.net/files/2303/711/JustEnoughCalculation-1.7.10-0.3.4.jar";
       "type" = "remote";
       "md5" = "4676ece1e1b28d97602a5e21a20e3e3c";
+      "sha256" =
+        "a115bd82e6385ae9c533ed226bf867d4407018f49956ff908f9d8b6a4ca23d4d";
+      "size" = 102912;
     };
     "just-enough-items-jei" = {
       "title" = "Just Enough Items (JEI)";
@@ -1257,7 +1542,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "type" = "missing";
     };
     "just-enough-resources-jer" = {
@@ -1267,7 +1552,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["just-enough-items-jei"];
+      "deps" = [ "just-enough-items-jei" ];
       "type" = "missing";
     };
     "kitchencraft" = {
@@ -1277,14 +1562,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["endercore"];
+      "deps" = [ "endercore" ];
       "filename" = "KitchenCraft-MC1.7.10-1.0.0-63-combo.jar";
       "maturity" = "beta";
       "encoded" = "KitchenCraft-MC1.7.10-1.0.0-63-combo.jar";
-      "page" = "https://minecraft.curseforge.com/projects/kitchencraft/files/2256127";
-      "src" = "https://minecraft.curseforge.com/projects/kitchencraft/files/2256127/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/kitchencraft";
+      "src" =
+        "https://media.forgecdn.net/files/2256/127/KitchenCraft-MC1.7.10-1.0.0-63-combo.jar";
       "type" = "remote";
       "md5" = "c58de8f7601739832c2a69a91fe2e7fc";
+      "sha256" =
+        "d432b598d3cabfbdf691aafa2883e5ca880b8460d24178cdc11e93750a1ca6ab";
+      "size" = 313759;
     };
     "logistics-pipes" = {
       "title" = "Logistics Pipes";
@@ -1293,14 +1582,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "logisticspipes-0.9.3.132.jar";
       "maturity" = "release";
       "encoded" = "logisticspipes-0.9.3.132.jar";
-      "page" = "https://minecraft.curseforge.com/projects/logistics-pipes/files/2427862";
-      "src" = "https://minecraft.curseforge.com/projects/logistics-pipes/files/2427862/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/logistics-pipes";
+      "src" =
+        "https://media.forgecdn.net/files/2427/862/logisticspipes-0.9.3.132.jar";
       "type" = "remote";
       "md5" = "4661438a4c2e92067845810c02198af5";
+      "sha256" =
+        "fe0750fbc59cba524437133013727bb58edba88cc6154fe9b97dfe1a5d8916f7";
+      "size" = 3250639;
     };
     "lookingglass" = {
       "title" = "LookingGlass";
@@ -1309,14 +1602,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "LookingGlass-1.7.10-0.2.0.01.jar";
       "maturity" = "release";
       "encoded" = "LookingGlass-1.7.10-0.2.0.01.jar";
-      "page" = "https://minecraft.curseforge.com/projects/lookingglass/files/2321557";
-      "src" = "https://minecraft.curseforge.com/projects/lookingglass/files/2321557/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/lookingglass";
+      "src" =
+        "https://media.forgecdn.net/files/2321/557/LookingGlass-1.7.10-0.2.0.01.jar";
       "type" = "remote";
       "md5" = "f6fb78b54f2faf65bb1c5b16880c3f8f";
+      "sha256" =
+        "f75e154872c1636bbbf983f010e721de5c75fed2b05be3cd6c949f6d23ce3c67";
+      "size" = 267788;
     };
     "lunatriuscore" = {
       "title" = "LunatriusCore";
@@ -1325,14 +1622,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "LunatriusCore-1.7.10-1.1.2.21-universal.jar";
       "maturity" = "release";
       "encoded" = "LunatriusCore-1.7.10-1.1.2.21-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/lunatriuscore/files/2225146";
-      "src" = "https://minecraft.curseforge.com/projects/lunatriuscore/files/2225146/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/lunatriuscore";
+      "src" =
+        "https://media.forgecdn.net/files/2225/146/LunatriusCore-1.7.10-1.1.2.21-universal.jar";
       "type" = "remote";
       "md5" = "435b2890f90cc256e0045eb559512eaf";
+      "sha256" =
+        "e4a3dd27370920b2be108ba7a18efe720a521d4956abb34a8ebf74958ff25f55";
+      "size" = 57644;
     };
     "magic-bees" = {
       "title" = "Magic Bees";
@@ -1341,14 +1642,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["forestry"];
+      "deps" = [ "forestry" ];
       "filename" = "magicbees-1.7.10-2.4.3.jar";
       "maturity" = "release";
       "encoded" = "magicbees-1.7.10-2.4.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/magic-bees/files/2282734";
-      "src" = "https://minecraft.curseforge.com/projects/magic-bees/files/2282734/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/magic-bees";
+      "src" =
+        "https://media.forgecdn.net/files/2282/734/magicbees-1.7.10-2.4.3.jar";
       "type" = "remote";
       "md5" = "ea1be6e038ddf7849757efeb3f24a33d";
+      "sha256" =
+        "de2464b67967b2315cc41b323942d4dd36f4ee65a4808fc8373f1e67a351fcd7";
+      "size" = 972727;
     };
     "malisiscore" = {
       "title" = "MalisisCore";
@@ -1357,14 +1662,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "malisiscore-1.7.10-0.14.3.jar";
       "maturity" = "beta";
       "encoded" = "malisiscore-1.7.10-0.14.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/malisiscore/files/2283267";
-      "src" = "https://minecraft.curseforge.com/projects/malisiscore/files/2283267/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/malisiscore";
+      "src" =
+        "https://media.forgecdn.net/files/2283/267/malisiscore-1.7.10-0.14.3.jar";
       "type" = "remote";
       "md5" = "58e117a619bb3d729980ce320dca8535";
+      "sha256" =
+        "bb1185aa0a21396830f212e3acba63134f6304a334689849a907a9ccadab5ade";
+      "size" = 648081;
     };
     "malisisdoors" = {
       "title" = "MalisisDoors";
@@ -1373,14 +1682,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["malisiscore"];
+      "deps" = [ "malisiscore" ];
       "filename" = "malisisdoors-1.7.10-1.13.2.jar";
       "maturity" = "release";
       "encoded" = "malisisdoors-1.7.10-1.13.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/malisisdoors/files/2284380";
-      "src" = "https://minecraft.curseforge.com/projects/malisisdoors/files/2284380/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/malisisdoors";
+      "src" =
+        "https://media.forgecdn.net/files/2284/380/malisisdoors-1.7.10-1.13.2.jar";
       "type" = "remote";
       "md5" = "74d7523f3084db7d98af486b43bdd938";
+      "sha256" =
+        "ac1c37833aa8ec38a38f42111a9b2e196336b14c0891a3e76e284a61d1fb3dac";
+      "size" = 1645689;
     };
     "mantle" = {
       "title" = "Mantle";
@@ -1389,14 +1702,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Mantle-1.7.10-0.3.2b.jar";
       "maturity" = "release";
       "encoded" = "Mantle-1.7.10-0.3.2b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/mantle/files/2264244";
-      "src" = "https://minecraft.curseforge.com/projects/mantle/files/2264244/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/mantle";
+      "src" =
+        "https://media.forgecdn.net/files/2264/244/Mantle-1.7.10-0.3.2b.jar";
       "type" = "remote";
       "md5" = "934fe4ef7a9b971f22b5dd53e57fa976";
+      "sha256" =
+        "eda03c0c76118094ae54dfcec024e34b53e523acb5c6889f091a4509471afc04";
+      "size" = 202458;
     };
     "mekanism" = {
       "title" = "Mekanism";
@@ -1405,14 +1722,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Mekanism-1.7.10-9.1.0.281.jar";
       "maturity" = "release";
       "encoded" = "Mekanism-1.7.10-9.1.0.281.jar";
-      "page" = "https://minecraft.curseforge.com/projects/mekanism/files/2426270";
-      "src" = "https://minecraft.curseforge.com/projects/mekanism/files/2426270/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/mekanism";
+      "src" =
+        "https://media.forgecdn.net/files/2426/270/Mekanism-1.7.10-9.1.0.281.jar";
       "type" = "remote";
       "md5" = "e23ff9e4e135d787502059b660dcbdd7";
+      "sha256" =
+        "ba131a1fe64e385774df589661c0d165d77a9b4e1ad1bcccff8b0e725cc51ddb";
+      "size" = 15780244;
     };
     "mekanism-generators" = {
       "title" = "Mekanism Generators";
@@ -1421,14 +1742,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["mekanism"];
+      "deps" = [ "mekanism" ];
       "filename" = "MekanismGenerators-1.7.10-9.1.0.281.jar";
       "maturity" = "release";
       "encoded" = "MekanismGenerators-1.7.10-9.1.0.281.jar";
-      "page" = "https://minecraft.curseforge.com/projects/mekanism-generators/files/2426269";
-      "src" = "https://minecraft.curseforge.com/projects/mekanism-generators/files/2426269/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators";
+      "src" =
+        "https://media.forgecdn.net/files/2426/269/MekanismGenerators-1.7.10-9.1.0.281.jar";
       "type" = "remote";
       "md5" = "534898e919199b399624c56f6f826d1d";
+      "sha256" =
+        "63d003fac7b4ff3ed777add18e00dd9e77eca596988d1aca9a0adc31a017e4ec";
+      "size" = 253341;
     };
     "minefactory-reloaded" = {
       "title" = "Minefactory Reloaded";
@@ -1437,30 +1763,39 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "MineFactoryReloaded-[1.7.10]2.8.2B1-201.jar";
       "maturity" = "alpha";
-      "encoded" = "MineFactoryReloaded-%5B1.7.10%5D2.8.2B1-201.jar";
-      "page" = "https://minecraft.curseforge.com/projects/minefactory-reloaded/files/2366149";
-      "src" = "https://minecraft.curseforge.com/projects/minefactory-reloaded/files/2366149/download";
+      "encoded" = "MineFactoryReloaded-[1.7.10]2.8.2B1-201.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/minefactory-reloaded";
+      "src" =
+        "https://media.forgecdn.net/files/2366/149/MineFactoryReloaded-%5B1.7.10%5D2.8.2B1-201.jar";
       "type" = "remote";
       "md5" = "10604ed3b6c005e96f245b587d2933dd";
+      "sha256" =
+        "603a9e780af7ad20f5349b74722f8a4498c3cf7bc722a475cbb19f19c25ba653";
+      "size" = 1767447;
     };
     "mmmmmmmmmmmm" = {
-      "title" = "MmmMmmMmmMmm";
+      "title" = "MmmMmmMmmMmm (Target Dummy)";
       "name" = "mmmmmmmmmmmm";
       "id" = 225738;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "MmmMmmMmmMmm-1.7.10-1.9.jar";
       "maturity" = "release";
       "encoded" = "MmmMmmMmmMmm-1.7.10-1.9.jar";
-      "page" = "https://minecraft.curseforge.com/projects/mmmmmmmmmmmm/files/2265493";
-      "src" = "https://minecraft.curseforge.com/projects/mmmmmmmmmmmm/files/2265493/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm";
+      "src" =
+        "https://media.forgecdn.net/files/2265/493/MmmMmmMmmMmm-1.7.10-1.9.jar";
       "type" = "remote";
       "md5" = "e7672892b5b2387b59b7e0fe3a603d1e";
+      "sha256" =
+        "525c4154e4c355d64ff8bc7faa535030c343d4531beaf9e4b1ded9cd318e955e";
+      "size" = 26048;
     };
     "mobiuscore" = {
       "title" = "MobiusCore";
@@ -1469,14 +1804,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "MobiusCore-1.2.5_1.7.10.jar";
       "maturity" = "release";
       "encoded" = "MobiusCore-1.2.5_1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/mobiuscore/files/2232516";
-      "src" = "https://minecraft.curseforge.com/projects/mobiuscore/files/2232516/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/mobiuscore";
+      "src" =
+        "https://media.forgecdn.net/files/2232/516/MobiusCore-1.2.5_1.7.10.jar";
       "type" = "remote";
       "md5" = "29990acae6a30d35057380222be87294";
+      "sha256" =
+        "9bb96584505aae1c16ce93f61ca68ee75bc7d59543ea9f13c221ff9305fc6f68";
+      "size" = 56432;
     };
     "modtweaker" = {
       "title" = "ModTweaker";
@@ -1485,14 +1824,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["crafttweaker" "mtlib"];
+      "deps" = [ "crafttweaker" "mtlib" ];
       "filename" = "ModTweaker2-0.9.6.jar";
       "maturity" = "release";
       "encoded" = "ModTweaker2-0.9.6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/modtweaker/files/2313730";
-      "src" = "https://minecraft.curseforge.com/projects/modtweaker/files/2313730/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/modtweaker";
+      "src" = "https://media.forgecdn.net/files/2313/730/ModTweaker2-0.9.6.jar";
       "type" = "remote";
       "md5" = "157633c119127d9d0112a7b9f8c2c334";
+      "sha256" =
+        "dee791c989e12cda1a32cb65081e24d40d727b9b6d99a38750fe6b9478983669";
+      "size" = 572698;
     };
     "modular-armour" = {
       "title" = "Modular Armour";
@@ -1501,14 +1843,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["cofhcore"];
+      "deps" = [ "cofhcore" ];
       "filename" = "ModularArmour-1.7.10-1.0.18-41.jar";
       "maturity" = "release";
       "encoded" = "ModularArmour-1.7.10-1.0.18-41.jar";
-      "page" = "https://minecraft.curseforge.com/projects/modular-armour/files/2252326";
-      "src" = "https://minecraft.curseforge.com/projects/modular-armour/files/2252326/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/modular-armour";
+      "src" =
+        "https://media.forgecdn.net/files/2252/326/ModularArmour-1.7.10-1.0.18-41.jar";
       "type" = "remote";
       "md5" = "31530c8565a72477d0dd5c52f9e43b7f";
+      "sha256" =
+        "fb03b81a3e57ca12cb27aa75ca005d832716ba9160d51379a89ab37797494998";
+      "size" = 759728;
     };
     "morechisels" = {
       "title" = "MoreChisels";
@@ -1517,14 +1863,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["chisel"];
+      "deps" = [ "chisel" ];
       "filename" = "MoreChisels-1.7.10-1.0-28.jar";
       "maturity" = "release";
       "encoded" = "MoreChisels-1.7.10-1.0-28.jar";
-      "page" = "https://minecraft.curseforge.com/projects/morechisels/files/2263981";
-      "src" = "https://minecraft.curseforge.com/projects/morechisels/files/2263981/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/morechisels";
+      "src" =
+        "https://media.forgecdn.net/files/2263/981/MoreChisels-1.7.10-1.0-28.jar";
       "type" = "remote";
       "md5" = "0726737af1b21212f1fec4a13202fc0c";
+      "sha256" =
+        "958728cc1d2cc0036727b67ee937dca538a49daa6d355157b027bb1dcf8c20f8";
+      "size" = 69848;
     };
     "morph" = {
       "title" = "Morph";
@@ -1533,14 +1883,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["ichunutil"];
+      "deps" = [ "ichunutil" ];
       "filename" = "Morph-Beta-0.9.3.jar";
       "maturity" = "release";
       "encoded" = "Morph-Beta-0.9.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/morph/files/2338151";
-      "src" = "https://minecraft.curseforge.com/projects/morph/files/2338151/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/morph";
+      "src" = "https://media.forgecdn.net/files/2338/151/Morph-Beta-0.9.3.jar";
       "type" = "remote";
       "md5" = "134e1cc870742392bb809cb68f82c6b8";
+      "sha256" =
+        "aabca604ba1b748320363b7b0c5f39478216fb18748a6f65a0aecc5e523d4d87";
+      "size" = 1042450;
     };
     "mrtjpcore" = {
       "title" = "MrTJPCore";
@@ -1549,14 +1902,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechicken-lib-1-8"];
+      "deps" = [ "codechicken-lib-1-8" ];
       "filename" = "MrTJPCore-1.1.0.33-universal.jar";
       "maturity" = "release";
       "encoded" = "MrTJPCore-1.1.0.33-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/mrtjpcore/files/2279413";
-      "src" = "https://minecraft.curseforge.com/projects/mrtjpcore/files/2279413/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/mrtjpcore";
+      "src" =
+        "https://media.forgecdn.net/files/2279/413/MrTJPCore-1.1.0.33-universal.jar";
       "type" = "remote";
       "md5" = "e5c8aabd096cb0cde340bb86689a58cf";
+      "sha256" =
+        "98fc3447c5fccf995e4030aad5de5243d13885477648961fdd761040e0629271";
+      "size" = 753280;
     };
     "mtlib" = {
       "title" = "MTLib";
@@ -1565,7 +1922,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["crafttweaker"];
+      "deps" = [ "crafttweaker" ];
       "type" = "missing";
     };
     "mystcraft" = {
@@ -1575,14 +1932,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "mystcraft-1.7.10-0.12.3.04.jar";
       "maturity" = "release";
       "encoded" = "mystcraft-1.7.10-0.12.3.04.jar";
-      "page" = "https://minecraft.curseforge.com/projects/mystcraft/files/2417042";
-      "src" = "https://minecraft.curseforge.com/projects/mystcraft/files/2417042/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/mystcraft";
+      "src" =
+        "https://media.forgecdn.net/files/2417/42/mystcraft-1.7.10-0.12.3.04.jar";
       "type" = "remote";
       "md5" = "17fb799ca48e2d889cdb13b1c239d9ac";
+      "sha256" =
+        "2e04cf46c5b86ffc2ff991d606d6dc9cf5067715ded021705306de0cbebf3265";
+      "size" = 2209961;
     };
     "natura" = {
       "title" = "Natura";
@@ -1591,14 +1952,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["mantle"];
+      "deps" = [ "mantle" ];
       "filename" = "natura-1.7.10-2.2.1a2.jar";
       "maturity" = "alpha";
       "encoded" = "natura-1.7.10-2.2.1a2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/natura/files/2257670";
-      "src" = "https://minecraft.curseforge.com/projects/natura/files/2257670/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/natura";
+      "src" =
+        "https://media.forgecdn.net/files/2257/670/natura-1.7.10-2.2.1a2.jar";
       "type" = "remote";
       "md5" = "482d41a7e4bab7f6fbd5c31dc9dcb372";
+      "sha256" =
+        "89fb51cf176e5460f8fdd5076655ee620f76b17da1f7f3a15d12e4bd9778817e";
+      "size" = 901112;
     };
     "nei-addons" = {
       "title" = "NEI Addons";
@@ -1607,14 +1972,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "neiaddons-1.12.15.41-mc1.7.10.jar";
       "maturity" = "alpha";
       "encoded" = "neiaddons-1.12.15.41-mc1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/nei-addons/files/2269749";
-      "src" = "https://minecraft.curseforge.com/projects/nei-addons/files/2269749/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/nei-addons";
+      "src" =
+        "https://media.forgecdn.net/files/2269/749/neiaddons-1.12.15.41-mc1.7.10.jar";
       "type" = "remote";
       "md5" = "caf83daf3a9a5dbdc6386389ef977a95";
+      "sha256" =
+        "c40ee13bb8507cd15fe643f88a8cee6510fdc4f12e5bbe040d9ca48ea4a9967f";
+      "size" = 103007;
     };
     "nei-integration" = {
       "title" = "NEI Integration";
@@ -1623,14 +1992,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["notenoughitems"];
+      "deps" = [ "notenoughitems" ];
       "filename" = "NEIIntegration-MC1.7.10-1.1.2.jar";
       "maturity" = "release";
       "encoded" = "NEIIntegration-MC1.7.10-1.1.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/nei-integration/files/2282522";
-      "src" = "https://minecraft.curseforge.com/projects/nei-integration/files/2282522/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/nei-integration";
+      "src" =
+        "https://media.forgecdn.net/files/2282/522/NEIIntegration-MC1.7.10-1.1.2.jar";
       "type" = "remote";
       "md5" = "54308ef273613b79870e9e46df86e7d9";
+      "sha256" =
+        "62d7c59e992f91ca3c6f26844e3dfa6b853db57d92f3b80cce0fb565ec07d1d2";
+      "size" = 197046;
     };
     "netherores" = {
       "title" = "NetherOres";
@@ -1639,14 +2012,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "NetherOres-[1.7.10]2.3.2B1-25.jar";
       "maturity" = "alpha";
-      "encoded" = "NetherOres-%5B1.7.10%5D2.3.2B1-25.jar";
-      "page" = "https://minecraft.curseforge.com/projects/netherores/files/2369671";
-      "src" = "https://minecraft.curseforge.com/projects/netherores/files/2369671/download";
+      "encoded" = "NetherOres-[1.7.10]2.3.2B1-25.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/netherores";
+      "src" =
+        "https://media.forgecdn.net/files/2369/671/NetherOres-%5B1.7.10%5D2.3.2B1-25.jar";
       "type" = "remote";
       "md5" = "fd722c6b530c4781092767fd77a6148a";
+      "sha256" =
+        "0f43df361268373f783b5ca9cbc181863eac98f130af585cabf7c2a102640afc";
+      "size" = 80825;
     };
     "not-enough-wands" = {
       "title" = "Not Enough Wands";
@@ -1655,14 +2032,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "notenoughwands-1.2.3.jar";
       "maturity" = "release";
       "encoded" = "notenoughwands-1.2.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/not-enough-wands/files/2266560";
-      "src" = "https://minecraft.curseforge.com/projects/not-enough-wands/files/2266560/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/not-enough-wands";
+      "src" =
+        "https://media.forgecdn.net/files/2266/560/notenoughwands-1.2.3.jar";
       "type" = "remote";
       "md5" = "f47a29b421966abb212a3d606608af27";
+      "sha256" =
+        "4f628303c8131a48920b9a6efd3d4bd3464d3b2c6908b52ba81deb85db2468e6";
+      "size" = 118706;
     };
     "notenoughcodecs" = {
       "title" = "NotEnoughCodecs";
@@ -1671,14 +2052,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "NotEnoughCodecs-1.7.10-0.4.jar";
       "maturity" = "release";
       "encoded" = "NotEnoughCodecs-1.7.10-0.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/notenoughcodecs/files/2276999";
-      "src" = "https://minecraft.curseforge.com/projects/notenoughcodecs/files/2276999/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/notenoughcodecs";
+      "src" =
+        "https://media.forgecdn.net/files/2276/999/NotEnoughCodecs-1.7.10-0.4.jar";
       "type" = "remote";
       "md5" = "930a02ab8fa4b272292e0ee0a265909a";
+      "sha256" =
+        "9073986e7a67dd668dd408d4b731681542c0d5c55e7b855abcf68c99bf3d007f";
+      "size" = 818633;
     };
     "notenoughitems" = {
       "title" = "NotEnoughItems";
@@ -1687,14 +2072,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechickencore"];
+      "deps" = [ "codechickencore" ];
       "filename" = "NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
       "maturity" = "release";
       "encoded" = "NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/notenoughitems/files/2302312";
-      "src" = "https://minecraft.curseforge.com/projects/notenoughitems/files/2302312/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/notenoughitems";
+      "src" =
+        "https://media.forgecdn.net/files/2302/312/NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
       "type" = "remote";
       "md5" = "742e865a9a80071e80976ffedc05700e";
+      "sha256" =
+        "3ebbc2f82b61812aa158375005a47da4d450bec870860fcbf015a64de74cde1c";
+      "size" = 513136;
     };
     "notenoughresources" = {
       "title" = "NotEnoughResources";
@@ -1703,14 +2092,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["notenoughitems"];
+      "deps" = [ "notenoughitems" ];
       "filename" = "NotEnoughResources-1.7.10-0.1.0-128.jar";
       "maturity" = "beta";
       "encoded" = "NotEnoughResources-1.7.10-0.1.0-128.jar";
-      "page" = "https://minecraft.curseforge.com/projects/notenoughresources/files/2323485";
-      "src" = "https://minecraft.curseforge.com/projects/notenoughresources/files/2323485/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/notenoughresources";
+      "src" =
+        "https://media.forgecdn.net/files/2323/485/NotEnoughResources-1.7.10-0.1.0-128.jar";
       "type" = "remote";
       "md5" = "9635aa86976c302ea3141a384eaaeb66";
+      "sha256" =
+        "f740aa8bbc9ee42a897121881d0bb6282dd85cb9413e0594ad3749a468c16e32";
+      "size" = 226574;
     };
     "nuclear-control-2" = {
       "title" = "Nuclear Control 2";
@@ -1719,14 +2113,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["industrial-craft"];
+      "deps" = [ "industrial-craft" ];
       "filename" = "IC2NuclearControl-2.4.3a.jar";
       "maturity" = "release";
       "encoded" = "IC2NuclearControl-2.4.3a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/nuclear-control-2/files/2464673";
-      "src" = "https://minecraft.curseforge.com/projects/nuclear-control-2/files/2464673/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/nuclear-control-2";
+      "src" =
+        "https://media.forgecdn.net/files/2464/673/IC2NuclearControl-2.4.3a.jar";
       "type" = "remote";
       "md5" = "8699c37cf6233651c8fdc745a395125f";
+      "sha256" =
+        "6c90d86ee6f3b4302f6aa39f6d879afedf21fe9e1d708f1438c60bddbc325e14";
+      "size" = 1054733;
     };
     "openblocks" = {
       "title" = "OpenBlocks";
@@ -1735,14 +2133,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["openmodslib"];
+      "deps" = [ "openmodslib" ];
       "filename" = "OpenBlocks-1.7.10-1.6.jar";
       "maturity" = "release";
       "encoded" = "OpenBlocks-1.7.10-1.6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/openblocks/files/2386733";
-      "src" = "https://minecraft.curseforge.com/projects/openblocks/files/2386733/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/openblocks";
+      "src" =
+        "https://media.forgecdn.net/files/2386/733/OpenBlocks-1.7.10-1.6.jar";
       "type" = "remote";
       "md5" = "26aa01a40b9eeb35a4d291ec9d6dd598";
+      "sha256" =
+        "a75ea97c1977e11942df8189d184caf96afe464fefe4b28337a7fb7f00e74300";
+      "size" = 2799187;
     };
     "opencomputers" = {
       "title" = "OpenComputers";
@@ -1751,14 +2153,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "OpenComputers-MC1.7.10-1.6.2.12-universal.jar";
       "maturity" = "release";
       "encoded" = "OpenComputers-MC1.7.10-1.6.2.12-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/opencomputers/files/2385983";
-      "src" = "https://minecraft.curseforge.com/projects/opencomputers/files/2385983/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/opencomputers";
+      "src" =
+        "https://media.forgecdn.net/files/2385/983/OpenComputers-MC1.7.10-1.6.2.12-universal.jar";
       "type" = "remote";
       "md5" = "b7bfcc875c49c7377e1372dccb455cfe";
+      "sha256" =
+        "37e5c7d2a33297c4bb0de34bbb6d2122eeeebd506fc363e72b0452550c520a21";
+      "size" = 12584573;
     };
     "openeye" = {
       "title" = "OpenEye";
@@ -1767,14 +2173,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "OpenEye-1.7.10-0.8.jar";
       "maturity" = "release";
       "encoded" = "OpenEye-1.7.10-0.8.jar";
-      "page" = "https://minecraft.curseforge.com/projects/openeye/files/2337247";
-      "src" = "https://minecraft.curseforge.com/projects/openeye/files/2337247/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/openeye";
+      "src" =
+        "https://media.forgecdn.net/files/2337/247/OpenEye-1.7.10-0.8.jar";
       "type" = "remote";
       "md5" = "37241c2ff3d38546b5cef43c6900fdcd";
+      "sha256" =
+        "bc1dec348147b1fafa8565d1197735a92dad4860177e8ff5f81540d3a005be37";
+      "size" = 194047;
     };
     "openmodslib" = {
       "title" = "OpenModsLib";
@@ -1783,14 +2193,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "OpenModsLib-1.7.10-0.10.jar";
       "maturity" = "release";
       "encoded" = "OpenModsLib-1.7.10-0.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/openmodslib/files/2386726";
-      "src" = "https://minecraft.curseforge.com/projects/openmodslib/files/2386726/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/openmodslib";
+      "src" =
+        "https://media.forgecdn.net/files/2386/726/OpenModsLib-1.7.10-0.10.jar";
       "type" = "remote";
       "md5" = "7af56161fea4b81d7c8504133b269710";
+      "sha256" =
+        "05e382c60c4ba56b83d5f9f81cea5c45f50790a47bad9041b40b7875022f4405";
+      "size" = 2259572;
     };
     "opis" = {
       "title" = "Opis";
@@ -1799,14 +2213,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["mobiuscore"];
+      "deps" = [ "mobiuscore" ];
       "filename" = "Opis-1.2.5_1.7.10.jar";
       "maturity" = "release";
       "encoded" = "Opis-1.2.5_1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/opis/files/2232520";
-      "src" = "https://minecraft.curseforge.com/projects/opis/files/2232520/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/opis";
+      "src" = "https://media.forgecdn.net/files/2232/520/Opis-1.2.5_1.7.10.jar";
       "type" = "remote";
       "md5" = "82e98ab306d952f3371a514333c226b4";
+      "sha256" =
+        "76905f92f829a960500ebe038924290e2757930102963920a3a347922c3402cf";
+      "size" = 6919462;
     };
     "pams-harvestcraft" = {
       "title" = "Pam's HarvestCraft";
@@ -1815,30 +2232,38 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
-      "filename" = "Pam_s HarvestCraft 1.7.10Lb.jar";
+      "deps" = [ ];
       "maturity" = "release";
-      "encoded" = "Pam_s%20HarvestCraft%201.7.10Lb.jar";
-      "page" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2270206";
-      "src" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2270206/download";
+      "filename" = "Pam's HarvestCraft 1.7.10Lb.jar";
+      "encoded" = "Pam's HarvestCraft 1.7.10Lb.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft";
+      "src" =
+        "https://media.forgecdn.net/files/2270/206/Pam%27s%20HarvestCraft%201.7.10Lb.jar";
       "type" = "remote";
       "md5" = "27115781353d0528f6f1c280e48c7ae1";
+      "sha256" =
+        "b0dc253702948d19d9c2d5191ae78ae022b65fac73210ca7313d7ef3b1cd7a57";
+      "size" = 2482753;
     };
     "project-red-base" = {
-      "title" = "Project Red - Base";
+      "title" = "Project Red - Core";
       "name" = "project-red-base";
       "id" = 228702;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechicken-lib-1-8" "mrtjpcore"];
+      "deps" = [ "codechicken-lib-1-8" "mrtjpcore" ];
       "filename" = "ProjectRed-1.7.10-4.7.0pre12.95-Base.jar";
       "maturity" = "release";
       "encoded" = "ProjectRed-1.7.10-4.7.0pre12.95-Base.jar";
-      "page" = "https://minecraft.curseforge.com/projects/project-red-base/files/2280728";
-      "src" = "https://minecraft.curseforge.com/projects/project-red-base/files/2280728/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/project-red-core";
+      "src" =
+        "https://media.forgecdn.net/files/2280/728/ProjectRed-1.7.10-4.7.0pre12.95-Base.jar";
       "type" = "remote";
       "md5" = "4ca2c33c19252f4fcec87a7f28a9420c";
+      "sha256" =
+        "deed2cf71c90829729d764bdaa1a09a64dec97f7e98655f1f4c87ec90f19c465";
+      "size" = 1432027;
     };
     "project-red-compat" = {
       "title" = "Project Red - Compat";
@@ -1847,14 +2272,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["forge-multi-part" "mrtjpcore" "project-red-base"];
+      "deps" = [ "forge-multi-part" "mrtjpcore" "project-red-base" ];
       "filename" = "ProjectRed-1.7.10-4.7.0pre12.95-Compat.jar";
       "maturity" = "release";
       "encoded" = "ProjectRed-1.7.10-4.7.0pre12.95-Compat.jar";
-      "page" = "https://minecraft.curseforge.com/projects/project-red-compat/files/2280736";
-      "src" = "https://minecraft.curseforge.com/projects/project-red-compat/files/2280736/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/project-red-compat";
+      "src" =
+        "https://media.forgecdn.net/files/2280/736/ProjectRed-1.7.10-4.7.0pre12.95-Compat.jar";
       "type" = "remote";
       "md5" = "0c16c159b33115e5a317aa51524bc85d";
+      "sha256" =
+        "166a8e633bcf25eb2f0dfa743f2ffed07a1694d4d078fab0ede3a62cc1e57259";
+      "size" = 84757;
     };
     "project-red-fabrication" = {
       "title" = "Project Red - Fabrication";
@@ -1863,14 +2293,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["project-red-base" "project-red-integration"];
+      "deps" = [ "project-red-base" "project-red-integration" ];
       "filename" = "ProjectRed-1.7.10-4.7.0pre12.95-Fabrication.jar";
       "maturity" = "release";
       "encoded" = "ProjectRed-1.7.10-4.7.0pre12.95-Fabrication.jar";
-      "page" = "https://minecraft.curseforge.com/projects/project-red-fabrication/files/2280732";
-      "src" = "https://minecraft.curseforge.com/projects/project-red-fabrication/files/2280732/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/project-red-fabrication";
+      "src" =
+        "https://media.forgecdn.net/files/2280/732/ProjectRed-1.7.10-4.7.0pre12.95-Fabrication.jar";
       "type" = "remote";
       "md5" = "904b9ef0c605b7674340ffc5476ec3e7";
+      "sha256" =
+        "3269227562cb875f1ae9067508d1ad3eee284cce6ec5734b2461d946a8d32aff";
+      "size" = 1654657;
     };
     "project-red-integration" = {
       "title" = "Project Red - Integration";
@@ -1879,30 +2314,40 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["project-red-base"];
+      "deps" = [ "project-red-base" ];
       "filename" = "ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar";
       "maturity" = "release";
       "encoded" = "ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar";
-      "page" = "https://minecraft.curseforge.com/projects/project-red-integration/files/2280731";
-      "src" = "https://minecraft.curseforge.com/projects/project-red-integration/files/2280731/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/project-red-integration";
+      "src" =
+        "https://media.forgecdn.net/files/2280/731/ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar";
       "type" = "remote";
       "md5" = "0a4a94ed01d34d7dcca33c9ca54f674d";
+      "sha256" =
+        "534d95523c092d6c5036538328fbe022448546dc77fadaf039308d2a9455d546";
+      "size" = 3913048;
     };
     "project-red-lighting" = {
-      "title" = "Project Red - Lighting";
+      "title" = "Project Red - Illumination";
       "name" = "project-red-lighting";
       "id" = 229046;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["project-red-base"];
+      "deps" = [ "project-red-base" ];
       "filename" = "ProjectRed-1.7.10-4.7.0pre12.95-Lighting.jar";
       "maturity" = "release";
       "encoded" = "ProjectRed-1.7.10-4.7.0pre12.95-Lighting.jar";
-      "page" = "https://minecraft.curseforge.com/projects/project-red-lighting/files/2280733";
-      "src" = "https://minecraft.curseforge.com/projects/project-red-lighting/files/2280733/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/project-red-illumination";
+      "src" =
+        "https://media.forgecdn.net/files/2280/733/ProjectRed-1.7.10-4.7.0pre12.95-Lighting.jar";
       "type" = "remote";
       "md5" = "e774c0bfc2f0e364a272cf159e89dc54";
+      "sha256" =
+        "d1f96e4d0e100a7c44e1c063acf897a12588953fb355544ee3de9ef1970bbd5e";
+      "size" = 633621;
     };
     "prometheus-integration" = {
       "title" = "Prometheus Integration";
@@ -1911,7 +2356,7 @@
       "side" = "server";
       "required" = true;
       "default" = true;
-      "deps" = ["shadowfacts-forgelin"];
+      "deps" = [ "shadowfacts-forgelin" ];
       "type" = "missing";
     };
     "railcraft" = {
@@ -1921,14 +2366,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Railcraft_1.7.10-9.12.2.1.jar";
       "maturity" = "beta";
       "encoded" = "Railcraft_1.7.10-9.12.2.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/railcraft/files/2458987";
-      "src" = "https://minecraft.curseforge.com/projects/railcraft/files/2458987/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/railcraft";
+      "src" =
+        "https://media.forgecdn.net/files/2458/987/Railcraft_1.7.10-9.12.2.1.jar";
       "type" = "remote";
       "md5" = "24cdef39ba06a2bb1121c679d80ca93c";
+      "sha256" =
+        "6482009038d0a6143fcba2c9e53da9a223321a373a8e8502e7438dab7a7297e3";
+      "size" = 3742396;
     };
     "random-things" = {
       "title" = "Random Things";
@@ -1937,14 +2386,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "RandomThings-2.2.4.jar";
       "maturity" = "release";
       "encoded" = "RandomThings-2.2.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/random-things/files/2225310";
-      "src" = "https://minecraft.curseforge.com/projects/random-things/files/2225310/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/random-things";
+      "src" =
+        "https://media.forgecdn.net/files/2225/310/RandomThings-2.2.4.jar";
       "type" = "remote";
       "md5" = "45c948a0954aa78bb5c23801aa5d9eb7";
+      "sha256" =
+        "c60aa318787341b4bcebc8c4f97c340bed0285955f1183fc1749fd70235f771b";
+      "size" = 2818840;
     };
     "realistic-terrain-generation" = {
       "title" = "Realistic Terrain Generation";
@@ -1953,12 +2406,14 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "RTG-1.7.10-1.1.1.6.jar";
       "maturity" = "release";
       "encoded" = "RTG-1.7.10-1.1.1.6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2445079";
-      "src" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2445079/download";
+      "page" =
+        "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2445079";
+      "src" =
+        "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2445079/download";
       "type" = "remote";
       "md5" = "95b0eab66acea41e1c9b6e6c8151cead";
     };
@@ -1969,14 +2424,17 @@
       "side" = "client";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ReAuth-3.5.0.jar";
       "maturity" = "release";
       "encoded" = "ReAuth-3.5.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/reauth/files/2433392";
-      "src" = "https://minecraft.curseforge.com/projects/reauth/files/2433392/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/reauth";
+      "src" = "https://media.forgecdn.net/files/2433/392/ReAuth-3.5.0.jar";
       "type" = "remote";
       "md5" = "beafeff38750066c499c4e044ac4b828";
+      "sha256" =
+        "dc39be5483ea20fe8ee1f74933389f0238724f32584674574a6a051b3d4ebf04";
+      "size" = 23838;
     };
     "recurrent-complex" = {
       "title" = "Recurrent Complex";
@@ -1985,14 +2443,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["ivtoolkit"];
+      "deps" = [ "ivtoolkit" ];
       "filename" = "RecurrentComplex-0.9.7.1.1.jar";
       "maturity" = "release";
       "encoded" = "RecurrentComplex-0.9.7.1.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/recurrent-complex/files/2339621";
-      "src" = "https://minecraft.curseforge.com/projects/recurrent-complex/files/2339621/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/recurrent-complex";
+      "src" =
+        "https://media.forgecdn.net/files/2339/621/RecurrentComplex-0.9.7.1.1.jar";
       "type" = "remote";
       "md5" = "80e4043aec539c111d8288641136428b";
+      "sha256" =
+        "207716fa6017f0f64e086cf36677a905d2686e592ba0d5517f497b0928f67422";
+      "size" = 4508578;
     };
     "redstone-armory" = {
       "title" = "Redstone Armory";
@@ -2001,14 +2463,24 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["cofhcore" "endercore" "redstone-arsenal" "thermalexpansion" "thermal-foundation"];
+      "deps" = [
+        "cofhcore"
+        "endercore"
+        "redstone-arsenal"
+        "thermalexpansion"
+        "thermal-foundation"
+      ];
       "filename" = "RedstoneArmory-1.7.10-1.2.0-41.jar";
       "maturity" = "release";
       "encoded" = "RedstoneArmory-1.7.10-1.2.0-41.jar";
-      "page" = "https://minecraft.curseforge.com/projects/redstone-armory/files/2263890";
-      "src" = "https://minecraft.curseforge.com/projects/redstone-armory/files/2263890/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/redstone-armory";
+      "src" =
+        "https://media.forgecdn.net/files/2263/890/RedstoneArmory-1.7.10-1.2.0-41.jar";
       "type" = "remote";
       "md5" = "c44e7dd8c7534b5330c1641b0da0bcec";
+      "sha256" =
+        "ecaa1224c2f106024c825d9e5eda82796a679846bcddc4559df55dc4cbba0110";
+      "size" = 490073;
     };
     "redstone-arsenal" = {
       "title" = "Redstone Arsenal";
@@ -2017,14 +2489,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["cofhcore"];
+      "deps" = [ "cofhcore" ];
       "filename" = "RedstoneArsenal-[1.7.10]1.1.2-92.jar";
       "maturity" = "release";
-      "encoded" = "RedstoneArsenal-%5B1.7.10%5D1.1.2-92.jar";
-      "page" = "https://minecraft.curseforge.com/projects/redstone-arsenal/files/2277490";
-      "src" = "https://minecraft.curseforge.com/projects/redstone-arsenal/files/2277490/download";
+      "encoded" = "RedstoneArsenal-[1.7.10]1.1.2-92.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/redstone-arsenal";
+      "src" =
+        "https://media.forgecdn.net/files/2277/490/RedstoneArsenal-%5B1.7.10%5D1.1.2-92.jar";
       "type" = "remote";
       "md5" = "72f8414b856d40b07d6837560f067acc";
+      "sha256" =
+        "120ea8df61e540b2549c745e6a6abbe11aa6d7eb8d8a67a31ea3aa0e042cdb98";
+      "size" = 318347;
     };
     "redstone-flux" = {
       "title" = "Redstone Flux";
@@ -2033,7 +2509,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "type" = "missing";
     };
     "refined-relocation" = {
@@ -2043,30 +2519,39 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "RefinedRelocation-mc1.7.10-1.1.34.jar";
       "maturity" = "release";
       "encoded" = "RefinedRelocation-mc1.7.10-1.1.34.jar";
-      "page" = "https://minecraft.curseforge.com/projects/refined-relocation/files/2393121";
-      "src" = "https://minecraft.curseforge.com/projects/refined-relocation/files/2393121/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/refined-relocation";
+      "src" =
+        "https://media.forgecdn.net/files/2393/121/RefinedRelocation-mc1.7.10-1.1.34.jar";
       "type" = "remote";
       "md5" = "f842922d4d3c2dd54b043538307c553b";
+      "sha256" =
+        "49a7274ff624750a9cc592cdc327d5ed845e1a5c0a054ae45775279d2bd063de";
+      "size" = 1380083;
     };
     "reliquary-v1-3" = {
-      "title" = "Reliquary v1.3";
+      "title" = "Reliquary Reincarnations";
       "name" = "reliquary-v1-3";
       "id" = 241319;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Reliquary-1.7.10-1.2.1.483.jar";
       "maturity" = "release";
       "encoded" = "Reliquary-1.7.10-1.2.1.483.jar";
-      "page" = "https://minecraft.curseforge.com/projects/reliquary-v1-3/files/2323453";
-      "src" = "https://minecraft.curseforge.com/projects/reliquary-v1-3/files/2323453/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/reliquary-v1-3";
+      "src" =
+        "https://media.forgecdn.net/files/2323/453/Reliquary-1.7.10-1.2.1.483.jar";
       "type" = "remote";
       "md5" = "0ecaef9e320a3bf36b4125724cf1fe70";
+      "sha256" =
+        "0c518e212ac7bdfd8f93f96f7898b16a3686719998ed78420a7179a7723a2155";
+      "size" = 692778;
     };
     "rotarycraft" = {
       "title" = "RotaryCraft";
@@ -2075,14 +2560,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "RotaryCraft 1.7.10 V18b.jar";
       "maturity" = "release";
-      "encoded" = "RotaryCraft%201.7.10%20V18b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2463592";
-      "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2463592/download";
+      "encoded" = "RotaryCraft 1.7.10 V18b.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/rotarycraft";
+      "src" =
+        "https://media.forgecdn.net/files/2463/592/RotaryCraft%201.7.10%20V18b.jar";
       "type" = "remote";
       "md5" = "436628172cb75f53b0fb1cc649624d6e";
+      "sha256" =
+        "441a49a20dbd3bdd07d5a3607f70db2d90d36b88fbdc0eed5d45e82ad29ddf47";
+      "size" = 7834651;
     };
     "sanguimancy" = {
       "title" = "Sanguimancy";
@@ -2091,14 +2580,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["blood-magic"];
+      "deps" = [ "blood-magic" ];
       "filename" = "Sanguimancy-1.7.10-1.1.9-35.jar";
       "maturity" = "release";
       "encoded" = "Sanguimancy-1.7.10-1.1.9-35.jar";
-      "page" = "https://minecraft.curseforge.com/projects/sanguimancy/files/2299730";
-      "src" = "https://minecraft.curseforge.com/projects/sanguimancy/files/2299730/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/sanguimancy";
+      "src" =
+        "https://media.forgecdn.net/files/2299/730/Sanguimancy-1.7.10-1.1.9-35.jar";
       "type" = "remote";
       "md5" = "a9ab9c4c07f7cc66f369dd887d663a81";
+      "sha256" =
+        "830e69776e015e8042711d1e3e3f7740bfa923850ae63b8a547aadd2efea22ea";
+      "size" = 1503535;
     };
     "schematica" = {
       "title" = "Schematica";
@@ -2107,14 +2600,18 @@
       "side" = "client";
       "required" = false;
       "default" = true;
-      "deps" = ["lunatriuscore"];
+      "deps" = [ "lunatriuscore" ];
       "filename" = "Schematica-1.7.10-1.7.6.131-universal.jar";
       "maturity" = "release";
       "encoded" = "Schematica-1.7.10-1.7.6.131-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/schematica/files/2274295";
-      "src" = "https://minecraft.curseforge.com/projects/schematica/files/2274295/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/schematica";
+      "src" =
+        "https://media.forgecdn.net/files/2274/295/Schematica-1.7.10-1.7.6.131-universal.jar";
       "type" = "remote";
       "md5" = "6318edf4fc3f3f993d41c385cd87e8ef";
+      "sha256" =
+        "023dc9b4a72ca0522b37eb9a5e34a3be12c7035fe120327e3bb1202733eef216";
+      "size" = 255231;
     };
     "servertools-backup" = {
       "title" = "ServerTools-BACKUP";
@@ -2123,14 +2620,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["forgeservertools"];
+      "deps" = [ "forgeservertools" ];
       "filename" = "ServerTools-BACKUP-1.7.10-2.2.1.24.jar";
       "maturity" = "release";
       "encoded" = "ServerTools-BACKUP-1.7.10-2.2.1.24.jar";
-      "page" = "https://minecraft.curseforge.com/projects/servertools-backup/files/2232347";
-      "src" = "https://minecraft.curseforge.com/projects/servertools-backup/files/2232347/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/servertools-backup";
+      "src" =
+        "https://media.forgecdn.net/files/2232/347/ServerTools-BACKUP-1.7.10-2.2.1.24.jar";
       "type" = "remote";
       "md5" = "6b463d16e2558eb677ac8588e875ff25";
+      "sha256" =
+        "a9229233411c6ea28c7a1f1404bd151930454b5c64256f3a7299f7872f89ffbd";
+      "size" = 23167;
     };
     "shadowfacts-forgelin" = {
       "title" = "Shadowfacts' Forgelin";
@@ -2139,7 +2641,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "type" = "missing";
     };
     "signal-catcher" = {
@@ -2149,14 +2651,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "signalcatcher-1.0.jar";
       "maturity" = "release";
       "encoded" = "signalcatcher-1.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/signal-catcher/files/2424698";
-      "src" = "https://minecraft.curseforge.com/projects/signal-catcher/files/2424698/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/signal-catcher";
+      "src" = "https://media.forgecdn.net/files/2424/698/signalcatcher-1.0.jar";
       "type" = "remote";
       "md5" = "f57137b7164841f77868fa0c4539cfb9";
+      "sha256" =
+        "b829fc8e9c028bb6145bde4b11a0c294ef9d6efcebc12fab555f53316388fc3e";
+      "size" = 3132;
     };
     "signposts" = {
       "title" = "Signposts";
@@ -2165,14 +2670,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["antique-atlas"];
+      "deps" = [ "antique-atlas" ];
       "filename" = "signposts-1.7.10-1.2.1.jar";
       "maturity" = "release";
       "encoded" = "signposts-1.7.10-1.2.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/signposts/files/2431375";
-      "src" = "https://minecraft.curseforge.com/projects/signposts/files/2431375/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/signposts";
+      "src" =
+        "https://media.forgecdn.net/files/2431/375/signposts-1.7.10-1.2.1.jar";
       "type" = "remote";
       "md5" = "d4e63e782a7213a60cefa61bf9f8d5c5";
+      "sha256" =
+        "45f413707b12b78b69f4abddda176600d87f8c74139756c8b3aed3f8a3b7d6de";
+      "size" = 64010;
     };
     "sound-filters" = {
       "title" = "Sound Filters";
@@ -2181,14 +2690,18 @@
       "side" = "client";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "SoundFilters-0.8_for_1.7.X.jar";
       "maturity" = "release";
       "encoded" = "SoundFilters-0.8_for_1.7.X.jar";
-      "page" = "https://minecraft.curseforge.com/projects/sound-filters/files/2224003";
-      "src" = "https://minecraft.curseforge.com/projects/sound-filters/files/2224003/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/sound-filters";
+      "src" =
+        "https://media.forgecdn.net/files/2224/3/SoundFilters-0.8_for_1.7.X.jar";
       "type" = "remote";
       "md5" = "772f4a162fa649ce421926a302a7f8fe";
+      "sha256" =
+        "40757863dd2814fc65c60a80690011c4c153519e7210f1f785dd594919b6197e";
+      "size" = 41252;
     };
     "steves-addons" = {
       "title" = "Steve's Addons";
@@ -2197,14 +2710,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["steves-factory-manager"];
+      "deps" = [ "steves-factory-manager" ];
       "filename" = "StevesAddons-1.7.10-0.10.16.jar";
       "maturity" = "beta";
       "encoded" = "StevesAddons-1.7.10-0.10.16.jar";
-      "page" = "https://minecraft.curseforge.com/projects/steves-addons/files/2249705";
-      "src" = "https://minecraft.curseforge.com/projects/steves-addons/files/2249705/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/steves-addons";
+      "src" =
+        "https://media.forgecdn.net/files/2249/705/StevesAddons-1.7.10-0.10.16.jar";
       "type" = "remote";
       "md5" = "a36495672c693817846fa703d562e6fe";
+      "sha256" =
+        "9815c2aff1b86c92e212a1b8d84ab1e9a557230b5ea58d41f3d1c6e4e440768c";
+      "size" = 266548;
     };
     "steves-carts-2" = {
       "title" = "Steve's Carts 2";
@@ -2213,14 +2730,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "StevesCarts2.0.0.b18.jar";
       "maturity" = "beta";
       "encoded" = "StevesCarts2.0.0.b18.jar";
-      "page" = "https://minecraft.curseforge.com/projects/steves-carts-2/files/2230425";
-      "src" = "https://minecraft.curseforge.com/projects/steves-carts-2/files/2230425/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/steves-carts-2";
+      "src" =
+        "https://media.forgecdn.net/files/2230/425/StevesCarts2.0.0.b18.jar";
       "type" = "remote";
       "md5" = "0beb610ca0d65a1419fffabe7feb9dc2";
+      "sha256" =
+        "a59a4003f162c10058206f0fd5ec05e4d1030e8fbda230f6f0b42db703c16371";
+      "size" = 2532065;
     };
     "steves-factory-manager" = {
       "title" = "Steve's Factory Manager";
@@ -2229,14 +2750,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "StevesFactoryManagerA93.jar";
       "maturity" = "alpha";
       "encoded" = "StevesFactoryManagerA93.jar";
-      "page" = "https://minecraft.curseforge.com/projects/steves-factory-manager/files/2230424";
-      "src" = "https://minecraft.curseforge.com/projects/steves-factory-manager/files/2230424/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/steves-factory-manager";
+      "src" =
+        "https://media.forgecdn.net/files/2230/424/StevesFactoryManagerA93.jar";
       "type" = "remote";
       "md5" = "825819de2d82cf7e9118353c0fc821b6";
+      "sha256" =
+        "c0dafe3ac28f31265c02b6975b8f31f6981c42902cd8d7eb32b5414012027dbe";
+      "size" = 694287;
     };
     "storage-drawers" = {
       "title" = "Storage Drawers";
@@ -2245,14 +2771,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["chameleon"];
+      "deps" = [ "chameleon" ];
       "filename" = "StorageDrawers-1.7.10-1.10.8.jar";
       "maturity" = "release";
       "encoded" = "StorageDrawers-1.7.10-1.10.8.jar";
-      "page" = "https://minecraft.curseforge.com/projects/storage-drawers/files/2355230";
-      "src" = "https://minecraft.curseforge.com/projects/storage-drawers/files/2355230/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/storage-drawers";
+      "src" =
+        "https://media.forgecdn.net/files/2355/230/StorageDrawers-1.7.10-1.10.8.jar";
       "type" = "remote";
       "md5" = "87975170dba34246691aeea8b5e41ae7";
+      "sha256" =
+        "a7babc9d0698d8c4b963c328a2a2210cf1291915288d2e5f70b465e2cb053bcd";
+      "size" = 589426;
     };
     "streams" = {
       "title" = "Streams";
@@ -2261,14 +2791,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["farseek"];
+      "deps" = [ "farseek" ];
       "filename" = "Streams-1.7.10-0.3.3.jar";
       "maturity" = "beta";
       "encoded" = "Streams-1.7.10-0.3.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/streams/files/2442526";
-      "src" = "https://minecraft.curseforge.com/projects/streams/files/2442526/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/streams";
+      "src" =
+        "https://media.forgecdn.net/files/2442/526/Streams-1.7.10-0.3.3.jar";
       "type" = "remote";
       "md5" = "a713de782ff84e1935b4eeb10e7d4f34";
+      "sha256" =
+        "087b59bd4872bc77a937fdbed19b99c4827dd19e487635e8c9faa68805b89d9f";
+      "size" = 274418;
     };
     "super-massive-tech" = {
       "title" = "Super Massive Tech";
@@ -2277,14 +2811,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["endercore"];
+      "deps" = [ "endercore" ];
       "filename" = "SuperMassiveTech-MC1.7.10-0.4.0-beta-114.jar";
       "maturity" = "beta";
       "encoded" = "SuperMassiveTech-MC1.7.10-0.4.0-beta-114.jar";
-      "page" = "https://minecraft.curseforge.com/projects/super-massive-tech/files/2273970";
-      "src" = "https://minecraft.curseforge.com/projects/super-massive-tech/files/2273970/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/super-massive-tech";
+      "src" =
+        "https://media.forgecdn.net/files/2273/970/SuperMassiveTech-MC1.7.10-0.4.0-beta-114.jar";
       "type" = "remote";
       "md5" = "1282d842d8c238cdcf2840181afb1402";
+      "sha256" =
+        "b636d50efa3218b5572df7926aaf015b8951199054c558d61ed127077b38854b";
+      "size" = 599335;
     };
     "tails" = {
       "title" = "Tails";
@@ -2293,14 +2832,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Tails-1.7.10-1.4.1a.jar";
       "maturity" = "release";
       "encoded" = "Tails-1.7.10-1.4.1a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tails/files/2254706";
-      "src" = "https://minecraft.curseforge.com/projects/tails/files/2254706/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/tails";
+      "src" =
+        "https://media.forgecdn.net/files/2254/706/Tails-1.7.10-1.4.1a.jar";
       "type" = "remote";
       "md5" = "dcd9904b1fc80e1b4bf343c245476a69";
+      "sha256" =
+        "e13d3f91d91b1c73a46e47b90562b519e12c77d7275add19bc1cdab5b3a75400";
+      "size" = 236214;
     };
     "thaumcraft" = {
       "title" = "Thaumcraft";
@@ -2309,14 +2852,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["baubles"];
+      "deps" = [ "baubles" ];
       "filename" = "Thaumcraft-1.7.10-4.2.3.5.jar";
       "maturity" = "release";
       "encoded" = "Thaumcraft-1.7.10-4.2.3.5.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thaumcraft/files/2227552";
-      "src" = "https://minecraft.curseforge.com/projects/thaumcraft/files/2227552/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/thaumcraft";
+      "src" =
+        "https://media.forgecdn.net/files/2227/552/Thaumcraft-1.7.10-4.2.3.5.jar";
       "type" = "remote";
       "md5" = "17f2e60dabd4961c9a3a2dad3ad6528a";
+      "sha256" =
+        "3dba9786966974701578a658d1bb369bf35bdf5f363079f5ac9c4910a39113be";
+      "size" = 12565807;
     };
     "thaumcraft-nei-plugin" = {
       "title" = "Thaumcraft NEI Plugin";
@@ -2325,14 +2872,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "thaumcraftneiplugin-1.7.10-1.7a.jar";
       "maturity" = "release";
       "encoded" = "thaumcraftneiplugin-1.7.10-1.7a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thaumcraft-nei-plugin/files/2241913";
-      "src" = "https://minecraft.curseforge.com/projects/thaumcraft-nei-plugin/files/2241913/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin";
+      "src" =
+        "https://media.forgecdn.net/files/2241/913/thaumcraftneiplugin-1.7.10-1.7a.jar";
       "type" = "remote";
       "md5" = "f71559fa64c1996b03e796b660914637";
+      "sha256" =
+        "d39e6c8fc27709b04d58ec4c1b625648776dbf01cdf7af2d51388ee215d5d4e8";
+      "size" = 68794;
     };
     "thaumic-energistics" = {
       "title" = "Thaumic Energistics";
@@ -2340,7 +2892,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "thaumicenergistics-1.0.0.5-RV2.jar";
       "encoded" = "thaumicenergistics-1.0.0.5-RV2.jar";
       "src" = ../bundled/thaumicenergistics-1.0.0.5-RV2.jar;
@@ -2354,14 +2906,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechickencore" "thaumcraft"];
+      "deps" = [ "codechickencore" "thaumcraft" ];
       "filename" = "ThaumicExploration-1.7.10-1.1-53.jar";
       "maturity" = "release";
       "encoded" = "ThaumicExploration-1.7.10-1.1-53.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thaumic-exploration/files/2263414";
-      "src" = "https://minecraft.curseforge.com/projects/thaumic-exploration/files/2263414/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/thaumic-exploration";
+      "src" =
+        "https://media.forgecdn.net/files/2263/414/ThaumicExploration-1.7.10-1.1-53.jar";
       "type" = "remote";
       "md5" = "98e1277a33d6452c773fad1d28691815";
+      "sha256" =
+        "ac85715fdf40a162d4b360b962a14d64a373535d002c04e4b24dfa51aeaa4b01";
+      "size" = 1982603;
     };
     "thaumic-tinkerer" = {
       "title" = "Thaumic Tinkerer";
@@ -2370,14 +2927,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechickencore" "thaumcraft"];
+      "deps" = [ "codechickencore" "thaumcraft" ];
       "filename" = "ThaumicTinkerer-2.5-1.7.10-164.jar";
       "maturity" = "release";
       "encoded" = "ThaumicTinkerer-2.5-1.7.10-164.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thaumic-tinkerer/files/2232793";
-      "src" = "https://minecraft.curseforge.com/projects/thaumic-tinkerer/files/2232793/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer";
+      "src" =
+        "https://media.forgecdn.net/files/2232/793/ThaumicTinkerer-2.5-1.7.10-164.jar";
       "type" = "remote";
       "md5" = "8dc007673d1e79f00c3095317f53d0ce";
+      "sha256" =
+        "7aeb6d77a24c96a05324ba22c34b5a682d468daf8adf3c8540136b417f4727f1";
+      "size" = 2141043;
     };
     "the-erebus" = {
       "title" = "The Erebus";
@@ -2386,14 +2947,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "TheErebus-0.4.7.jar";
       "maturity" = "beta";
       "encoded" = "TheErebus-0.4.7.jar";
-      "page" = "https://minecraft.curseforge.com/projects/the-erebus/files/2305035";
-      "src" = "https://minecraft.curseforge.com/projects/the-erebus/files/2305035/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/the-erebus";
+      "src" = "https://media.forgecdn.net/files/2305/35/TheErebus-0.4.7.jar";
       "type" = "remote";
       "md5" = "9109c09d3489191c16cee6999c065bc8";
+      "sha256" =
+        "4ea792fb4a9aab99937e38589565ec452dffcf1267ea55bc56d3af46d6f61ed0";
+      "size" = 11788774;
     };
     "the-twilight-forest" = {
       "title" = "The Twilight Forest";
@@ -2402,14 +2966,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "twilightforest-1.7.10-2.3.7.jar";
       "maturity" = "release";
       "encoded" = "twilightforest-1.7.10-2.3.7.jar";
-      "page" = "https://minecraft.curseforge.com/projects/the-twilight-forest/files/2238492";
-      "src" = "https://minecraft.curseforge.com/projects/the-twilight-forest/files/2238492/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest";
+      "src" =
+        "https://media.forgecdn.net/files/2238/492/twilightforest-1.7.10-2.3.7.jar";
       "type" = "remote";
       "md5" = "7602ffcdcd8ee2f012caeed1e4d22655";
+      "sha256" =
+        "a985c0712e195bef958d94fb74e3f5132398caa46a1b727faeda9baad6ab8784";
+      "size" = 3682125;
     };
     "thermal-dynamics" = {
       "title" = "Thermal Dynamics";
@@ -2418,14 +2987,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechicken-lib-1-8" "cofhcore" "thermal-foundation"];
+      "deps" = [ "codechicken-lib-1-8" "cofhcore" "thermal-foundation" ];
       "filename" = "ThermalDynamics-[1.7.10]1.2.1-172.jar";
       "maturity" = "release";
-      "encoded" = "ThermalDynamics-%5B1.7.10%5D1.2.1-172.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thermal-dynamics/files/2388756";
-      "src" = "https://minecraft.curseforge.com/projects/thermal-dynamics/files/2388756/download";
+      "encoded" = "ThermalDynamics-[1.7.10]1.2.1-172.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics";
+      "src" =
+        "https://media.forgecdn.net/files/2388/756/ThermalDynamics-%5B1.7.10%5D1.2.1-172.jar";
       "type" = "remote";
       "md5" = "156ea02d8bb4b2ab948f8a5aa6bdb99f";
+      "sha256" =
+        "f35ff1bb6d436fb37fcbcd9632107424989e1116a096f23f07c58d7ef8755a66";
+      "size" = 632485;
     };
     "thermal-foundation" = {
       "title" = "Thermal Foundation";
@@ -2434,14 +3007,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["cofhcore" "cofh-world"];
+      "deps" = [ "cofhcore" "cofh-world" ];
       "filename" = "ThermalFoundation-[1.7.10]1.2.6-118.jar";
       "maturity" = "release";
-      "encoded" = "ThermalFoundation-%5B1.7.10%5D1.2.6-118.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thermal-foundation/files/2388752";
-      "src" = "https://minecraft.curseforge.com/projects/thermal-foundation/files/2388752/download";
+      "encoded" = "ThermalFoundation-[1.7.10]1.2.6-118.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/thermal-foundation";
+      "src" =
+        "https://media.forgecdn.net/files/2388/752/ThermalFoundation-%5B1.7.10%5D1.2.6-118.jar";
       "type" = "remote";
       "md5" = "cc29ba7f9164bb5c78cee67a3a23a81d";
+      "sha256" =
+        "2e78538d2db2e924b9455e6521c89b6633f2c3f171a3b5b8f1208ce4eaca4206";
+      "size" = 2316321;
     };
     "thermalexpansion" = {
       "title" = "Thermal Expansion";
@@ -2450,14 +3028,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechicken-lib-1-8" "cofhcore" "thermal-foundation"];
+      "deps" = [ "codechicken-lib-1-8" "cofhcore" "thermal-foundation" ];
       "filename" = "ThermalExpansion-[1.7.10]4.1.5-248.jar";
       "maturity" = "release";
-      "encoded" = "ThermalExpansion-%5B1.7.10%5D4.1.5-248.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thermalexpansion/files/2388758";
-      "src" = "https://minecraft.curseforge.com/projects/thermalexpansion/files/2388758/download";
+      "encoded" = "ThermalExpansion-[1.7.10]4.1.5-248.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/thermal-expansion";
+      "src" =
+        "https://media.forgecdn.net/files/2388/758/ThermalExpansion-%5B1.7.10%5D4.1.5-248.jar";
       "type" = "remote";
       "md5" = "8c0ca9e6cc197a13e6cdbaf53b8d60f5";
+      "sha256" =
+        "cbfeebd28c8e48ac41e88f08957dc2f99a1160a0c641bbd95eff232071e884d0";
+      "size" = 2614932;
     };
     "thump" = {
       "title" = "Thump";
@@ -2466,14 +3048,18 @@
       "side" = "both";
       "required" = false;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Thump-1.7.10-2.1.0.8.jar";
       "maturity" = "release";
       "encoded" = "Thump-1.7.10-2.1.0.8.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thump/files/2283996";
-      "src" = "https://minecraft.curseforge.com/projects/thump/files/2283996/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/thump";
+      "src" =
+        "https://media.forgecdn.net/files/2283/996/Thump-1.7.10-2.1.0.8.jar";
       "type" = "remote";
       "md5" = "02b90a36c85e21cb37db4de1853be9eb";
+      "sha256" =
+        "88b32858ae79973c60f258a55de7bf49af187bd8e2fb07bd00826d7e8454ea62";
+      "size" = 1495385;
     };
     "tic-tooltips" = {
       "title" = "TiC Tooltips";
@@ -2482,24 +3068,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["tinkers-construct"];
+      "deps" = [ "tinkers-construct" ];
       "filename" = "TiCTooltips-mc1.7.10-1.2.5.jar";
       "maturity" = "release";
       "encoded" = "TiCTooltips-mc1.7.10-1.2.5.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tic-tooltips/files/2246472";
-      "src" = "https://minecraft.curseforge.com/projects/tic-tooltips/files/2246472/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/tic-tooltips";
+      "src" =
+        "https://media.forgecdn.net/files/2246/472/TiCTooltips-mc1.7.10-1.2.5.jar";
       "type" = "remote";
       "md5" = "d8178b20a554d3a0f3d0f374769acd02";
-    };
-    "tickprofiler" = {
-      "title" = "TickProfiler";
-      "name" = "tickprofiler";
-      "id" = 270330;
-      "side" = "server";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "type" = "missing";
+      "sha256" =
+        "29aa164560f646d5171c4fa50b7ffd36d94393bf527eb5479ad47bc972eb7a61";
+      "size" = 52002;
     };
     "tinkers-construct" = {
       "title" = "Tinkers Construct";
@@ -2508,14 +3088,28 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["mantle"];
+      "deps" = [ "mantle" ];
       "filename" = "TConstruct-1.7.10-1.8.8.build991.jar";
       "maturity" = "alpha";
       "encoded" = "TConstruct-1.7.10-1.8.8.build991.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tinkers-construct/files/2277012";
-      "src" = "https://minecraft.curseforge.com/projects/tinkers-construct/files/2277012/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct";
+      "src" =
+        "https://media.forgecdn.net/files/2277/12/TConstruct-1.7.10-1.8.8.build991.jar";
       "type" = "remote";
       "md5" = "b655f2f7994d9bd1112c826898390908";
+      "sha256" =
+        "35d76d3d355b432bbd8e8f66d9c5cc780b98910a402e6c1645088470e9fa3774";
+      "size" = 5606642;
+    };
+    "tickprofiler" = {
+      "title" = "TickProfiler";
+      "name" = "tickprofiler";
+      "id" = 270330;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "type" = "missing";
     };
     "tinkers-mechworks" = {
       "title" = "Tinkers' Mechworks";
@@ -2524,14 +3118,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["tinkers-construct"];
+      "deps" = [ "tinkers-construct" ];
       "filename" = "TMechworks-1.7.10-0.2.15.106.jar";
       "maturity" = "release";
       "encoded" = "TMechworks-1.7.10-0.2.15.106.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tinkers-mechworks/files/2272157";
-      "src" = "https://minecraft.curseforge.com/projects/tinkers-mechworks/files/2272157/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/tinkers-mechworks";
+      "src" =
+        "https://media.forgecdn.net/files/2272/157/TMechworks-1.7.10-0.2.15.106.jar";
       "type" = "remote";
       "md5" = "651aa328689ae7e48b763c17d829a0e3";
+      "sha256" =
+        "a91a1848197b29b6e6547ca7200bdd47a9ae1bf96ef06446844d21fdfe172851";
+      "size" = 221769;
     };
     "tinkers-steelworks-fork" = {
       "title" = "Tinkers' Steelworks (fork)";
@@ -2540,14 +3138,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["cookiecore" "tinkers-construct"];
+      "deps" = [ "cookiecore" "tinkers-construct" ];
       "filename" = "TSteelworks-1.7.10-1.1.2-20.jar";
       "maturity" = "release";
       "encoded" = "TSteelworks-1.7.10-1.1.2-20.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tinkers-steelworks-fork/files/2283310";
-      "src" = "https://minecraft.curseforge.com/projects/tinkers-steelworks-fork/files/2283310/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/tinkers-steelworks-fork";
+      "src" =
+        "https://media.forgecdn.net/files/2283/310/TSteelworks-1.7.10-1.1.2-20.jar";
       "type" = "remote";
       "md5" = "25dd82ba2b43f4deedb0d2c013291c41";
+      "sha256" =
+        "4fdfc4e0988bfb33d4f0332339f8566eafb377e0692f2f729e1eae43b7cc39cf";
+      "size" = 2833534;
     };
     "tis-3d" = {
       "title" = "TIS-3D";
@@ -2556,14 +3159,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "TIS-3D-MC1.7.10-1.2.2.68.jar";
       "maturity" = "release";
       "encoded" = "TIS-3D-MC1.7.10-1.2.2.68.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2448169";
-      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2448169/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/tis-3d";
+      "src" =
+        "https://media.forgecdn.net/files/2448/169/TIS-3D-MC1.7.10-1.2.2.68.jar";
       "type" = "remote";
       "md5" = "9b63bb12c9ca1fccf5054334f169d43a";
+      "sha256" =
+        "b4cdcbf7a5fabac16e4d850bae3091898365f655e6ca6d4acc2bca57e2c11fb1";
+      "size" = 551915;
     };
     "tombenpotters-icarus" = {
       "title" = "Tombenpotter's Icarus";
@@ -2572,14 +3179,19 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Icarus-1.0.6-hotfix.jar";
       "maturity" = "release";
       "encoded" = "Icarus-1.0.6-hotfix.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tombenpotters-icarus/files/2262514";
-      "src" = "https://minecraft.curseforge.com/projects/tombenpotters-icarus/files/2262514/download";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/tombenpotters-icarus";
+      "src" =
+        "https://media.forgecdn.net/files/2262/514/Icarus-1.0.6-hotfix.jar";
       "type" = "remote";
       "md5" = "1cd98bcaa1daa701e44781f86a99f961";
+      "sha256" =
+        "3c2a86a5d64c159489b443b4391947598d3c288b542a55fd69edf44da8c4364d";
+      "size" = 750334;
     };
     "tool-belt" = {
       "title" = "Tool Belt";
@@ -2588,7 +3200,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "type" = "missing";
     };
     "translocators" = {
@@ -2598,14 +3210,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechickencore"];
+      "deps" = [ "codechickencore" ];
       "filename" = "Translocator-1.7.10-1.1.2.16-universal.jar";
       "maturity" = "release";
       "encoded" = "Translocator-1.7.10-1.1.2.16-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/translocators/files/2300180";
-      "src" = "https://minecraft.curseforge.com/projects/translocators/files/2300180/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/translocators";
+      "src" =
+        "https://media.forgecdn.net/files/2300/180/Translocator-1.7.10-1.1.2.16-universal.jar";
       "type" = "remote";
       "md5" = "541e87b5d6f522415f8d9a05811377d8";
+      "sha256" =
+        "aed9f360f118ed6b73df52798c934acd24a34354cb9fefdfd297efcd9c59a7f3";
+      "size" = 161165;
     };
     "usefultnt" = {
       "title" = "UsefulTNT";
@@ -2614,14 +3230,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "UsefulTNT 1.7.10 V18a.jar";
       "maturity" = "release";
-      "encoded" = "UsefulTNT%201.7.10%20V18a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/usefultnt/files/2461740";
-      "src" = "https://minecraft.curseforge.com/projects/usefultnt/files/2461740/download";
+      "encoded" = "UsefulTNT 1.7.10 V18a.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/usefultnt";
+      "src" =
+        "https://media.forgecdn.net/files/2461/740/UsefulTNT%201.7.10%20V18a.jar";
       "type" = "remote";
       "md5" = "b9247700347db060b9a50c60c652e661";
+      "sha256" =
+        "0abbbaddde7938f09960b364ef62c2b101d9ffe6d28ae1db8b0c69503bfe7834";
+      "size" = 10173;
     };
     "void-monster" = {
       "title" = "Void Monster";
@@ -2630,14 +3250,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "VoidMonster 1.7.10 V18a.jar";
       "maturity" = "release";
-      "encoded" = "VoidMonster%201.7.10%20V18a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/void-monster/files/2461738";
-      "src" = "https://minecraft.curseforge.com/projects/void-monster/files/2461738/download";
+      "encoded" = "VoidMonster 1.7.10 V18a.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/void-monster";
+      "src" =
+        "https://media.forgecdn.net/files/2461/738/VoidMonster%201.7.10%20V18a.jar";
       "type" = "remote";
       "md5" = "34164c6638d20659408241ea45aec2d1";
+      "sha256" =
+        "550161c2422c14463b2a1d7ba769ace8c37fcdbb62fde76e42eef5e5887e4db4";
+      "size" = 2573189;
     };
     "waila" = {
       "title" = "Waila";
@@ -2646,14 +3270,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Waila-1.5.10_1.7.10.jar";
       "maturity" = "release";
       "encoded" = "Waila-1.5.10_1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/waila/files/2230518";
-      "src" = "https://minecraft.curseforge.com/projects/waila/files/2230518/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/waila";
+      "src" =
+        "https://media.forgecdn.net/files/2230/518/Waila-1.5.10_1.7.10.jar";
       "type" = "remote";
       "md5" = "eeb36775188e70faa1c5ecd84f80076c";
+      "sha256" =
+        "44423d7c43bde9274e1dbc1b00d6bd14ec7cb2572326eeefa9c6dd6fab47930b";
+      "size" = 544821;
     };
     "waila-plugins" = {
       "title" = "WAILA Plugins";
@@ -2662,14 +3290,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["endercore" "hwyla"];
+      "deps" = [ "endercore" "hwyla" ];
       "filename" = "WAILAPlugins-MC1.7.10-0.2.0-25.jar";
       "maturity" = "beta";
       "encoded" = "WAILAPlugins-MC1.7.10-0.2.0-25.jar";
-      "page" = "https://minecraft.curseforge.com/projects/waila-plugins/files/2351717";
-      "src" = "https://minecraft.curseforge.com/projects/waila-plugins/files/2351717/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/waila-plugins";
+      "src" =
+        "https://media.forgecdn.net/files/2351/717/WAILAPlugins-MC1.7.10-0.2.0-25.jar";
       "type" = "remote";
       "md5" = "a8e67182a52e4140fa1f0b1a3770880a";
+      "sha256" =
+        "d818697152beeaab82da9a29cf2336309d0019879ce0676dda996b05d5d07891";
+      "size" = 77506;
     };
     "wawla-what-are-we-looking-at" = {
       "title" = "Wawla - What Are We Looking At";
@@ -2678,14 +3310,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Wawla-1.0.5.120.jar";
       "maturity" = "release";
       "encoded" = "Wawla-1.0.5.120.jar";
-      "page" = "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2298772";
-      "src" = "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2298772/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/wawla";
+      "src" = "https://media.forgecdn.net/files/2298/772/Wawla-1.0.5.120.jar";
       "type" = "remote";
       "md5" = "dbdf14b087e645bece12d1cab750f397";
+      "sha256" =
+        "7dd1a08c97a7b453eb761a75006f56e6acfa841d3eb723792f0ee5710bff5829";
+      "size" = 73037;
     };
     "witchery" = {
       "title" = "Witchery";
@@ -2694,14 +3329,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "witchery-1.7.10-0.24.1.jar";
       "maturity" = "beta";
       "encoded" = "witchery-1.7.10-0.24.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/witchery/files/2234410";
-      "src" = "https://minecraft.curseforge.com/projects/witchery/files/2234410/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/witchery";
+      "src" =
+        "https://media.forgecdn.net/files/2234/410/witchery-1.7.10-0.24.1.jar";
       "type" = "remote";
       "md5" = "22096b8e462fa5cca3a6c8054116d4fc";
+      "sha256" =
+        "68c331f624cea6c0827a31e96a6dce2e75461227c42da70f11ba765a8c6a8cec";
+      "size" = 7009956;
     };
     "wr-cbe-universal" = {
       "title" = "WR-CBE-Universal";
@@ -2710,14 +3349,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechickencore" "forge-multi-part"];
+      "deps" = [ "codechickencore" "forge-multi-part" ];
       "filename" = "WR-CBE-1.7.10-1.4.1.9-universal.jar";
       "maturity" = "release";
       "encoded" = "WR-CBE-1.7.10-1.4.1.9-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/wr-cbe-universal/files/2233235";
-      "src" = "https://minecraft.curseforge.com/projects/wr-cbe-universal/files/2233235/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/wr-cbe-universal";
+      "src" =
+        "https://media.forgecdn.net/files/2233/235/WR-CBE-1.7.10-1.4.1.9-universal.jar";
       "type" = "remote";
       "md5" = "c3477cd84ce90a85cce8ba8bb7b93809";
+      "sha256" =
+        "527e39b2b9ff5351cb17635bd1d0bfce0527fe0828b6074b8d680e73d87c6fbd";
+      "size" = 352856;
     };
     "ztones" = {
       "title" = "Ztones";
@@ -2726,14 +3369,18 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "Ztones-1.7.10-2.2.1.jar";
       "maturity" = "release";
       "encoded" = "Ztones-1.7.10-2.2.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ztones/files/2223720";
-      "src" = "https://minecraft.curseforge.com/projects/ztones/files/2223720/download";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/ztones";
+      "src" =
+        "https://media.forgecdn.net/files/2223/720/Ztones-1.7.10-2.2.1.jar";
       "type" = "remote";
       "md5" = "4f517be3ad447c4f41742fa7e1ae959f";
+      "sha256" =
+        "9e98c36568af92dbb388dfec2b36b3f0d76cb1dc284a6bbe06e98b89204b96f4";
+      "size" = 556982;
     };
     "forgemultipart" = {
       "title" = "Forge Multi Part";
@@ -2742,14 +3389,16 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ForgeMultipart-1.7.10-1.2.0.345-universal.jar";
       "encoded" = "ForgeMultipart-1.7.10-1.2.0.345-universal.jar";
       "page" = "http://www.curseforge.com/minecraft/mc-mods/forge-multi-part";
-      "src" = "https://edge.forgecdn.net/files/2242/993/ForgeMultipart-1.7.10-1.2.0.345-universal.jar";
+      "src" =
+        "https://edge.forgecdn.net/files/2242/993/ForgeMultipart-1.7.10-1.2.0.345-universal.jar";
       "type" = "remote";
       "md5" = "3bc13e5ff47b84960f24343e209345c8";
-      "sha256" = "6ff759efc10f9ea0deabb4aed7c1f61408d9bb9bce278949544c0a613f7ae4c8";
+      "sha256" =
+        "6ff759efc10f9ea0deabb4aed7c1f61408d9bb9bce278949544c0a613f7ae4c8";
       "size" = 943474;
     };
   };
