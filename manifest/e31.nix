@@ -73,17 +73,21 @@
       "size" = 111220;
     };
     "applied-energistics-2" = {
-      "title" = "Applied Energistics 2";
-      "name" = "applied-energistics-2";
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "appliedenergistics2-rv2-stable-10.jar";
-      "encoded" = "appliedenergistics2-rv2-stable-10.jar";
-      "src" = ../bundled/appliedenergistics2-rv2-stable-10.jar;
-      "type" = "local";
-      "md5" = "f7a60fa036240da11da4a739c5c4137d";
+        "title" = "Applied Energistics 2";
+        "name" = "applied-energistics-2";
+        "id" = 223794;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "appliedenergistics2-rv3-beta-6.jar";
+        "encoded" = "appliedenergistics2-rv3-beta-6.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2";
+        "src" = "https://media.forgecdn.net/files/2296/430/appliedenergistics2-rv3-beta-6.jar";
+        "type" = "remote";
+        "md5" = "0a555df010345a27e0956a3f05517510";
+        "sha256" = "0ec8cd1ede7f7bbbf73030eba8b06ebcc0583045ff4cc9aec080b1736581da71";
+        "size" = 2924325;
     };
     "aquatweaks" = {
       "title" = "AquaTweaks";
@@ -463,26 +467,6 @@
         "c6aad8099d00b5fbd0e646b2f1e5ae29a93d4033889f37a0bd11fcd6021b45a1";
       "size" = 5386;
     };
-    "chromaticraft" = {
-      "title" = "ChromatiCraft";
-      "name" = "chromaticraft";
-      "id" = 235590;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "ChromatiCraft 1.7.10 V18b.jar";
-      "maturity" = "release";
-      "encoded" = "ChromatiCraft 1.7.10 V18b.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/chromaticraft";
-      "src" =
-        "https://media.forgecdn.net/files/2464/15/ChromatiCraft%201.7.10%20V18b.jar";
-      "type" = "remote";
-      "md5" = "707107e785052dbc31e26b03142d7318";
-      "sha256" =
-        "569aefc84730188827018394d507daacc35d4ca796c1ccd3020ef593f6c8d709";
-      "size" = 118006874;
-    };
     "chunk-animator" = {
       "title" = "Chunk Animator";
       "name" = "chunk-animator";
@@ -685,24 +669,6 @@
         "a0b7f151329dfee032eb937ca5382778bef41068734d27f6e01eac65c79ef5a3";
       "size" = 112314;
     };
-    "decocraft2" = {
-      "title" = "DecoCraft2";
-      "name" = "decocraft2";
-      "id" = 79616;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "Decocraft-2.4.2_1.7.10.jar";
-      "maturity" = "release";
-      "encoded" = "Decocraft-2.4.2_1.7.10.jar";
-      "page" =
-        "https://minecraft.curseforge.com/projects/decocraft2/files/2414535";
-      "src" =
-        "https://minecraft.curseforge.com/projects/decocraft2/files/2414535/download";
-      "type" = "remote";
-      "md5" = "9db261cb326ccdb827ebc36e37706d51";
-    };
     "dense-ores" = {
       "title" = "Dense Ores";
       "name" = "dense-ores";
@@ -721,19 +687,6 @@
       "sha256" =
         "e1ed114a61c4581b050f8db9932aa14bac4ac322994be51015ebc8e4cad66287";
       "size" = 60626;
-    };
-    "dimensional-doors" = {
-      "title" = "dimensional-doors";
-      "name" = "dimensional-doors";
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "DimensionalDoors-2.2.5-test9.jar";
-      "encoded" = "DimensionalDoors-2.2.5-test9.jar";
-      "src" = ../bundled/DimensionalDoors-2.2.5-test9.jar;
-      "type" = "local";
-      "md5" = "8f58df5fdbf60da896f0d4da196e312f";
     };
     "ding" = {
       "title" = "Ding";
@@ -2399,24 +2352,6 @@
         "c60aa318787341b4bcebc8c4f97c340bed0285955f1183fc1749fd70235f771b";
       "size" = 2818840;
     };
-    "realistic-terrain-generation" = {
-      "title" = "Realistic Terrain Generation";
-      "name" = "realistic-terrain-generation";
-      "id" = 237989;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "RTG-1.7.10-1.1.1.6.jar";
-      "maturity" = "release";
-      "encoded" = "RTG-1.7.10-1.1.1.6.jar";
-      "page" =
-        "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2445079";
-      "src" =
-        "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2445079/download";
-      "type" = "remote";
-      "md5" = "95b0eab66acea41e1c9b6e6c8151cead";
-    };
     "reauth" = {
       "title" = "ReAuth";
       "name" = "reauth";
@@ -2889,15 +2824,22 @@
     "thaumic-energistics" = {
       "title" = "Thaumic Energistics";
       "name" = "thaumic-energistics";
+      "id" = 223666;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [ ];
-      "filename" = "thaumicenergistics-1.0.0.5-RV2.jar";
-      "encoded" = "thaumicenergistics-1.0.0.5-RV2.jar";
-      "src" = ../bundled/thaumicenergistics-1.0.0.5-RV2.jar;
-      "type" = "local";
-      "md5" = "fcfee9e84088cacec7f257beacdd0c39";
+      "deps" = [ "applied-energistics-2" "thaumcraft" ];
+      "filename" = "thaumicenergistics-1.0.0.5.jar";
+      "encoded" = "thaumicenergistics-1.0.0.5.jar";
+      "page" =
+        "http://www.curseforge.com/minecraft/mc-mods/thaumic-energistics";
+      "src" =
+        "https://edge.forgecdn.net/files/2295/264/thaumicenergistics-1.0.0.5.jar";
+      "type" = "remote";
+      "md5" = "f65cfaa416572b0e7ad410aba38823b4";
+      "sha256" =
+        "27cf01972d3bb37cd4ca56683b924821d142f5dc27d3d1bb46fea5fa31a1c774";
+      "size" = 1660985;
     };
     "thaumic-exploration" = {
       "title" = "Thaumic Exploration";
@@ -3381,25 +3323,6 @@
       "sha256" =
         "9e98c36568af92dbb388dfec2b36b3f0d76cb1dc284a6bbe06e98b89204b96f4";
       "size" = 556982;
-    };
-    "forgemultipart" = {
-      "title" = "Forge Multi Part";
-      "name" = "forge-multi-part";
-      "id" = 229323;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "ForgeMultipart-1.7.10-1.2.0.345-universal.jar";
-      "encoded" = "ForgeMultipart-1.7.10-1.2.0.345-universal.jar";
-      "page" = "http://www.curseforge.com/minecraft/mc-mods/forge-multi-part";
-      "src" =
-        "https://edge.forgecdn.net/files/2242/993/ForgeMultipart-1.7.10-1.2.0.345-universal.jar";
-      "type" = "remote";
-      "md5" = "3bc13e5ff47b84960f24343e209345c8";
-      "sha256" =
-        "6ff759efc10f9ea0deabb4aed7c1f61408d9bb9bce278949544c0a613f7ae4c8";
-      "size" = 943474;
     };
   };
 }

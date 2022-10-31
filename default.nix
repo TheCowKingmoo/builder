@@ -54,7 +54,7 @@ rec {
       ./base/client
     ];
     manifests = [
-      ./manifest/tppi2e31.nix
+      ./manifest/e31.nix
     ];
     blacklist = [
     ];
