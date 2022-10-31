@@ -467,47 +467,47 @@
         "c6aad8099d00b5fbd0e646b2f1e5ae29a93d4033889f37a0bd11fcd6021b45a1";
       "size" = 5386;
     };
-    "chunk-animator" = {
-      "title" = "Chunk Animator";
-      "name" = "chunk-animator";
-      "id" = 236484;
-      "side" = "client";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "ChunkAnimator-MC1.7.10-1.0.1.jar";
-      "maturity" = "beta";
-      "encoded" = "ChunkAnimator-MC1.7.10-1.0.1.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/chunk-animator";
-      "src" =
-        "https://media.forgecdn.net/files/2260/30/ChunkAnimator-MC1.7.10-1.0.1.jar";
-      "type" = "remote";
-      "md5" = "504d4a81f0d793ebcc21e23a86831b7f";
-      "sha256" =
-        "83f4086ad87f94e948fec38f6526c944ab2cc6db52720ee2e7b1c3cbc816bf4a";
-      "size" = 16286;
-    };
-    "climate-control-geographicraft" = {
-      "title" = "Climate Control/Geographicraft";
-      "name" = "climate-control-geographicraft";
-      "id" = 76544;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "ClimateControl-0.8.2.jar";
-      "maturity" = "release";
-      "encoded" = "ClimateControl-0.8.2.jar";
-      "page" =
-        "https://www.curseforge.com/minecraft/mc-mods/climate-control-geographicraft";
-      "src" =
-        "https://media.forgecdn.net/files/2359/685/ClimateControl-0.8.2.jar";
-      "type" = "remote";
-      "md5" = "d0886b4d772556aa55903205a484b79b";
-      "sha256" =
-        "fabf27155900716ec8bea8d836f6bab7a49eb40b29de8673095425e223650b3b";
-      "size" = 389974;
-    };
+    #"chunk-animator" = {
+    #  "title" = "Chunk Animator";
+    #  "name" = "chunk-animator";
+    #  "id" = 236484;
+    #  "side" = "client";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "filename" = "ChunkAnimator-MC1.7.10-1.0.1.jar";
+    #  "maturity" = "beta";
+    #  "encoded" = "ChunkAnimator-MC1.7.10-1.0.1.jar";
+    #  "page" = "https://www.curseforge.com/minecraft/mc-mods/chunk-animator";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2260/30/ChunkAnimator-MC1.7.10-1.0.1.jar";
+    #  "type" = "remote";
+    #  "md5" = "504d4a81f0d793ebcc21e23a86831b7f";
+    #  "sha256" =
+    #    "83f4086ad87f94e948fec38f6526c944ab2cc6db52720ee2e7b1c3cbc816bf4a";
+    #  "size" = 16286;
+    #};
+    #"climate-control-geographicraft" = {
+    #  "title" = "Climate Control/Geographicraft";
+    #  "name" = "climate-control-geographicraft";
+    #  "id" = 76544;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "filename" = "ClimateControl-0.8.2.jar";
+    #  "maturity" = "release";
+    #  "encoded" = "ClimateControl-0.8.2.jar";
+    #  "page" =
+    #    "https://www.curseforge.com/minecraft/mc-mods/climate-control-geographicraft";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2359/685/ClimateControl-0.8.2.jar";
+    #  "type" = "remote";
+    #  "md5" = "d0886b4d772556aa55903205a484b79b";
+    #  "sha256" =
+    #    "fabf27155900716ec8bea8d836f6bab7a49eb40b29de8673095425e223650b3b";
+    #  "size" = 389974;
+    #};
     "codechicken-lib-1-8" = {
       "title" = "CodeChicken Lib 1.8.+";
       "name" = "codechicken-lib-1-8";
@@ -708,24 +708,21 @@
       "size" = 4764;
     };
     "dragonapi" = {
-      "title" = "DragonAPI";
-      "name" = "dragonapi";
-      "id" = 235591;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "DragonAPI 1.7.10 V18b.jar";
-      "maturity" = "release";
-      "encoded" = "DragonAPI 1.7.10 V18b.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/dragonapi";
-      "src" =
-        "https://media.forgecdn.net/files/2463/385/DragonAPI%201.7.10%20V18b.jar";
-      "type" = "remote";
-      "md5" = "f519de9d93d2217711bebc207e6453c6";
-      "sha256" =
-        "dc94d3fbaca7a78ad948e3120f54b654808801160aaa73fccdc4aa07519f5ec4";
-      "size" = 3125950;
+        "title" = "DragonAPI";
+        "name" = "dragonapi";
+        "id" = 235591;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "DragonAPI 1.7.10 V31b.jar";
+        "encoded" = "DragonAPI 1.7.10 V31b.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/dragonapi";
+        "src" = "https://media.forgecdn.net/files/3574/508/DragonAPI%201.7.10%20V31b.jar";
+        "type" = "remote";
+        "md5" = "13777d4a8594a9d097db548938a01a6d";
+        "sha256" = "170e57b7bccb24fbf143cf795873ac646042c2ce79a875fa6205d011c308f132";
+        "size" = 4289486;
     };
     "dynamic-surroundings" = {
       "title" = "Dynamic Surroundings";
@@ -809,24 +806,21 @@
       "size" = 7473397;
     };
     "electricraft" = {
-      "title" = "ElectriCraft";
-      "name" = "electricraft";
-      "id" = 235594;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "ElectriCraft 1.7.10 V18b.jar";
-      "maturity" = "release";
-      "encoded" = "ElectriCraft 1.7.10 V18b.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/electricraft";
-      "src" =
-        "https://media.forgecdn.net/files/2464/17/ElectriCraft%201.7.10%20V18b.jar";
-      "type" = "remote";
-      "md5" = "ce75a1a54875e30064cb54a4e7fd1337";
-      "sha256" =
-        "6242b8917cdc310e6d850c2e911a98525261efa6710012cde2f0276e16d69c63";
-      "size" = 455476;
+        "title" = "ElectriCraft";
+        "name" = "electricraft";
+        "id" = 235594;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "ElectriCraft 1.7.10 V31a.jar";
+        "encoded" = "ElectriCraft 1.7.10 V31a.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/electricraft";
+        "src" = "https://media.forgecdn.net/files/3570/168/ElectriCraft%201.7.10%20V31a.jar";
+        "type" = "remote";
+        "md5" = "f2c59ec2316cd0357a3e51b124f8e596";
+        "sha256" = "6d3e81b80084dcc7e8f710937bd2e11c523721b7cc749c40f22b3b15e6acc18d";
+        "size" = 472695;
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -2489,24 +2483,21 @@
       "size" = 692778;
     };
     "rotarycraft" = {
-      "title" = "RotaryCraft";
-      "name" = "rotarycraft";
-      "id" = 235596;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "RotaryCraft 1.7.10 V18b.jar";
-      "maturity" = "release";
-      "encoded" = "RotaryCraft 1.7.10 V18b.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/rotarycraft";
-      "src" =
-        "https://media.forgecdn.net/files/2463/592/RotaryCraft%201.7.10%20V18b.jar";
-      "type" = "remote";
-      "md5" = "436628172cb75f53b0fb1cc649624d6e";
-      "sha256" =
-        "441a49a20dbd3bdd07d5a3607f70db2d90d36b88fbdc0eed5d45e82ad29ddf47";
-      "size" = 7834651;
+        "title" = "RotaryCraft";
+        "name" = "rotarycraft";
+        "id" = 235596;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "RotaryCraft 1.7.10 V31b.jar";
+        "encoded" = "RotaryCraft 1.7.10 V31b.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/rotarycraft";
+        "src" = "https://media.forgecdn.net/files/3574/506/RotaryCraft%201.7.10%20V31b.jar";
+        "type" = "remote";
+        "md5" = "8a752243cc975e73af6d86b4fffdb1eb";
+        "sha256" = "6754ad22d6a8e8a3d0af3a9667d4b0703abfc6c1d4f83dfbe49a6afcd1bdd8db";
+        "size" = 8629477;
     };
     "sanguimancy" = {
       "title" = "Sanguimancy";
@@ -3166,44 +3157,38 @@
       "size" = 161165;
     };
     "usefultnt" = {
-      "title" = "UsefulTNT";
-      "name" = "usefultnt";
-      "id" = 235612;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "UsefulTNT 1.7.10 V18a.jar";
-      "maturity" = "release";
-      "encoded" = "UsefulTNT 1.7.10 V18a.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/usefultnt";
-      "src" =
-        "https://media.forgecdn.net/files/2461/740/UsefulTNT%201.7.10%20V18a.jar";
-      "type" = "remote";
-      "md5" = "b9247700347db060b9a50c60c652e661";
-      "sha256" =
-        "0abbbaddde7938f09960b364ef62c2b101d9ffe6d28ae1db8b0c69503bfe7834";
-      "size" = 10173;
+        "title" = "UsefulTNT";
+        "name" = "usefultnt";
+        "id" = 235612;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "UsefulTNT 1.7.10 V31a.jar";
+        "encoded" = "UsefulTNT 1.7.10 V31a.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/usefultnt";
+        "src" = "https://media.forgecdn.net/files/3570/172/UsefulTNT%201.7.10%20V31a.jar";
+        "type" = "remote";
+        "md5" = "8a6cf4db7bcfe258e485721ba56108df";
+        "sha256" = "0c5dbb8c01e5f952499c7e18bbfe2a568250a78bb06d4943790116d36d00a64e";
+        "size" = 10743;
     };
     "void-monster" = {
-      "title" = "Void Monster";
-      "name" = "void-monster";
-      "id" = 235609;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "VoidMonster 1.7.10 V18a.jar";
-      "maturity" = "release";
-      "encoded" = "VoidMonster 1.7.10 V18a.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/void-monster";
-      "src" =
-        "https://media.forgecdn.net/files/2461/738/VoidMonster%201.7.10%20V18a.jar";
-      "type" = "remote";
-      "md5" = "34164c6638d20659408241ea45aec2d1";
-      "sha256" =
-        "550161c2422c14463b2a1d7ba769ace8c37fcdbb62fde76e42eef5e5887e4db4";
-      "size" = 2573189;
+        "title" = "Void Monster";
+        "name" = "void-monster";
+        "id" = 235609;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "VoidMonster 1.7.10 V31a.jar";
+        "encoded" = "VoidMonster 1.7.10 V31a.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/void-monster";
+        "src" = "https://media.forgecdn.net/files/3570/167/VoidMonster%201.7.10%20V31a.jar";
+        "type" = "remote";
+        "md5" = "bca1c2386d71b5da8f01bc32383c7a97";
+        "sha256" = "62fb6925acf1c18e3c4ba7297d2a0af94a28f8a341c91ec7e8e40b07914ca26e";
+        "size" = 2625956;
     };
     "waila" = {
       "title" = "Waila";
