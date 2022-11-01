@@ -129,27 +129,27 @@
         "9d22a1b958cdf8f09fb8eeb0654c085abb7deea4c1a2405177bd50bb9a3e4820";
       "size" = 27281;
     };
-    "atomicstrykers-infernal-mobs" = {
-      "title" = "AtomicStryker's Infernal Mobs";
-      "name" = "atomicstrykers-infernal-mobs";
-      "id" = 227875;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "InfernalMobs-1.7.10.jar";
-      "maturity" = "release";
-      "encoded" = "InfernalMobs-1.7.10.jar";
-      "page" =
-        "https://www.curseforge.com/minecraft/mc-mods/atomicstrykers-infernal-mobs";
-      "src" =
-        "https://media.forgecdn.net/files/2227/584/InfernalMobs-1.7.10.jar";
-      "type" = "remote";
-      "md5" = "b8354e3a363a262dfdc0fc59c9f3fbf7";
-      "sha256" =
-        "990e8dc5cb679dfd4d77e850941db3b0b62a783bf0c07b397c59452bb1814255";
-      "size" = 163963;
-    };
+    #"atomicstrykers-infernal-mobs" = {
+    #  "title" = "AtomicStryker's Infernal Mobs";
+    #  "name" = "atomicstrykers-infernal-mobs";
+    #  "id" = 227875;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "filename" = "InfernalMobs-1.7.10.jar";
+    #  "maturity" = "release";
+    #  "encoded" = "InfernalMobs-1.7.10.jar";
+    #  "page" =
+    #    "https://www.curseforge.com/minecraft/mc-mods/atomicstrykers-infernal-mobs";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2227/584/InfernalMobs-1.7.10.jar";
+    #  "type" = "remote";
+    #  "md5" = "b8354e3a363a262dfdc0fc59c9f3fbf7";
+    #  "sha256" =
+    #    "990e8dc5cb679dfd4d77e850941db3b0b62a783bf0c07b397c59452bb1814255";
+    #  "size" = 163963;
+    #};
     "automagy" = {
       "title" = "Automagy";
       "name" = "automagy";
@@ -1662,47 +1662,47 @@
         "eda03c0c76118094ae54dfcec024e34b53e523acb5c6889f091a4509471afc04";
       "size" = 202458;
     };
-    "mekanism" = {
-      "title" = "Mekanism";
-      "name" = "mekanism";
-      "id" = 268560;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "Mekanism-1.7.10-9.1.0.281.jar";
-      "maturity" = "release";
-      "encoded" = "Mekanism-1.7.10-9.1.0.281.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/mekanism";
-      "src" =
-        "https://media.forgecdn.net/files/2426/270/Mekanism-1.7.10-9.1.0.281.jar";
-      "type" = "remote";
-      "md5" = "e23ff9e4e135d787502059b660dcbdd7";
-      "sha256" =
-        "ba131a1fe64e385774df589661c0d165d77a9b4e1ad1bcccff8b0e725cc51ddb";
-      "size" = 15780244;
-    };
-    "mekanism-generators" = {
-      "title" = "Mekanism Generators";
-      "name" = "mekanism-generators";
-      "id" = 268566;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ "mekanism" ];
-      "filename" = "MekanismGenerators-1.7.10-9.1.0.281.jar";
-      "maturity" = "release";
-      "encoded" = "MekanismGenerators-1.7.10-9.1.0.281.jar";
-      "page" =
-        "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators";
-      "src" =
-        "https://media.forgecdn.net/files/2426/269/MekanismGenerators-1.7.10-9.1.0.281.jar";
-      "type" = "remote";
-      "md5" = "534898e919199b399624c56f6f826d1d";
-      "sha256" =
-        "63d003fac7b4ff3ed777add18e00dd9e77eca596988d1aca9a0adc31a017e4ec";
-      "size" = 253341;
-    };
+    #"mekanism" = {
+    #  "title" = "Mekanism";
+    #  "name" = "mekanism";
+    #  "id" = 268560;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "filename" = "Mekanism-1.7.10-9.1.0.281.jar";
+    #  "maturity" = "release";
+    #  "encoded" = "Mekanism-1.7.10-9.1.0.281.jar";
+    #  "page" = "https://www.curseforge.com/minecraft/mc-mods/mekanism";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2426/270/Mekanism-1.7.10-9.1.0.281.jar";
+    #  "type" = "remote";
+    #  "md5" = "e23ff9e4e135d787502059b660dcbdd7";
+    #  "sha256" =
+    #    "ba131a1fe64e385774df589661c0d165d77a9b4e1ad1bcccff8b0e725cc51ddb";
+    #  "size" = 15780244;
+    #};
+    #"mekanism-generators" = {
+    #  "title" = "Mekanism Generators";
+    #  "name" = "mekanism-generators";
+    #  "id" = 268566;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ "mekanism" ];
+    #  "filename" = "MekanismGenerators-1.7.10-9.1.0.281.jar";
+    #  "maturity" = "release";
+    #  "encoded" = "MekanismGenerators-1.7.10-9.1.0.281.jar";
+    #  "page" =
+    #    "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2426/269/MekanismGenerators-1.7.10-9.1.0.281.jar";
+    #  "type" = "remote";
+    #  "md5" = "534898e919199b399624c56f6f826d1d";
+    #  "sha256" =
+    #    "63d003fac7b4ff3ed777add18e00dd9e77eca596988d1aca9a0adc31a017e4ec";
+    #  "size" = 253341;
+    #};
     "minefactory-reloaded" = {
       "title" = "Minefactory Reloaded";
       "name" = "minefactory-reloaded";
@@ -1872,26 +1872,26 @@
       "deps" = [ "crafttweaker" ];
       "type" = "missing";
     };
-    "mystcraft" = {
-      "title" = "Mystcraft";
-      "name" = "mystcraft";
-      "id" = 224599;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "mystcraft-1.7.10-0.12.3.04.jar";
-      "maturity" = "release";
-      "encoded" = "mystcraft-1.7.10-0.12.3.04.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/mystcraft";
-      "src" =
-        "https://media.forgecdn.net/files/2417/42/mystcraft-1.7.10-0.12.3.04.jar";
-      "type" = "remote";
-      "md5" = "17fb799ca48e2d889cdb13b1c239d9ac";
-      "sha256" =
-        "2e04cf46c5b86ffc2ff991d606d6dc9cf5067715ded021705306de0cbebf3265";
-      "size" = 2209961;
-    };
+    #"mystcraft" = {
+    #  "title" = "Mystcraft";
+    #  "name" = "mystcraft";
+    #  "id" = 224599;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "filename" = "mystcraft-1.7.10-0.12.3.04.jar";
+    #  "maturity" = "release";
+    #  "encoded" = "mystcraft-1.7.10-0.12.3.04.jar";
+    #  "page" = "https://www.curseforge.com/minecraft/mc-mods/mystcraft";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2417/42/mystcraft-1.7.10-0.12.3.04.jar";
+    #  "type" = "remote";
+    #  "md5" = "17fb799ca48e2d889cdb13b1c239d9ac";
+    #  "sha256" =
+    #    "2e04cf46c5b86ffc2ff991d606d6dc9cf5067715ded021705306de0cbebf3265";
+    #  "size" = 2209961;
+    #};
     "natura" = {
       "title" = "Natura";
       "name" = "natura";
@@ -2892,27 +2892,27 @@
         "4ea792fb4a9aab99937e38589565ec452dffcf1267ea55bc56d3af46d6f61ed0";
       "size" = 11788774;
     };
-    "the-twilight-forest" = {
-      "title" = "The Twilight Forest";
-      "name" = "the-twilight-forest";
-      "id" = 227639;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "twilightforest-1.7.10-2.3.7.jar";
-      "maturity" = "release";
-      "encoded" = "twilightforest-1.7.10-2.3.7.jar";
-      "page" =
-        "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest";
-      "src" =
-        "https://media.forgecdn.net/files/2238/492/twilightforest-1.7.10-2.3.7.jar";
-      "type" = "remote";
-      "md5" = "7602ffcdcd8ee2f012caeed1e4d22655";
-      "sha256" =
-        "a985c0712e195bef958d94fb74e3f5132398caa46a1b727faeda9baad6ab8784";
-      "size" = 3682125;
-    };
+    #"the-twilight-forest" = {
+    #  "title" = "The Twilight Forest";
+    #  "name" = "the-twilight-forest";
+    #  "id" = 227639;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "filename" = "twilightforest-1.7.10-2.3.7.jar";
+    #  "maturity" = "release";
+    #  "encoded" = "twilightforest-1.7.10-2.3.7.jar";
+    #  "page" =
+    #    "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2238/492/twilightforest-1.7.10-2.3.7.jar";
+    #  "type" = "remote";
+    #  "md5" = "7602ffcdcd8ee2f012caeed1e4d22655";
+    #  "sha256" =
+    #    "a985c0712e195bef958d94fb74e3f5132398caa46a1b727faeda9baad6ab8784";
+    #  "size" = 3682125;
+    #};
     "thermal-dynamics" = {
       "title" = "Thermal Dynamics";
       "name" = "thermal-dynamics";
@@ -3308,6 +3308,91 @@
       "sha256" =
         "9e98c36568af92dbb388dfec2b36b3f0d76cb1dc284a6bbe06e98b89204b96f4";
       "size" = 556982;
+    };
+    "gendustry" = {
+        "title" = "Gendustry";
+        "name" = "gendustry";
+        "id" = 70492;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "gendustry-1.6.4.135-mc1.7.10.jar";
+        "encoded" = "gendustry-1.6.4.135-mc1.7.10.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/gendustry";
+        "src" = "https://media.forgecdn.net/files/2293/751/gendustry-1.6.4.135-mc1.7.10.jar";
+        "type" = "remote";
+        "md5" = "2a3d8a317ade033610413424a7311982";
+        "sha256" = "fecf3da51213d75ba7089c400744840d2fba0ac1c0ac51c04fec7aa31e32e764";
+        "size" = 1976556;
+    };
+    "bdlib" = {
+        "title" = "BdLib";
+        "name" = "bdlib";
+        "id" = 70496;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "bdlib-1.9.4.109-mc1.7.10.jar";
+        "encoded" = "bdlib-1.9.4.109-mc1.7.10.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/bdlib";
+        "src" = "https://media.forgecdn.net/files/2269/259/bdlib-1.9.4.109-mc1.7.10.jar";
+        "type" = "remote";
+        "md5" = "e446121e3e94b77d1c610ceed0fd3f68";
+        "sha256" = "cdd5d71b919c9c433c5b770f0ff2e721903c0bd4bbba773d7d2d64035bb30fab";
+        "size" = 1503184;
+    };
+    "thaumcraft-inventory-scanning" = {
+        "title" = "Thaumic Inventory Scanning (Thaumcraft Addon)";
+        "name" = "thaumcraft-inventory-scanning";
+        "id" = 238003;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "tcinventoryscan-mc1.7.10-1.0.11.jar";
+        "encoded" = "tcinventoryscan-mc1.7.10-1.0.11.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning";
+        "src" = "https://media.forgecdn.net/files/2286/894/tcinventoryscan-mc1.7.10-1.0.11.jar";
+        "type" = "remote";
+        "md5" = "0d5158557116916a4a14f749c745ef54";
+        "sha256" = "8f7ddf60d19903c99b6e72f7ae52fad7484999e72affc6ff0559b0502ec7dfad";
+        "size" = 17202;
+    };
+    "wireless-crafting-terminal" = {
+        "title" = "Wireless Crafting Terminal";
+        "name" = "wireless-crafting-terminal";
+        "id" = 244559;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
+        "encoded" = "WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/wireless-crafting-terminal";
+        "src" = "https://media.forgecdn.net/files/2460/354/WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
+        "type" = "remote";
+        "md5" = "1575c913ebfb056db1b739e81ea3e7e6";
+        "sha256" = "78d6e562802a93d5531121e924bbb13836c8367a9607021c806d507144a972a4";
+        "size" = 398765;
+    };
+    "p455w0rds-library" = {
+        "title" = "p455w0rd's Library";
+        "name" = "p455w0rds-library";
+        "id" = 255232;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "p455w0rdslib-1.7.10-1.0.4.jar";
+        "encoded" = "p455w0rdslib-1.7.10-1.0.4.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library";
+        "src" = "https://media.forgecdn.net/files/2359/471/p455w0rdslib-1.7.10-1.0.4.jar";
+        "type" = "remote";
+        "md5" = "86a7be78717ddf189271e147441d40fa";
+        "sha256" = "c3b4a59984b117c6e212b6284219021cc19d6321e626028a0c92f24c18a13982";
+        "size" = 23853;
     };
   };
 }
