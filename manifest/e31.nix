@@ -508,6 +508,23 @@
     #    "fabf27155900716ec8bea8d836f6bab7a49eb40b29de8673095425e223650b3b";
     #  "size" = 389974;
     #};
+    "chromaticraft" = {
+        "title" = "ChromatiCraft";
+        "name" = "chromaticraft";
+        "id" = 235590;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "ChromatiCraft 1.7.10 V31b.jar";
+        "encoded" = "ChromatiCraft 1.7.10 V31b.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/chromaticraft";
+        "src" = "https://media.forgecdn.net/files/3574/503/ChromatiCraft%201.7.10%20V31b.jar";
+        "type" = "remote";
+        "md5" = "deb23f4cd71f00b698264295333b0ad8";
+        "sha256" = "1657f67e9a205502071d9bf62ff7f9b47a7e93792fb559f2027079dffb79578d";
+        "size" = 129641046;
+    };
     "codechicken-lib-1-8" = {
       "title" = "CodeChicken Lib 1.8.+";
       "name" = "codechicken-lib-1-8";
