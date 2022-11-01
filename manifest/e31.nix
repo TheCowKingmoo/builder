@@ -724,6 +724,23 @@
         "1790a2267ee028fe2a2e802f2636bd26efb4f847051a8149a686a28b8381edda";
       "size" = 4764;
     };
+    "discordintegration" = {
+        "title" = "DiscordIntegration";
+        "name" = "discordintegration";
+        "id" = 245288;
+        "side" = "server";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "DiscordIntegration-mc1.7.10-3.0.5.jar";
+        "encoded" = "DiscordIntegration-mc1.7.10-3.0.5.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/discordintegration";
+        "src" = "https://media.forgecdn.net/files/2542/338/DiscordIntegration-mc1.7.10-3.0.5.jar";
+        "type" = "remote";
+        "md5" = "d266e454c6d71936786cfb2e2525c14c";
+        "sha256" = "8127a6a9cb15f6498ea71f794624ff1d1611c5801ed96fe1812d295f63b71464";
+        "size" = 8790827;
+    };
     "dragonapi" = {
         "title" = "DragonAPI";
         "name" = "dragonapi";
@@ -782,26 +799,26 @@
         "c30d7e03057c4787613d08d3295227fbf83dd38f86637a2cf5c8c92ec3d0e858";
       "size" = 4324892;
     };
-    "eirairc" = {
-      "title" = "EiraIRC (Discontinued)";
-      "name" = "eirairc";
-      "id" = 68420;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "eirairc-mc1.7.10-2.9.402.jar";
-      "maturity" = "release";
-      "encoded" = "eirairc-mc1.7.10-2.9.402.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/eirairc";
-      "src" =
-        "https://media.forgecdn.net/files/2281/173/eirairc-mc1.7.10-2.9.402.jar";
-      "type" = "remote";
-      "md5" = "03fdd71777fd346d4b8bae1ce8b68963";
-      "sha256" =
-        "e60f53fb0542900dc92df278840867d659ff5a2060cda62cc64f247c22ae4b58";
-      "size" = 531061;
-    };
+    #"eirairc" = {
+    #  "title" = "EiraIRC (Discontinued)";
+    #  "name" = "eirairc";
+    #  "id" = 68420;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "filename" = "eirairc-mc1.7.10-2.9.402.jar";
+    #  "maturity" = "release";
+    #  "encoded" = "eirairc-mc1.7.10-2.9.402.jar";
+    #  "page" = "https://www.curseforge.com/minecraft/mc-mods/eirairc";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2281/173/eirairc-mc1.7.10-2.9.402.jar";
+    #  "type" = "remote";
+    #  "md5" = "03fdd71777fd346d4b8bae1ce8b68963";
+    #  "sha256" =
+    #    "e60f53fb0542900dc92df278840867d659ff5a2060cda62cc64f247c22ae4b58";
+    #  "size" = 531061;
+    #};
     "electrical-age" = {
       "title" = "Electrical Age";
       "name" = "electrical-age";
@@ -2890,25 +2907,25 @@
         "7aeb6d77a24c96a05324ba22c34b5a682d468daf8adf3c8540136b417f4727f1";
       "size" = 2141043;
     };
-    "the-erebus" = {
-      "title" = "The Erebus";
-      "name" = "the-erebus";
-      "id" = 220698;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "TheErebus-0.4.7.jar";
-      "maturity" = "beta";
-      "encoded" = "TheErebus-0.4.7.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/the-erebus";
-      "src" = "https://media.forgecdn.net/files/2305/35/TheErebus-0.4.7.jar";
-      "type" = "remote";
-      "md5" = "9109c09d3489191c16cee6999c065bc8";
-      "sha256" =
-        "4ea792fb4a9aab99937e38589565ec452dffcf1267ea55bc56d3af46d6f61ed0";
-      "size" = 11788774;
-    };
+    #"the-erebus" = {
+    #  "title" = "The Erebus";
+    #  "name" = "the-erebus";
+    #  "id" = 220698;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "filename" = "TheErebus-0.4.7.jar";
+    #  "maturity" = "beta";
+    #  "encoded" = "TheErebus-0.4.7.jar";
+    #  "page" = "https://www.curseforge.com/minecraft/mc-mods/the-erebus";
+    #  "src" = "https://media.forgecdn.net/files/2305/35/TheErebus-0.4.7.jar";
+    #  "type" = "remote";
+    #  "md5" = "9109c09d3489191c16cee6999c065bc8";
+    #  "sha256" =
+    #    "4ea792fb4a9aab99937e38589565ec452dffcf1267ea55bc56d3af46d6f61ed0";
+    #  "size" = 11788774;
+    #};
     #"the-twilight-forest" = {
     #  "title" = "The Twilight Forest";
     #  "name" = "the-twilight-forest";
