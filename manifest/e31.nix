@@ -820,24 +820,21 @@
     #  "size" = 531061;
     #};
     "electrical-age" = {
-      "title" = "Electrical Age";
-      "name" = "electrical-age";
-      "id" = 253045;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "ElectricalAge-1.14.2.jar";
-      "maturity" = "release";
-      "encoded" = "ElectricalAge-1.14.2.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/electrical-age";
-      "src" =
-        "https://media.forgecdn.net/files/2385/734/ElectricalAge-1.14.2.jar";
-      "type" = "remote";
-      "md5" = "f82dfa796f53d8e372a8a48553f0e99e";
-      "sha256" =
-        "032a31b5dadf0f360d1ecd6973babf84239663c2e76e2bbed25d1a03f6822e28";
-      "size" = 7473397;
+        "title" = "Electrical Age";
+        "name" = "electrical-age";
+        "id" = 253045;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "ElectricalAge-1.17.0.jar";
+        "encoded" = "ElectricalAge-1.17.0.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/electrical-age";
+        "src" = "https://media.forgecdn.net/files/2937/618/ElectricalAge-1.17.0.jar";
+        "type" = "remote";
+        "md5" = "f91481fd4b6c04f354e6cbff22a1dbfb";
+        "sha256" = "a8370eff1b43e1efe3eb9eca158992591d301a6f857a4ab348686bbdd41452ad";
+        "size" = 8699443;
     };
     "electricraft" = {
         "title" = "ElectriCraft";
