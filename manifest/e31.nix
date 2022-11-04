@@ -827,14 +827,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "ElectricalAge-1.17.0.jar";
-        "encoded" = "ElectricalAge-1.17.0.jar";
+        "filename" = "ElectricalAge-jrddunbr-1.18.3.jar";
+        "encoded" = "ElectricalAge-jrddunbr-1.18.3.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/electrical-age";
-        "src" = "https://media.forgecdn.net/files/2937/618/ElectricalAge-1.17.0.jar";
+        "src" = "https://github.com/age-series/ElectricalAge/releases/download/1.18.3-stable2/ElectricalAge-jrddunbr-1.18.3.jar";
         "type" = "remote";
-        "md5" = "f91481fd4b6c04f354e6cbff22a1dbfb";
-        "sha256" = "a8370eff1b43e1efe3eb9eca158992591d301a6f857a4ab348686bbdd41452ad";
-        "size" = 8699443;
+        "md5" = "88d4bae690716134566516ccfae11608";
+        "sha256" = "1s64ldsggd6448sfk6m0g2wjiqyrvvgazqkw3609xqk4l5244d5b";
+        "size" = 11202343;
     };
     "electricraft" = {
         "title" = "ElectriCraft";
