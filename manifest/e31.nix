@@ -1253,25 +1253,25 @@
         "d66784c42bd94867fbc990e212d5c334ae2439d6b7e9a856196b348b6591cee2";
       "size" = 283132;
     };
-    "helpfixer" = {
-      "title" = "HelpFixer";
-      "name" = "helpfixer";
-      "id" = 223797;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "HelpFixer-1.0.7.jar";
-      "maturity" = "release";
-      "encoded" = "HelpFixer-1.0.7.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/helpfixer";
-      "src" = "https://media.forgecdn.net/files/2223/813/HelpFixer-1.0.7.jar";
-      "type" = "remote";
-      "md5" = "0d6ce4776f981f97a13ab02029b5fb4d";
-      "sha256" =
-        "8d9dac6b95915285b2a1a7e433d1a28a1933266e89d99248eb363d30c49e4c0b";
-      "size" = 6552;
-    };
+    #"helpfixer" = {
+    #  "title" = "HelpFixer";
+    #  "name" = "helpfixer";
+    #  "id" = 223797;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "filename" = "HelpFixer-1.0.7.jar";
+    #  "maturity" = "release";
+    #  "encoded" = "HelpFixer-1.0.7.jar";
+    #  "page" = "https://www.curseforge.com/minecraft/mc-mods/helpfixer";
+    #  "src" = "https://media.forgecdn.net/files/2223/813/HelpFixer-1.0.7.jar";
+    #  "type" = "remote";
+    #  "md5" = "0d6ce4776f981f97a13ab02029b5fb4d";
+    #  "sha256" =
+    #    "8d9dac6b95915285b2a1a7e433d1a28a1933266e89d99248eb363d30c49e4c0b";
+    #  "size" = 6552;
+    #};
     "hwyla" = {
       "title" = "Hwyla";
       "name" = "hwyla";
@@ -3373,6 +3373,57 @@
         "md5" = "e446121e3e94b77d1c610ceed0fd3f68";
         "sha256" = "cdd5d71b919c9c433c5b770f0ff2e721903c0bd4bbba773d7d2d64035bb30fab";
         "size" = 1503184;
+    };
+    "advanced-generators" = {
+        "title" = "Advanced Generators";
+        "name" = "advanced-generators";
+        "id" = 223622;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "generators-0.9.20.123-mc1.7.10.jar";
+        "encoded" = "generators-0.9.20.123-mc1.7.10.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/advanced-generators";
+        "src" = "https://media.forgecdn.net/files/2298/965/generators-0.9.20.123-mc1.7.10.jar";
+        "type" = "remote";
+        "md5" = "bbaf7845843bf8d90082839bb417303b";
+        "sha256" = "6dc1316600b112143d19a4e3f59ec42f93826c46a3d3a73b984ac5bb2fa7f5ad";
+        "size" = 1453732;
+    };
+    "ae2-stuff" = {
+        "title" = "AE2 Stuff";
+        "name" = "ae2-stuff";
+        "id" = 225194;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "ae2stuff-0.5.1.61-mc1.7.10.jar";
+        "encoded" = "ae2stuff-0.5.1.61-mc1.7.10.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/ae2-stuff";
+        "src" = "https://media.forgecdn.net/files/2272/496/ae2stuff-0.5.1.61-mc1.7.10.jar";
+        "type" = "remote";
+        "md5" = "8b2c397b7b481135aa1f8b039f696b6a";
+        "sha256" = "89cf0cd16e8e0b8be0f8b511e2075873eef77d42b20a490ab56429721993b3e0";
+        "size" = 510109;
+    };
+    "pressure-pipes" = {
+        "title" = "Pressure Pipes";
+        "name" = "pressure-pipes";
+        "id" = 221214;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "pressure-1.3.0.fix1-mc1.7.10.jar";
+        "encoded" = "pressure-1.3.0.fix1-mc1.7.10.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/pressure-pipes";
+        "src" = "https://media.forgecdn.net/files/2475/630/pressure-1.3.0.fix1-mc1.7.10.jar";
+        "type" = "remote";
+        "md5" = "127a9ba52a5ed7a9e9e782872159f855";
+        "sha256" = "fd3f46248403983fdd50b5a00fdbe1e4798b7d7f4b0bd0373b5b79f1b737bbda";
+        "size" = 1433489;
     };
     "thaumcraft-inventory-scanning" = {
         "title" = "Thaumic Inventory Scanning (Thaumcraft Addon)";
