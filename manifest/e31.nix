@@ -3204,23 +3204,23 @@
         "sha256" = "0c5dbb8c01e5f952499c7e18bbfe2a568250a78bb06d4943790116d36d00a64e";
         "size" = 10743;
     };
-    "void-monster" = {
-        "title" = "Void Monster";
-        "name" = "void-monster";
-        "id" = 235609;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "VoidMonster 1.7.10 V31a.jar";
-        "encoded" = "VoidMonster 1.7.10 V31a.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/void-monster";
-        "src" = "https://media.forgecdn.net/files/3570/167/VoidMonster%201.7.10%20V31a.jar";
-        "type" = "remote";
-        "md5" = "bca1c2386d71b5da8f01bc32383c7a97";
-        "sha256" = "62fb6925acf1c18e3c4ba7297d2a0af94a28f8a341c91ec7e8e40b07914ca26e";
-        "size" = 2625956;
-    };
+    #"void-monster" = {
+    #    "title" = "Void Monster";
+    #    "name" = "void-monster";
+    #    "id" = 235609;
+    #    "side" = "both";
+    #    "required" = true;
+    #    "default" = true;
+    #    "deps" = [];
+    #    "filename" = "VoidMonster 1.7.10 V31a.jar";
+    #    "encoded" = "VoidMonster 1.7.10 V31a.jar";
+    #    "page" = "https://www.curseforge.com/minecraft/mc-mods/void-monster";
+    #    "src" = "https://media.forgecdn.net/files/3570/167/VoidMonster%201.7.10%20V31a.jar";
+    #    "type" = "remote";
+    #    "md5" = "bca1c2386d71b5da8f01bc32383c7a97";
+    #    "sha256" = "62fb6925acf1c18e3c4ba7297d2a0af94a28f8a341c91ec7e8e40b07914ca26e";
+    #    "size" = 2625956;
+    #};
     "waila" = {
       "title" = "Waila";
       "name" = "waila";
