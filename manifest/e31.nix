@@ -1052,6 +1052,23 @@
         "a0728aabc959ef1a19b778e45ec1ad03f1284fa3eed69b0a26177deaf5e7b120";
       "size" = 6229361;
     };
+    "foamfix-optimization-mod" = {
+        "title" = "FoamFix";
+        "name" = "foamfix-optimization-mod";
+        "id" = 278494;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "FoamFix-1.7.10-universal-1.0.2.jar";
+        "encoded" = "FoamFix-1.7.10-universal-1.0.2.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod";
+        "src" = "https://media.forgecdn.net/files/4054/718/FoamFix-1.7.10-universal-1.0.2.jar";
+        "type" = "remote";
+        "md5" = "2e85b939b3bb01b585bd7f9442fe2da2";
+        "sha256" = "0d90cf621227f1edc8361a1b519c2500aa5e6cda03743cf1dbaae3061d980b6c";
+        "size" = 314523;
+    };
     "forbidden-magic" = {
       "title" = "Forbidden Magic";
       "name" = "forbidden-magic";
