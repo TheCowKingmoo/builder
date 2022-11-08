@@ -2401,17 +2401,15 @@
       "side" = "client";
       "required" = true;
       "default" = true;
-      "deps" = [ ];
-      "filename" = "ReAuth-3.5.0.jar";
-      "maturity" = "release";
-      "encoded" = "ReAuth-3.5.0.jar";
+      "deps" = [];
+      "filename" = "ReAuth-1.7.10-Forge-4.0.3.jar";
+      "encoded" = "ReAuth-1.7.10-Forge-4.0.3.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/reauth";
-      "src" = "https://media.forgecdn.net/files/2433/392/ReAuth-3.5.0.jar";
+      "src" = "https://media.forgecdn.net/files/3826/275/ReAuth-1.7.10-Forge-4.0.3.jar";
       "type" = "remote";
-      "md5" = "beafeff38750066c499c4e044ac4b828";
-      "sha256" =
-        "dc39be5483ea20fe8ee1f74933389f0238724f32584674574a6a051b3d4ebf04";
-      "size" = 23838;
+      "md5" = "7aafc0d11b0d503937c7e067bcb32a30";
+      "sha256" = "169751b2f8821ba6052e5facb70af6b8fa3e1beb77f03c73eccd10375f61b666";
+      "size" = 179296;
     };
     "recurrent-complex" = {
       "title" = "Recurrent Complex";
