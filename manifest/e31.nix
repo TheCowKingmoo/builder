@@ -1509,6 +1509,23 @@
         "3ab1fa00f3d3169d27830db42305eda8aaea0c5705af47ce169c5a50b8b76ee4";
       "size" = 445166;
     };
+    "journeymap" = {
+      "title" = "JourneyMap";
+      "name" = "journeymap";
+      "id" = 32274;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "journeymap-1.7.10-5.1.4p2-unlimited.jar";
+      "encoded" = "journeymap-1.7.10-5.1.4p2-unlimited.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/journeymap";
+      "src" = "https://media.forgecdn.net/files/2367/915/journeymap-1.7.10-5.1.4p2-unlimited.jar";
+      "type" = "remote";
+      "md5" = "0c3daa19789a67da328437a8635c2cf3";
+      "sha256" = "142c3497a3fec24d88a31866519e7bad3f6ddac19700ecd6417064117e960837";
+      "size" = 1731255;
+    };
     "just-enough-calculation" = {
       "title" = "Just Enough Calculation";
       "name" = "just-enough-calculation";
