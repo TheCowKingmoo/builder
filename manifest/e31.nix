@@ -467,23 +467,6 @@
         "c6aad8099d00b5fbd0e646b2f1e5ae29a93d4033889f37a0bd11fcd6021b45a1";
       "size" = 5386;
     };
-    "chunkpregenerator" = {
-      "title" = "Chunk-Pregenerator";
-      "name" = "chunkpregenerator";
-      "id" = 267193;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "Chunk Pregenerator-V1.7.10-2.5.3.jar";
-      "encoded" = "Chunk Pregenerator-V1.7.10-2.5.3.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/chunkpregenerator";
-      "src" = "https://media.forgecdn.net/files/3790/102/Chunk%20Pregenerator-V1.7.10-2.5.3.jar";
-      "type" = "remote";
-      "md5" = "fe173b58b4b96152e2540f6e74a6aa44";
-      "sha256" = "126e9d5303d48bdbb138919a183da7cd4c50213f65168c3ebf439ef3830bc1fc";
-      "size" = 2006343;
-    };
     #"chunk-animator" = {
     #  "title" = "Chunk Animator";
     #  "name" = "chunk-animator";
