@@ -1145,26 +1145,26 @@
         "6ff759efc10f9ea0deabb4aed7c1f61408d9bb9bce278949544c0a613f7ae4c8";
       "size" = 943474;
     };
-    "forgeservertools" = {
-      "title" = "ServerTools-CORE";
-      "name" = "forgeservertools";
-      "id" = 64744;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "ServerTools-CORE-1.7.10-2.2.0.79.jar";
-      "maturity" = "release";
-      "encoded" = "ServerTools-CORE-1.7.10-2.2.0.79.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/forgeservertools";
-      "src" =
-        "https://media.forgecdn.net/files/2225/866/ServerTools-CORE-1.7.10-2.2.0.79.jar";
-      "type" = "remote";
-      "md5" = "d2f8dd0ad580dddfe2881ee2d84dab37";
-      "sha256" =
-        "e47f0f134398707f9719f0eb6709ef91c56a19e6aa6f4f008218a86f6ca825bb";
-      "size" = 84366;
-    };
+    #"forgeservertools" = {
+    #  "title" = "ServerTools-CORE";
+    #  "name" = "forgeservertools";
+    #  "id" = 64744;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "filename" = "ServerTools-CORE-1.7.10-2.2.0.79.jar";
+    #  "maturity" = "release";
+    #  "encoded" = "ServerTools-CORE-1.7.10-2.2.0.79.jar";
+    #  "page" = "https://www.curseforge.com/minecraft/mc-mods/forgeservertools";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2225/866/ServerTools-CORE-1.7.10-2.2.0.79.jar";
+    #  "type" = "remote";
+    #  "md5" = "d2f8dd0ad580dddfe2881ee2d84dab37";
+    #  "sha256" =
+    #    "e47f0f134398707f9719f0eb6709ef91c56a19e6aa6f4f008218a86f6ca825bb";
+    #  "size" = 84366;
+    #};
     "foxlib" = {
       "title" = "FoxLib";
       "name" = "foxlib";
@@ -2660,27 +2660,27 @@
         "023dc9b4a72ca0522b37eb9a5e34a3be12c7035fe120327e3bb1202733eef216";
       "size" = 255231;
     };
-    "servertools-backup" = {
-      "title" = "ServerTools-BACKUP";
-      "name" = "servertools-backup";
-      "id" = 220713;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ "forgeservertools" ];
-      "filename" = "ServerTools-BACKUP-1.7.10-2.2.1.24.jar";
-      "maturity" = "release";
-      "encoded" = "ServerTools-BACKUP-1.7.10-2.2.1.24.jar";
-      "page" =
-        "https://www.curseforge.com/minecraft/mc-mods/servertools-backup";
-      "src" =
-        "https://media.forgecdn.net/files/2232/347/ServerTools-BACKUP-1.7.10-2.2.1.24.jar";
-      "type" = "remote";
-      "md5" = "6b463d16e2558eb677ac8588e875ff25";
-      "sha256" =
-        "a9229233411c6ea28c7a1f1404bd151930454b5c64256f3a7299f7872f89ffbd";
-      "size" = 23167;
-    };
+    #"servertools-backup" = {
+    #  "title" = "ServerTools-BACKUP";
+    #  "name" = "servertools-backup";
+    #  "id" = 220713;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ "forgeservertools" ];
+    #  "filename" = "ServerTools-BACKUP-1.7.10-2.2.1.24.jar";
+    #  "maturity" = "release";
+    #  "encoded" = "ServerTools-BACKUP-1.7.10-2.2.1.24.jar";
+    #  "page" =
+    #    "https://www.curseforge.com/minecraft/mc-mods/servertools-backup";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2232/347/ServerTools-BACKUP-1.7.10-2.2.1.24.jar";
+    #  "type" = "remote";
+    #  "md5" = "6b463d16e2558eb677ac8588e875ff25";
+    #  "sha256" =
+    #    "a9229233411c6ea28c7a1f1404bd151930454b5c64256f3a7299f7872f89ffbd";
+    #  "size" = 23167;
+    #};
     "shadowfacts-forgelin" = {
       "title" = "Shadowfacts' Forgelin";
       "name" = "shadowfacts-forgelin";
