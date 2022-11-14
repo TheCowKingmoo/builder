@@ -73,21 +73,24 @@
       "size" = 111220;
     };
     "applied-energistics-2" = {
-        "title" = "Applied Energistics 2";
-        "name" = "applied-energistics-2";
-        "id" = 223794;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "appliedenergistics2-rv3-beta-6.jar";
-        "encoded" = "appliedenergistics2-rv3-beta-6.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2";
-        "src" = "https://media.forgecdn.net/files/2296/430/appliedenergistics2-rv3-beta-6.jar";
-        "type" = "remote";
-        "md5" = "0a555df010345a27e0956a3f05517510";
-        "sha256" = "0ec8cd1ede7f7bbbf73030eba8b06ebcc0583045ff4cc9aec080b1736581da71";
-        "size" = 2924325;
+      "title" = "Applied Energistics 2";
+      "name" = "applied-energistics-2";
+      "id" = 223794;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "appliedenergistics2-rv3-beta-6.jar";
+      "encoded" = "appliedenergistics2-rv3-beta-6.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2";
+      "src" =
+        "https://media.forgecdn.net/files/2296/430/appliedenergistics2-rv3-beta-6.jar";
+      "type" = "remote";
+      "md5" = "0a555df010345a27e0956a3f05517510";
+      "sha256" =
+        "0ec8cd1ede7f7bbbf73030eba8b06ebcc0583045ff4cc9aec080b1736581da71";
+      "size" = 2924325;
     };
     "aquatweaks" = {
       "title" = "AquaTweaks";
@@ -509,21 +512,23 @@
     #  "size" = 389974;
     #};
     "chromaticraft" = {
-        "title" = "ChromatiCraft";
-        "name" = "chromaticraft";
-        "id" = 235590;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "ChromatiCraft 1.7.10 V31b.jar";
-        "encoded" = "ChromatiCraft 1.7.10 V31b.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/chromaticraft";
-        "src" = "https://media.forgecdn.net/files/3574/503/ChromatiCraft%201.7.10%20V31b.jar";
-        "type" = "remote";
-        "md5" = "deb23f4cd71f00b698264295333b0ad8";
-        "sha256" = "1657f67e9a205502071d9bf62ff7f9b47a7e93792fb559f2027079dffb79578d";
-        "size" = 129641046;
+      "title" = "ChromatiCraft";
+      "name" = "chromaticraft";
+      "id" = 235590;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "ChromatiCraft 1.7.10 V31b.jar";
+      "encoded" = "ChromatiCraft 1.7.10 V31b.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/chromaticraft";
+      "src" =
+        "https://media.forgecdn.net/files/3574/503/ChromatiCraft%201.7.10%20V31b.jar";
+      "type" = "remote";
+      "md5" = "deb23f4cd71f00b698264295333b0ad8";
+      "sha256" =
+        "1657f67e9a205502071d9bf62ff7f9b47a7e93792fb559f2027079dffb79578d";
+      "size" = 129641046;
     };
     "codechicken-lib-1-8" = {
       "title" = "CodeChicken Lib 1.8.+";
@@ -725,38 +730,43 @@
       "size" = 4764;
     };
     "discordintegration" = {
-        "title" = "DiscordIntegration";
-        "name" = "discordintegration";
-        "id" = 245288;
-        "side" = "server";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "DiscordIntegration-mc1.7.10-3.0.5.jar";
-        "encoded" = "DiscordIntegration-mc1.7.10-3.0.5.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/discordintegration";
-        "src" = "https://media.forgecdn.net/files/2542/338/DiscordIntegration-mc1.7.10-3.0.5.jar";
-        "type" = "remote";
-        "md5" = "d266e454c6d71936786cfb2e2525c14c";
-        "sha256" = "8127a6a9cb15f6498ea71f794624ff1d1611c5801ed96fe1812d295f63b71464";
-        "size" = 8790827;
+      "title" = "DiscordIntegration";
+      "name" = "discordintegration";
+      "id" = 245288;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "DiscordIntegration-mc1.7.10-3.0.5.jar";
+      "encoded" = "DiscordIntegration-mc1.7.10-3.0.5.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/discordintegration";
+      "src" =
+        "https://media.forgecdn.net/files/2542/338/DiscordIntegration-mc1.7.10-3.0.5.jar";
+      "type" = "remote";
+      "md5" = "d266e454c6d71936786cfb2e2525c14c";
+      "sha256" =
+        "8127a6a9cb15f6498ea71f794624ff1d1611c5801ed96fe1812d295f63b71464";
+      "size" = 8790827;
     };
     "dragonapi" = {
-        "title" = "DragonAPI";
-        "name" = "dragonapi";
-        "id" = 235591;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "DragonAPI 1.7.10 V31b.jar";
-        "encoded" = "DragonAPI 1.7.10 V31b.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/dragonapi";
-        "src" = "https://media.forgecdn.net/files/3574/508/DragonAPI%201.7.10%20V31b.jar";
-        "type" = "remote";
-        "md5" = "13777d4a8594a9d097db548938a01a6d";
-        "sha256" = "170e57b7bccb24fbf143cf795873ac646042c2ce79a875fa6205d011c308f132";
-        "size" = 4289486;
+      "title" = "DragonAPI";
+      "name" = "dragonapi";
+      "id" = 235591;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "DragonAPI 1.7.10 V31b.jar";
+      "encoded" = "DragonAPI 1.7.10 V31b.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/dragonapi";
+      "src" =
+        "https://media.forgecdn.net/files/3574/508/DragonAPI%201.7.10%20V31b.jar";
+      "type" = "remote";
+      "md5" = "13777d4a8594a9d097db548938a01a6d";
+      "sha256" =
+        "170e57b7bccb24fbf143cf795873ac646042c2ce79a875fa6205d011c308f132";
+      "size" = 4289486;
     };
     "dynamic-surroundings" = {
       "title" = "Dynamic Surroundings";
@@ -820,38 +830,41 @@
     #  "size" = 531061;
     #};
     "electrical-age" = {
-        "title" = "Electrical Age";
-        "name" = "electrical-age";
-        "id" = 253045;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "ElectricalAge-jrddunbr-1.18.3.jar";
-        "encoded" = "ElectricalAge-jrddunbr-1.18.3.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/electrical-age";
-        "src" = "https://github.com/age-series/ElectricalAge/releases/download/1.18.3-stable2/ElectricalAge-jrddunbr-1.18.3.jar";
-        "type" = "remote";
-        "md5" = "88d4bae690716134566516ccfae11608";
-        "sha256" = "1s64ldsggd6448sfk6m0g2wjiqyrvvgazqkw3609xqk4l5244d5b";
-        "size" = 11202343;
+      "title" = "Electrical Age";
+      "name" = "electrical-age";
+      "id" = 253045;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "ElectricalAge-jrddunbr-1.18.3.jar";
+      "encoded" = "ElectricalAge-jrddunbr-1.18.3.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/electrical-age";
+      "src" =
+        "https://github.com/age-series/ElectricalAge/releases/download/1.18.3-stable2/ElectricalAge-jrddunbr-1.18.3.jar";
+      "type" = "remote";
+      "md5" = "88d4bae690716134566516ccfae11608";
+      "sha256" = "1s64ldsggd6448sfk6m0g2wjiqyrvvgazqkw3609xqk4l5244d5b";
+      "size" = 11202343;
     };
     "electricraft" = {
-        "title" = "ElectriCraft";
-        "name" = "electricraft";
-        "id" = 235594;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "ElectriCraft 1.7.10 V31a.jar";
-        "encoded" = "ElectriCraft 1.7.10 V31a.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/electricraft";
-        "src" = "https://media.forgecdn.net/files/3570/168/ElectriCraft%201.7.10%20V31a.jar";
-        "type" = "remote";
-        "md5" = "f2c59ec2316cd0357a3e51b124f8e596";
-        "sha256" = "6d3e81b80084dcc7e8f710937bd2e11c523721b7cc749c40f22b3b15e6acc18d";
-        "size" = 472695;
+      "title" = "ElectriCraft";
+      "name" = "electricraft";
+      "id" = 235594;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "ElectriCraft 1.7.10 V31a.jar";
+      "encoded" = "ElectriCraft 1.7.10 V31a.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/electricraft";
+      "src" =
+        "https://media.forgecdn.net/files/3570/168/ElectriCraft%201.7.10%20V31a.jar";
+      "type" = "remote";
+      "md5" = "f2c59ec2316cd0357a3e51b124f8e596";
+      "sha256" =
+        "6d3e81b80084dcc7e8f710937bd2e11c523721b7cc749c40f22b3b15e6acc18d";
+      "size" = 472695;
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -1053,21 +1066,24 @@
       "size" = 6229361;
     };
     "foamfix-optimization-mod" = {
-        "title" = "FoamFix";
-        "name" = "foamfix-optimization-mod";
-        "id" = 278494;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "FoamFix-1.7.10-universal-1.0.2.jar";
-        "encoded" = "FoamFix-1.7.10-universal-1.0.2.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod";
-        "src" = "https://media.forgecdn.net/files/4054/718/FoamFix-1.7.10-universal-1.0.2.jar";
-        "type" = "remote";
-        "md5" = "2e85b939b3bb01b585bd7f9442fe2da2";
-        "sha256" = "0d90cf621227f1edc8361a1b519c2500aa5e6cda03743cf1dbaae3061d980b6c";
-        "size" = 314523;
+      "title" = "FoamFix";
+      "name" = "foamfix-optimization-mod";
+      "id" = 278494;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "FoamFix-1.7.10-universal-1.0.2.jar";
+      "encoded" = "FoamFix-1.7.10-universal-1.0.2.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod";
+      "src" =
+        "https://media.forgecdn.net/files/4054/718/FoamFix-1.7.10-universal-1.0.2.jar";
+      "type" = "remote";
+      "md5" = "2e85b939b3bb01b585bd7f9442fe2da2";
+      "sha256" =
+        "0d90cf621227f1edc8361a1b519c2500aa5e6cda03743cf1dbaae3061d980b6c";
+      "size" = 314523;
     };
     "forbidden-magic" = {
       "title" = "Forbidden Magic";
@@ -1516,14 +1532,16 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "journeymap-1.7.10-5.1.4p2-unlimited.jar";
       "encoded" = "journeymap-1.7.10-5.1.4p2-unlimited.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/journeymap";
-      "src" = "https://media.forgecdn.net/files/2367/915/journeymap-1.7.10-5.1.4p2-unlimited.jar";
+      "src" =
+        "https://media.forgecdn.net/files/2367/915/journeymap-1.7.10-5.1.4p2-unlimited.jar";
       "type" = "remote";
       "md5" = "0c3daa19789a67da328437a8635c2cf3";
-      "sha256" = "142c3497a3fec24d88a31866519e7bad3f6ddac19700ecd6417064117e960837";
+      "sha256" =
+        "142c3497a3fec24d88a31866519e7bad3f6ddac19700ecd6417064117e960837";
       "size" = 1731255;
     };
     "just-enough-calculation" = {
@@ -2418,14 +2436,16 @@
       "side" = "client";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "ReAuth-1.7.10-Forge-4.0.3.jar";
       "encoded" = "ReAuth-1.7.10-Forge-4.0.3.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/reauth";
-      "src" = "https://media.forgecdn.net/files/3826/275/ReAuth-1.7.10-Forge-4.0.3.jar";
+      "src" =
+        "https://media.forgecdn.net/files/3826/275/ReAuth-1.7.10-Forge-4.0.3.jar";
       "type" = "remote";
       "md5" = "7aafc0d11b0d503937c7e067bcb32a30";
-      "sha256" = "169751b2f8821ba6052e5facb70af6b8fa3e1beb77f03c73eccd10375f61b666";
+      "sha256" =
+        "169751b2f8821ba6052e5facb70af6b8fa3e1beb77f03c73eccd10375f61b666";
       "size" = 179296;
     };
     "recurrent-complex" = {
@@ -2552,14 +2572,15 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "mcjtylib-1.8.1.jar";
       "encoded" = "mcjtylib-1.8.1.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/mcjtylib";
       "src" = "https://media.forgecdn.net/files/2272/449/mcjtylib-1.8.1.jar";
       "type" = "remote";
       "md5" = "2ebbefd7fa32bf96159f6d305f932fcf";
-      "sha256" = "a872dc7bb155d809329e15912b27aced47a5a56b999476269f54489472edec08";
+      "sha256" =
+        "a872dc7bb155d809329e15912b27aced47a5a56b999476269f54489472edec08";
       "size" = 187881;
     };
     "rftools" = {
@@ -2569,32 +2590,35 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "rftools-4.23.jar";
       "encoded" = "rftools-4.23.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/rftools";
       "src" = "https://media.forgecdn.net/files/2287/287/rftools-4.23.jar";
       "type" = "remote";
       "md5" = "3f8210b1cfca520753532cc89fc961d8";
-      "sha256" = "75caf28ecce6ef0bcf4f4880f2af44c27ac8b7f04921ce11ce8fc2e781905835";
+      "sha256" =
+        "75caf28ecce6ef0bcf4f4880f2af44c27ac8b7f04921ce11ce8fc2e781905835";
       "size" = 3393513;
     };
     "rotarycraft" = {
-        "title" = "RotaryCraft";
-        "name" = "rotarycraft";
-        "id" = 235596;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "RotaryCraft 1.7.10 V31b.jar";
-        "encoded" = "RotaryCraft 1.7.10 V31b.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/rotarycraft";
-        "src" = "https://media.forgecdn.net/files/3574/506/RotaryCraft%201.7.10%20V31b.jar";
-        "type" = "remote";
-        "md5" = "8a752243cc975e73af6d86b4fffdb1eb";
-        "sha256" = "6754ad22d6a8e8a3d0af3a9667d4b0703abfc6c1d4f83dfbe49a6afcd1bdd8db";
-        "size" = 8629477;
+      "title" = "RotaryCraft";
+      "name" = "rotarycraft";
+      "id" = 235596;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "RotaryCraft 1.7.10 V31b.jar";
+      "encoded" = "RotaryCraft 1.7.10 V31b.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/rotarycraft";
+      "src" =
+        "https://media.forgecdn.net/files/3574/506/RotaryCraft%201.7.10%20V31b.jar";
+      "type" = "remote";
+      "md5" = "8a752243cc975e73af6d86b4fffdb1eb";
+      "sha256" =
+        "6754ad22d6a8e8a3d0af3a9667d4b0703abfc6c1d4f83dfbe49a6afcd1bdd8db";
+      "size" = 8629477;
     };
     "sanguimancy" = {
       "title" = "Sanguimancy";
@@ -3254,21 +3278,23 @@
       "size" = 161165;
     };
     "usefultnt" = {
-        "title" = "UsefulTNT";
-        "name" = "usefultnt";
-        "id" = 235612;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "UsefulTNT 1.7.10 V31a.jar";
-        "encoded" = "UsefulTNT 1.7.10 V31a.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/usefultnt";
-        "src" = "https://media.forgecdn.net/files/3570/172/UsefulTNT%201.7.10%20V31a.jar";
-        "type" = "remote";
-        "md5" = "8a6cf4db7bcfe258e485721ba56108df";
-        "sha256" = "0c5dbb8c01e5f952499c7e18bbfe2a568250a78bb06d4943790116d36d00a64e";
-        "size" = 10743;
+      "title" = "UsefulTNT";
+      "name" = "usefultnt";
+      "id" = 235612;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "UsefulTNT 1.7.10 V31a.jar";
+      "encoded" = "UsefulTNT 1.7.10 V31a.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/usefultnt";
+      "src" =
+        "https://media.forgecdn.net/files/3570/172/UsefulTNT%201.7.10%20V31a.jar";
+      "type" = "remote";
+      "md5" = "8a6cf4db7bcfe258e485721ba56108df";
+      "sha256" =
+        "0c5dbb8c01e5f952499c7e18bbfe2a568250a78bb06d4943790116d36d00a64e";
+      "size" = 10743;
     };
     #"void-monster" = {
     #    "title" = "Void Monster";
@@ -3407,140 +3433,159 @@
       "size" = 556982;
     };
     "gendustry" = {
-        "title" = "Gendustry";
-        "name" = "gendustry";
-        "id" = 70492;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "gendustry-1.6.4.135-mc1.7.10.jar";
-        "encoded" = "gendustry-1.6.4.135-mc1.7.10.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/gendustry";
-        "src" = "https://media.forgecdn.net/files/2293/751/gendustry-1.6.4.135-mc1.7.10.jar";
-        "type" = "remote";
-        "md5" = "2a3d8a317ade033610413424a7311982";
-        "sha256" = "fecf3da51213d75ba7089c400744840d2fba0ac1c0ac51c04fec7aa31e32e764";
-        "size" = 1976556;
+      "title" = "Gendustry";
+      "name" = "gendustry";
+      "id" = 70492;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "gendustry-1.6.4.135-mc1.7.10.jar";
+      "encoded" = "gendustry-1.6.4.135-mc1.7.10.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/gendustry";
+      "src" =
+        "https://media.forgecdn.net/files/2293/751/gendustry-1.6.4.135-mc1.7.10.jar";
+      "type" = "remote";
+      "md5" = "2a3d8a317ade033610413424a7311982";
+      "sha256" =
+        "fecf3da51213d75ba7089c400744840d2fba0ac1c0ac51c04fec7aa31e32e764";
+      "size" = 1976556;
     };
     "bdlib" = {
-        "title" = "BdLib";
-        "name" = "bdlib";
-        "id" = 70496;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "bdlib-1.9.4.109-mc1.7.10.jar";
-        "encoded" = "bdlib-1.9.4.109-mc1.7.10.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/bdlib";
-        "src" = "https://media.forgecdn.net/files/2269/259/bdlib-1.9.4.109-mc1.7.10.jar";
-        "type" = "remote";
-        "md5" = "e446121e3e94b77d1c610ceed0fd3f68";
-        "sha256" = "cdd5d71b919c9c433c5b770f0ff2e721903c0bd4bbba773d7d2d64035bb30fab";
-        "size" = 1503184;
+      "title" = "BdLib";
+      "name" = "bdlib";
+      "id" = 70496;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "bdlib-1.9.4.109-mc1.7.10.jar";
+      "encoded" = "bdlib-1.9.4.109-mc1.7.10.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/bdlib";
+      "src" =
+        "https://media.forgecdn.net/files/2269/259/bdlib-1.9.4.109-mc1.7.10.jar";
+      "type" = "remote";
+      "md5" = "e446121e3e94b77d1c610ceed0fd3f68";
+      "sha256" =
+        "cdd5d71b919c9c433c5b770f0ff2e721903c0bd4bbba773d7d2d64035bb30fab";
+      "size" = 1503184;
     };
     "advanced-generators" = {
-        "title" = "Advanced Generators";
-        "name" = "advanced-generators";
-        "id" = 223622;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "generators-0.9.20.123-mc1.7.10.jar";
-        "encoded" = "generators-0.9.20.123-mc1.7.10.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/advanced-generators";
-        "src" = "https://media.forgecdn.net/files/2298/965/generators-0.9.20.123-mc1.7.10.jar";
-        "type" = "remote";
-        "md5" = "bbaf7845843bf8d90082839bb417303b";
-        "sha256" = "6dc1316600b112143d19a4e3f59ec42f93826c46a3d3a73b984ac5bb2fa7f5ad";
-        "size" = 1453732;
+      "title" = "Advanced Generators";
+      "name" = "advanced-generators";
+      "id" = 223622;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "generators-0.9.20.123-mc1.7.10.jar";
+      "encoded" = "generators-0.9.20.123-mc1.7.10.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/advanced-generators";
+      "src" =
+        "https://media.forgecdn.net/files/2298/965/generators-0.9.20.123-mc1.7.10.jar";
+      "type" = "remote";
+      "md5" = "bbaf7845843bf8d90082839bb417303b";
+      "sha256" =
+        "6dc1316600b112143d19a4e3f59ec42f93826c46a3d3a73b984ac5bb2fa7f5ad";
+      "size" = 1453732;
     };
     "ae2-stuff" = {
-        "title" = "AE2 Stuff";
-        "name" = "ae2-stuff";
-        "id" = 225194;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "ae2stuff-0.5.1.61-mc1.7.10.jar";
-        "encoded" = "ae2stuff-0.5.1.61-mc1.7.10.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/ae2-stuff";
-        "src" = "https://media.forgecdn.net/files/2272/496/ae2stuff-0.5.1.61-mc1.7.10.jar";
-        "type" = "remote";
-        "md5" = "8b2c397b7b481135aa1f8b039f696b6a";
-        "sha256" = "89cf0cd16e8e0b8be0f8b511e2075873eef77d42b20a490ab56429721993b3e0";
-        "size" = 510109;
+      "title" = "AE2 Stuff";
+      "name" = "ae2-stuff";
+      "id" = 225194;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "ae2stuff-0.5.1.61-mc1.7.10.jar";
+      "encoded" = "ae2stuff-0.5.1.61-mc1.7.10.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/ae2-stuff";
+      "src" =
+        "https://media.forgecdn.net/files/2272/496/ae2stuff-0.5.1.61-mc1.7.10.jar";
+      "type" = "remote";
+      "md5" = "8b2c397b7b481135aa1f8b039f696b6a";
+      "sha256" =
+        "89cf0cd16e8e0b8be0f8b511e2075873eef77d42b20a490ab56429721993b3e0";
+      "size" = 510109;
     };
     "pressure-pipes" = {
-        "title" = "Pressure Pipes";
-        "name" = "pressure-pipes";
-        "id" = 221214;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "pressure-1.3.0.fix1-mc1.7.10.jar";
-        "encoded" = "pressure-1.3.0.fix1-mc1.7.10.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/pressure-pipes";
-        "src" = "https://media.forgecdn.net/files/2475/630/pressure-1.3.0.fix1-mc1.7.10.jar";
-        "type" = "remote";
-        "md5" = "127a9ba52a5ed7a9e9e782872159f855";
-        "sha256" = "fd3f46248403983fdd50b5a00fdbe1e4798b7d7f4b0bd0373b5b79f1b737bbda";
-        "size" = 1433489;
+      "title" = "Pressure Pipes";
+      "name" = "pressure-pipes";
+      "id" = 221214;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "pressure-1.3.0.fix1-mc1.7.10.jar";
+      "encoded" = "pressure-1.3.0.fix1-mc1.7.10.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/pressure-pipes";
+      "src" =
+        "https://media.forgecdn.net/files/2475/630/pressure-1.3.0.fix1-mc1.7.10.jar";
+      "type" = "remote";
+      "md5" = "127a9ba52a5ed7a9e9e782872159f855";
+      "sha256" =
+        "fd3f46248403983fdd50b5a00fdbe1e4798b7d7f4b0bd0373b5b79f1b737bbda";
+      "size" = 1433489;
     };
     "thaumcraft-inventory-scanning" = {
-        "title" = "Thaumic Inventory Scanning (Thaumcraft Addon)";
-        "name" = "thaumcraft-inventory-scanning";
-        "id" = 238003;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "tcinventoryscan-mc1.7.10-1.0.11.jar";
-        "encoded" = "tcinventoryscan-mc1.7.10-1.0.11.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning";
-        "src" = "https://media.forgecdn.net/files/2286/894/tcinventoryscan-mc1.7.10-1.0.11.jar";
-        "type" = "remote";
-        "md5" = "0d5158557116916a4a14f749c745ef54";
-        "sha256" = "8f7ddf60d19903c99b6e72f7ae52fad7484999e72affc6ff0559b0502ec7dfad";
-        "size" = 17202;
+      "title" = "Thaumic Inventory Scanning (Thaumcraft Addon)";
+      "name" = "thaumcraft-inventory-scanning";
+      "id" = 238003;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "tcinventoryscan-mc1.7.10-1.0.11.jar";
+      "encoded" = "tcinventoryscan-mc1.7.10-1.0.11.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning";
+      "src" =
+        "https://media.forgecdn.net/files/2286/894/tcinventoryscan-mc1.7.10-1.0.11.jar";
+      "type" = "remote";
+      "md5" = "0d5158557116916a4a14f749c745ef54";
+      "sha256" =
+        "8f7ddf60d19903c99b6e72f7ae52fad7484999e72affc6ff0559b0502ec7dfad";
+      "size" = 17202;
     };
     "wireless-crafting-terminal" = {
-        "title" = "Wireless Crafting Terminal";
-        "name" = "wireless-crafting-terminal";
-        "id" = 244559;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
-        "encoded" = "WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/wireless-crafting-terminal";
-        "src" = "https://media.forgecdn.net/files/2460/354/WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
-        "type" = "remote";
-        "md5" = "1575c913ebfb056db1b739e81ea3e7e6";
-        "sha256" = "78d6e562802a93d5531121e924bbb13836c8367a9607021c806d507144a972a4";
-        "size" = 398765;
+      "title" = "Wireless Crafting Terminal";
+      "name" = "wireless-crafting-terminal";
+      "id" = 244559;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
+      "encoded" = "WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/wireless-crafting-terminal";
+      "src" =
+        "https://media.forgecdn.net/files/2460/354/WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
+      "type" = "remote";
+      "md5" = "1575c913ebfb056db1b739e81ea3e7e6";
+      "sha256" =
+        "78d6e562802a93d5531121e924bbb13836c8367a9607021c806d507144a972a4";
+      "size" = 398765;
     };
     "p455w0rds-library" = {
-        "title" = "p455w0rd's Library";
-        "name" = "p455w0rds-library";
-        "id" = 255232;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "p455w0rdslib-1.7.10-1.0.4.jar";
-        "encoded" = "p455w0rdslib-1.7.10-1.0.4.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library";
-        "src" = "https://media.forgecdn.net/files/2359/471/p455w0rdslib-1.7.10-1.0.4.jar";
-        "type" = "remote";
-        "md5" = "86a7be78717ddf189271e147441d40fa";
-        "sha256" = "c3b4a59984b117c6e212b6284219021cc19d6321e626028a0c92f24c18a13982";
-        "size" = 23853;
+      "title" = "p455w0rd's Library";
+      "name" = "p455w0rds-library";
+      "id" = 255232;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "p455w0rdslib-1.7.10-1.0.4.jar";
+      "encoded" = "p455w0rdslib-1.7.10-1.0.4.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library";
+      "src" =
+        "https://media.forgecdn.net/files/2359/471/p455w0rdslib-1.7.10-1.0.4.jar";
+      "type" = "remote";
+      "md5" = "86a7be78717ddf189271e147441d40fa";
+      "sha256" =
+        "c3b4a59984b117c6e212b6284219021cc19d6321e626028a0c92f24c18a13982";
+      "size" = 23853;
     };
   };
 }
