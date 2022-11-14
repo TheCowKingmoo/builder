@@ -2545,6 +2545,40 @@
         "0c518e212ac7bdfd8f93f96f7898b16a3686719998ed78420a7179a7723a2155";
       "size" = 692778;
     };
+    "mcjtylib" = {
+      "title" = "McJtyLib";
+      "name" = "mcjtylib";
+      "id" = 233105;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "mcjtylib-1.8.1.jar";
+      "encoded" = "mcjtylib-1.8.1.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/mcjtylib";
+      "src" = "https://media.forgecdn.net/files/2272/449/mcjtylib-1.8.1.jar";
+      "type" = "remote";
+      "md5" = "2ebbefd7fa32bf96159f6d305f932fcf";
+      "sha256" = "a872dc7bb155d809329e15912b27aced47a5a56b999476269f54489472edec08";
+      "size" = 187881;
+    };
+    "rftools" = {
+      "title" = "RFTools";
+      "name" = "rftools";
+      "id" = 224641;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "rftools-4.23.jar";
+      "encoded" = "rftools-4.23.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/rftools";
+      "src" = "https://media.forgecdn.net/files/2287/287/rftools-4.23.jar";
+      "type" = "remote";
+      "md5" = "3f8210b1cfca520753532cc89fc961d8";
+      "sha256" = "75caf28ecce6ef0bcf4f4880f2af44c27ac8b7f04921ce11ce8fc2e781905835";
+      "size" = 3393513;
+    };
     "rotarycraft" = {
         "title" = "RotaryCraft";
         "name" = "rotarycraft";
