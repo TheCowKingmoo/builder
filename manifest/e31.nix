@@ -651,6 +651,23 @@
         "5330bb9a3bc813d22d4e72100e558dafec79ac2e75e70b768208a6a770ed372a";
       "size" = 250664;
     };
+    "crafting-tweaks" = {
+      "title" = "Crafting Tweaks";
+      "name" = "crafting-tweaks";
+      "id" = 233071;
+      "side" = "client";
+      "required" = false;
+      "default" = false;
+      "deps" = [];
+      "filename" = "craftingtweaks-mc1.7.10-1.0.88.jar";
+      "encoded" = "craftingtweaks-mc1.7.10-1.0.88.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks";
+      "src" = "https://media.forgecdn.net/files/2457/94/craftingtweaks-mc1.7.10-1.0.88.jar";
+      "type" = "remote";
+      "md5" = "524fd5ce680e109461c76d3be3162ba1";
+      "sha256" = "47412d9d54d937cce802d2e27f208019d81290a2c62fe34e73950f8ae9ccceee";
+      "size" = 91325;
+    };
     "crafttweaker" = {
       "title" = "CraftTweaker";
       "name" = "crafttweaker";
@@ -773,7 +790,7 @@
       "name" = "dynamic-surroundings";
       "id" = 238891;
       "side" = "client";
-      "required" = true;
+      "required" = false;
       "default" = true;
       "deps" = [ ];
       "filename" = "DynamicSurroundings-1.7.10-1.0.5.12.jar";
