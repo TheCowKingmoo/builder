@@ -1959,6 +1959,23 @@
         "aabca604ba1b748320363b7b0c5f39478216fb18748a6f65a0aecc5e523d4d87";
       "size" = 1042450;
     };
+    "mouse-tweaks" = {
+      "title" = "Mouse Tweaks";
+      "name" = "mouse-tweaks";
+      "id" = 60089;
+      "side" = "client";
+      "required" = false;
+      "default" = false;
+      "deps" = [];
+      "filename" = "MouseTweaks-2.4.4-mc1.7.10.jar";
+      "encoded" = "MouseTweaks-2.4.4-mc1.7.10.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks";
+      "src" = "https://media.forgecdn.net/files/2209/265/MouseTweaks-2.4.4-mc1.7.10.jar";
+      "type" = "remote";
+      "md5" = "d4968eb0b513066313259fcd80bb8eb0";
+      "sha256" = "8b141026e0be476978015a789680f2e550c1bef4518065ff5dbf5ad640ea2164";
+      "size" = 51898;
+    };
     "mrtjpcore" = {
       "title" = "MrTJPCore";
       "name" = "mrtjpcore";
