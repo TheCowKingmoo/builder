@@ -1185,6 +1185,40 @@
         "26a3cedb0567fc14835bc1fc4a151b0f11c76c1783a39b96168d5a6ea180fea5";
       "size" = 82516;
     };
+    "ftb-library-legacy-forge" = {
+      "title" = "FTB Library (Forge) (Legacy)";
+      "name" = "ftb-library-legacy-forge";
+      "id" = 237167;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "FTBLib-1.7.10-1.0.18.3.jar";
+      "encoded" = "FTBLib-1.7.10-1.0.18.3.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-library-legacy-forge";
+      "src" = "https://media.forgecdn.net/files/2291/433/FTBLib-1.7.10-1.0.18.3.jar";
+      "type" = "remote";
+      "md5" = "1753db050335f5725d1ea9e09b8f102b";
+      "sha256" = "cde5ea6cac1df49a070eb4c59e36b08b4c06594d81d7f5d8c6242713d7a80649";
+      "size" = 667443;
+    };
+    "ftb-utilities-forge" = {
+      "title" = "FTB Utilities (Forge)";
+      "name" = "ftb-utilities-forge";
+      "id" = 237102;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "FTBUtilities-1.7.10-1.0.18.3.jar";
+      "encoded" = "FTBUtilities-1.7.10-1.0.18.3.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities-forge";
+      "src" = "https://media.forgecdn.net/files/2291/494/FTBUtilities-1.7.10-1.0.18.3.jar";
+      "type" = "remote";
+      "md5" = "d7611c7ea40480c17a6a5fd164dd21a8";
+      "sha256" = "9784de3286db91b654c1f718dad8bf8b3e5f7940cd661aa3af688b6a98e5c5fe";
+      "size" = 315302;
+    };
     "fullscreen-windowed-borderless-for-minecraft" = {
       "title" = "Fullscreen Windowed (Borderless) for Minecraft";
       "name" = "fullscreen-windowed-borderless-for-minecraft";
