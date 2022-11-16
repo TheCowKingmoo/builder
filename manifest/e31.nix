@@ -530,35 +530,39 @@
         "1657f67e9a205502071d9bf62ff7f9b47a7e93792fb559f2027079dffb79578d";
       "size" = 129641046;
     };
-    "codechicken-lib-1-8" = {
-      "title" = "CodeChicken Lib 1.8.+";
-      "name" = "codechicken-lib-1-8";
-      "id" = 242818;
+    "codechicken-lib-gtnh" = {
+      "title" = "CodeChicken Lib GTNH";
+      "name" = "codechicken-lib-gtnh";
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [ ];
-      "type" = "missing";
-    };
-    "codechickencore" = {
-      "title" = "CodeChickenCore";
-      "name" = "codechickencore";
-      "id" = 222213;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "filename" = "CodeChickenCore-1.7.10-1.0.7.47-universal.jar";
-      "maturity" = "release";
-      "encoded" = "CodeChickenCore-1.7.10-1.0.7.47-universal.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/codechickencore";
-      "src" =
-        "https://media.forgecdn.net/files/2262/89/CodeChickenCore-1.7.10-1.0.7.47-universal.jar";
       "type" = "remote";
-      "md5" = "07690caf86ecf79739852154f5e44750";
+      "src" = "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.5/CodeChickenLib-1.7.10-1.1.5.5.jar";
+      "filename" = "CodeChickenLib-1.7.10-1.1.5.5.jar";
+      "encoded" = "CodeChickenLib-1.7.10-1.1.5.5.jar";
+      "page" = "https://github.com/GTNewHorizons/CodeChickenLib/releases";
+      "size" = 315505;
+      "sha256" = "0z3a1l944yrs331hbdckcgbhv6rrb9x8w61xwz9kf41gqryn1aq6";
+      "md5" = "ea981404f5a1008188100e7849320861";
+    };
+    "codechickencore-gtnh" = {
+      "title" = "CodeChickenCore GTNH";
+      "name" = "codechickencore-gtnh";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "CodeChickenCore-1.7.10-1.1.6.jar";
+      "encoded" = "CodeChickenCore-1.7.10-1.1.6.jar";
+      "page" = "https://github.com/GTNewHorizons/CodeChickenCore/releases";
+      "src" =
+        "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.6/CodeChickenCore-1.7.10-1.1.6.jar";
+      "type" = "remote";
       "sha256" =
-        "3d1527c54e84dc8ae2f7d1109e646420e82bd3b09a811641f1f9a810c46c5f93";
-      "size" = 145782;
+        "1k47v9k842a9cs7v2d3dknaxqbv0sw8r1pn4bsv2871m1kz7nw9k";
+      "md5" = "4269221b12bccad8bc9abc4e4136f0fe";
+      "size" = 147858;
     };
     "cofh-world" = {
       "title" = "CoFH World";
@@ -2090,7 +2094,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [ "notenoughitems" ];
+      "deps" = [ "notenoughitems-gtnh" ];
       "filename" = "NEIIntegration-MC1.7.10-1.1.2.jar";
       "maturity" = "release";
       "encoded" = "NEIIntegration-MC1.7.10-1.1.2.jar";
@@ -2163,25 +2167,22 @@
         "9073986e7a67dd668dd408d4b731681542c0d5c55e7b855abcf68c99bf3d007f";
       "size" = 818633;
     };
-    "notenoughitems" = {
-      "title" = "NotEnoughItems";
-      "name" = "notenoughitems";
-      "id" = 222211;
+    "notenoughitems-gtnh" = {
+      "title" = "NotEnoughItems Unofficial";
+      "name" = "notenoughitems-gtnh";
+      "id" = 358228;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [ "codechickencore" ];
-      "filename" = "NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
-      "maturity" = "release";
-      "encoded" = "NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/notenoughitems";
-      "src" =
-        "https://media.forgecdn.net/files/2302/312/NotEnoughItems-1.7.10-1.0.5.120-universal.jar";
+      "deps" = [ "codechicken-lib-gtnh" "codechickencore-gtnh" ];
+      "filename" = "NotEnoughItems-1.7.10-2.3.14-GTNH.jar";
+      "encoded" = "NotEnoughItems-1.7.10-2.3.14-GTNH.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/notenoughitems-gtnh";
+      "src" = "https://media.forgecdn.net/files/4073/749/NotEnoughItems-1.7.10-2.3.14-GTNH.jar";
       "type" = "remote";
-      "md5" = "742e865a9a80071e80976ffedc05700e";
-      "sha256" =
-        "3ebbc2f82b61812aa158375005a47da4d450bec870860fcbf015a64de74cde1c";
-      "size" = 513136;
+      "md5" = "3f1c13b984b7e9c2bccdcfe571f40a0a";
+      "sha256" = "c04395d3cf8143bee64e49fbb2c5dcd035290876edd7d27f32316212e7f6415c";
+      "size" = 747644;
     };
     "notenoughresources" = {
       "title" = "NotEnoughResources";
@@ -2190,7 +2191,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [ "notenoughitems" ];
+      "deps" = [ "notenoughitems-gtnh" ];
       "filename" = "NotEnoughResources-1.7.10-0.1.0-128.jar";
       "maturity" = "beta";
       "encoded" = "NotEnoughResources-1.7.10-0.1.0-128.jar";
