@@ -816,21 +816,20 @@
       "title" = "Dynmap-Forge/Fabric";
       "name" = "dynmapforge";
       "id" = 59433;
-      "side" = "server";
+      "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [ ];
-      "filename" = "Dynmap-2.4-forge-1.7.10.jar";
-      "maturity" = "release";
-      "encoded" = "Dynmap-2.4-forge-1.7.10.jar";
+      "filename" = "Dynmap-2.6-beta-1-forge-1.7.10.jar";
+      "encoded" = "Dynmap-2.6-beta-1-forge-1.7.10.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/dynmapforge";
       "src" =
-        "https://media.forgecdn.net/files/2380/586/Dynmap-2.4-forge-1.7.10.jar";
+        "https://media.forgecdn.net/files/2581/18/Dynmap-2.6-beta-1-forge-1.7.10.jar";
       "type" = "remote";
-      "md5" = "bd785844820b192c0d87625a68b7ac46";
+      "md5" = "d7e32c8aaeb701d5fa2450c91c08a112";
       "sha256" =
-        "c30d7e03057c4787613d08d3295227fbf83dd38f86637a2cf5c8c92ec3d0e858";
-      "size" = 4324892;
+        "ac62990efa558ebf8d34971472ada4489d09d0b36e229804f6875a1e9b998e8e";
+      "size" = 5610619;
     };
     #"eirairc" = {
     #  "title" = "EiraIRC (Discontinued)";
