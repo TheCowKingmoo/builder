@@ -2893,25 +2893,23 @@
         "c0dafe3ac28f31265c02b6975b8f31f6981c42902cd8d7eb32b5414012027dbe";
       "size" = 694287;
     };
-    "storage-drawers" = {
-      "title" = "Storage Drawers";
-      "name" = "storage-drawers";
-      "id" = 223852;
+    "storage-drawers-gtnh" = {
+      "title" = "Storage Drawers GTNH";
+      "name" = "storage-drawers-gtnh";
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [ "chameleon" ];
-      "filename" = "StorageDrawers-1.7.10-1.10.8.jar";
+      "filename" = "StorageDrawers-1.7.10-1.11.19-GTNH.jar";
       "maturity" = "release";
-      "encoded" = "StorageDrawers-1.7.10-1.10.8.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/storage-drawers";
+      "encoded" = "StorageDrawers-1.7.10-1.11.19-GTNH.jar";
+      "page" = "https://github.com/GTNewHorizons/StorageDrawers/releases";
       "src" =
-        "https://media.forgecdn.net/files/2355/230/StorageDrawers-1.7.10-1.10.8.jar";
+        "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.19-GTNH/StorageDrawers-1.7.10-1.11.19-GTNH.jar";
       "type" = "remote";
-      "md5" = "87975170dba34246691aeea8b5e41ae7";
-      "sha256" =
-        "a7babc9d0698d8c4b963c328a2a2210cf1291915288d2e5f70b465e2cb053bcd";
-      "size" = 589426;
+      "md5" = "014731057d08fbddf3cd4c8a54bc061e";
+      "sha256" = "0minjphf6r69aw29zmvvwpqs16fw2p0lb07jbn7sr1xb6sgfqj79";
+      "size" = 600806;
     };
     "streams" = {
       "title" = "Streams";
