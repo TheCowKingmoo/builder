@@ -538,7 +538,8 @@
       "default" = true;
       "deps" = [ ];
       "type" = "remote";
-      "src" = "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.5/CodeChickenLib-1.7.10-1.1.5.5.jar";
+      "src" =
+        "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.5/CodeChickenLib-1.7.10-1.1.5.5.jar";
       "filename" = "CodeChickenLib-1.7.10-1.1.5.5.jar";
       "encoded" = "CodeChickenLib-1.7.10-1.1.5.5.jar";
       "page" = "https://github.com/GTNewHorizons/CodeChickenLib/releases";
@@ -559,8 +560,7 @@
       "src" =
         "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.6/CodeChickenCore-1.7.10-1.1.6.jar";
       "type" = "remote";
-      "sha256" =
-        "1k47v9k842a9cs7v2d3dknaxqbv0sw8r1pn4bsv2871m1kz7nw9k";
+      "sha256" = "1k47v9k842a9cs7v2d3dknaxqbv0sw8r1pn4bsv2871m1kz7nw9k";
       "md5" = "4269221b12bccad8bc9abc4e4136f0fe";
       "size" = 147858;
     };
@@ -662,14 +662,16 @@
       "side" = "client";
       "required" = false;
       "default" = false;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "craftingtweaks-mc1.7.10-1.0.88.jar";
       "encoded" = "craftingtweaks-mc1.7.10-1.0.88.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks";
-      "src" = "https://media.forgecdn.net/files/2457/94/craftingtweaks-mc1.7.10-1.0.88.jar";
+      "src" =
+        "https://media.forgecdn.net/files/2457/94/craftingtweaks-mc1.7.10-1.0.88.jar";
       "type" = "remote";
       "md5" = "524fd5ce680e109461c76d3be3162ba1";
-      "sha256" = "47412d9d54d937cce802d2e27f208019d81290a2c62fe34e73950f8ae9ccceee";
+      "sha256" =
+        "47412d9d54d937cce802d2e27f208019d81290a2c62fe34e73950f8ae9ccceee";
       "size" = 91325;
     };
     "crafttweaker" = {
@@ -1213,14 +1215,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "FTBLib-1.7.10-1.0.18.3.jar";
       "encoded" = "FTBLib-1.7.10-1.0.18.3.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-library-legacy-forge";
-      "src" = "https://media.forgecdn.net/files/2291/433/FTBLib-1.7.10-1.0.18.3.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/ftb-library-legacy-forge";
+      "src" =
+        "https://media.forgecdn.net/files/2291/433/FTBLib-1.7.10-1.0.18.3.jar";
       "type" = "remote";
       "md5" = "1753db050335f5725d1ea9e09b8f102b";
-      "sha256" = "cde5ea6cac1df49a070eb4c59e36b08b4c06594d81d7f5d8c6242713d7a80649";
+      "sha256" =
+        "cde5ea6cac1df49a070eb4c59e36b08b4c06594d81d7f5d8c6242713d7a80649";
       "size" = 667443;
     };
     "ftb-utilities-forge" = {
@@ -1230,14 +1235,17 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "FTBUtilities-1.7.10-1.0.18.3.jar";
       "encoded" = "FTBUtilities-1.7.10-1.0.18.3.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities-forge";
-      "src" = "https://media.forgecdn.net/files/2291/494/FTBUtilities-1.7.10-1.0.18.3.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities-forge";
+      "src" =
+        "https://media.forgecdn.net/files/2291/494/FTBUtilities-1.7.10-1.0.18.3.jar";
       "type" = "remote";
       "md5" = "d7611c7ea40480c17a6a5fd164dd21a8";
-      "sha256" = "9784de3286db91b654c1f718dad8bf8b3e5f7940cd661aa3af688b6a98e5c5fe";
+      "sha256" =
+        "9784de3286db91b654c1f718dad8bf8b3e5f7940cd661aa3af688b6a98e5c5fe";
       "size" = 315302;
     };
     "fullscreen-windowed-borderless-for-minecraft" = {
@@ -1987,14 +1995,16 @@
       "side" = "client";
       "required" = false;
       "default" = false;
-      "deps" = [];
+      "deps" = [ ];
       "filename" = "MouseTweaks-2.4.4-mc1.7.10.jar";
       "encoded" = "MouseTweaks-2.4.4-mc1.7.10.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks";
-      "src" = "https://media.forgecdn.net/files/2209/265/MouseTweaks-2.4.4-mc1.7.10.jar";
+      "src" =
+        "https://media.forgecdn.net/files/2209/265/MouseTweaks-2.4.4-mc1.7.10.jar";
       "type" = "remote";
       "md5" = "d4968eb0b513066313259fcd80bb8eb0";
-      "sha256" = "8b141026e0be476978015a789680f2e550c1bef4518065ff5dbf5ad640ea2164";
+      "sha256" =
+        "8b141026e0be476978015a789680f2e550c1bef4518065ff5dbf5ad640ea2164";
       "size" = 51898;
     };
     "mrtjpcore" = {
@@ -2177,11 +2187,14 @@
       "deps" = [ "codechicken-lib-gtnh" "codechickencore-gtnh" ];
       "filename" = "NotEnoughItems-1.7.10-2.3.14-GTNH.jar";
       "encoded" = "NotEnoughItems-1.7.10-2.3.14-GTNH.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/notenoughitems-gtnh";
-      "src" = "https://media.forgecdn.net/files/4073/749/NotEnoughItems-1.7.10-2.3.14-GTNH.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/notenoughitems-gtnh";
+      "src" =
+        "https://media.forgecdn.net/files/4073/749/NotEnoughItems-1.7.10-2.3.14-GTNH.jar";
       "type" = "remote";
       "md5" = "3f1c13b984b7e9c2bccdcfe571f40a0a";
-      "sha256" = "c04395d3cf8143bee64e49fbb2c5dcd035290876edd7d27f32316212e7f6415c";
+      "sha256" =
+        "c04395d3cf8143bee64e49fbb2c5dcd035290876edd7d27f32316212e7f6415c";
       "size" = 747644;
     };
     "notenoughresources" = {
@@ -3655,6 +3668,86 @@
       "sha256" =
         "c3b4a59984b117c6e212b6284219021cc19d6321e626028a0c92f24c18a13982";
       "size" = 23853;
+    };
+    "bibliocraft-bibliowoods-biomes-oplenty-edition" = {
+      "title" = "BiblioCraft: BiblioWoods Biomes O'Plenty Edition";
+      "name" = "bibliocraft-bibliowoods-biomes-oplenty-edition";
+      "id" = 228362;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "BiblioWoods[BiomesOPlenty][v1.9].jar";
+      "encoded" = "BiblioWoods[BiomesOPlenty][v1.9].jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition";
+      "src" =
+        "https://media.forgecdn.net/files/2229/577/BiblioWoods%5BBiomesOPlenty%5D%5Bv1.9%5D.jar";
+      "type" = "remote";
+      "md5" = "3abcaaae14fd5e1ddb9b9af0642ce3c0";
+      "sha256" =
+        "a354e4f6d8864347901fde09880a2b8ec6d914225955f025ad08560275a74f18";
+      "size" = 288625;
+    };
+    "bibliocraft-bibliowoods-forestry-edition" = {
+      "title" = "BiblioCraft: BiblioWoods Forestry Edition";
+      "name" = "bibliocraft-bibliowoods-forestry-edition";
+      "id" = 228363;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "BiblioWoods[Forestry][v1.7].jar";
+      "encoded" = "BiblioWoods[Forestry][v1.7].jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition";
+      "src" =
+        "https://media.forgecdn.net/files/2229/574/BiblioWoods%5BForestry%5D%5Bv1.7%5D.jar";
+      "type" = "remote";
+      "md5" = "e96270e5c2fc9cf4e72b39d953eb0652";
+      "sha256" =
+        "5d2fc7dfe753698fcc0cf2e093c24c5ad08cfdd736ce06d69570eefc267e3ad1";
+      "size" = 353943;
+    };
+    "storage-drawers-biomes-o-plenty-pack" = {
+      "title" = "Storage Drawers: Biomes O' Plenty Pack";
+      "name" = "storage-drawers-biomes-o-plenty-pack";
+      "id" = 230832;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "StorageDrawers-BiomesOPlenty-1.7.10-1.1.1.jar";
+      "encoded" = "StorageDrawers-BiomesOPlenty-1.7.10-1.1.1.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/storage-drawers-biomes-o-plenty-pack";
+      "src" =
+        "https://media.forgecdn.net/files/2275/949/StorageDrawers-BiomesOPlenty-1.7.10-1.1.1.jar";
+      "type" = "remote";
+      "md5" = "4124dfbc9f5f9e33f5aa78d21e78d243";
+      "sha256" =
+        "4be04fbd84a38b6624eba8283718a8aaff553a1eb4c4d1722f43463ecd314280";
+      "size" = 109214;
+    };
+    "storage-drawers-forestry-pack" = {
+      "title" = "Storage Drawers: Forestry Pack";
+      "name" = "storage-drawers-forestry-pack";
+      "id" = 231147;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [ ];
+      "filename" = "StorageDrawers-Forestry-1.7.10-1.1.2.jar";
+      "encoded" = "StorageDrawers-Forestry-1.7.10-1.1.2.jar";
+      "page" =
+        "https://www.curseforge.com/minecraft/mc-mods/storage-drawers-forestry-pack";
+      "src" =
+        "https://media.forgecdn.net/files/2280/532/StorageDrawers-Forestry-1.7.10-1.1.2.jar";
+      "type" = "remote";
+      "md5" = "d37ab233008bb78c3444b9a297b73190";
+      "sha256" =
+        "baff60b4ccd018f854b3b3a063a4a3107b9d5ebc76077274a95587a9ba70fbea";
+      "size" = 193260;
     };
   };
 }
