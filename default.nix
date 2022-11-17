@@ -37,7 +37,7 @@ rec {
     tmuxName = "e31";
     description = "E31: En Retrus Randus";
     ram = "4G";
-    port = 25566;
+    port = 25565;
     prometheusPort = 1224;
     forge = {
       major = "1.7.10";
