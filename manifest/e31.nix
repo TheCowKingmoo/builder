@@ -1987,6 +1987,23 @@
         "aabca604ba1b748320363b7b0c5f39478216fb18748a6f65a0aecc5e523d4d87";
       "size" = 1042450;
     };
+    "morpheus" = {
+      "title" = "Morpheus";
+      "name" = "morpheus";
+      "id" = 69118;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Morpheus-1.7.10-1.6.21.jar";
+      "encoded" = "Morpheus-1.7.10-1.6.21.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/morpheus";
+      "src" = "https://media.forgecdn.net/files/2280/761/Morpheus-1.7.10-1.6.21.jar";
+      "type" = "remote";
+      "md5" = "5d31a1480db8b091757ea5ccd4e220d9";
+      "sha256" = "37014340a0400277b1202233f75619d53e84c0cf37d2d3561a993241a45cb412";
+      "size" = 18767;
+    };
     "mouse-tweaks" = {
       "title" = "Mouse Tweaks";
       "name" = "mouse-tweaks";
