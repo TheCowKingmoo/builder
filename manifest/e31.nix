@@ -2485,7 +2485,10 @@
       "required" = true;
       "default" = true;
       "deps" = [ "shadowfacts-forgelin" ];
-      "type" = "missing";
+      "type" = "local";
+      "filename" = "prometheus-integration-1.2.0.jar";
+      "encoded" = "prometheus-integration-1.2.0.jar";
+      "src" = ../third_party/1.7.10/prometheus-integration-1.2.0.jar;
     };
     "railcraft" = {
       "title" = "Railcraft";
