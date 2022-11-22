@@ -1,4 +1,3 @@
-/*
 # Disable everything except what's explicitly whitelisted.
 import mods.nei.NEI;
 
@@ -287,7 +286,6 @@ recipes.remove(<rftools:waterBreathingEModuleItem>);
 NEI.hide(<rftools:waterBreathingEModuleItem>);
 recipes.remove(<rftools:weaknessEModuleItem>);
 NEI.hide(<rftools:weaknessEModuleItem>);
-*/
 
 val glow = <ore:dustGlowstone>;
 val red = <minecraft:redstone>;
@@ -298,10 +296,9 @@ val blockQuartz = <appliedenergistics2:tile.BlockQuartz>;
 val iron = <ore:ingotIron>;
 val nquartz = <minecraft:quartz>;
 val rftmachineframe = <rftools:machineFrame>;
-#val teleportationcore = <Mekanism:TeleportationCore>;
+val teleportationcore = <Mekanism:TeleportationCore>;
 val beacon = <minecraft:beacon>;
 
-/*
 recipes.addShaped(<rftools:modularStorageBlock>, [
   [glow, <minecraft:chest>, glow],
   [annihilationCore, <rftools:machineFrame>, formationCore],
@@ -329,7 +326,6 @@ recipes.addShaped(<rftools:remoteStorageBlock>, [
   [quartz,<Mekanism:TeleportationCore>,quartz],
   [<rftools:modularStorageBlock>,rftmachineframe,<rftools:modularStorageBlock>],
   [iron,<rftools:modularStorageBlock>,iron]]);
-*/
 
 recipes.remove(<rftools:environmentalControllerBlock>);
 recipes.addShaped(<rftools:environmentalControllerBlock>,[
@@ -337,6 +333,6 @@ recipes.addShaped(<rftools:environmentalControllerBlock>,[
   [quartz,rftmachineframe,quartz],
   [beacon,quartz,beacon]]);
 
-#recipes.remove(<rftools:dimensionalShardItem>);
+recipes.remove(<rftools:dimensionalShardItem>);
 recipes.addShapeless(<rftools:dimensionalShardItem>*16,
   [<minecraft:diamond>, <minecraft:ender_pearl>]);
