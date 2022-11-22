@@ -1,3 +1,4 @@
+/*
 recipes.remove(<Mekanism:AtomicDisassembler>);
 
 val fullEnergyTablet = <Mekanism:EnergyTablet>.withTag({electricity: 1000000.0});
@@ -23,3 +24,4 @@ recipes.addShaped(digitalMiner, [
 	[atomicAlloy, imbuedCircuit, atomicAlloy],
 	[logisticalSorter, fullRobit, logisticalSorter],
 	[steelCasing, fullDisassembler, steelCasing]]);
+*/

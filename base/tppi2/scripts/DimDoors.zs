@@ -1,4 +1,4 @@
-
+/*
 // The default recipes are too cheap.
 // Lean on Botania to make custom DimDoors a thing.
 recipes.remove(<dimdoors:Personal Dimensional Door Item>);
@@ -12,4 +12,4 @@ mods.botania.ManaInfusion.addInfusion(<dimdoors:Stabilized Rift Signature>,
   <dimdoors:Rift Signature>, 20000);
 mods.botania.ElvenTrade.addRecipe(<dimdoors:Rift Signature>,
   [<dimdoors:World Thread>]);
-
+*/
