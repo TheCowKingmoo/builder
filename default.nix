@@ -26,10 +26,40 @@ in
 rec {
 
   packs = {
-    e30 = buildPack e30;
-    e29 = buildPack e29;
-    v18 = buildPack v18;
+    e31 = buildPack e31;
+    # e30 = buildPack e30;
+    # e29 = buildPack e29;
+    # v18 = buildPack v18;
   };
+
+  e31 = {
+    name ="TPPI2";
+    tmuxName = "e31";
+    description = "E31: En Retrus Randus";
+    ram = "4G";
+    port = 25565;
+    prometheusPort = 1224;
+    forge = {
+      major = "1.7.10";
+      minor = "10.13.4.1614";
+    };
+    extraDirs = [
+      ./base/erisia
+      ./base/tppi2
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/e31.nix
+    ];
+    blacklist = [
+    ];
+  };
+
 
   v18 = {
     name ="Vanilla 1.18";

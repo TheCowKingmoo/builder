@@ -5,7 +5,9 @@
     <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
       <xsl:for-each select='/expr/attrs/attr/attrs'>
         <xsl:choose>
-          <xsl:when test = "compare(attr[@name='minecraftVersion']/string/@value, '1.16.5') = -1">
+	  <!--<xsl:when test = "compare(attr[@name='minecraftVersion']/string/@value, '1.16.5') = -1">-->
+	  <!--TODO: implement semver compare in XSLT-->
+          <xsl:when test = "1 = 1">
             <Server autoConnect="false" mainClass='net.minecraft.launchwrapper.Launch' newsUrl='https://madoka.brage.info/'>
               <xsl:attribute name='version'>
                 <xsl:value-of select="attr[@name='minecraftVersion']/string/@value" />

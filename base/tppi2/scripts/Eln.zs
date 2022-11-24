@@ -1,12 +1,13 @@
+import mods.nei.NEI;
 import mods.appeng.Inscriber;
 
 val siliconDust = <Eln:Eln.sharedItem:7696>;
-val inscribedSilicon = <appliedenergistics2:item.ItemMultiMaterial:20>;
-val siliconInscriber = <appliedenergistics2:item.ItemMultiMaterial:19>;
-
 <ore:itemSilicon>.add(siliconDust);
-Inscriber.addRecipe([siliconDust], siliconInscriber, null, inscribedSilicon, "Inscribe");
 
+// For some reason this doesn't work, version incompatibility between modtweaker and ae?
+//val inscribedSilicon = <appliedenergistics2:item.ItemMultiMaterial:20>;
+//val siliconInscriber = <appliedenergistics2:item.ItemMultiMaterial:19>;
+//Inscriber.addRecipe([siliconDust], siliconInscriber, null, inscribedSilicon, "Inscribe");
 
 // Workaround brush bug
 recipes.addShapeless(<Eln:Eln.sharedItem:7616>.withTag({life: 32}), [<minecraft:dye:0>, <Eln:Eln.sharedItem:7616>]);
@@ -25,3 +26,17 @@ recipes.addShapeless(<Eln:Eln.sharedItem:7628>.withTag({life: 32}), [<minecraft:
 recipes.addShapeless(<Eln:Eln.sharedItem:7629>.withTag({life: 32}), [<minecraft:dye:13>, <Eln:Eln.sharedItem:7629>]);
 recipes.addShapeless(<Eln:Eln.sharedItem:7630>.withTag({life: 32}), [<minecraft:dye:14>, <Eln:Eln.sharedItem:7630>]);
 recipes.addShapeless(<Eln:Eln.sharedItem:7631>.withTag({life: 32}), [<minecraft:dye:15>, <Eln:Eln.sharedItem:7631>]);
+
+// Fix issues with RoC ore processing of ELN tungsten ore
+val tungstenFlakesRocCompat = <RotaryCraft:rotarycraft_item_modextracts:87>;
+val tungstenDustRocCompat = <RotaryCraft:rotarycraft_item_modingots:21>;
+val tungstenDustEln = <Eln:Eln.sharedItem:6>;
+val tungstenIngotEln = <Eln:Eln.sharedItem:517>;
+
+recipes.remove(<RotaryCraft:rotarycraft_item_modingots:21>);
+//furnace.remove(<RotaryCraft:rotarycraft_item_modingots:21>);
+NEI.hide(<RotaryCraft:rotarycraft_item_modingots:21>);
+recipes.addShapeless(<Eln:Eln.sharedItem:6>, [<RotaryCraft:rotarycraft_item_modextracts:87>]);
+recipes.addShapeless(<Eln:Eln.sharedItem:6>, [<RotaryCraft:rotarycraft_item_modingots:21>]);
+furnace.addRecipe(<Eln:Eln.sharedItem:517>, <RotaryCraft:rotarycraft_item_modextracts:87>);
+furnace.addRecipe(<Eln:Eln.sharedItem:517>, <RotaryCraft:rotarycraft_item_modingots:21>);
