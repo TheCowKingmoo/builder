@@ -3596,17 +3596,15 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [ ];
-      "filename" = "ae2stuff-0.5.1.61-mc1.7.10.jar";
-      "encoded" = "ae2stuff-0.5.1.61-mc1.7.10.jar";
+      "deps" = [];
+      "filename" = "ae2stuff-rv3-0.5.1.9-mc1.7.10.jar";
+      "encoded" = "ae2stuff-rv3-0.5.1.9-mc1.7.10.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/ae2-stuff";
-      "src" =
-        "https://media.forgecdn.net/files/2272/496/ae2stuff-0.5.1.61-mc1.7.10.jar";
+      "src" = "https://media.forgecdn.net/files/2270/295/ae2stuff-rv3-0.5.1.9-mc1.7.10.jar";
       "type" = "remote";
-      "md5" = "8b2c397b7b481135aa1f8b039f696b6a";
-      "sha256" =
-        "89cf0cd16e8e0b8be0f8b511e2075873eef77d42b20a490ab56429721993b3e0";
-      "size" = 510109;
+      "md5" = "aec535108765d13ab7c9885f60747f43";
+      "sha256" = "a5510034f1a36ce7eb2c4fc1827742c89c53eb38b282d373612b258d60f80375";
+      "size" = 507138;
     };
     "pressure-pipes" = {
       "title" = "Pressure Pipes";
