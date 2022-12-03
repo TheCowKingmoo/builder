@@ -2851,6 +2851,23 @@
         "40757863dd2814fc65c60a80690011c4c153519e7210f1f785dd594919b6197e";
       "size" = 41252;
     };
+    "spark" = {
+      "title" = "spark";
+      "name" = "spark";
+      "id" = 361579;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "spark-1.9.19-forge1710.jar";
+      "encoded" = "spark-1.9.19-forge1710.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/spark";
+      "src" = "https://media.forgecdn.net/files/3994/926/spark-1.9.19-forge1710.jar";
+      "type" = "remote";
+      "md5" = "ec5a4fdcf129363007403b1b4410e54a";
+      "sha256" = "5c74f6ce321a8729941657831d88f59c44083b07a27f52467eff344a1e46cc04";
+      "size" = 3169033;
+    };
     "steves-addons" = {
       "title" = "Steve's Addons";
       "name" = "steves-addons";
