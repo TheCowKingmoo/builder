@@ -1308,27 +1308,27 @@
         "634966e3908a1ef712905701ca4301e0f7c4062d132f899eb847ea5b25e61b58";
       "size" = 200078;
     };
-    "hardcore-ender-expansion" = {
-      "title" = "Hardcore Ender Expansion";
-      "name" = "hardcore-ender-expansion";
-      "id" = 228015;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "maturity" = "release";
-      "filename" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
-      "encoded" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
-      "page" =
-        "https://www.curseforge.com/minecraft/mc-mods/hardcore-ender-expansion";
-      "src" =
-        "https://media.forgecdn.net/files/2316/923/HardcoreEnderExpansion%20%20MC-1.7.10%20%20v1.8.6.jar";
-      "type" = "remote";
-      "md5" = "513bbcc2ccf47d4ac35e8a6d4389ea5e";
-      "sha256" =
-        "2884bb70ba5edaa133981bbf6dae087c47bcef655f93567252f18421138a9693";
-      "size" = 4338973;
-    };
+    #"hardcore-ender-expansion" = {
+    #  "title" = "Hardcore Ender Expansion";
+    #  "name" = "hardcore-ender-expansion";
+    #  "id" = 228015;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "maturity" = "release";
+    #  "filename" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
+    #  "encoded" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
+    #  "page" =
+    #    "https://www.curseforge.com/minecraft/mc-mods/hardcore-ender-expansion";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2316/923/HardcoreEnderExpansion%20%20MC-1.7.10%20%20v1.8.6.jar";
+    #  "type" = "remote";
+    #  "md5" = "513bbcc2ccf47d4ac35e8a6d4389ea5e";
+    #  "sha256" =
+    #    "2884bb70ba5edaa133981bbf6dae087c47bcef655f93567252f18421138a9693";
+    #  "size" = 4338973;
+    #};
     "hats" = {
       "title" = "Hats";
       "name" = "hats";
