@@ -1,5 +1,5 @@
 { stdenv, symlinkJoin, runCommand, linkFarm, fetchurl, callPackage, writeText
-, xorg, cacert, jre, wget, zip, rsync, saxonb, python, lib
+, xorg, cacert, jre, wget, zip, rsync, saxonb, python3, lib
 }:
 with stdenv;
 
@@ -308,10 +308,10 @@ rec {
   urlencode = text: builtins.readFile (runLocally "urlencoded" {
     inherit text;
     passAsFile = [ "text" ];
-    buildInputs = [ python ];
+    buildInputs = [ python3 ];
   } ''
-    echo -e "import sys, urllib as ul\nsys.stdout.write(ul.pathname2url(sys.stdin.read()))" > program
-    python program < $textPath > $out
+    echo -e "import sys, urllib.request as ulr\nsys.stdout.write(ulr.pathname2url(sys.stdin.read()))" > program
+    python3 program < $textPath > $out
   '');
 
   /**
