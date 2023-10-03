@@ -1308,27 +1308,27 @@
         "634966e3908a1ef712905701ca4301e0f7c4062d132f899eb847ea5b25e61b58";
       "size" = 200078;
     };
-    "hardcore-ender-expansion" = {
-      "title" = "Hardcore Ender Expansion";
-      "name" = "hardcore-ender-expansion";
-      "id" = 228015;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [ ];
-      "maturity" = "release";
-      "filename" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
-      "encoded" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
-      "page" =
-        "https://www.curseforge.com/minecraft/mc-mods/hardcore-ender-expansion";
-      "src" =
-        "https://media.forgecdn.net/files/2316/923/HardcoreEnderExpansion%20%20MC-1.7.10%20%20v1.8.6.jar";
-      "type" = "remote";
-      "md5" = "513bbcc2ccf47d4ac35e8a6d4389ea5e";
-      "sha256" =
-        "2884bb70ba5edaa133981bbf6dae087c47bcef655f93567252f18421138a9693";
-      "size" = 4338973;
-    };
+    #"hardcore-ender-expansion" = {
+    #  "title" = "Hardcore Ender Expansion";
+    #  "name" = "hardcore-ender-expansion";
+    #  "id" = 228015;
+    #  "side" = "both";
+    #  "required" = true;
+    #  "default" = true;
+    #  "deps" = [ ];
+    #  "maturity" = "release";
+    #  "filename" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
+    #  "encoded" = "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar";
+    #  "page" =
+    #    "https://www.curseforge.com/minecraft/mc-mods/hardcore-ender-expansion";
+    #  "src" =
+    #    "https://media.forgecdn.net/files/2316/923/HardcoreEnderExpansion%20%20MC-1.7.10%20%20v1.8.6.jar";
+    #  "type" = "remote";
+    #  "md5" = "513bbcc2ccf47d4ac35e8a6d4389ea5e";
+    #  "sha256" =
+    #    "2884bb70ba5edaa133981bbf6dae087c47bcef655f93567252f18421138a9693";
+    #  "size" = 4338973;
+    #};
     "hats" = {
       "title" = "Hats";
       "name" = "hats";
@@ -2851,6 +2851,23 @@
         "40757863dd2814fc65c60a80690011c4c153519e7210f1f785dd594919b6197e";
       "size" = 41252;
     };
+    "spark" = {
+      "title" = "spark";
+      "name" = "spark";
+      "id" = 361579;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "spark-1.9.19-forge1710.jar";
+      "encoded" = "spark-1.9.19-forge1710.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/spark";
+      "src" = "https://media.forgecdn.net/files/3994/926/spark-1.9.19-forge1710.jar";
+      "type" = "remote";
+      "md5" = "ec5a4fdcf129363007403b1b4410e54a";
+      "sha256" = "5c74f6ce321a8729941657831d88f59c44083b07a27f52467eff344a1e46cc04";
+      "size" = 3169033;
+    };
     "steves-addons" = {
       "title" = "Steve's Addons";
       "name" = "steves-addons";
@@ -3596,17 +3613,15 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [ ];
-      "filename" = "ae2stuff-0.5.1.61-mc1.7.10.jar";
-      "encoded" = "ae2stuff-0.5.1.61-mc1.7.10.jar";
+      "deps" = [];
+      "filename" = "ae2stuff-rv3-0.5.1.9-mc1.7.10.jar";
+      "encoded" = "ae2stuff-rv3-0.5.1.9-mc1.7.10.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/ae2-stuff";
-      "src" =
-        "https://media.forgecdn.net/files/2272/496/ae2stuff-0.5.1.61-mc1.7.10.jar";
+      "src" = "https://media.forgecdn.net/files/2270/295/ae2stuff-rv3-0.5.1.9-mc1.7.10.jar";
       "type" = "remote";
-      "md5" = "8b2c397b7b481135aa1f8b039f696b6a";
-      "sha256" =
-        "89cf0cd16e8e0b8be0f8b511e2075873eef77d42b20a490ab56429721993b3e0";
-      "size" = 510109;
+      "md5" = "aec535108765d13ab7c9885f60747f43";
+      "sha256" = "a5510034f1a36ce7eb2c4fc1827742c89c53eb38b282d373612b258d60f80375";
+      "size" = 507138;
     };
     "pressure-pipes" = {
       "title" = "Pressure Pipes";
