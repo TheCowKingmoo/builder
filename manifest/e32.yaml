@@ -1,0 +1,558 @@
+config:
+  minecraft_version: '1.19.2'
+  modloader: 'fabric'
+nodes:
+  - id: modlist
+    value:
+      - name: techreborn
+        source: curse
+        file_id: 4102770
+      - name: amphitrite-coffer
+        source: curse
+        file_id: 3975406
+      - name: malilib
+        source: curse
+        file_id: 3923052
+      - name: roughly-enough-resources
+        source: curse
+        file_id: 3837336
+      - name: stoneholm
+        source: curse
+        file_id: 3819692
+      - name: worldedit
+        source: curse
+        file_id: 3922622
+      - name: advanced-reborn
+        source: modrinth
+        id: ir8okcEA
+        file_id: JOnttq2r
+      - name: ambientsounds
+        source: modrinth
+        id: fM515JnW
+        file_id: HzAe7PdZ
+      - name: axes-are-weapons
+        source: modrinth
+        id: 1jvt7RTc
+        file_id: uOaZVop7
+      - name: beaconoverhaul
+        source: modrinth
+        id: v0cwu8bJ
+        file_id: 1IQ8kOV2
+      - name: better-advancements
+        source: modrinth
+        id: Q2OqKxDG
+        file_id: MqXjcA0Z
+      - name: better-ping-display-fabric
+        source: modrinth
+        id: MS1ZMyR7
+        file_id: DCWtLDt7
+      - name: better-tridents
+        source: modrinth
+        id: KNUSlHiU
+        file_id: bOhIfLF2
+      - name: botania
+        source: modrinth
+        id: pfjLUfGv
+        file_id: T1wWMXnl
+      - name: chunky
+        source: modrinth
+        id: fALzjamp
+        file_id: wFqA1p32
+      - name: creativecore
+        source: modrinth
+        id: OsZiaDHq
+        file_id: ug21xEGt
+      - name: debugify
+        source: modrinth
+        id: QwxR6Gcd
+        file_id: UvBWAMZL
+      - name: distanthorizons
+        source: modrinth
+        id: uCdwusMi
+        file_id: yEUygWBv
+      - name: extended-drawers
+        source: modrinth
+        id: AhtxbnpG
+        file_id: rVif6c1F
+      - name: fastload
+        source: modrinth
+        id: kCpssoSb
+        file_id: ys9T20o4
+      - name: forge-config-api-port
+        source: modrinth
+        id: ohNO6lps
+        file_id: 3VCgXZ79
+      - name: galosphere
+        source: modrinth
+        id: Kn7xyQ1v
+        file_id: OiOtfscD
+      - name: jade
+        source: modrinth
+        id: nvQzSEkH
+        file_id: ZASePpsm
+      - name: jade-addons-fabric
+        source: modrinth
+        id: fThnVRli
+        file_id: IudUBEkl
+      - name: no-chat-reports
+        source: modrinth
+        id: qQyHxfxd
+        file_id: YuX53PIA
+      - name: nullscape
+        source: modrinth
+        id: LPjGiSO4
+        file_id: M1tAEtbt
+      - name: patchouli
+        source: modrinth
+        id: nU0bVIaL
+        file_id: NorgAU8F
+      - name: ping-wheel
+        source: modrinth
+        id: QQXAdCzh
+        file_id: rqwSTvU9
+      - name: pockets
+        source: modrinth
+        id: hAjvvnUD
+        file_id: 9rmANgBW
+      - name: portable-hole
+        source: modrinth
+        id: jckrUoUe
+        file_id: lAercYPJ
+      - name: presence-footsteps
+        source: modrinth
+        id: rcTfTZr3
+        file_id: 3fEb2K4u
+      - name: puzzles-lib
+        source: modrinth
+        id: QAGBst4M
+        file_id: hYKHLRZ3
+      - name: rei
+        source: modrinth
+        id: nfn13YXA
+        file_id: A1KgXSIn
+      - name: roughly-enough-loot-tables
+        source: modrinth
+        id: 5hppfLUZ
+        file_id: GvXMNQdq
+      - name: roughly-enough-trades
+        source: modrinth
+        id: SRDQqMfX
+        file_id: CdXT6NYx
+      - name: create-steam-n-rails
+        source: modrinth
+        id: ZzjhlDgM
+        file_id: EPD1yRD4
+      - name: terralith
+        source: modrinth
+        id: 8oi3bsk5
+        file_id: UJtMNPNx
+      - name: xaeros-minimap
+        source: modrinth
+        id: 1bokaNcj
+        file_id: fN0KKPHy
+      - name: yungs-api
+        source: modrinth
+        id: Ua7DFN59
+        file_id: IxuGYnWF
+      - name: yungs-better-dungeons
+        source: modrinth
+        id: o1C1Dkj5
+        file_id: XOk0yK9M
+      - name: immersive-structures
+        source: modrinth
+        id: CVBAErky
+        file_id: danTqbxA
+      - name: immersive-structures-ii
+        source: modrinth
+        id: fECIioDQ
+        file_id: 1NBeRr6k
+      - name: advancements-debug
+        source: modrinth
+        id: rxMTwxyO
+        file_id: oTJoSDPx
+      - name: allay-in-a-bottle
+        source: modrinth
+        id: 7IGV0Frg
+        file_id: eBdWohdk
+      - name: alternate-current
+        source: modrinth
+        id: r0v8vy1s
+        file_id: FkanfPQt
+      - name: appleskin
+        source: modrinth
+        id: EsAfCjCV
+        file_id: pIFVoWvG
+      - name: architectury-api
+        source: modrinth
+        id: lhGA9TYQ
+        file_id: HoIJp48v
+      - name: bclib
+        source: modrinth
+        id: BgNRHReB
+        file_id: aykCQLhD
+      - name: better-enchanted-books
+        source: modrinth
+        id: yjpXhps7
+        file_id: LiSauhSD
+      - name: betterend
+        source: modrinth
+        id: gc8OEnCC
+        file_id: OTbfUxoF
+      - name: better-than-mending
+        source: modrinth
+        id: Lvv4SHrK
+        file_id: botD0Qv4
+      - name: bits-and-chisels
+        source: modrinth
+        id: q8MC5tW2
+        file_id: DZiUyJjF
+      - name: bobby
+        source: modrinth
+        id: M08ruV16
+        file_id: 5UUzbXgz
+      - name: borderless-mining
+        source: modrinth
+        id: kYq5qkSL
+        file_id: gqoXgtxO
+      - name: cardinal-components-api
+        source: modrinth
+        id: K01OU20C
+        file_id: tPfCTMiZ
+      - name: cave-enhancements
+        source: modrinth
+        id: LUVcqDu1
+        file_id: RGpo42dp
+      - name: cave-dweller-fabric
+        source: modrinth
+        id: cChd25Tw
+        file_id: jQ0cjlP5
+      - name: chatpatches
+        source: modrinth
+        id: MOqt4Z5n
+        file_id: mkSBPVio
+      - name: chunk-loaders
+        source: modrinth
+        id: t1VgucWo
+        file_id: 7ImQBjzV
+      - name: cloth-config
+        source: modrinth
+        id: 9s6osm5g
+        file_id: EXrxCjl6
+      - name: comforts
+        source: modrinth
+        id: SaCpeal4
+        file_id: CeY7jdWr
+      - name: connectible_chains
+        source: modrinth
+        id: ykSfIgTw
+        file_id: t9MYW9lw
+      - name: copper-hopper
+        source: modrinth
+        id: mTI5Xg5F
+        file_id: x6yf3o0b
+      - name: crawl
+        source: modrinth
+        id: H1JOVjhn
+        file_id: OtUrmby2
+      - name: create-fabric
+        source: modrinth
+        id: Xbc0uyRg
+        file_id: okpdciJG
+      - name: dungeons-and-taverns
+        source: modrinth
+        id: tpehi7ww
+        file_id: Q6eAdyTS
+      - name: enchantedshulkers
+        source: modrinth
+        id: vUi6HFie
+        file_id: QxRvomUF
+      - name: entityculling
+        source: modrinth
+        id: NNAgCjsB
+        file_id: twdGLDHv
+      - name: extreme_sound_muffler
+        source: modrinth
+        id: 5IIKsxiL
+        file_id: 3JoAFc8X
+      - name: fabric-api
+        source: modrinth
+        id: P7dR8mSH
+        file_id: fO05PwUR
+      - name: fabric-language-kotlin
+        source: modrinth
+        id: Ha28R6CL
+        file_id: 48ri5y9r
+      - name: fabricskyboxes
+        source: modrinth
+        id: YBz7DOs8
+        file_id: YMQsxFJ0
+      - name: fallingleaves
+        source: modrinth
+        id: WhbRG4iK
+        file_id: aufE28Na
+      - name: fat-experience-orbs
+        source: modrinth
+        id: dbigkc0P
+        file_id: l55UgBSx
+      - name: ferrite-core
+        source: modrinth
+        id: uXXizFIs
+        file_id: kwjHqfz7
+      - name: geckolib
+        source: modrinth
+        id: 8BmcQJ2H
+        file_id: ATPZfRS1
+      - name: geophilic
+        source: modrinth
+        id: hl5OLM95
+        file_id: vEXGEu0m
+      - name: here-be-no-dragons
+        source: modrinth
+        id: WXDvMkR5
+        file_id: Fi3C0IO5
+      - name: hexal
+        source: modrinth
+        id: aBVJ6Q36
+        file_id: NgdFPhMz
+      - name: hex-casting
+        source: modrinth
+        id: nTW3yKrm
+        file_id: IbghSN93
+      - name: hexkinetics
+        source: modrinth
+        id: 8FVr3ohp
+        file_id: XpOc6KTa
+      - name: hexlands
+        source: modrinth
+        id: jkmTQqWQ
+        file_id: N4SRsmlO
+      - name: hextweaks
+        source: modrinth
+        id: pim6pG9O
+        file_id: vRGtikRV
+      - name: idwtialsimmoedm
+        source: modrinth
+        id: ad89WlWh
+        file_id: 8ZfelATg
+      - name: immersive-paintings
+        source: modrinth
+        id: 6txNkua3
+        file_id: Vrd1txwx
+      - name: immersive-weathering
+        source: modrinth
+        id: jkskOO9i
+        file_id: yR3VudNR
+      - name: improved-signs
+        source: modrinth
+        id: tEcCNQe7
+        file_id: eXGUTNJu
+      - name: indium
+        source: modrinth
+        id: Orvt0mRa
+        file_id: yTfou6df
+      - name: infineffect
+        source: modrinth
+        id: PwjiOWTr
+        file_id: 61gviW5U
+      - name: iris
+        source: modrinth
+        id: YL57xq9U
+        file_id: 4rtFWyuc
+      - name: item-model-fix
+        source: modrinth
+        id: B3HO5V57
+        file_id: vKmXWAvG
+      - name: keymap
+        source: modrinth
+        id: duSoEJIr
+        file_id: DayWFuzl
+      - name: konkrete
+        source: modrinth
+        id: J81TRJWm
+        file_id: pz9SoIJL
+      - name: kubejs
+        source: modrinth
+        id: umyGl7zF
+        file_id: UiUUWj3r
+      - name: lazydfu
+        source: modrinth
+        id: hvFnDODi
+        file_id: 4SHylIO9
+      - name: lithium
+        source: modrinth
+        id: gvQqBUqZ
+        file_id: m6sVgAi6
+      - name: loadingscreentips
+        source: modrinth
+        id: 9iE55lp5
+        file_id: AyWgSsyV
+      - name: load-my-resources
+        source: modrinth
+        id: TqCKvqjC
+        file_id: ErYeBTin
+      - name: low-fire
+        source: modrinth
+        id: Gou1gmGj
+        file_id: jWpt7qOI
+      - name: fastanim
+        source: modrinth
+        id: yHf7SALy
+        file_id: LCHmWNvu
+      - name: mcpitanlibarch
+        source: modrinth
+        id: uNRoUnGT
+        file_id: JUVD0Vsk
+      - name: memoryleakfix
+        source: modrinth
+        id: NRjRiSSD
+        file_id: dGlflhb6
+      - name: modmenu
+        source: modrinth
+        id: mOgUt4GM
+        file_id: gSoPJyVn
+      - name: moonlight
+        source: modrinth
+        id: twkfQtEc
+        file_id: yvWnUxeS
+      - name: moreiotas
+        source: modrinth
+        id: Jmt7p37B
+        file_id: O6fSYKPz
+      - name: mouse-wheelie
+        source: modrinth
+        id: u5Ic2U1u
+        file_id: KNLEqpmH
+      - name: nbt-crafting
+        source: modrinth
+        id: 18ztUZP5
+        file_id: YqhR41Oh
+      - name: better-nether-map
+        source: modrinth
+        id: fdtm99de
+        file_id: trFS7jC2
+      - name: owo-lib
+        source: modrinth
+        id: ccKDOlHs
+        file_id: yGLYmVnT
+      - name: paucal
+        source: modrinth
+        id: TZo2wHFe
+        file_id: zrxHAQQ7
+      - name: phosphor
+        source: modrinth
+        id: hEOCdOgW
+        file_id: Di0Jgej2
+      - name: pipeblocker
+        source: modrinth
+        id: wlRUwo2y
+        file_id: VH4NKOW2
+      - name: profundis
+        source: modrinth
+        id: aucz7XCt
+        file_id: zv0Dk19d
+      - name: reacharound
+        source: modrinth
+        id: r3VgI4QN
+        file_id: E8z7QNV3
+      - name: replaymod
+        source: modrinth
+        id: Nv2fQJo5
+        file_id: EtYipT0o
+      - name: revelationary
+        source: modrinth
+        id: eXrl5E3G
+        file_id: 2d9fuEjc
+      - name: rhino
+        source: modrinth
+        id: sk9knFPE
+        file_id: FWhq0g2w
+      - name: roughly-searchable
+        source: modrinth
+        id: njGhQ4fN
+        file_id: BKUeq4Uh
+      - name: simplefog
+        source: modrinth
+        id: Glp1bwYc
+        file_id: 2NINyQSm
+      - name: smoothboot-fabric
+        source: modrinth
+        id: FWumhS4T
+        file_id: r8xRVPEI
+      - name: sodium
+        source: modrinth
+        id: AANobbMI
+        file_id: rAfhHfow
+      - name: ordinarytweaks
+        source: modrinth
+        id: LNeXYJOg
+        file_id: p4W5KzFD
+      - name: sound-physics-remastered
+        source: modrinth
+        id: qyVF9oeo
+        file_id: 7P98uY0M
+      - name: spectrum
+        source: modrinth
+        id: 3rc31Hgo
+        file_id: L5DFvhhu
+      - name: spirit-walker
+        source: modrinth
+        id: zbX4s3vj
+        file_id: Gbu2vbnC
+      - name: stack-to-nearby-chests
+        source: modrinth
+        id: HtGckJVc
+        file_id: xslqqPFc
+      - name: status-effect-bars
+        source: modrinth
+        id: x02cBj9Y
+        file_id: LA3OYeBL
+      - name: supermartijn642s-config-lib
+        source: modrinth
+        id: LN9BxssP
+        file_id: v4UxCV2K
+      - name: supermartijn642s-core-lib
+        source: modrinth
+        id: rOUBggPv
+        file_id: 2cKHMbzL
+      - name: travelersbackpack
+        source: modrinth
+        id: rlloIFEV
+        file_id: Y0TS2Cd0
+      - name: treeplacer
+        source: modrinth
+        id: 4im8hCxA
+        file_id: tLZaQPmI
+      - name: trinkets
+        source: modrinth
+        id: 5aaWibi9
+        file_id: OLwsMJv4
+      - name: unifiedmetrics
+        source: modrinth
+        id: p1ewR5kV
+        file_id: xwRVtqbA
+      - name: visuality
+        source: modrinth
+        id: rI0hvYcd
+        file_id: TrPcZLjs
+      - name: simple-voice-chat
+        source: modrinth
+        id: 9eGKb6K1
+        file_id: lBtQcbt8
+      - name: wmitaf
+        source: modrinth
+        id: mk6pNnsq
+        file_id: cgSuov1n
+      - name: xxl-packets
+        source: modrinth
+        id: SeCuopwJ
+        file_id: Y9sm9hZa
+      - name: yosbr
+        source: modrinth
+        id: WwbubTsV
+        file_id: KMOzdYko
+  - id: resolver
+    kind: ModResolver
+    input:
+      mods: modlist
+  - filename: e32.nix
+    source: resolver
