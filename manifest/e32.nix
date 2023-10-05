@@ -31,7 +31,7 @@
     "malilib" = {
       title = "MaLiLib";
       name = "malilib";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "malilib-fabric-1.19.2-0.13.0.jar";
@@ -96,8 +96,8 @@
     "ambientsounds" = {
       title = "AmbientSounds";
       name = "ambientsounds";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "AmbientSounds_FABRIC_v5.2.13_mc1.19.2.jar";
       encoded = "AmbientSounds_FABRIC_v5.2.13_mc1.19.2.jar";
@@ -148,8 +148,8 @@
     "better-ping-display-fabric" = {
       title = "Better Ping Display [Fabric]";
       name = "better-ping-display-fabric";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "BetterPingDisplay-Fabric-1.19.2-1.1.1.jar";
       encoded = "BetterPingDisplay-Fabric-1.19.2-1.1.1.jar";
@@ -242,12 +242,12 @@
       side = "both";
       required = "true";
       default = "true";
-      filename = "ExtendedDrawers-1.4.3+mc.1.19.2.jar";
-      encoded = "ExtendedDrawers-1.4.3+mc.1.19.2.jar";
-      src = "https://cdn.modrinth.com/data/AhtxbnpG/versions/rVif6c1F/ExtendedDrawers-1.4.3%2Bmc.1.19.2.jar";
-      size = "835742";
-      md5 = "128f55fc361a3f0a3bf677c44434ae4a";
-      sha256 = "9e362aa32c49f98bbd9c80c55271bd6ac7d0788c4802ef5110f5174857e5baf5";
+      filename = "ExtendedDrawers-1.4.4+mc.1.19.2.jar";
+      encoded = "ExtendedDrawers-1.4.4+mc.1.19.2.jar";
+      src = "https://cdn.modrinth.com/data/AhtxbnpG/versions/Yu7dw5fP/ExtendedDrawers-1.4.4%2Bmc.1.19.2.jar";
+      size = "835976";
+      md5 = "f072adf70e48c53eeed852e6216f50cb";
+      sha256 = "d27765d4d2081d2f9ba7517b8fa7e889c4b14a9e69bf49a4656fe3c2a2501d83";
     };
     "fastload" = {
       title = "Fastload";
@@ -395,8 +395,8 @@
     "presence-footsteps" = {
       title = "Presence Footsteps";
       name = "presence-footsteps";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "PresenceFootsteps-1.6.4.jar";
       encoded = "PresenceFootsteps-1.6.4.jar";
@@ -447,7 +447,7 @@
     "roughly-enough-trades" = {
       title = "Roughly Enough Trades";
       name = "roughly-enough-trades";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "RoughlyEnoughTrades-1.19-1.0.jar";
@@ -629,7 +629,7 @@
     "better-enchanted-books" = {
       title = "Better Enchanted Books";
       name = "better-enchanted-books";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "better-enchanted-books-1.19-1.4.1.jar";
@@ -681,8 +681,8 @@
     "bobby" = {
       title = "Bobby";
       name = "bobby";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "bobby-4.0.1.jar";
       encoded = "bobby-4.0.1.jar";
@@ -694,9 +694,9 @@
     "borderless-mining" = {
       title = "Borderless Mining";
       name = "borderless-mining";
-      side = "both";
-      required = "true";
-      default = "true";
+      side = "client";
+      required = "false";
+      default = "false";
       filename = "borderless-mining-1.1.5+1.19.jar";
       encoded = "borderless-mining-1.1.5+1.19.jar";
       src = "https://cdn.modrinth.com/data/kYq5qkSL/versions/1.1.5%2B1.19/borderless-mining-1.1.5%2B1.19.jar";
@@ -746,8 +746,8 @@
     "chatpatches" = {
       title = "Chat Patches";
       name = "chatpatches";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "chatpatches-192.2.1.jar";
       encoded = "chatpatches-192.2.1.jar";
@@ -876,8 +876,8 @@
     "entityculling" = {
       title = "Entity Culling";
       name = "entityculling";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "entityculling-fabric-1.6.1-mc1.19.2.jar";
       encoded = "entityculling-fabric-1.6.1-mc1.19.2.jar";
@@ -928,7 +928,7 @@
     "fabricskyboxes" = {
       title = "FabricSkyboxes";
       name = "fabricskyboxes";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "fabricskyboxes-0.7.2+mc1.19.2.jar";
@@ -941,8 +941,8 @@
     "fallingleaves" = {
       title = "Falling Leaves";
       name = "fallingleaves";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "fallingleaves-1.13.0+1.19.2.jar";
       encoded = "fallingleaves-1.13.0+1.19.2.jar";
@@ -1006,7 +1006,7 @@
     "here-be-no-dragons" = {
       title = "Here be no Dragons!";
       name = "here-be-no-dragons";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "here-be-no-dragons-1.0.0.jar";
@@ -1136,7 +1136,7 @@
     "indium" = {
       title = "Indium";
       name = "indium";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "indium-1.0.9+mc1.19.2.jar";
@@ -1149,7 +1149,7 @@
     "infineffect" = {
       title = "infineffect";
       name = "infineffect";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "infineffect-1.0.jar";
@@ -1162,8 +1162,8 @@
     "iris" = {
       title = "Iris Shaders";
       name = "iris";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "iris-mc1.19.2-1.6.9.jar";
       encoded = "iris-mc1.19.2-1.6.9.jar";
@@ -1175,7 +1175,7 @@
     "item-model-fix" = {
       title = "Item Model Fix";
       name = "item-model-fix";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "item-model-fix-1.0.3+1.19.jar";
@@ -1266,7 +1266,7 @@
     "load-my-resources" = {
       title = "Load My Resources";
       name = "load-my-resources";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "loadmyresources_fabric_1.0.4_MC_1.19-1.19.2.jar";
@@ -1279,7 +1279,7 @@
     "low-fire" = {
       title = "Low Fire";
       name = "low-fire";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "lowfire-fabric-1.19-3.0.0.jar";
@@ -1331,7 +1331,7 @@
     "modmenu" = {
       title = "Mod Menu";
       name = "modmenu";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "modmenu-4.2.0-beta.2.jar";
@@ -1373,12 +1373,12 @@
       side = "both";
       required = "true";
       default = "true";
-      filename = "mousewheelie-1.12.2+mc1.19.2.jar";
-      encoded = "mousewheelie-1.12.2+mc1.19.2.jar";
-      src = "https://cdn.modrinth.com/data/u5Ic2U1u/versions/KNLEqpmH/mousewheelie-1.12.2%2Bmc1.19.2.jar";
-      size = "1083683";
-      md5 = "4144020f34d54ba5107707d9ff37e093";
-      sha256 = "44506444277cdc8d5dc34638c01191e4efe7bd92f29aa76824a9d69f4dad29d4";
+      filename = "mousewheelie-1.13.0+mc1.19.2.jar";
+      encoded = "mousewheelie-1.13.0+mc1.19.2.jar";
+      src = "https://cdn.modrinth.com/data/u5Ic2U1u/versions/5R7l84zv/mousewheelie-1.13.0%2Bmc1.19.2.jar";
+      size = "1091900";
+      md5 = "5fc90bed12efee1b1b4ce23e8573ca1a";
+      sha256 = "ae04dae138065d7cad3ad09eeb180ad1209ff66457ecb888fbe139327ad7c411";
     };
     "nbt-crafting" = {
       title = "Nbt Crafting";
@@ -1487,8 +1487,8 @@
     "replaymod" = {
       title = "ReplayMod";
       name = "replaymod";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "replaymod-1.19.2-2.6.13.jar";
       encoded = "replaymod-1.19.2-2.6.13.jar";
@@ -1539,7 +1539,7 @@
     "simplefog" = {
       title = "Simple Fog Control";
       name = "simplefog";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "simplefog-1.3.1.jar";
@@ -1565,7 +1565,7 @@
     "sodium" = {
       title = "Sodium";
       name = "sodium";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "sodium-fabric-mc1.19.2-0.4.4+build.18.jar";
@@ -1578,8 +1578,8 @@
     "ordinarytweaks" = {
       title = "SomeOrdinaryTweaks";
       name = "ordinarytweaks";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "some-ordinary-tweaks-1.6.5-backport-1.19.2.jar";
       encoded = "some-ordinary-tweaks-1.6.5-backport-1.19.2.jar";
@@ -1630,8 +1630,8 @@
     "stack-to-nearby-chests" = {
       title = "Stack to Nearby Chests";
       name = "stack-to-nearby-chests";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "stack-to-nearby-chests-mc1.19.2-0.4.0.jar";
       encoded = "stack-to-nearby-chests-mc1.19.2-0.4.0.jar";
@@ -1643,7 +1643,7 @@
     "status-effect-bars" = {
       title = "Status Effect Bars";
       name = "status-effect-bars";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "status-effect-bars-1.0.1+1.19.jar";
@@ -1685,12 +1685,12 @@
       side = "both";
       required = "true";
       default = "true";
-      filename = "travelers-backpack-1.19.2-8.2.28.jar";
-      encoded = "travelers-backpack-1.19.2-8.2.28.jar";
-      src = "https://cdn.modrinth.com/data/rlloIFEV/versions/Y0TS2Cd0/travelers-backpack-1.19.2-8.2.28.jar";
-      size = "958910";
-      md5 = "cc7c7ce73825012dd504598d1e709e7b";
-      sha256 = "f1e983731c7c0ab23ceb8a897031de863fe94210fd7e0c54efa9dd55b714ac3b";
+      filename = "travelers-backpack-1.19.2-8.2.29.jar";
+      encoded = "travelers-backpack-1.19.2-8.2.29.jar";
+      src = "https://cdn.modrinth.com/data/rlloIFEV/versions/k2i1CIRO/travelers-backpack-1.19.2-8.2.29.jar";
+      size = "957145";
+      md5 = "190d4a367cf25dcf6723256f19d18035";
+      sha256 = "d241af0ba561806c9dd1dfc43829286a08ad75d6fdcc3f5e6ee8ee805cf73aa6";
     };
     "treeplacer" = {
       title = "Treeplacer";
@@ -1734,8 +1734,8 @@
     "visuality" = {
       title = "Visuality";
       name = "visuality";
-      side = "both";
-      required = "true";
+      side = "client";
+      required = "false";
       default = "true";
       filename = "visuality-0.5.6.jar";
       encoded = "visuality-0.5.6.jar";
@@ -1750,17 +1750,17 @@
       side = "both";
       required = "true";
       default = "true";
-      filename = "voicechat-fabric-1.19.2-2.4.25.jar";
-      encoded = "voicechat-fabric-1.19.2-2.4.25.jar";
-      src = "https://cdn.modrinth.com/data/9eGKb6K1/versions/lBtQcbt8/voicechat-fabric-1.19.2-2.4.25.jar";
-      size = "7977364";
-      md5 = "302404bb71e5bd966c38fe0b76b80853";
-      sha256 = "a84fcd91c2ce0fa70b084bf654a8cfe2a91b9c796c525afb4b48203152506828";
+      filename = "voicechat-fabric-1.19.2-2.4.26.jar";
+      encoded = "voicechat-fabric-1.19.2-2.4.26.jar";
+      src = "https://cdn.modrinth.com/data/9eGKb6K1/versions/JcLRFzg4/voicechat-fabric-1.19.2-2.4.26.jar";
+      size = "7977602";
+      md5 = "6a47157a3861de99732cd48f480dc073";
+      sha256 = "5692572afe4ac3f64e31724b4c49f1dfaf4ed8a3b9583237be691d1e3e8fa63e";
     };
     "wmitaf" = {
       title = "WMITAF";
       name = "wmitaf";
-      side = "both";
+      side = "client";
       required = "true";
       default = "true";
       filename = "wmitaf-fabric-mc1.19-3.1.1.jar";

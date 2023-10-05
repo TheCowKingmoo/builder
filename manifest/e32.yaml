@@ -13,6 +13,7 @@ nodes:
       - name: malilib
         source: curse
         file_id: 3923052
+        side: client
       - name: roughly-enough-resources
         source: curse
         file_id: 3837336
@@ -30,6 +31,8 @@ nodes:
         source: modrinth
         id: fM515JnW
         file_id: HzAe7PdZ
+        side: client
+        required: false
       - name: axes-are-weapons
         source: modrinth
         id: 1jvt7RTc
@@ -46,6 +49,8 @@ nodes:
         source: modrinth
         id: MS1ZMyR7
         file_id: DCWtLDt7
+        side: client
+        required: false
       - name: better-tridents
         source: modrinth
         id: KNUSlHiU
@@ -73,7 +78,7 @@ nodes:
       - name: extended-drawers
         source: modrinth
         id: AhtxbnpG
-        file_id: rVif6c1F
+        file_id: Yu7dw5fP
       - name: fastload
         source: modrinth
         id: kCpssoSb
@@ -122,6 +127,8 @@ nodes:
         source: modrinth
         id: rcTfTZr3
         file_id: 3fEb2K4u
+        side: client
+        required: false
       - name: puzzles-lib
         source: modrinth
         id: QAGBst4M
@@ -138,6 +145,7 @@ nodes:
         source: modrinth
         id: SRDQqMfX
         file_id: CdXT6NYx
+        side: client
       - name: create-steam-n-rails
         source: modrinth
         id: ZzjhlDgM
@@ -194,6 +202,7 @@ nodes:
         source: modrinth
         id: yjpXhps7
         file_id: LiSauhSD
+        side: client
       - name: betterend
         source: modrinth
         id: gc8OEnCC
@@ -210,10 +219,15 @@ nodes:
         source: modrinth
         id: M08ruV16
         file_id: 5UUzbXgz
+        side: client
+        required: false
       - name: borderless-mining
         source: modrinth
         id: kYq5qkSL
         file_id: gqoXgtxO
+        side: client
+        required: false
+        default: false
       - name: cardinal-components-api
         source: modrinth
         id: K01OU20C
@@ -230,6 +244,8 @@ nodes:
         source: modrinth
         id: MOqt4Z5n
         file_id: mkSBPVio
+        side: client
+        required: false
       - name: chunk-loaders
         source: modrinth
         id: t1VgucWo
@@ -270,6 +286,8 @@ nodes:
         source: modrinth
         id: NNAgCjsB
         file_id: twdGLDHv
+        side: client
+        required: false
       - name: extreme_sound_muffler
         source: modrinth
         id: 5IIKsxiL
@@ -286,10 +304,13 @@ nodes:
         source: modrinth
         id: YBz7DOs8
         file_id: YMQsxFJ0
+        side: client
       - name: fallingleaves
         source: modrinth
         id: WhbRG4iK
         file_id: aufE28Na
+        side: client
+        required: false
       - name: fat-experience-orbs
         source: modrinth
         id: dbigkc0P
@@ -310,6 +331,7 @@ nodes:
         source: modrinth
         id: WXDvMkR5
         file_id: Fi3C0IO5
+        side: client
       - name: hexal
         source: modrinth
         id: aBVJ6Q36
@@ -350,18 +372,23 @@ nodes:
         source: modrinth
         id: Orvt0mRa
         file_id: yTfou6df
+        side: client
       - name: infineffect
         source: modrinth
         id: PwjiOWTr
         file_id: 61gviW5U
+        side: client
       - name: iris
         source: modrinth
         id: YL57xq9U
         file_id: 4rtFWyuc
+        side: client
+        required: false
       - name: item-model-fix
         source: modrinth
         id: B3HO5V57
         file_id: vKmXWAvG
+        side: client
       - name: keymap
         source: modrinth
         id: duSoEJIr
@@ -390,10 +417,12 @@ nodes:
         source: modrinth
         id: TqCKvqjC
         file_id: ErYeBTin
+        side: client
       - name: low-fire
         source: modrinth
         id: Gou1gmGj
         file_id: jWpt7qOI
+        side: client
       - name: fastanim
         source: modrinth
         id: yHf7SALy
@@ -410,6 +439,7 @@ nodes:
         source: modrinth
         id: mOgUt4GM
         file_id: gSoPJyVn
+        side: client
       - name: moonlight
         source: modrinth
         id: twkfQtEc
@@ -421,7 +451,7 @@ nodes:
       - name: mouse-wheelie
         source: modrinth
         id: u5Ic2U1u
-        file_id: KNLEqpmH
+        file_id: 5R7l84zv
       - name: nbt-crafting
         source: modrinth
         id: 18ztUZP5
@@ -458,6 +488,8 @@ nodes:
         source: modrinth
         id: Nv2fQJo5
         file_id: EtYipT0o
+        side: client
+        required: false
       - name: revelationary
         source: modrinth
         id: eXrl5E3G
@@ -474,6 +506,7 @@ nodes:
         source: modrinth
         id: Glp1bwYc
         file_id: 2NINyQSm
+        side: client
       - name: smoothboot-fabric
         source: modrinth
         id: FWumhS4T
@@ -482,10 +515,13 @@ nodes:
         source: modrinth
         id: AANobbMI
         file_id: rAfhHfow
+        side: client
       - name: ordinarytweaks
         source: modrinth
         id: LNeXYJOg
         file_id: p4W5KzFD
+        side: client
+        required: false
       - name: sound-physics-remastered
         source: modrinth
         id: qyVF9oeo
@@ -502,10 +538,13 @@ nodes:
         source: modrinth
         id: HtGckJVc
         file_id: xslqqPFc
+        side: client
+        required: false
       - name: status-effect-bars
         source: modrinth
         id: x02cBj9Y
         file_id: LA3OYeBL
+        side: client
       - name: supermartijn642s-config-lib
         source: modrinth
         id: LN9BxssP
@@ -517,7 +556,7 @@ nodes:
       - name: travelersbackpack
         source: modrinth
         id: rlloIFEV
-        file_id: Y0TS2Cd0
+        file_id: k2i1CIRO
       - name: treeplacer
         source: modrinth
         id: 4im8hCxA
@@ -534,14 +573,17 @@ nodes:
         source: modrinth
         id: rI0hvYcd
         file_id: TrPcZLjs
+        side: client
+        required: false
       - name: simple-voice-chat
         source: modrinth
         id: 9eGKb6K1
-        file_id: lBtQcbt8
+        file_id: JcLRFzg4
       - name: wmitaf
         source: modrinth
         id: mk6pNnsq
         file_id: cgSuov1n
+        side: client
       - name: xxl-packets
         source: modrinth
         id: SeCuopwJ
