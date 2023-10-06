@@ -598,3 +598,5 @@ nodes:
       mods: modlist
   - filename: e32.nix
     source: resolver
+  - filename: e32.json
+    source: resolver::json
