@@ -126,7 +126,7 @@
       required = "true";
       default = "true";
       filename = "BeaconOverhaul-1.7.3+1.19.2.jar";
-      encoded = "BeaconOverhaul-1.7.3+1.19.2.jar";
+      encoded = "BeaconOverhaul-1.7.3%2B1.19.2.jar";
       src = "https://cdn.modrinth.com/data/v0cwu8bJ/versions/1IQ8kOV2/BeaconOverhaul-1.7.3%2B1.19.2.jar";
       size = "337246";
       md5 = "aa0bf7b1d2fc1f56f50140dd31c6b02f";
@@ -243,7 +243,7 @@
       required = "true";
       default = "true";
       filename = "ExtendedDrawers-1.4.4+mc.1.19.2.jar";
-      encoded = "ExtendedDrawers-1.4.4+mc.1.19.2.jar";
+      encoded = "ExtendedDrawers-1.4.4%2Bmc.1.19.2.jar";
       src = "https://cdn.modrinth.com/data/AhtxbnpG/versions/Yu7dw5fP/ExtendedDrawers-1.4.4%2Bmc.1.19.2.jar";
       size = "835976";
       md5 = "f072adf70e48c53eeed852e6216f50cb";
@@ -256,7 +256,7 @@
       required = "true";
       default = "true";
       filename = "Fastload+1.18.2-1.20-3.4.0.jar";
-      encoded = "Fastload+1.18.2-1.20-3.4.0.jar";
+      encoded = "Fastload%2B1.18.2-1.20-3.4.0.jar";
       src = "https://cdn.modrinth.com/data/kCpssoSb/versions/ys9T20o4/Fastload%2B1.18.2-1.20-3.4.0.jar";
       size = "567412";
       md5 = "094d9296ec2c575711b3c253548d77d8";
@@ -464,7 +464,7 @@
       required = "true";
       default = "true";
       filename = "Steam_Rails-1.5.1+fabric-mc1.19.2.jar";
-      encoded = "Steam_Rails-1.5.1+fabric-mc1.19.2.jar";
+      encoded = "Steam_Rails-1.5.1%2Bfabric-mc1.19.2.jar";
       src = "https://cdn.modrinth.com/data/ZzjhlDgM/versions/EPD1yRD4/Steam_Rails-1.5.1%2Bfabric-mc1.19.2.jar";
       size = "6710931";
       md5 = "96b90bcc84d8131969d21cf22bf6fa78";
@@ -529,7 +529,7 @@
       required = "true";
       default = "true";
       filename = "[Universal]Immersive Structures-2.0.7a.jar";
-      encoded = "[Universal]Immersive Structures-2.0.7a.jar";
+      encoded = "%5BUniversal%5DImmersive%20Structures-2.0.7a.jar";
       src = "https://cdn.modrinth.com/data/CVBAErky/versions/danTqbxA/%5BUniversal%5DImmersive%20Structures-2.0.7a.jar";
       size = "461672";
       md5 = "2bbb146ecfd5933b50b1b67367a5a30c";
@@ -542,7 +542,7 @@
       required = "true";
       default = "true";
       filename = "[Universal]Immersive_Structure_Nether_v1.0.0b.jar";
-      encoded = "[Universal]Immersive_Structure_Nether_v1.0.0b.jar";
+      encoded = "%5BUniversal%5DImmersive_Structure_Nether_v1.0.0b.jar";
       src = "https://cdn.modrinth.com/data/fECIioDQ/versions/1NBeRr6k/%5BUniversal%5DImmersive_Structure_Nether_v1.0.0b.jar";
       size = "101011";
       md5 = "6cf91e767990857205580ce1439737ba";
@@ -698,7 +698,7 @@
       required = "false";
       default = "false";
       filename = "borderless-mining-1.1.5+1.19.jar";
-      encoded = "borderless-mining-1.1.5+1.19.jar";
+      encoded = "borderless-mining-1.1.5%2B1.19.jar";
       src = "https://cdn.modrinth.com/data/kYq5qkSL/versions/1.1.5%2B1.19/borderless-mining-1.1.5%2B1.19.jar";
       size = "107378";
       md5 = "797f9739bf7fd226d46c11af683b0427";
@@ -789,7 +789,7 @@
       required = "true";
       default = "true";
       filename = "comforts-fabric-6.0.4+1.19.2.jar";
-      encoded = "comforts-fabric-6.0.4+1.19.2.jar";
+      encoded = "comforts-fabric-6.0.4%2B1.19.2.jar";
       src = "https://cdn.modrinth.com/data/SaCpeal4/versions/CeY7jdWr/comforts-fabric-6.0.4%2B1.19.2.jar";
       size = "668703";
       md5 = "05727b0eb000e5e10cd2c414535dea29";
@@ -802,7 +802,7 @@
       required = "true";
       default = "true";
       filename = "connectiblechains-2.1.4+1.19.2.jar";
-      encoded = "connectiblechains-2.1.4+1.19.2.jar";
+      encoded = "connectiblechains-2.1.4%2B1.19.2.jar";
       src = "https://cdn.modrinth.com/data/ykSfIgTw/versions/t9MYW9lw/connectiblechains-2.1.4%2B1.19.2.jar";
       size = "209162";
       md5 = "1d4f8ed9383e50f8a2a12f946f0de59b";
@@ -815,7 +815,7 @@
       required = "true";
       default = "true";
       filename = "copperhopper-0.0.12+1.19.2.jar";
-      encoded = "copperhopper-0.0.12+1.19.2.jar";
+      encoded = "copperhopper-0.0.12%2B1.19.2.jar";
       src = "https://cdn.modrinth.com/data/mTI5Xg5F/versions/x6yf3o0b/copperhopper-0.0.12%2B1.19.2.jar";
       size = "30148";
       md5 = "a99cd18d1522960911e85b527fae2d38";
@@ -841,7 +841,7 @@
       required = "true";
       default = "true";
       filename = "create-fabric-0.5.1-c-build.1160+mc1.19.2.jar";
-      encoded = "create-fabric-0.5.1-c-build.1160+mc1.19.2.jar";
+      encoded = "create-fabric-0.5.1-c-build.1160%2Bmc1.19.2.jar";
       src = "https://cdn.modrinth.com/data/Xbc0uyRg/versions/okpdciJG/create-fabric-0.5.1-c-build.1160%2Bmc1.19.2.jar";
       size = "21819648";
       md5 = "232f4531bdd9258d2ca4ece7af78a5cb";
@@ -867,7 +867,7 @@
       required = "true";
       default = "true";
       filename = "enchantedshulkers-1.0.4+1.19.jar";
-      encoded = "enchantedshulkers-1.0.4+1.19.jar";
+      encoded = "enchantedshulkers-1.0.4%2B1.19.jar";
       src = "https://cdn.modrinth.com/data/vUi6HFie/versions/QxRvomUF/enchantedshulkers-1.0.4%2B1.19.jar";
       size = "325569";
       md5 = "ed821c4bf3654270d8598b8096265141";
@@ -906,7 +906,7 @@
       required = "true";
       default = "true";
       filename = "fabric-api-0.76.1+1.19.2.jar";
-      encoded = "fabric-api-0.76.1+1.19.2.jar";
+      encoded = "fabric-api-0.76.1%2B1.19.2.jar";
       src = "https://cdn.modrinth.com/data/P7dR8mSH/versions/fO05PwUR/fabric-api-0.76.1%2B1.19.2.jar";
       size = "1882037";
       md5 = "8463f40239a4355af9c6020dfeafba22";
@@ -919,7 +919,7 @@
       required = "true";
       default = "true";
       filename = "fabric-language-kotlin-1.10.10+kotlin.1.9.10.jar";
-      encoded = "fabric-language-kotlin-1.10.10+kotlin.1.9.10.jar";
+      encoded = "fabric-language-kotlin-1.10.10%2Bkotlin.1.9.10.jar";
       src = "https://cdn.modrinth.com/data/Ha28R6CL/versions/48ri5y9r/fabric-language-kotlin-1.10.10%2Bkotlin.1.9.10.jar";
       size = "6722438";
       md5 = "6ecd26258df93659795c3a99b851d0f2";
@@ -932,7 +932,7 @@
       required = "true";
       default = "true";
       filename = "fabricskyboxes-0.7.2+mc1.19.2.jar";
-      encoded = "fabricskyboxes-0.7.2+mc1.19.2.jar";
+      encoded = "fabricskyboxes-0.7.2%2Bmc1.19.2.jar";
       src = "https://cdn.modrinth.com/data/YBz7DOs8/versions/YMQsxFJ0/fabricskyboxes-0.7.2%2Bmc1.19.2.jar";
       size = "188641";
       md5 = "b862faf6b178b66d75ba0ed1ea1a7ffe";
@@ -945,7 +945,7 @@
       required = "false";
       default = "true";
       filename = "fallingleaves-1.13.0+1.19.2.jar";
-      encoded = "fallingleaves-1.13.0+1.19.2.jar";
+      encoded = "fallingleaves-1.13.0%2B1.19.2.jar";
       src = "https://cdn.modrinth.com/data/WhbRG4iK/versions/aufE28Na/fallingleaves-1.13.0%2B1.19.2.jar";
       size = "149303";
       md5 = "cc5cacee18e76c71e13460cf35d32d0e";
@@ -958,7 +958,7 @@
       required = "true";
       default = "true";
       filename = "fat-experience-orbs-2.0.1+1.18-fabric.jar";
-      encoded = "fat-experience-orbs-2.0.1+1.18-fabric.jar";
+      encoded = "fat-experience-orbs-2.0.1%2B1.18-fabric.jar";
       src = "https://cdn.modrinth.com/data/dbigkc0P/versions/l55UgBSx/fat-experience-orbs-2.0.1%2B1.18-fabric.jar";
       size = "26198";
       md5 = "6034b99861b45d0d0e3f03b16f01e263";
@@ -1088,7 +1088,7 @@
       required = "true";
       default = "true";
       filename = "idwtialsimmoedm-0.2.0+1.19.jar";
-      encoded = "idwtialsimmoedm-0.2.0+1.19.jar";
+      encoded = "idwtialsimmoedm-0.2.0%2B1.19.jar";
       src = "https://cdn.modrinth.com/data/ad89WlWh/versions/8ZfelATg/idwtialsimmoedm-0.2.0%2B1.19.jar";
       size = "28427";
       md5 = "88aca91b009e6ae7534fb94ecf24ab3e";
@@ -1101,7 +1101,7 @@
       required = "true";
       default = "true";
       filename = "immersive_paintings-0.6.6+1.19.2-fabric.jar";
-      encoded = "immersive_paintings-0.6.6+1.19.2-fabric.jar";
+      encoded = "immersive_paintings-0.6.6%2B1.19.2-fabric.jar";
       src = "https://cdn.modrinth.com/data/6txNkua3/versions/Vrd1txwx/immersive_paintings-0.6.6%2B1.19.2-fabric.jar";
       size = "4838840";
       md5 = "500134e70e4e3c930f927aabcbe03d94";
@@ -1140,7 +1140,7 @@
       required = "true";
       default = "true";
       filename = "indium-1.0.9+mc1.19.2.jar";
-      encoded = "indium-1.0.9+mc1.19.2.jar";
+      encoded = "indium-1.0.9%2Bmc1.19.2.jar";
       src = "https://cdn.modrinth.com/data/Orvt0mRa/versions/yTfou6df/indium-1.0.9%2Bmc1.19.2.jar";
       size = "118642";
       md5 = "a25b46d926718635b5f67e17a5f7b4d4";
@@ -1179,7 +1179,7 @@
       required = "true";
       default = "true";
       filename = "item-model-fix-1.0.3+1.19.jar";
-      encoded = "item-model-fix-1.0.3+1.19.jar";
+      encoded = "item-model-fix-1.0.3%2B1.19.jar";
       src = "https://cdn.modrinth.com/data/B3HO5V57/versions/1.0.3%2B1.19/item-model-fix-1.0.3%2B1.19.jar";
       size = "32537";
       md5 = "ef80183f2a6836f155be6296e9e60323";
@@ -1192,7 +1192,7 @@
       required = "true";
       default = "true";
       filename = "keymap-0.8.0-beta.1+1.19.2-fabric.jar";
-      encoded = "keymap-0.8.0-beta.1+1.19.2-fabric.jar";
+      encoded = "keymap-0.8.0-beta.1%2B1.19.2-fabric.jar";
       src = "https://cdn.modrinth.com/data/duSoEJIr/versions/DayWFuzl/keymap-0.8.0-beta.1%2B1.19.2-fabric.jar";
       size = "200444";
       md5 = "d3a967bcd0f01d399b93db6c1fd8a24a";
@@ -1322,7 +1322,7 @@
       required = "true";
       default = "true";
       filename = "memoryleakfix-fabric-1.17+-1.1.2.jar";
-      encoded = "memoryleakfix-fabric-1.17+-1.1.2.jar";
+      encoded = "memoryleakfix-fabric-1.17%2B-1.1.2.jar";
       src = "https://cdn.modrinth.com/data/NRjRiSSD/versions/dGlflhb6/memoryleakfix-fabric-1.17%2B-1.1.2.jar";
       size = "146263";
       md5 = "3da1a239ee9fe49275b222eb65916a2e";
@@ -1374,7 +1374,7 @@
       required = "true";
       default = "true";
       filename = "mousewheelie-1.13.0+mc1.19.2.jar";
-      encoded = "mousewheelie-1.13.0+mc1.19.2.jar";
+      encoded = "mousewheelie-1.13.0%2Bmc1.19.2.jar";
       src = "https://cdn.modrinth.com/data/u5Ic2U1u/versions/5R7l84zv/mousewheelie-1.13.0%2Bmc1.19.2.jar";
       size = "1091900";
       md5 = "5fc90bed12efee1b1b4ce23e8573ca1a";
@@ -1387,7 +1387,7 @@
       required = "true";
       default = "true";
       filename = "nbtcrafting-2.2.3+mc1.19.jar";
-      encoded = "nbtcrafting-2.2.3+mc1.19.jar";
+      encoded = "nbtcrafting-2.2.3%2Bmc1.19.jar";
       src = "https://cdn.modrinth.com/data/18ztUZP5/versions/YqhR41Oh/nbtcrafting-2.2.3%2Bmc1.19.jar";
       size = "291783";
       md5 = "c00cbe2f5c83bafe5787f1fc55613d4d";
@@ -1413,7 +1413,7 @@
       required = "true";
       default = "true";
       filename = "owo-lib-0.9.3+1.19.jar";
-      encoded = "owo-lib-0.9.3+1.19.jar";
+      encoded = "owo-lib-0.9.3%2B1.19.jar";
       src = "https://cdn.modrinth.com/data/ccKDOlHs/versions/yGLYmVnT/owo-lib-0.9.3%2B1.19.jar";
       size = "780597";
       md5 = "d51eba0f160338b43fb445a08b25c151";
@@ -1478,7 +1478,7 @@
       required = "true";
       default = "true";
       filename = "reacharound+1.19-1.1.2.jar";
-      encoded = "reacharound+1.19-1.1.2.jar";
+      encoded = "reacharound%2B1.19-1.1.2.jar";
       src = "https://cdn.modrinth.com/data/r3VgI4QN/versions/E8z7QNV3/reacharound%2B1.19-1.1.2.jar";
       size = "25501";
       md5 = "66ea9fb51ac5c4f960483d125304fc2e";
@@ -1530,7 +1530,7 @@
       required = "true";
       default = "true";
       filename = "roughly-searchable-2.5.2+1.19.3.jar";
-      encoded = "roughly-searchable-2.5.2+1.19.3.jar";
+      encoded = "roughly-searchable-2.5.2%2B1.19.3.jar";
       src = "https://cdn.modrinth.com/data/njGhQ4fN/versions/BKUeq4Uh/roughly-searchable-2.5.2%2B1.19.3.jar";
       size = "71546";
       md5 = "ae0d6923f6dc720919e83e34f73e599e";
@@ -1569,7 +1569,7 @@
       required = "true";
       default = "true";
       filename = "sodium-fabric-mc1.19.2-0.4.4+build.18.jar";
-      encoded = "sodium-fabric-mc1.19.2-0.4.4+build.18.jar";
+      encoded = "sodium-fabric-mc1.19.2-0.4.4%2Bbuild.18.jar";
       src = "https://cdn.modrinth.com/data/AANobbMI/versions/rAfhHfow/sodium-fabric-mc1.19.2-0.4.4%2Bbuild.18.jar";
       size = "1372575";
       md5 = "f864470ac732f505dd5c774010449540";
@@ -1621,7 +1621,7 @@
       required = "true";
       default = "true";
       filename = "spirit-walker-0.1.1+1.19.jar";
-      encoded = "spirit-walker-0.1.1+1.19.jar";
+      encoded = "spirit-walker-0.1.1%2B1.19.jar";
       src = "https://cdn.modrinth.com/data/zbX4s3vj/versions/Gbu2vbnC/spirit-walker-0.1.1%2B1.19.jar";
       size = "90153";
       md5 = "e06f4d3782be36f37e844c6d434aab61";
@@ -1647,7 +1647,7 @@
       required = "true";
       default = "true";
       filename = "status-effect-bars-1.0.1+1.19.jar";
-      encoded = "status-effect-bars-1.0.1+1.19.jar";
+      encoded = "status-effect-bars-1.0.1%2B1.19.jar";
       src = "https://cdn.modrinth.com/data/x02cBj9Y/versions/LA3OYeBL/status-effect-bars-1.0.1%2B1.19.jar";
       size = "43346";
       md5 = "60c15c9e6b3ad375ed533f22b4577b1f";
