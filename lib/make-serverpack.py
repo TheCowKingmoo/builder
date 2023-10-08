@@ -148,11 +148,12 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
                 child="fabric",
         )
 
-    def MkServer(server_name, server):
+    def MkServer(server_name, server, hostname):
         revision = hashlib.sha256(json.dumps(server).encode('utf-8')).hexdigest()
         fabric = server["fabric"]
         imports = [MkFabricImport(server["minecraft"], fabric["loader"], fabric["yarnBuild"])] if fabric is not None else []
         main_class = "net.fabricmc.loader.launch.knot.KnotClient" if fabric is not None else None
+        server_address = f'{hostname.split(":")[0]}:{server["port"]}'
 
         return Server(
             id=server_name,
@@ -160,7 +161,7 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             version=server['minecraft'],
             news_url='https://madoka.brage.info/',
             revision=revision,
-            server_address=server.get('serverAddress'),
+            server_address=server_address,
             auto_connect=False,
             imports=imports,
             #loader=Loader(type='Forge', version='10.13.4.1614'),
@@ -169,7 +170,7 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             main_class=main_class,
         )
 
-    servers = [MkServer(server_name, server) for server_name, server in packs_json.items()]
+    servers = [MkServer(server_name, server, hostname) for server_name, server in packs_json.items()]
 
     serverpack = ServerPack(
         version='3.3',
