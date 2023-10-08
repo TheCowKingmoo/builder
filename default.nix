@@ -20,6 +20,7 @@ rec {
     fabric = {
       loader = "0.14.22";
       installer = "0.11.2";
+      yarnBuild = "build.28";
     };
     extraDirs = [
       ./base/e32

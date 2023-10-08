@@ -134,7 +134,7 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             name=mod['title'],
             id=mod_name,
             urls=[URL(link=f'{location}/{mod["encoded"]}', priority=0)],
-            mod_path=mod['filename'],
+            mod_path=f"mods/{mod['filename']}",
             size=mod['size'],
             required=mod['required'],
             default=mod['default'],
@@ -142,16 +142,17 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             md5=mod['md5'],
         )
 
-    def MkFabricImport(minecraft, fabric):
+    def MkFabricImport(minecraft, fabric, yarnBuild):
         return Import(
-                url=f"https://fabricmc.net/download/mcupdater?yarn={minecraft}&loader={fabric}",
+                url=f"https://fabricmc.net/download/mcupdater?yarn={minecraft}%2B{yarnBuild}&loader={fabric}",
                 child="fabric",
         )
 
     def MkServer(server_name, server):
         revision = hashlib.sha256(json.dumps(server).encode('utf-8')).hexdigest()
         fabric = server["fabric"]
-        imports = [MkFabricImport(server["minecraft"], fabric["loader"])] if fabric is not None else []
+        imports = [MkFabricImport(server["minecraft"], fabric["loader"], fabric["yarnBuild"])] if fabric is not None else []
+        main_class = "net.fabricmc.loader.launch.knot.KnotClient" if fabric is not None else None
 
         return Server(
             id=server_name,
@@ -165,6 +166,7 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             #loader=Loader(type='Forge', version='10.13.4.1614'),
             modules=([MkConfig(f'{url_base}packs/{server_name}/configs', config_name, config) for config_name, config in server['clientConfigs'].items()] 
                      + [MkMod(f'{url_base}packs/{server_name}/mods', mod) for mod in server['clientMods']]),
+            main_class=main_class,
         )
 
     servers = [MkServer(server_name, server) for server_name, server in packs_json.items()]
@@ -201,6 +203,7 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             if server.loader:
                 SubElement(server_elem, 'Loader', type=server.loader.type, version=server.loader.version)
             for module in server.modules:
+                type_attrib = {'inRoot': 'true'} if module.in_root else {}
                 module_elem = SubElement(server_elem, 'Module', name=module.name, id=module.id)
                 for url in module.urls:
                     SubElement(module_elem, 'URL', priority=str(url.priority)).text = url.link
@@ -208,10 +211,8 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
                 SubElement(module_elem, 'ModPath').text = module.mod_path
                 SubElement(module_elem, 'Size').text = str(module.size)
                 SubElement(module_elem, 'Required', isDefault=str(module.default)).text = str(module.required)
-                SubElement(module_elem, 'ModType').text = module.mod_type
+                SubElement(module_elem, 'ModType', attrib=type_attrib).text = module.mod_type
                 SubElement(module_elem, 'MD5').text = module.md5
-                if module.in_root:
-                    module_elem.set('inRoot', 'true')
         
         # Pretty print
         from xml.dom import minidom
