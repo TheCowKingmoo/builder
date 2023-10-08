@@ -1,3 +1,0 @@
-modname:weirdinggadget
-
-customblock:id=%weirding_gadget,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer

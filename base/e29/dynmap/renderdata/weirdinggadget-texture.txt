@@ -1,3 +1,0 @@
-modname:weirdinggadget
-
-block:id=%weirding_gadget,data=0,transparency=TRANSPARENT,stdrot=true

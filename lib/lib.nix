@@ -10,7 +10,6 @@ rec {
    *
    * Attributes:
    * - mcuPack: Everything needed to build an MCUpdater config.
-   * - cursePack: A Curse zipfile. (TODO)
    * - server: The completed server, with all dependencies.
    *
    * - clientConfigDir: A combined directory with all the client-propagated configuration.
@@ -19,7 +18,7 @@ rec {
    * - clientMods: Filtered manifest entries for the client.
    * - clientModsDir: The client's mods directory.
    *
-   * - forgeDir: A derivation containing the Forge server.
+   * - launcherDir: A derivation containing either Forge or Fabric.
    * - serverMods: Filtered manifest entries for the server.
    * - serverModsDir: The server's mods directory.
    */
@@ -30,18 +29,20 @@ rec {
     serverName ? name,
     port,
     prometheusPort,
-    forge,
+    minecraft,
+    fabric ? null,
+    forge ? null,
     ram ? "4000m",
-    manifests ? [],
+    manifest,
     blacklist ? [],
     extraDirs ? [],
     extraServerDirs ? [],
     extraClientDirs ? [],
   }: (self // rec {
     ## Client:
-    clientMods = filterManifests {
+    clientMods = filterManifest {
       side = "client";
-      inherit manifests blacklist;
+      inherit manifest;
     };
 
     clientModsDir = fetchMods clientMods;
@@ -80,11 +81,18 @@ rec {
     ];
 
     ## Server:
-    forgeDir = wrapDir "forge" (fetchForge forge);
+    launcherDir = let
+      fabricDir = wrapDir "fabric" (fetchFabric {
+        minecraft = minecraft;
+        loader = fabric.loader;
+        installer = fabric.installer;
+      });
+      forgeDir = wrapDir "forge" (fetchForge forge);
+    in if fabric != null then fabricDir else forgeDir;
 
-    serverMods = filterManifests {
+    serverMods = filterManifest {
       side = "server";
-      inherit manifests blacklist;
+      inherit manifest;
     };
 
     serverModsDir = fetchMods serverMods;
@@ -95,7 +103,7 @@ rec {
       inherit tmuxName ram serverName port prometheusPort;
 
       paths = [
-        forgeDir
+        launcherDir
         (wrapDir "mods" serverModsDir)
         (callPackage ../tools/control {})
       ] ++ extraServerDirs ++ extraDirs;
@@ -111,12 +119,30 @@ rec {
     };
   });
 
-  fetchForge = { major, minor }: runLocally "forge-${major}-${minor}" {
-    inherit major minor;
+  fetchFabric = { minecraft, loader, installer }: runLocally "fabric-${minecraft}-${loader}-${installer}" {
+    inherit minecraft loader installer;
+
+    url = "https://meta.fabricmc.net/v2/versions/loader/${minecraft}/${loader}/${installer}/server/jar";
+
+    # The installer needs web access. Since it does, let's download it w/o a
+    # hash. We're using HTTPS anyway.
+    #
+    # If you get an error referring to this, you're probably using a strict
+    # sandbox.  Disable it, or set it to 'relaxed'.
+    __noChroot = 1;
+    buildInputs = [ wget cacert ];
+  } ''
+    mkdir $out
+    cd $out
+    wget $url --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt --output-document=fabric-launcher.jar
+  '';
+
+  fetchForge = { forge }: runLocally "forge-${minecraft}-${forge}" {
+    inherit minecraft forge;
 
     url = {
-      "1.7.10" = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}-${major}/forge-${major}-${minor}-${major}-installer.jar";
-    }.${major} or "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar";
+      "1.7.10" = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${minecraft}-${forge}-${minecraft}/forge-${minecraft}-${forge}-${minecraft}-installer.jar";
+    }.${major} or "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${minecraft}-${forge}/forge-${minecraft}-${forge}-installer.jar";
 
     # The installer needs web access. Since it does, let's download it w/o a
     # hash. We're using HTTPS anyway.
@@ -136,108 +162,42 @@ rec {
   '';
 
   /**
-   * Returns a set of mods, of the same format as in the manifest.
+   * Returns a list of mods, of the same format as in the manifest.
    */
-  filterManifests = { side, manifests, blacklist }: let
-    allMods = concatSets (map (f: (import f).mods) manifests);
-    filteredMods = lib.filterAttrs (n: mod:
-        (mod.side == "both" || mod.side == side) &&
-        mod.type != "missing" &&
-        !(builtins.any (b: b == n) blacklist)
-      ) allMods;
-    byProjectId = lib.mapAttrs' (name: info: lib.nameValuePair (toString info.projectID or name) { inherit name info; }) filteredMods;
-    byNameAgain = lib.mapAttrs' (name: bundle: lib.nameValuePair bundle.name bundle.info) byProjectId;
-  in
-    byNameAgain;
+  filterManifest = { side, manifest }: let
+    allMods = builtins.fromJSON (builtins.readFile manifest);
+    filteredMods = builtins.filter (mod: mod.side == side || mod.side == "both") allMods;
+  in filteredMods;
 
   /**
    * Returns a derivation bundling all the given mods in a directory.
    */
   fetchMods = mods: let
-    fetchMod = info: rec {
-      local = info.src;
-      remote = fetchurl {
-        curlOptsList = [ "-g" ];
-        name = builtins.replaceStrings
-          [" " "[" "]" "'"]
-          ["_" "_" "_" "_"]
-          info.filename;
-        url = info.src;
-        sha256 = info.sha256;
-      };
-    }.${info.type};
-    modFile = name: mod: {
+    fetchMod = mod: fetchurl {
+      curlOptsList = [ "-g" ];
+      name = builtins.replaceStrings
+        [" " "[" "]" "'"]
+        ["_" "_" "_" "_"]
+        mod.filename;
+      url = mod.src;
+      sha256 = mod.sha256;
+    };
+    modFile = mod: {
       name = mod.filename;
       path = fetchMod mod;
     };
-  in
-    linkFarm "manifest-mods" (lib.mapAttrsToList modFile mods);
+  in linkFarm "manifest-mods" (builtins.map modFile mods);
 
   buildServerPack = {
     packs, hostname, urlBase
-  }: let
-    combinedPack = linkFarm "combined-packs" (lib.mapAttrsToList packDir packs);
-    packDir = name: pack: { inherit name; path = pack.mcuPack; };
-    /* This bit of craziness provides all the parameters to serverpack.xsl */
-    packParams = name: pack: let revless = rec {
-      packUrlBase = urlBase + "packs/" + urlencode name + "/";
-      serverId = name;
-      serverDesc = pack.description or name;
-      serverAddress = hostname + ":" + toString pack.port;
-      minecraftVersion = pack.forge.major;
-      forgeVersion = "${pack.forge.major}-${pack.forge.minor}";
-	  forgeMinor = pack.forge.minor;
-      configs = lib.mapAttrs (name: config: {
-        configId = "config-" + name;
-        url = packUrlBase + "configs/" + urlencode name + ".zip";
-        md5 = config.md5;
-        size = config.size;
-      }) pack.clientConfigs;
-      mods = lib.mapAttrs (name: mod: {
-        modId = name;
-        name = mod.title or name;
-        isDefault = mod.default or true;
-        md5 = mod.md5;
-        modpath = "mods/" + mod.filename;
-        modtype = mod.modType or "Regular";
-        required = mod.required or true;
-        side = mod.side or "BOTH";
-        size = mod.size;
-        url = packUrlBase + "mods/" + mod.encoded;
-      }) pack.clientMods;
-    }; in revless // {
-      revision = builtins.hashString "sha256" (builtins.toXML revless);
-    };
-    packFile = runLocally "ServerPack.xml" {
-      buildInputs = [ saxonb ];
-      stylesheet = ./serverpack.xsl;
-      paramsText = writeText "params.xml" (builtins.toXML (lib.mapAttrs packParams packs));
-    } ''
-      saxonb $paramsText $stylesheet > $out
-    '';
-    preconfiguredMCUpdater = runLocally "Preconfigured-MCUpdater" {
-      mcupdater = ./MCUpdater-recommended.jar;
-      buildInputs = [ zip ];
-    } ''
-      cat >> config.properties <<EOF
-        bootstrapURL = https://files.mcupdater.com/Bootstrap.xml
-        distribution = Release
-        defaultPack = ${urlBase}ServerPack.xml
-        customPath =
-        passthroughArgs = -defaultMem 3G
-      EOF
-      cp $mcupdater MCUpdater.jar
-      chmod u+w MCUpdater.jar
-      zip MCUpdater.jar -X --latest-time config.properties
-      mv MCUpdater.jar $out
-    '';
-  in linkFarm "ServerPack" [
-    { name = "index.html"; path = ./index.html; }
-    { name = "packs"; path = combinedPack; }
-    { name = "ServerPack.xml"; path = packFile; }
-    { name = "params.xml"; path = packFile.paramsText; }
-    { name = "MCUpdater-Bootstrap.jar"; path = preconfiguredMCUpdater; }
-  ];
+  }: runLocally "ServerPack" {
+    packsJSON = builtins.toJSON packs;
+    passAsFile = [ "packsJSON" "hostname" "urlBase" ];
+  } ''
+    ln -s ${./index.html} index.html
+    ln -s ${./MCUpdater-recommended.jar} MCUpdater-Bootstrap.jar
+    ${python3}/bin/python3 ${./make-serverpack.py} $packsJSONPath ${hostname} ${urlBase} $out
+  '';
 
   # General utilities:
   /**
