@@ -199,6 +199,8 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
                 server_elem.set('serverAddress', server.server_address)
             if server.auto_connect:
                 server_elem.set('autoConnect', 'true')
+            else:
+                server_elem.set('autoConnect', 'false')
             for imp in server.imports:
                 SubElement(server_elem, 'Import', url=imp.url).text = imp.child
             if server.loader:
