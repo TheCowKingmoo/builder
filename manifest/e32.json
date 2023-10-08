@@ -1185,7 +1185,7 @@
   {
     "name": "keymap",
     "title": "Keymap",
-    "side": "both",
+    "side": "client",
     "required": true,
     "default": true,
     "filename": "keymap-0.8.0-beta.1+1.19.2-fabric.jar",

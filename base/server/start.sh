@@ -4,7 +4,7 @@
 set -eum
 
 BASE=$(dirname $0)
-JAR='forge/forge-*.jar'
+FORGE='forge/forge-*.jar'
 
 fixperms() {
     if [[ ! -L $1 ]]; then
@@ -53,9 +53,9 @@ for f in $BASE/*; do
             continue
             ;;
         forge | resources)
-	    # Overwrite the libraries dir, and symlink
+	        # Overwrite the libraries dir, and symlink
             ln -sf "$f" .
-	    rsync -a "$f"/libraries .
+            rsync -a "$f"/libraries .
             ;;
         *.properties | *.json)
             ## Copy, but only if nonexistent.
@@ -141,7 +141,13 @@ fi
 
 echo $$ > server.pid
 
-if [[ -e forge/run.sh ]]; then
+if [[ -e fabric ]]; then
+    # This is a Fabric server. Use newer Java.
+    nix run nixpkgs#jre -- \
+        "$@" \
+        $(cat user_jvm_args.txt) \
+        -jar fabric/fabric-launcher.jar nogui &
+elif [[ -e forge/run.sh ]]; then
 	# This is an 1.18+ server.
 	# Use the provided run script. This implicitly invokes user_jvm_args, and works with newer Java.
 	nix shell 'nixpkgs#jre' --command forge/run.sh &

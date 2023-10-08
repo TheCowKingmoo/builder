@@ -393,6 +393,7 @@ nodes:
         source: modrinth
         id: duSoEJIr
         file_id: DayWFuzl
+        side: client
       - name: konkrete
         source: modrinth
         id: J81TRJWm
