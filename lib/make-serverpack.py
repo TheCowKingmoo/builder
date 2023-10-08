@@ -142,8 +142,16 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             md5=mod['md5'],
         )
 
+    def MkFabricImport(minecraft, fabric):
+        return Import(
+                url=f"https://fabricmc.net/download/mcupdater?yarn={minecraft}&loader={fabric}",
+                child="fabric",
+        )
+
     def MkServer(server_name, server):
         revision = hashlib.sha256(json.dumps(server).encode('utf-8')).hexdigest()
+        fabric = server["fabric"]
+        imports = [MkFabricImport(server["minecraft"], fabric["loader"])] if fabric is not None else []
 
         return Server(
             id=server_name,
@@ -153,7 +161,7 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             revision=revision,
             server_address=server.get('serverAddress'),
             auto_connect=False,
-            #imports=[Import(url_base, server_name)],
+            imports=imports,
             #loader=Loader(type='Forge', version='10.13.4.1614'),
             modules=([MkConfig(f'{url_base}packs/{server_name}/configs', config_name, config) for config_name, config in server['clientConfigs'].items()] 
                      + [MkMod(f'{url_base}packs/{server_name}/mods', mod) for mod in server['clientMods']]),
@@ -170,6 +178,9 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
 
     def create_xml(server_pack: ServerPack) -> str:
         root = Element('ServerPack', version=server_pack.version)
+        root.attrib["xmlns"] = "http://www.mcupdater.com"
+        root.attrib["xmlns:xsi"] = "http://www.w3.org/2001/XMLSchema-instance"
+        root.attrib["xsi:schemaLocation"] = "http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd"
         
         for server in server_pack.servers:
             server_elem = SubElement(root, 'Server', id=server.id, name=server.name, version=server.version)
