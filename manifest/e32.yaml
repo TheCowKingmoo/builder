@@ -4,6 +4,9 @@ config:
 nodes:
   - id: modlist
     value:
+      - name: dcintegration
+        source: modrinth
+        side: server
       - name: techreborn
         source: curse
         file_id: 4102770

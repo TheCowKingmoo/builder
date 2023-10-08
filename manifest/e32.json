@@ -1,5 +1,18 @@
 [
   {
+    "name": "dcintegration",
+    "title": "Discord Integration",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "dcintegration-fabric-3.0.2-1.19.2.jar",
+    "encoded": "dcintegration-fabric-3.0.2-1.19.2.jar",
+    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/7fw9e8yR/dcintegration-fabric-3.0.2-1.19.2.jar",
+    "size": 14620500,
+    "md5": "72e609c7f22e37b22d38a785f83c69a6",
+    "sha256": "d07cae153ba39e3a39e2f38281e9ca000f50bd2fba702c340b288aa746dd3b02"
+  },
+  {
     "name": "techreborn",
     "title": "Tech Reborn",
     "side": "both",
