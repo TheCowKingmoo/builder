@@ -221,19 +221,6 @@
     "sha256": "e3ef1f6595b9d49ec6aa487110bc6d361c4ff34ffcd3c4c101419688c71dc383"
   },
   {
-    "name": "distanthorizons",
-    "title": "Distant Horizons",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "DistantHorizons-1.6.9a-1.19.2.jar",
-    "encoded": "DistantHorizons-1.6.9a-1.19.2.jar",
-    "src": "https://cdn.modrinth.com/data/uCdwusMi/versions/1.6.9a-1.19.2/DistantHorizons-1.6.9a-1.19.2.jar",
-    "size": 2612822,
-    "md5": "f25b7e33103d08e49995e4d087bb3109",
-    "sha256": "0d2a534d8cad7714c3d3c245dc4cbd4fa8ddf7404438310c812a889d5cc2f7b1"
-  },
-  {
     "name": "extended-drawers",
     "title": "Extended Drawers",
     "side": "both",

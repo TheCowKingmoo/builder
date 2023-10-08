@@ -71,10 +71,6 @@ nodes:
         source: modrinth
         id: QwxR6Gcd
         file_id: UvBWAMZL
-      - name: distanthorizons
-        source: modrinth
-        id: uCdwusMi
-        file_id: yEUygWBv
       - name: extended-drawers
         source: modrinth
         id: AhtxbnpG
