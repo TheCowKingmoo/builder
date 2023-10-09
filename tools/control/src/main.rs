@@ -72,7 +72,7 @@ impl Server {
         Ok(0.0)
     }
     pub async fn players(&self) -> Result<u64> {
-        let metric = self.get("present").await?;
+        let metric = self.get("minecraft_players_count").await?;
         if metric == 0.0 {
             return Ok(0);
         } else {

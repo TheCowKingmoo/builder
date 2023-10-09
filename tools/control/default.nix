@@ -8,5 +8,5 @@ rustPlatform.buildRustPackage rec {
     (path: type: type != "directory" || baseNameOf path == "src")
     ./.;
 
-  cargoSha256 = "sha256-V6WfXGMm3dzSnd/O0SYu74SKrLMTh2nc/N0zaRb7VTw=";
+  cargoSha256 = "sha256-3q8il+C7fV4Ap8OyVUPdEVd+jAGN4opE3Xk4MaPgQFg=";
 }
