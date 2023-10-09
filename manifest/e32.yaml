@@ -589,6 +589,8 @@ nodes:
         source: curse
       - name: terralith
         source: modrinth
+      - name: timeoutout
+        source: modrinth
   - id: resolver
     kind: ModResolver
     input:

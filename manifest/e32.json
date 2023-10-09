@@ -1818,5 +1818,18 @@
     "size": 2986952,
     "md5": "f33c10ff5c566bd3e5d8e9b49c0e64e0",
     "sha256": "0f732b030811dd2fedaef977aab2fe53b386fc7125544841c9bb0d7db780d7e3"
+  },
+  {
+    "name": "timeoutout",
+    "title": "TimeOutOut",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "timeoutout-1.0.3+1.19.1.jar",
+    "encoded": "timeoutout-1.0.3%2B1.19.1.jar",
+    "src": "https://cdn.modrinth.com/data/7cFX55fD/versions/1.0.3/timeoutout-1.0.3%2B1.19.1.jar",
+    "size": 9833,
+    "md5": "eb6e6b4625d2138833ad5f61a086c25a",
+    "sha256": "5ec692b7407e174c1cdb686d880eb264991cb749fc5ed077e8ec934c71125c8b"
   }
 ]
