@@ -13,19 +13,6 @@
     "sha256": "d07cae153ba39e3a39e2f38281e9ca000f50bd2fba702c340b288aa746dd3b02"
   },
   {
-    "name": "techreborn",
-    "title": "Tech Reborn",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "TechReborn-5.4.0.jar",
-    "encoded": "TechReborn-5.4.0.jar",
-    "src": "https://edge.forgecdn.net/files/4102/770/TechReborn-5.4.0.jar",
-    "size": 6032436,
-    "md5": "e6c2ca753027922d83178e09c645324d",
-    "sha256": "1a02d3d31598d6af4d12782552db57056df1c73aeb1f271ac82f1e930a6dcf8c"
-  },
-  {
     "name": "amphitrite-coffer",
     "title": "Amphitrite Coffer",
     "side": "both",
@@ -89,19 +76,6 @@
     "size": 5650155,
     "md5": "35923b44d8e81af4cb310b578f689b73",
     "sha256": "1426645459fa4a0bedfeddf2aa0e69416d9676dc022aaf879333aea89d7794dd"
-  },
-  {
-    "name": "advanced-reborn",
-    "title": "Advanced Reborn",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "AdvancedReborn-1.19.2-1.1.9.jar",
-    "encoded": "AdvancedReborn-1.19.2-1.1.9.jar",
-    "src": "https://cdn.modrinth.com/data/ir8okcEA/versions/JOnttq2r/AdvancedReborn-1.19.2-1.1.9.jar",
-    "size": 582865,
-    "md5": "23a5f99623521e18d30a5069abdedf64",
-    "sha256": "6769a36353c056b86594479801a6e6c0cb09777d4d24e55e57ae9d50f7b77154"
   },
   {
     "name": "ambientsounds",
@@ -468,30 +442,17 @@
     "sha256": "ac9375188f9fb6cad516ee08550baacf866a257749a631595ef8243abe1158e1"
   },
   {
-    "name": "terralith",
-    "title": "Terralith",
+    "name": "journeymap",
+    "title": "JourneyMap",
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "Terralith_1.19.3_v2.3.11.jar",
-    "encoded": "Terralith_1.19.3_v2.3.11.jar",
-    "src": "https://cdn.modrinth.com/data/8oi3bsk5/versions/UJtMNPNx/Terralith_1.19.3_v2.3.11.jar",
-    "size": 2986952,
-    "md5": "f33c10ff5c566bd3e5d8e9b49c0e64e0",
-    "sha256": "0f732b030811dd2fedaef977aab2fe53b386fc7125544841c9bb0d7db780d7e3"
-  },
-  {
-    "name": "xaeros-minimap",
-    "title": "Xaero's Minimap",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "Xaeros_Minimap_23.8.2_Fabric_1.19.1.jar",
-    "encoded": "Xaeros_Minimap_23.8.2_Fabric_1.19.1.jar",
-    "src": "https://cdn.modrinth.com/data/1bokaNcj/versions/fN0KKPHy/Xaeros_Minimap_23.8.2_Fabric_1.19.1.jar",
-    "size": 1415553,
-    "md5": "2dc2e73de56461d32a482730dc9d8303",
-    "sha256": "fd548fa5411d0d96621215e664c9dafe127efc1d29ca3177bac295b627ccf2e7"
+    "filename": "journeymap-1.19.2-5.9.7-fabric.jar",
+    "encoded": "journeymap-1.19.2-5.9.7-fabric.jar",
+    "src": "https://cdn.modrinth.com/data/lfHFW1mp/versions/s1jUUTEX/journeymap-1.19.2-5.9.7-fabric.jar",
+    "size": 7230203,
+    "md5": "6556cacd7347de2cd496f47f8f91784e",
+    "sha256": "9f789ac3dbf904c233a1f203f489958acff242130607198b3a1a615734263ade"
   },
   {
     "name": "yungs-api",
@@ -1792,5 +1753,70 @@
     "size": 17373,
     "md5": "9fcce225f25b6fd17921c87ff1c720f1",
     "sha256": "db4c744fd71f5617639cb0fdff72378b08d2852004f4045c62090de1bf53afcb"
+  },
+  {
+    "name": "modern-industrialization",
+    "title": "Modern Industrialization",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Modern-Industrialization-1.6.16.jar",
+    "encoded": "Modern-Industrialization-1.6.16.jar",
+    "src": "https://cdn.modrinth.com/data/Gov5Dboq/versions/Wx2YFTRo/Modern-Industrialization-1.6.16.jar",
+    "size": 7283400,
+    "md5": "ee5d6df4e655855a7cd53b467957bf92",
+    "sha256": "3ea3a1edf8384fb5bb07c60d86925d6a35d5e4e0cb7ab72225d4b80553698eea"
+  },
+  {
+    "name": "farmers-delight-fabric",
+    "title": "Farmer's Delight [Fabric]",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "farmers-delight-fabric-mc1.19-1.19.2-1.3.10.1.jar",
+    "encoded": "farmers-delight-fabric-mc1.19-1.19.2-1.3.10.1.jar",
+    "src": "https://edge.forgecdn.net/files/4712/861/farmers-delight-fabric-mc1.19-1.19.2-1.3.10.1.jar",
+    "size": 2703836,
+    "md5": "c20aa7b80a84d4ae804a414bb620e145",
+    "sha256": "04f29543db58f1066b4e06d534ec27c67d0d73090be1dd3442f9d85cb58eb8d8"
+  },
+  {
+    "name": "slice-and-dice",
+    "title": "Create Slice & Dice",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "sliceanddice-fabric-2.3.2.jar",
+    "encoded": "sliceanddice-fabric-2.3.2.jar",
+    "src": "https://cdn.modrinth.com/data/GmjmRQ0A/versions/yZ9zZESN/sliceanddice-fabric-2.3.2.jar",
+    "size": 828565,
+    "md5": "91729b086e6c411ae81cb4038d8e006c",
+    "sha256": "85296a5663ddd4051fc57961be87c8a58585b1dac32ec82e9b86a5386a115035"
+  },
+  {
+    "name": "create-deco-fabric",
+    "title": "Create Deco Fabric",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "createdeco-1.3.3-1.19.2.jar",
+    "encoded": "createdeco-1.3.3-1.19.2.jar",
+    "src": "https://edge.forgecdn.net/files/4603/714/createdeco-1.3.3-1.19.2.jar",
+    "size": 3221922,
+    "md5": "b7bedfc1f4396abf78ab7e148c97a19a",
+    "sha256": "c66265c5bb740d2301ddf29410af7162748840bb01832668fcfcd2b9e10a30ae"
+  },
+  {
+    "name": "terralith",
+    "title": "Terralith",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Terralith_1.19.3_v2.3.11.jar",
+    "encoded": "Terralith_1.19.3_v2.3.11.jar",
+    "src": "https://cdn.modrinth.com/data/8oi3bsk5/versions/UJtMNPNx/Terralith_1.19.3_v2.3.11.jar",
+    "size": 2986952,
+    "md5": "f33c10ff5c566bd3e5d8e9b49c0e64e0",
+    "sha256": "0f732b030811dd2fedaef977aab2fe53b386fc7125544841c9bb0d7db780d7e3"
   }
 ]

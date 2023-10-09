@@ -7,9 +7,6 @@ nodes:
       - name: dcintegration
         source: modrinth
         side: server
-      - name: techreborn
-        source: curse
-        file_id: 4102770
       - name: amphitrite-coffer
         source: curse
         file_id: 3975406
@@ -26,10 +23,6 @@ nodes:
       - name: worldedit
         source: curse
         file_id: 3922622
-      - name: advanced-reborn
-        source: modrinth
-        id: ir8okcEA
-        file_id: JOnttq2r
       - name: ambientsounds
         source: modrinth
         id: fM515JnW
@@ -149,14 +142,8 @@ nodes:
         source: modrinth
         id: ZzjhlDgM
         file_id: EPD1yRD4
-      - name: terralith
+      - name: journeymap
         source: modrinth
-        id: 8oi3bsk5
-        file_id: UJtMNPNx
-      - name: xaeros-minimap
-        source: modrinth
-        id: 1bokaNcj
-        file_id: fN0KKPHy
       - name: yungs-api
         source: modrinth
         id: Ua7DFN59
@@ -592,6 +579,16 @@ nodes:
         source: modrinth
         id: WwbubTsV
         file_id: KMOzdYko
+      - name: modern-industrialization
+        source: modrinth
+      - name: farmers-delight-fabric
+        source: curse
+      - name: slice-and-dice
+        source: modrinth
+      - name: create-deco-fabric
+        source: curse
+      - name: terralith
+        source: modrinth
   - id: resolver
     kind: ModResolver
     input:
