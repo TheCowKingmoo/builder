@@ -259,7 +259,7 @@ def CreateMCUpdaterBootstrap(base_updater: str, url_base: str, output_path: str)
     # Add config.properties
     properties = f'''\
         bootstrapURL = https://files.mcupdater.com/Bootstrap.xml
-        distribution = Release
+        distribution = JavaFX-Release
         defaultPack = {url_base}ServerPack.xml
         customPath =
         passthroughArgs = -defaultMem 6G
