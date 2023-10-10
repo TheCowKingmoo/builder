@@ -591,6 +591,12 @@ nodes:
         source: modrinth
       - name: timeoutout
         source: modrinth
+      - name: lighty
+        source: modrinth
+        file_id: V8vjjQIU
+        side: client
+        required: false
+        default: true
   - id: resolver
     kind: ModResolver
     input:
