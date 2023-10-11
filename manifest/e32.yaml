@@ -589,8 +589,8 @@ nodes:
         source: curse
       - name: terralith
         source: modrinth
-      - name: timeoutout
-        source: modrinth
+      - name: connectivity
+        source: curse
       - name: lighty
         source: modrinth
         file_id: V8vjjQIU
