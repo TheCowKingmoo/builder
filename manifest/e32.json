@@ -1833,6 +1833,19 @@
     "sha256": "a575d8e96897666fc97f157033f008f77909ba75b7b5af27cd208c8d3c96b2a1"
   },
   {
+    "name": "cupboard",
+    "title": "Cupboard",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "cupboard-fabric-1.19.2-2.0.jar",
+    "encoded": "cupboard-fabric-1.19.2-2.0.jar",
+    "src": "https://edge.forgecdn.net/files/4750/361/cupboard-fabric-1.19.2-2.0.jar",
+    "size": 20872,
+    "md5": "6c9ce6836b8cfa1badaafdfe3b605dc2",
+    "sha256": "46ebbb5a18122ab5bac0a0690dde2280905906a553be453dde0c18707794fcaf"
+  },
+  {
     "name": "lighty",
     "title": "Lighty",
     "side": "client",

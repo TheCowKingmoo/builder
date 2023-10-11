@@ -591,6 +591,8 @@ nodes:
         source: modrinth
       - name: connectivity
         source: curse
+      - name: cupboard
+        source: curse
       - name: lighty
         source: modrinth
         file_id: V8vjjQIU
