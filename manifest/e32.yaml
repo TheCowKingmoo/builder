@@ -597,6 +597,8 @@ nodes:
         side: client
         required: false
         default: true
+      - name: mediaworks
+        source: modrinth
   - id: resolver
     kind: ModResolver
     input:

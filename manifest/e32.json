@@ -1844,5 +1844,18 @@
     "size": 46556,
     "md5": "6a681d4f826d678306345c9c1f08e3c1",
     "sha256": "75fcf4be4224da70834d5adc14721fa324ece326c0cf8f432cdc9ddb5d7072c1"
+  },
+  {
+    "name": "mediaworks",
+    "title": "Mediaworks",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "mediaworks-fabric-1.19.2-1.0.3.jar",
+    "encoded": "mediaworks-fabric-1.19.2-1.0.3.jar",
+    "src": "https://cdn.modrinth.com/data/2kZJcMa9/versions/NOE1GSRY/mediaworks-fabric-1.19.2-1.0.3.jar",
+    "size": 616447,
+    "md5": "88384f699317cf0efc5055d67c7c03a6",
+    "sha256": "8622107e1b93ee4bb60352306d05698b1de5e19e327c3fd08a4017bd264342e3"
   }
 ]
