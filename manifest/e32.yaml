@@ -601,6 +601,11 @@ nodes:
         default: true
       - name: mediaworks
         source: modrinth
+      - name: spark
+        source: modrinth
+        file_id: XhFbpH8f
+        side: both
+        required: false
   - id: resolver
     kind: ModResolver
     input:

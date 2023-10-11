@@ -1870,5 +1870,18 @@
     "size": 616447,
     "md5": "88384f699317cf0efc5055d67c7c03a6",
     "sha256": "8622107e1b93ee4bb60352306d05698b1de5e19e327c3fd08a4017bd264342e3"
+  },
+  {
+    "name": "spark",
+    "title": "spark",
+    "side": "both",
+    "required": false,
+    "default": true,
+    "filename": "spark-1.10.37-fabric.jar",
+    "encoded": "spark-1.10.37-fabric.jar",
+    "src": "https://cdn.modrinth.com/data/l6YH9Als/versions/XhFbpH8f/spark-1.10.37-fabric.jar",
+    "size": 2941997,
+    "md5": "423860ea92e354cfa21869c9d73494df",
+    "sha256": "f778e98787946a8694ce603b963d8ba9077370f474384da38c607bcf4bb774ef"
   }
 ]
