@@ -571,10 +571,6 @@ nodes:
         id: mk6pNnsq
         file_id: cgSuov1n
         side: client
-      - name: xxl-packets
-        source: modrinth
-        id: SeCuopwJ
-        file_id: Y9sm9hZa
       - name: yosbr
         source: modrinth
         id: WwbubTsV

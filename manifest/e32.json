@@ -1729,19 +1729,6 @@
     "sha256": "d7dca51bdc5b775672d356b1cf3425791f21ad93b674900de8857e5f50efd1d0"
   },
   {
-    "name": "xxl-packets",
-    "title": "XXL Packets",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "xlpackets-1.0.4-1.19.x.jar",
-    "encoded": "xlpackets-1.0.4-1.19.x.jar",
-    "src": "https://cdn.modrinth.com/data/SeCuopwJ/versions/Y9sm9hZa/xlpackets-1.0.4-1.19.x.jar",
-    "size": 9628,
-    "md5": "0899f45bcecd7a7f35f1330d08d59b5a",
-    "sha256": "4457e668af9e1fb23e4b54c8265078dc805fd8db5ba3d0e5ecf456f4bc3e0c5d"
-  },
-  {
     "name": "yosbr",
     "title": "Your Options Shall Be Respected (YOSBR)",
     "side": "both",
