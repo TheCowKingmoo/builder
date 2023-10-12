@@ -222,10 +222,6 @@ nodes:
         source: modrinth
         id: LUVcqDu1
         file_id: RGpo42dp
-      - name: cave-dweller-fabric
-        source: modrinth
-        id: cChd25Tw
-        file_id: jQ0cjlP5
       - name: chatpatches
         source: modrinth
         id: MOqt4Z5n

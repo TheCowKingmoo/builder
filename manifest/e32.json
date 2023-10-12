@@ -689,19 +689,6 @@
     "sha256": "6a205948ed226d946dc62a65de8ee8240b934291f7ad144100875bb3395352b6"
   },
   {
-    "name": "cave-dweller-fabric",
-    "title": "Cave Dweller Fabric",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "cavedweller-1.2.0.jar",
-    "encoded": "cavedweller-1.2.0.jar",
-    "src": "https://cdn.modrinth.com/data/cChd25Tw/versions/jQ0cjlP5/cavedweller-1.2.0.jar",
-    "size": 823369,
-    "md5": "2314133ade256f0aa2dc828434edaab7",
-    "sha256": "e198f8ae4512c3550765370a236f1b13456f6680f84d748b9536fd6332711599"
-  },
-  {
     "name": "chatpatches",
     "title": "Chat Patches",
     "side": "client",
