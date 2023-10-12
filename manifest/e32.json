@@ -1079,19 +1079,6 @@
     "sha256": "d2b11171ee212ee3e5c1bdc002596bb4ccac7d96a4abe0a35911e342a98a64a2"
   },
   {
-    "name": "improved-signs",
-    "title": "Improved Signs",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "improvedsigns-1.2.0.jar",
-    "encoded": "improvedsigns-1.2.0.jar",
-    "src": "https://cdn.modrinth.com/data/tEcCNQe7/versions/eXGUTNJu/improvedsigns-1.2.0.jar",
-    "size": 116833,
-    "md5": "0370c26cdbfcf765a529c8d099fb068b",
-    "sha256": "cde49c2bcb5f61696667a563c8a41ee3818347bc3e1f709ead004469d36e78ee"
-  },
-  {
     "name": "indium",
     "title": "Indium",
     "side": "client",

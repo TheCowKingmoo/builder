@@ -350,10 +350,6 @@ nodes:
         source: modrinth
         id: jkskOO9i
         file_id: yR3VudNR
-      - name: improved-signs
-        source: modrinth
-        id: tEcCNQe7
-        file_id: eXGUTNJu
       - name: indium
         source: modrinth
         id: Orvt0mRa
