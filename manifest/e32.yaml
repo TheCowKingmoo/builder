@@ -606,6 +606,29 @@ nodes:
         file_id: XhFbpH8f
         side: both
         required: false
+      - name: lootr
+        source: modrinth
+        file_id: 94g9xhhk
+      - name: working-graves
+        source: modrinth
+        file_id: LUpzXMYu
+        side: server
+      - name: death-backup
+        source: modrinth
+        file_id: Phjbsjs2
+      - name: collective # Dependency for death-backup
+        source: modrinth
+        file_id: MTb34BGn
+      - name: ftb-essentials-forge
+        source: curse
+        file_id: 4778939
+        id: 410811
+      - name: ftb-ranks-fabric
+        source: curse
+        file_id: 4781636
+      - name: ftb-library-fabric
+        source: curse
+        file_id: 4661833
   - id: resolver
     kind: ModResolver
     input:
