@@ -1935,5 +1935,18 @@
     "size": 595790,
     "md5": "10cc459841ac20b2afb2dad5b061cdfa",
     "sha256": "e213a9b5f402b4e3da3bbd876ed0cb009a10e98760c24cf53fe361c2e956a730"
+  },
+  {
+    "name": "carpet",
+    "title": "Carpet",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "fabric-carpet-1.19.2-1.4.84+v221018.jar",
+    "encoded": "fabric-carpet-1.19.2-1.4.84%2Bv221018.jar",
+    "src": "https://cdn.modrinth.com/data/TQTTVgYE/versions/SaOHo2Ac/fabric-carpet-1.19.2-1.4.84%2Bv221018.jar",
+    "size": 1527698,
+    "md5": "320ae3568ab3bba98a8a2608f1b64fbd",
+    "sha256": "da593278fd653399661e2c58814909b52ea04ac117abc2f811b45420438ed790"
   }
 ]

@@ -614,6 +614,8 @@ nodes:
       - name: ftb-library-fabric
         source: curse
         file_id: 4661833
+      - name: carpet
+        source: modrinth
   - id: resolver
     kind: ModResolver
     input:
