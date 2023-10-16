@@ -67,10 +67,6 @@ nodes:
         source: modrinth
         id: QwxR6Gcd
         file_id: UvBWAMZL
-      - name: extended-drawers
-        source: modrinth
-        id: AhtxbnpG
-        file_id: Yu7dw5fP
       - name: fastload
         source: modrinth
         id: kCpssoSb

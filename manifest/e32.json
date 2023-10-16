@@ -208,19 +208,6 @@
     "sha256": "e3ef1f6595b9d49ec6aa487110bc6d361c4ff34ffcd3c4c101419688c71dc383"
   },
   {
-    "name": "extended-drawers",
-    "title": "Extended Drawers",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "ExtendedDrawers-1.4.4+mc.1.19.2.jar",
-    "encoded": "ExtendedDrawers-1.4.4%2Bmc.1.19.2.jar",
-    "src": "https://cdn.modrinth.com/data/AhtxbnpG/versions/Yu7dw5fP/ExtendedDrawers-1.4.4%2Bmc.1.19.2.jar",
-    "size": 835976,
-    "md5": "f072adf70e48c53eeed852e6216f50cb",
-    "sha256": "d27765d4d2081d2f9ba7517b8fa7e889c4b14a9e69bf49a4656fe3c2a2501d83"
-  },
-  {
     "name": "fastload",
     "title": "Fastload",
     "side": "both",
