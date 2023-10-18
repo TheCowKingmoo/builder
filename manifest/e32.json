@@ -1014,10 +1014,23 @@
     "sha256": "357a78e6ce1cce8054941567ff945fcf2c0bea97d85aed54ae747126b68efed0"
   },
   {
+    "name": "wnboi",
+    "title": "Why Not Be One Item",
+    "side": "client",
+    "required": false,
+    "default": true,
+    "filename": "wnboi-0.0.4-fabric.jar",
+    "encoded": "wnboi-0.0.4-fabric.jar",
+    "src": "https://cdn.modrinth.com/data/L8iJY5PM/versions/iZuEejyK/wnboi-0.0.4-fabric.jar",
+    "size": 573325,
+    "md5": "19ef405f2c7679049424392a6171a474",
+    "sha256": "fcd92e8e93abe5e5e29b3dbbfe71ae01053bca1625d03c6dfc248e45a4668ede"
+  },
+  {
     "name": "hexgloop",
     "title": "Hex Gloop",
     "side": "client",
-    "required": true,
+    "required": false,
     "default": false,
     "filename": "hexgloop-1.19.2-0.0.4-fabric.jar",
     "encoded": "hexgloop-1.19.2-0.0.4-fabric.jar",

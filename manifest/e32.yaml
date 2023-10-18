@@ -329,9 +329,15 @@ nodes:
         source: modrinth
         id: pim6pG9O
         file_id: vRGtikRV
+      - name: wnboi
+        source: modrinth
+        side: client
+        default: true
+        required: false
       - name: hexgloop
         source: modrinth
         side: client
+        required: false
         default: false
       - name: idwtialsimmoedm
         source: modrinth
