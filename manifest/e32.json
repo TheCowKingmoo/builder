@@ -1016,8 +1016,8 @@
   {
     "name": "wnboi",
     "title": "Why Not Be One Item",
-    "side": "client",
-    "required": false,
+    "side": "both",
+    "required": true,
     "default": true,
     "filename": "wnboi-0.0.4-fabric.jar",
     "encoded": "wnboi-0.0.4-fabric.jar",
@@ -1029,9 +1029,9 @@
   {
     "name": "hexgloop",
     "title": "Hex Gloop",
-    "side": "client",
-    "required": false,
-    "default": false,
+    "side": "both",
+    "required": true,
+    "default": true,
     "filename": "hexgloop-1.19.2-0.0.4-fabric.jar",
     "encoded": "hexgloop-1.19.2-0.0.4-fabric.jar",
     "src": "https://cdn.modrinth.com/data/ryfyOhoP/versions/V4MD9QIm/hexgloop-1.19.2-0.0.4-fabric.jar",
