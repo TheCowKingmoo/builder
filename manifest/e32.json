@@ -1014,6 +1014,19 @@
     "sha256": "357a78e6ce1cce8054941567ff945fcf2c0bea97d85aed54ae747126b68efed0"
   },
   {
+    "name": "hexgloop",
+    "title": "Hex Gloop",
+    "side": "client",
+    "required": true,
+    "default": false,
+    "filename": "hexgloop-1.19.2-0.0.4-fabric.jar",
+    "encoded": "hexgloop-1.19.2-0.0.4-fabric.jar",
+    "src": "https://cdn.modrinth.com/data/ryfyOhoP/versions/V4MD9QIm/hexgloop-1.19.2-0.0.4-fabric.jar",
+    "size": 20052712,
+    "md5": "5a9ed3cd67c99cec67f12735ff967af4",
+    "sha256": "2b3d9e941e497fc5c52bcbfcb50fb72376324675f3e468b4c657a2b11ee01dff"
+  },
+  {
     "name": "idwtialsimmoedm",
     "title": "Idwtialsimmoedm",
     "side": "both",
