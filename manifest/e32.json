@@ -1961,5 +1961,18 @@
     "size": 1527698,
     "md5": "320ae3568ab3bba98a8a2608f1b64fbd",
     "sha256": "da593278fd653399661e2c58814909b52ea04ac117abc2f811b45420438ed790"
+  },
+  {
+    "name": "observable",
+    "title": "Observable",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "observable-3.3.1.jar",
+    "encoded": "observable-3.3.1.jar",
+    "src": "https://cdn.modrinth.com/data/VYRu7qmG/versions/fpdHeiWg/observable-3.3.1.jar",
+    "size": 495963,
+    "md5": "bf2727ee43cf7cd1443be33536c621ec",
+    "sha256": "e0d68e53d223666abed941e1d50ebbb8c1c1c7bcd12963dd3fa80a23429d1ea8"
   }
 ]

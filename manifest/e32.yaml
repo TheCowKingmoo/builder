@@ -616,6 +616,8 @@ nodes:
         file_id: 4661833
       - name: carpet
         source: modrinth
+      - name: observable
+        source: modrinth
   - id: resolver
     kind: ModResolver
     input:
