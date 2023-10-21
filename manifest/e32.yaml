@@ -618,6 +618,10 @@ nodes:
         source: modrinth
       - name: observable
         source: modrinth
+      - name: create-track-map
+        source: modrinth
+      - name: ae2
+        source: modrinth
   - id: resolver
     kind: ModResolver
     input:

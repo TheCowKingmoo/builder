@@ -1974,5 +1974,31 @@
     "size": 495963,
     "md5": "bf2727ee43cf7cd1443be33536c621ec",
     "sha256": "e0d68e53d223666abed941e1d50ebbb8c1c1c7bcd12963dd3fa80a23429d1ea8"
+  },
+  {
+    "name": "create-track-map",
+    "title": "Create Track Map",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "create-track-map-1.4+mc1.19.2-fabric-create-0.5.1.jar",
+    "encoded": "create-track-map-1.4%2Bmc1.19.2-fabric-create-0.5.1.jar",
+    "src": "https://cdn.modrinth.com/data/gxoNIjg6/versions/mShUkLiH/create-track-map-1.4%2Bmc1.19.2-fabric-create-0.5.1.jar",
+    "size": 5194375,
+    "md5": "82ad477beef1619768d2dc062f762b9a",
+    "sha256": "9f37b63e25f4874d4cfdd0fd15dc266859a7b5651efbf17b38291f26cea7469b"
+  },
+  {
+    "name": "ae2",
+    "title": "Applied Energistics 2",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "appliedenergistics2-fabric-12.9.8.jar",
+    "encoded": "appliedenergistics2-fabric-12.9.8.jar",
+    "src": "https://cdn.modrinth.com/data/XxWD5pD3/versions/Bj8oQseU/appliedenergistics2-fabric-12.9.8.jar",
+    "size": 10153650,
+    "md5": "98bb0fdfa7d5b18738e07cf63693eb65",
+    "sha256": "c0af59a02ffb79e091c3de2a62217aa25fd0b8dbeed2a3cc536c6982620f41db"
   }
 ]
