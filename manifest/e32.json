@@ -1552,12 +1552,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "spectrum-1.7.0-deeper-down-alpha20.jar",
-    "encoded": "spectrum-1.7.0-deeper-down-alpha20.jar",
-    "src": "https://cdn.modrinth.com/data/3rc31Hgo/versions/L5DFvhhu/spectrum-1.7.0-deeper-down-alpha20.jar",
-    "size": 51994433,
-    "md5": "3b08a8b7b051fbca0db43daa83d01a7a",
-    "sha256": "108dabfdaeb0edc711c1830e7345e6cc1b44df0c8308ad286d308a19d9590df2"
+    "filename": "spectrum-1.7.0-deeper-down-alpha21.jar",
+    "encoded": "spectrum-1.7.0-deeper-down-alpha21.jar",
+    "src": "https://cdn.modrinth.com/data/3rc31Hgo/versions/pxwTF3oe/spectrum-1.7.0-deeper-down-alpha21.jar",
+    "size": 52014646,
+    "md5": "2572faa7044c3d665e849c912a14acce",
+    "sha256": "3e2f1546124d57aeaf78a02d801a81a40c243af563723c4fbbd9d9a6fbe13663"
   },
   {
     "name": "spirit-walker",
@@ -1812,12 +1812,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "cupboard-fabric-1.19.2-2.0.jar",
-    "encoded": "cupboard-fabric-1.19.2-2.0.jar",
-    "src": "https://edge.forgecdn.net/files/4750/361/cupboard-fabric-1.19.2-2.0.jar",
+    "filename": "cupboard-fabric-1.19.2-2.1.jar",
+    "encoded": "cupboard-fabric-1.19.2-2.1.jar",
+    "src": "https://edge.forgecdn.net/files/4795/342/cupboard-fabric-1.19.2-2.1.jar",
     "size": 20872,
-    "md5": "6c9ce6836b8cfa1badaafdfe3b605dc2",
-    "sha256": "46ebbb5a18122ab5bac0a0690dde2280905906a553be453dde0c18707794fcaf"
+    "md5": "e9343aa8a5d3daa7e393bb63200e3677",
+    "sha256": "db0e933c640c2c9d84f4917862d7b86a55c09dc76973196c99c7294382566e28"
   },
   {
     "name": "lighty",
